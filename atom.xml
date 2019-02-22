@@ -3,11 +3,11 @@
   <title>web_xiaoxuan 的个人博客</title>
   
   
-  <link href="/atom.xml" rel="self"/>
+  <link href="/web_xiaoxuan/atom.xml" rel="self"/>
   
-  <link href="http://zhangyongxuan.gitee.io/web_xiaoxuan/"/>
+  <link href="http://zhangyongxuan.gitee.io/"/>
   <updated>2019-02-22T06:44:12.781Z</updated>
-  <id>http://zhangyongxuan.gitee.io/web_xiaoxuan/</id>
+  <id>http://zhangyongxuan.gitee.io/</id>
   
   <author>
     <name>web_xiaoxuan</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>FirstBlood</title>
-    <link href="http://zhangyongxuan.gitee.io/web_xiaoxuan/2019/02/22/FirstBlood/"/>
-    <id>http://zhangyongxuan.gitee.io/web_xiaoxuan/2019/02/22/FirstBlood/</id>
+    <link href="http://zhangyongxuan.gitee.io/2019/02/22/FirstBlood/"/>
+    <id>http://zhangyongxuan.gitee.io/2019/02/22/FirstBlood/</id>
     <published>2019-02-22T06:43:33.000Z</published>
     <updated>2019-02-22T06:44:12.781Z</updated>
     
@@ -27,17 +27,17 @@
     
     </summary>
     
-      <category term="分类测试" scheme="http://zhangyongxuan.gitee.io/web_xiaoxuan/categories/%E5%88%86%E7%B1%BB%E6%B5%8B%E8%AF%95/"/>
+      <category term="分类测试" scheme="http://zhangyongxuan.gitee.io/categories/%E5%88%86%E7%B1%BB%E6%B5%8B%E8%AF%95/"/>
     
     
-      <category term="test" scheme="http://zhangyongxuan.gitee.io/web_xiaoxuan/tags/test/"/>
+      <category term="test" scheme="http://zhangyongxuan.gitee.io/tags/test/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://zhangyongxuan.gitee.io/web_xiaoxuan/2019/02/21/hello-world/"/>
-    <id>http://zhangyongxuan.gitee.io/web_xiaoxuan/2019/02/21/hello-world/</id>
+    <link href="http://zhangyongxuan.gitee.io/2019/02/21/hello-world/"/>
+    <id>http://zhangyongxuan.gitee.io/2019/02/21/hello-world/</id>
     <published>2019-02-21T08:16:07.533Z</published>
     <updated>2019-02-22T06:13:58.868Z</updated>
     
@@ -49,10 +49,10 @@
     
     </summary>
     
-      <category term="前端" scheme="http://zhangyongxuan.gitee.io/web_xiaoxuan/categories/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://zhangyongxuan.gitee.io/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-      <category term="test" scheme="http://zhangyongxuan.gitee.io/web_xiaoxuan/tags/test/"/>
+      <category term="test" scheme="http://zhangyongxuan.gitee.io/tags/test/"/>
     
   </entry>
   
