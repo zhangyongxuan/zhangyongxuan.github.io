@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.zhangyongxuan.com/2019/07/11/git/</loc>
+    <loc>http://www.zhangyongxuan.com/2019/07/11/api/</loc>
     
-    <lastmod>2019-07-11T14:23:49.776Z</lastmod>
+    <lastmod>2019-07-11T14:28:43.570Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.zhangyongxuan.com/2019/07/11/api/</loc>
+    <loc>http://www.zhangyongxuan.com/2019/07/11/git/</loc>
     
-    <lastmod>2019-07-11T14:19:18.206Z</lastmod>
+    <lastmod>2019-07-11T14:23:49.776Z</lastmod>
     
   </url>
   
@@ -44,13 +44,6 @@
   </url>
   
   <url>
-    <loc>http://www.zhangyongxuan.com/categories/index.html</loc>
-    
-    <lastmod>2019-07-11T07:48:01.985Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.zhangyongxuan.com/liuyanban/index.html</loc>
     
     <lastmod>2019-07-11T07:48:01.985Z</lastmod>
@@ -58,7 +51,7 @@
   </url>
   
   <url>
-    <loc>http://www.zhangyongxuan.com/photos/index.html</loc>
+    <loc>http://www.zhangyongxuan.com/categories/index.html</loc>
     
     <lastmod>2019-07-11T07:48:01.985Z</lastmod>
     
@@ -66,6 +59,13 @@
   
   <url>
     <loc>http://www.zhangyongxuan.com/tags/index.html</loc>
+    
+    <lastmod>2019-07-11T07:48:01.985Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.zhangyongxuan.com/photos/index.html</loc>
     
     <lastmod>2019-07-11T07:48:01.985Z</lastmod>
     
