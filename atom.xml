@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>张小轩的个人网站</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://www.zhangyongxuan.com/"/>
+  <updated>2019-07-11T14:16:17.772Z</updated>
+  <id>http://www.zhangyongxuan.com/</id>
+  
+  <author>
+    <name>张小轩</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git入门</title>
+    <link href="http://www.zhangyongxuan.com/2019/07/11/git/"/>
+    <id>http://www.zhangyongxuan.com/2019/07/11/git/</id>
+    <published>2019-07-11T14:16:57.000Z</published>
+    <updated>2019-07-11T14:16:17.772Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>上班第一天，终于强迫自己学会了git的基本应用</em></strong><br><a id="more"></a></p><h1 id="git"><a href="#git" class="headerlink" title="git"></a>git</h1><p>什么是git？</p><p>git就是全球最好用的一个版本控制工具，一种分布式的版本控制工具。</p><h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><p><code>git clone [url]</code> //克隆远程仓库代码</p><p> <code>git add</code> //将想要快照的内容写入缓存区</p><p> <code>git status</code> //绿色文件表示添加到缓存区的文件有改动；红色表示添加到缓存区的文件没有改动</p><p> <code>git commit -m</code> //‘第一次版本提交’ -m选项添加备注信息</p><p> <code>git clone url</code> //使用 git clone 拷贝一个 Git 仓库到本地</p><p><code>git diff</code>  //尚未缓存的改动</p><p><code>git diff --cached</code>　//查看已缓存的改动</p><p><code>git diff HEAD</code>  //查看已缓存的与未缓存的所有改动</p><p> <code>diff git diff --stat</code>　　//显示摘要而非整个</p><p><code>git commit -a</code>  //跳过git add 提交缓存的流程 </p><p><code>git reset HEAD</code>  //用于取消已缓存的内容</p><p><code>git rm file</code><br>　　//git rm 会将条目从缓存区中移除。这与 git reset HEAD 将条目取消缓存是有区别的。<br>　　“取消缓存”的意思就是将缓存区恢复为我们做出修改之前的样子。<br>　　默认情况下，git rm file 会将文件从缓存区和你的硬盘中（工作目录）删除。</p><p><code>git mv</code>   //重命名磁盘上的文件 如 git mv README README.md</p><p><code>git push -u origin master</code> //提交代码</p><h2 id="git分支"><a href="#git分支" class="headerlink" title="git分支"></a>git分支</h2><p>git-flow主要有5中分支：master、hotfix、release、develop、feature<br><img src="https://images2015.cnblogs.com/blog/988885/201702/988885-20170215125232988-1478252652.jpg" alt="git-flow分支图" title="git-flow分支图"></p><p>feature分支开始于develop分支，完成以后合并到develop分支。<br>当完成一定数量feature分支以后，从develop再开一个release分支出来，这些特性将被更行到下一个发布的版本中，之后的feature将不会被合并到release中。<br>之后在release分支中，只修改bug，然后完成release分支。完成release分支会完成以下三个操作：1、合并release分支到master；2、给master打上版本的标签；3、release回归到develop分支。<br>当发现master上有bug时，开一个hotfix，完成后合并到master分支。<br><a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank" rel="noopener">Gitflow Workflow文档</a></p><h3 id="分支常用命令"><a href="#分支常用命令" class="headerlink" title="分支常用命令"></a>分支常用命令</h3><p> <code>git checkout [分支名]</code>//切换到指定分支</p><p> <code>git branch [分支名]</code> //创建分支命令</p><p> <code>git branch [分支名]</code> //列出分支</p><p> <code>git checkout [分支名]</code> //切换分支命令</p><p> <code>git merge [分支名]</code> //合并分支</p><p> <code>git checkout -b [分支名]</code> //创建新分支并立即切换到该分支下</p><p> <code>git branch -d [分支名]</code> //删除分支命令 </p><p><strong><em>ps:状态 uu 表示冲突未解决 可以用 git add 要告诉 Git 文件冲突已经解决</em></strong></p><h2 id="查看提交日志"><a href="#查看提交日志" class="headerlink" title="查看提交日志"></a>查看提交日志</h2><p><code>git log</code> //命令列出历史提交记录</p><p><code>git log -n</code> //命令列出历史提交记录前三条</p><p><code>git log --oneline</code> //查看历史记录的简洁的版本</p><p><code>git log --oneline --graph</code> //查看历史中什么时候出现了分支、合并</p><h2 id="提交本地修改"><a href="#提交本地修改" class="headerlink" title="提交本地修改"></a>提交本地修改</h2><p> <code>git commit -m [修改信息]</code></p><h2 id="拉取远程仓库代码"><a href="#拉取远程仓库代码" class="headerlink" title="拉取远程仓库代码"></a>拉取远程仓库代码</h2><p> <code>git pull</code> //从远端仓库提取数据并尝试合并到当前分支</p><p> <code>git fetch</code> //从远程仓库下载新分支与数据</p><h2 id="版本回滚"><a href="#版本回滚" class="headerlink" title="版本回滚"></a>版本回滚</h2><p> <code>git log -n</code>  //查看最近n条提交日志</p><p> <code>git reset -hard [版本标识]</code> //回滚到指定版本</p><p> <code>git push -f origin matser</code>  //强制提交</p><h2 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h2><p>为软件发布创建标签是推荐的。这个概念早已存在，在 SVN 中也有。你可以执行如下命令创建一个叫做 1.0.0 的标签：<br><code>git tag 1.0.0 1b2e1d63ff</code><br>1b2e1d63ff 是你想要标记的提交 ID 的前 10 位字符。可以使用下列命令获取提交 ID：<br>git log<br>你也可以使用少一点的提交 ID 前几位，只要它的指向具有唯一性</p><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;&lt;em&gt;上班第一天，终于强迫自己学会了git的基本应用&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="git" scheme="http://www.zhangyongxuan.com/categories/git/"/>
+    
+    
+      <category term="git" scheme="http://www.zhangyongxuan.com/tags/git/"/>
+    
+      <category term="版本控制" scheme="http://www.zhangyongxuan.com/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>常用API地址</title>
+    <link href="http://www.zhangyongxuan.com/2019/07/11/api/"/>
+    <id>http://www.zhangyongxuan.com/2019/07/11/api/</id>
+    <published>2019-07-11T14:11:55.000Z</published>
+    <updated>2019-07-11T14:19:18.206Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>一些常用技术栈的API链接</em></strong></p><a id="more"></a><p><a href="https://yarn.bootcss.com/docs/usage/" target="_blank" rel="noopener">yarn</a></p><p><a href="https://git-scm.com/" target="_blank" rel="noopener">git</a></p><p><a href="http://es6.ruanyifeng.com/" target="_blank" rel="noopener">ES6 文档 </a></p><p><a href="http://lesscss.cn/" target="_blank" rel="noopener">less 文档</a></p><p><a href="https://react.docschina.org/" target="_blank" rel="noopener">react官方文档</a></p><p><a href="https://dvajs.com/" target="_blank" rel="noopener">dva 文档</a></p><p><a href="https://cn.redux.js.org/" target="_blank" rel="noopener">redux文档</a></p><p><a href="https://www.webpackjs.com/" target="_blank" rel="noopener">webpack文档</a></p><p><a href="https://redux-saga-in-chinese.js.org/" target="_blank" rel="noopener">redux-saga文档</a></p><p><a href="https://reacttraining.com/react-router/web/example/basic" target="_blank" rel="noopener">react-router文档</a></p><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;&lt;em&gt;一些常用技术栈的API链接&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="aip" scheme="http://www.zhangyongxuan.com/tags/aip/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>React版HellowWorld</title>
+    <link href="http://www.zhangyongxuan.com/2019/06/15/startreact/"/>
+    <id>http://www.zhangyongxuan.com/2019/06/15/startreact/</id>
+    <published>2019-06-15T01:49:57.000Z</published>
+    <updated>2019-07-11T13:50:24.197Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>紧张刺激的毕业设计悄然进入尾声，我终于迫于生计放弃了刚刚学了点皮毛的Vue，拿起了《React引领未来的用户界面开发框架》，都是心酸啊，但是还是要在前端的路上继续摸索呀</em></strong><br><a id="more"></a></p><h3 id="React-是什么"><a href="#React-是什么" class="headerlink" title="React 是什么"></a>React 是什么</h3><p>React 是一个用于构建用户界面的 JAVASCRIPT 库。</p><p>React主要用于构建UI，很多人认为 React 是 MVC 中的 V（视图）。</p><p>React 起源于 Facebook 的内部项目，用来架设 Instagram 的网站，并于 2013 年 5 月开源。</p><p>React 拥有较高的性能，代码逻辑非常简单，越来越多的人已开始关注和使用它。</p><p>嗯。。。这就是作为一个菜鸟，队react的初步认识。</p><h3 id="React版HellowWorld教程"><a href="#React版HellowWorld教程" class="headerlink" title="React版HellowWorld教程"></a>React版HellowWorld教程</h3><p>HellowWorld是我们程序猿入门一门编程语言的时候的第一个“项目”<br>现在无论是前端开发还是后端开发，都趋于工程化模块化的开发模式了，所以在这里本菜鸟就只记录最方便实用的脚手架使用方法。</p><h4 id="1-安装环境"><a href="#1-安装环境" class="headerlink" title="1.安装环境"></a>1.安装环境</h4><p>首先肯定是需要node环境的，作为一个21世纪的前端程序猿，如果你没了解过node的话，那么恭喜你，你已经OUT了，不开玩笑地说，前端程序员一定要去了解node的<br>至于node环境的安装，那简直是简单的不能再简单了，windows系统下的node环境搭建就像安装一个游戏一样简单，linux环境有点小复杂，但不是问题，谢谢伟大的菜鸟教程给予本菜鸟的大力支持，谢谢！谢谢！<br><a href="https://www.runoob.com/nodejs/nodejs-tutorial.html" target="_blank" rel="noopener">全套教程点击这里👈</a></p><h4 id="2-安装并使用react脚手架创建项目"><a href="#2-安装并使用react脚手架创建项目" class="headerlink" title="2.安装并使用react脚手架创建项目"></a>2.安装并使用react脚手架创建项目</h4><p>在这里我是使用node的包管理器npm来安装react脚手架<br>全局安装react脚手架</p><pre><code>$ cnpm install -g create-react-app</code></pre><p>在某盘某文件夹下打开cmd，运行下边命令创建项目</p><pre><code>$ create-react-app reacttest</code></pre><p>这时候，项目已经搭建好了,项目目录如下：</p><pre><code>reacttest/  README.md  node_modules/  package.json  .gitignore  public/    favicon.ico    index.html    manifest.json  src/    App.css    App.js    App.test.js    index.css    index.js    logo.svg</code></pre><p>运行项目</p><pre><code>$ cd reacttest/$ npm start</code></pre><p>这时候静静等待启动完成，它会自动打开一个react官方示例页面，到这里React版的HellowWorld就完成了</p><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;&lt;em&gt;紧张刺激的毕业设计悄然进入尾声，我终于迫于生计放弃了刚刚学了点皮毛的Vue，拿起了《React引领未来的用户界面开发框架》，都是心酸啊，但是还是要在前端的路上继续摸索呀&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="React" scheme="http://www.zhangyongxuan.com/categories/React/"/>
+    
+    
+      <category term="前端" scheme="http://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="react" scheme="http://www.zhangyongxuan.com/tags/react/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>起点</title>
+    <link href="http://www.zhangyongxuan.com/2019/03/27/start/"/>
+    <id>http://www.zhangyongxuan.com/2019/03/27/start/</id>
+    <published>2019-03-26T18:23:39.000Z</published>
+    <updated>2019-07-11T13:50:24.197Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>那年夏天，懵懂的我怀揣梦想，来到了这个陌生的城市</em></strong><br><strong><em>开始了我的追梦之路</em></strong><br><strong><em>也遇见了她</em></strong><br><a id="more"></a></p><h3 id="梦想"><a href="#梦想" class="headerlink" title="梦想"></a>梦想</h3><p> <strong><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;梦想这个字眼对于我们来说，并不陌生。我们每个人都有或有过梦想，每个阶段都会有不同的梦想。小时候有小时候的梦想，长大以后会有长大以后的梦想。</em></strong></p><div id="aplayer-EbbaYeAw" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"><pre class="aplayer-lrc-content">[00:36.530]小时候的我 做着美的梦[00:44.170]梦想中 那片天空 好像挂满笑容[00:50.930]长大后的我 坚定着美梦[00:58.910]因为我 已慢慢懂 努力就能成功[01:04.890][01:07.100]我一个人的力量[01:10.850]能去闯 就算要飞越海洋[01:16.470]也不能 阻挡我对梦的渴望  [01:21.960]我一个人的信仰 [01:25.600]像太阳 散发着炽热的光 [01:31.180]能照亮 所有内心 灰暗的地方 [01:38.240] [01:59.370]天边的彩虹 倒映我的梦 [02:06.890]路边的 彩色霓虹 流淌着感动 [02:14.300]风吹的温柔 带走了沉重 [02:22.400]我要和别人不同 做自己的英雄 [02:28.500] [02:29.579]我一个人的力量 [02:33.950]能去闯 就算要飞越海洋 [02:39.340]也不能 阻挡我对梦的渴望 [02:44.990]我一个人的信仰 [02:48.750]像太阳 散发着炽热的光 [02:54.410]能照亮 所有内心 灰暗的地方 [03:01.290] [03:03.340]我一个人的力量 [03:07.280]能去闯 就算要飞越海洋 [03:12.760]也不能 阻挡我对梦的渴望 [03:18.250]我一个人的信仰 [03:21.829]像太阳 散发着炽热的光 [03:27.590]能照亮 所有内心 灰暗的地方 [03:34.550] [03:37.829]小时候的我 做着美的梦 [03:45.180]梦想中 那片天空 好像挂满笑容 [03:51.890]长大后的我 坚定着美梦 [03:59.890]因为我 已慢慢懂 努力就能成功 [04:06.180] [04:09.900]就能成功 [04:12.280]</pre></div><script>var ap = new APlayer({element: document.getElementById("aplayer-EbbaYeAw"),narrow: false,autoplay: false,showlrc: 2,music: {title: "慢慢懂",author: "汪苏泷",url: "http://music.163.com/song/media/outer/url?id=165383.mp3",pic: "http://p1.music.126.net/k_WHGJoTvS6H7exsSnK1iA==/3304032446773006.jpg?param=130y130",}});window.aplayers || (window.aplayers = []);window.aplayers.push(ap);</script><p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在我上小学的时候，看到天上的星星一闪一闪的，我就会想，为什么天上的星星不会掉下来，为什么他们会发光。那个时候，我的梦想就是长大之后做一名天文学家。再长大些之后，看到爸妈每天给学生上课，每周休息两天，每年还有寒暑假，就觉得做一名人民教师也挺好的，于是那个时候我的梦想就变成了长大后，像爸妈一样，做一名人民教师。后来上了高中，有了一些与众不同的经历之后，我感觉到了那种在病痛面前什么也做不了的无力、无助、绝望。所以，那个时候，我的梦想就变成了做一名医生。再后来，上大学了，我的专业并不是理想中的医学专业，而是以前从来没有想过的“软件工程”。<br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;慢慢的，我懂了，每个人并不是生来就能不顾一切的去做自己想做的事情，如果我们没有能力去改变社会，那么就只能乖乖的听从社会的安排，来改变自己。所以，我的梦想又变成了毕业之后做一名软件工程师。</p><p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;到了选择编程语言的时候，周围的人都选择了目前世界上最火的语言之一 — Java…….但是这一次我不想妥协，我毅然决然的选择了我喜欢的编程语言 —-Javascript ，但是在我们学校开设的所有课程都是关于Java的，我只能去自己摸索，自己看书查资料去学习这门从来没有接触过的语言，以至于我自学了两三个月还没有入门。直到2017年圣诞节的时候，我遇到了我的第一个前端的老师，我管他叫君哥（真实姓名不便透露），感谢我君哥，是他带我进入了web前端的大门，让我认识了一个不一样的Javascript。<br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;再到后来，我遇到了我第二个前端老师—云姐，从她这里我才真正认识了前端，了解了前端开发工程师在一个项目中所承担的角色，学会了如何合理的利用网络资源去学习自己所需要的知识，并且在真正的前端领域初窥门径。</p><h3 id="她"><a href="#她" class="headerlink" title="她"></a>她</h3><p><strong><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我所选的这个方向注定了我未来的路不是那么好走，或许真像电视里演得一样，冥冥之中，一切都是定数。孤身一人，不知道何去何存的我，几经周折带着我的前端梦来到了这座机会与绝望并存的城市，认识了她。</em></strong><br><div id="aplayer-kGzqBDYh" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"><pre class="aplayer-lrc-content">[00:26.30]我在沙滩划个圆圈  [00:28.69]属于我俩安逸世界  [00:31.14]不用和别人连线  [00:36.33]我不管你来自深渊  [00:38.68]也不在乎身上鳞片  [00:41.38]爱情能超越一切  [00:45.93]只要你在我身边  [00:47.79]所有蜚语流言 完全视而不见  [00:50.73]请不要匆匆一面  [00:52.72]一转身就沉入海平线  [00:58.25]传说中你为爱甘心被搁浅  [01:03.33]我也可以为你 潜入海里面  [01:08.02]怎么忍心断绝  [01:10.65]忘记我不变的誓言  [01:14.31]我眼泪断了线  [01:18.36]现实里有了我对你的眷恋  [01:23.40]我愿意化作雕像 等你出现  [01:28.19]再见再也不见  [01:30.68]心碎了飘荡在海边  [01:34.57]你抬头就看见  [01:59.54]我在沙滩划个圆圈  [02:02.19]属于我俩安逸世界  [02:04.63]不用和别人连线  [02:09.42]我不管你来自深渊  [02:12.33]也不在乎身上鳞片  [02:14.73]爱情能超越一切  [02:19.06]只要你在我身边  [02:21.11]所有蜚语流言 完全视而不见  [02:24.14]请不要匆匆一面  [02:26.18]一转身就沉入海平线  [02:31.88]传说中你为爱甘心被搁浅  [02:36.87]我也可以为你 潜入海里面  [02:41.64]怎么忍心断绝  [02:44.29]忘记我不变的誓言 [02:47.75]我眼泪断了线  [02:52.04]现实里有了我对你的眷恋  [02:57.03]我愿意化作雕像 等你出现  [03:01.87]再见再也不见  [03:04.66]心碎了飘荡在海边  [03:07.95]你抬头就看见  [03:12.54]传说中你为爱甘心被搁浅  [03:17.23]我也可以为你 潜入海里面  [03:22.02]怎么忍心断绝  [03:24.71]忘记我不变的誓言  [03:28.04]我眼泪断了线  [03:32.43]现实里有了我对你的眷恋  [03:37.48]我愿意化作雕像 等你出现  [03:42.21]再见再也不见  [03:44.85]心碎了飘荡在海边  [03:48.16]你抬头就看见  [03:52.12]你 你抬头就看见  [03:57.30]你 你抬头就看见</pre></div><script>var ap = new APlayer({element: document.getElementById("aplayer-kGzqBDYh"),narrow: false,autoplay: false,showlrc: 2,music: {title: "美人鱼",author: "林俊杰",url: "http://music.163.com/song/media/outer/url?id=108931.mp3",pic: "http://p2.music.126.net/3jBJ00NEgPuhRFAYwErgag==/109951163533012556.jpg?param=130y130",}});window.aplayers || (window.aplayers = []);window.aplayers.push(ap);</script><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人真的是一种奇怪的生物，有时候在听到某一首歌的时候就会想起一个人。那是一个周末，去网吧玩游戏，一个人玩的无聊，看到旁边坐的一个小姐姐生涩的手指按着机械键盘咔咔响，在玩qq飞车，于是。。。。<br>“嗨！你也玩qq飞车吗？一起啊”<br>“我还不会玩”<br> “没事，我也不会”<br> “那好呀，一起玩”<br> 其实我是会玩的，当时就是想找个一起玩的人，就这样我认识了她。<br> <!-- 后来又一起玩了几次游戏，慢慢熟悉了起来，看电影，吃饭 ， 玩游戏， 逛街 ，一切在顺其自然的发生。 第一次去ktv的时候，她唱了这首林俊杰的 《美人鱼》 ，从那次之后仿佛这就变成了一首属于她的歌，无论在哪里听到这首歌我的脑海里浮现出的都是那次在ktv她唱这首歌的场景。这时候我突然发觉，我可能是有点喜欢她。 就这样，过了一段时间，我鼓起勇气在ktv告白了，很幸运，她答应我了。我们就这样在一起了。蓝风铃的香味、清澈的眼睛、空气刘海、阳光、可爱，正所谓“情人眼里出西施”，在一起之后就觉得她哪哪都好。最喜欢的就是她的眼睛，就像一汪清泉，清澈见底，笑起来眼睛下面就会出现一对卧蚕，觉得很美。 --></p><p><center>这就是我的起点</center></p><script type="text/javascript" src="/js/src/bai.js"></script>   ]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;&lt;em&gt;那年夏天，懵懂的我怀揣梦想，来到了这个陌生的城市&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;&lt;em&gt;开始了我的追梦之路&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;&lt;em&gt;也遇见了她&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="记录生活" scheme="http://www.zhangyongxuan.com/categories/%E8%AE%B0%E5%BD%95%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="梦想" scheme="http://www.zhangyongxuan.com/tags/%E6%A2%A6%E6%83%B3/"/>
+    
+      <category term="起点" scheme="http://www.zhangyongxuan.com/tags/%E8%B5%B7%E7%82%B9/"/>
+    
+      <category term="她" scheme="http://www.zhangyongxuan.com/tags/%E5%A5%B9/"/>
+    
+  </entry>
+  
+</feed>

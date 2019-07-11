@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[git入门]]></title>
+    <url>%2F2019%2F07%2F11%2Fgit%2F</url>
+    <content type="text"><![CDATA[上班第一天，终于强迫自己学会了git的基本应用 git什么是git？ git就是全球最好用的一个版本控制工具，一种分布式的版本控制工具。 常用命令git clone [url] //克隆远程仓库代码 git add //将想要快照的内容写入缓存区 git status //绿色文件表示添加到缓存区的文件有改动；红色表示添加到缓存区的文件没有改动 git commit -m //‘第一次版本提交’ -m选项添加备注信息 git clone url //使用 git clone 拷贝一个 Git 仓库到本地 git diff //尚未缓存的改动 git diff --cached //查看已缓存的改动 git diff HEAD //查看已缓存的与未缓存的所有改动 diff git diff --stat //显示摘要而非整个 git commit -a //跳过git add 提交缓存的流程 git reset HEAD //用于取消已缓存的内容 git rm file //git rm 会将条目从缓存区中移除。这与 git reset HEAD 将条目取消缓存是有区别的。 “取消缓存”的意思就是将缓存区恢复为我们做出修改之前的样子。 默认情况下，git rm file 会将文件从缓存区和你的硬盘中（工作目录）删除。 git mv //重命名磁盘上的文件 如 git mv README README.md git push -u origin master //提交代码 git分支git-flow主要有5中分支：master、hotfix、release、develop、feature feature分支开始于develop分支，完成以后合并到develop分支。当完成一定数量feature分支以后，从develop再开一个release分支出来，这些特性将被更行到下一个发布的版本中，之后的feature将不会被合并到release中。之后在release分支中，只修改bug，然后完成release分支。完成release分支会完成以下三个操作：1、合并release分支到master；2、给master打上版本的标签；3、release回归到develop分支。当发现master上有bug时，开一个hotfix，完成后合并到master分支。Gitflow Workflow文档 分支常用命令 git checkout [分支名]//切换到指定分支 git branch [分支名] //创建分支命令 git branch [分支名] //列出分支 git checkout [分支名] //切换分支命令 git merge [分支名] //合并分支 git checkout -b [分支名] //创建新分支并立即切换到该分支下 git branch -d [分支名] //删除分支命令 ps:状态 uu 表示冲突未解决 可以用 git add 要告诉 Git 文件冲突已经解决 查看提交日志git log //命令列出历史提交记录 git log -n //命令列出历史提交记录前三条 git log --oneline //查看历史记录的简洁的版本 git log --oneline --graph //查看历史中什么时候出现了分支、合并 提交本地修改 git commit -m [修改信息] 拉取远程仓库代码 git pull //从远端仓库提取数据并尝试合并到当前分支 git fetch //从远程仓库下载新分支与数据 版本回滚 git log -n //查看最近n条提交日志 git reset -hard [版本标识] //回滚到指定版本 git push -f origin matser //强制提交 标签为软件发布创建标签是推荐的。这个概念早已存在，在 SVN 中也有。你可以执行如下命令创建一个叫做 1.0.0 的标签：git tag 1.0.0 1b2e1d63ff1b2e1d63ff 是你想要标记的提交 ID 的前 10 位字符。可以使用下列命令获取提交 ID：git log你也可以使用少一点的提交 ID 前几位，只要它的指向具有唯一性]]></content>
+      <categories>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+        <tag>版本控制</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[常用API地址]]></title>
+    <url>%2F2019%2F07%2F11%2Fapi%2F</url>
+    <content type="text"><![CDATA[一些常用技术栈的API链接 yarn git ES6 文档 less 文档 react官方文档 dva 文档 redux文档 webpack文档 redux-saga文档 react-router文档]]></content>
+      <tags>
+        <tag>aip</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[React版HellowWorld]]></title>
+    <url>%2F2019%2F06%2F15%2Fstartreact%2F</url>
+    <content type="text"><![CDATA[紧张刺激的毕业设计悄然进入尾声，我终于迫于生计放弃了刚刚学了点皮毛的Vue，拿起了《React引领未来的用户界面开发框架》，都是心酸啊，但是还是要在前端的路上继续摸索呀 React 是什么React 是一个用于构建用户界面的 JAVASCRIPT 库。 React主要用于构建UI，很多人认为 React 是 MVC 中的 V（视图）。 React 起源于 Facebook 的内部项目，用来架设 Instagram 的网站，并于 2013 年 5 月开源。 React 拥有较高的性能，代码逻辑非常简单，越来越多的人已开始关注和使用它。 嗯。。。这就是作为一个菜鸟，队react的初步认识。 React版HellowWorld教程HellowWorld是我们程序猿入门一门编程语言的时候的第一个“项目”现在无论是前端开发还是后端开发，都趋于工程化模块化的开发模式了，所以在这里本菜鸟就只记录最方便实用的脚手架使用方法。 1.安装环境首先肯定是需要node环境的，作为一个21世纪的前端程序猿，如果你没了解过node的话，那么恭喜你，你已经OUT了，不开玩笑地说，前端程序员一定要去了解node的至于node环境的安装，那简直是简单的不能再简单了，windows系统下的node环境搭建就像安装一个游戏一样简单，linux环境有点小复杂，但不是问题，谢谢伟大的菜鸟教程给予本菜鸟的大力支持，谢谢！谢谢！全套教程点击这里👈 2.安装并使用react脚手架创建项目在这里我是使用node的包管理器npm来安装react脚手架全局安装react脚手架 $ cnpm install -g create-react-app 在某盘某文件夹下打开cmd，运行下边命令创建项目 $ create-react-app reacttest 这时候，项目已经搭建好了,项目目录如下： reacttest/ README.md node_modules/ package.json .gitignore public/ favicon.ico index.html manifest.json src/ App.css App.js App.test.js index.css index.js logo.svg 运行项目 $ cd reacttest/ $ npm start 这时候静静等待启动完成，它会自动打开一个react官方示例页面，到这里React版的HellowWorld就完成了]]></content>
+      <categories>
+        <category>React</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>react</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[起点]]></title>
+    <url>%2F2019%2F03%2F27%2Fstart%2F</url>
+    <content type="text"><![CDATA[那年夏天，懵懂的我怀揣梦想，来到了这个陌生的城市开始了我的追梦之路也遇见了她 梦想 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;梦想这个字眼对于我们来说，并不陌生。我们每个人都有或有过梦想，每个阶段都会有不同的梦想。小时候有小时候的梦想，长大以后会有长大以后的梦想。 [00:36.530]小时候的我 做着美的梦 [00:44.170]梦想中 那片天空 好像挂满笑容 [00:50.930]长大后的我 坚定着美梦 [00:58.910]因为我 已慢慢懂 努力就能成功 [01:04.890] [01:07.100]我一个人的力量 [01:10.850]能去闯 就算要飞越海洋 [01:16.470]也不能 阻挡我对梦的渴望 [01:21.960]我一个人的信仰 [01:25.600]像太阳 散发着炽热的光 [01:31.180]能照亮 所有内心 灰暗的地方 [01:38.240] [01:59.370]天边的彩虹 倒映我的梦 [02:06.890]路边的 彩色霓虹 流淌着感动 [02:14.300]风吹的温柔 带走了沉重 [02:22.400]我要和别人不同 做自己的英雄 [02:28.500] [02:29.579]我一个人的力量 [02:33.950]能去闯 就算要飞越海洋 [02:39.340]也不能 阻挡我对梦的渴望 [02:44.990]我一个人的信仰 [02:48.750]像太阳 散发着炽热的光 [02:54.410]能照亮 所有内心 灰暗的地方 [03:01.290] [03:03.340]我一个人的力量 [03:07.280]能去闯 就算要飞越海洋 [03:12.760]也不能 阻挡我对梦的渴望 [03:18.250]我一个人的信仰 [03:21.829]像太阳 散发着炽热的光 [03:27.590]能照亮 所有内心 灰暗的地方 [03:34.550] [03:37.829]小时候的我 做着美的梦 [03:45.180]梦想中 那片天空 好像挂满笑容 [03:51.890]长大后的我 坚定着美梦 [03:59.890]因为我 已慢慢懂 努力就能成功 [04:06.180] [04:09.900]就能成功 [04:12.280] var ap = new APlayer({ element: document.getElementById("aplayer-EbbaYeAw"), narrow: false, autoplay: false, showlrc: 2, music: { title: "慢慢懂", author: "汪苏泷", url: "http://music.163.com/song/media/outer/url?id=165383.mp3", pic: "http://p1.music.126.net/k_WHGJoTvS6H7exsSnK1iA==/3304032446773006.jpg?param=130y130", } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在我上小学的时候，看到天上的星星一闪一闪的，我就会想，为什么天上的星星不会掉下来，为什么他们会发光。那个时候，我的梦想就是长大之后做一名天文学家。再长大些之后，看到爸妈每天给学生上课，每周休息两天，每年还有寒暑假，就觉得做一名人民教师也挺好的，于是那个时候我的梦想就变成了长大后，像爸妈一样，做一名人民教师。后来上了高中，有了一些与众不同的经历之后，我感觉到了那种在病痛面前什么也做不了的无力、无助、绝望。所以，那个时候，我的梦想就变成了做一名医生。再后来，上大学了，我的专业并不是理想中的医学专业，而是以前从来没有想过的“软件工程”。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;慢慢的，我懂了，每个人并不是生来就能不顾一切的去做自己想做的事情，如果我们没有能力去改变社会，那么就只能乖乖的听从社会的安排，来改变自己。所以，我的梦想又变成了毕业之后做一名软件工程师。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;到了选择编程语言的时候，周围的人都选择了目前世界上最火的语言之一 — Java…….但是这一次我不想妥协，我毅然决然的选择了我喜欢的编程语言 —-Javascript ，但是在我们学校开设的所有课程都是关于Java的，我只能去自己摸索，自己看书查资料去学习这门从来没有接触过的语言，以至于我自学了两三个月还没有入门。直到2017年圣诞节的时候，我遇到了我的第一个前端的老师，我管他叫君哥（真实姓名不便透露），感谢我君哥，是他带我进入了web前端的大门，让我认识了一个不一样的Javascript。 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;再到后来，我遇到了我第二个前端老师—云姐，从她这里我才真正认识了前端，了解了前端开发工程师在一个项目中所承担的角色，学会了如何合理的利用网络资源去学习自己所需要的知识，并且在真正的前端领域初窥门径。 她&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我所选的这个方向注定了我未来的路不是那么好走，或许真像电视里演得一样，冥冥之中，一切都是定数。孤身一人，不知道何去何存的我，几经周折带着我的前端梦来到了这座机会与绝望并存的城市，认识了她。 [00:26.30]我在沙滩划个圆圈 [00:28.69]属于我俩安逸世界 [00:31.14]不用和别人连线 [00:36.33]我不管你来自深渊 [00:38.68]也不在乎身上鳞片 [00:41.38]爱情能超越一切 [00:45.93]只要你在我身边 [00:47.79]所有蜚语流言 完全视而不见 [00:50.73]请不要匆匆一面 [00:52.72]一转身就沉入海平线 [00:58.25]传说中你为爱甘心被搁浅 [01:03.33]我也可以为你 潜入海里面 [01:08.02]怎么忍心断绝 [01:10.65]忘记我不变的誓言 [01:14.31]我眼泪断了线 [01:18.36]现实里有了我对你的眷恋 [01:23.40]我愿意化作雕像 等你出现 [01:28.19]再见再也不见 [01:30.68]心碎了飘荡在海边 [01:34.57]你抬头就看见 [01:59.54]我在沙滩划个圆圈 [02:02.19]属于我俩安逸世界 [02:04.63]不用和别人连线 [02:09.42]我不管你来自深渊 [02:12.33]也不在乎身上鳞片 [02:14.73]爱情能超越一切 [02:19.06]只要你在我身边 [02:21.11]所有蜚语流言 完全视而不见 [02:24.14]请不要匆匆一面 [02:26.18]一转身就沉入海平线 [02:31.88]传说中你为爱甘心被搁浅 [02:36.87]我也可以为你 潜入海里面 [02:41.64]怎么忍心断绝 [02:44.29]忘记我不变的誓言 [02:47.75]我眼泪断了线 [02:52.04]现实里有了我对你的眷恋 [02:57.03]我愿意化作雕像 等你出现 [03:01.87]再见再也不见 [03:04.66]心碎了飘荡在海边 [03:07.95]你抬头就看见 [03:12.54]传说中你为爱甘心被搁浅 [03:17.23]我也可以为你 潜入海里面 [03:22.02]怎么忍心断绝 [03:24.71]忘记我不变的誓言 [03:28.04]我眼泪断了线 [03:32.43]现实里有了我对你的眷恋 [03:37.48]我愿意化作雕像 等你出现 [03:42.21]再见再也不见 [03:44.85]心碎了飘荡在海边 [03:48.16]你抬头就看见 [03:52.12]你 你抬头就看见 [03:57.30]你 你抬头就看见 var ap = new APlayer({ element: document.getElementById("aplayer-kGzqBDYh"), narrow: false, autoplay: false, showlrc: 2, music: { title: "美人鱼", author: "林俊杰", url: "http://music.163.com/song/media/outer/url?id=108931.mp3", pic: "http://p2.music.126.net/3jBJ00NEgPuhRFAYwErgag==/109951163533012556.jpg?param=130y130", } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人真的是一种奇怪的生物，有时候在听到某一首歌的时候就会想起一个人。那是一个周末，去网吧玩游戏，一个人玩的无聊，看到旁边坐的一个小姐姐生涩的手指按着机械键盘咔咔响，在玩qq飞车，于是。。。。“嗨！你也玩qq飞车吗？一起啊”“我还不会玩” “没事，我也不会” “那好呀，一起玩” 其实我是会玩的，当时就是想找个一起玩的人，就这样我认识了她。 这就是我的起点]]></content>
+      <categories>
+        <category>记录生活</category>
+      </categories>
+      <tags>
+        <tag>梦想</tag>
+        <tag>起点</tag>
+        <tag>她</tag>
+      </tags>
+  </entry>
+</search>
