@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.zhangyongxuan.com/2019/07/12/es6day1/</loc>
+    
+    <lastmod>2019-07-12T08:11:31.216Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.zhangyongxuan.com/2019/07/11/api/</loc>
     
     <lastmod>2019-07-11T14:28:43.570Z</lastmod>
@@ -23,13 +30,6 @@
   </url>
   
   <url>
-    <loc>http://www.zhangyongxuan.com/2019/06/15/startreact/</loc>
-    
-    <lastmod>2019-07-11T13:50:24.197Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.zhangyongxuan.com/2019/03/27/start/</loc>
     
     <lastmod>2019-07-11T13:50:24.197Z</lastmod>
@@ -37,9 +37,9 @@
   </url>
   
   <url>
-    <loc>http://www.zhangyongxuan.com/baidu_verify_k1MIIq3zvt.html</loc>
+    <loc>http://www.zhangyongxuan.com/2019/06/15/startreact/</loc>
     
-    <lastmod>2019-07-11T07:48:01.985Z</lastmod>
+    <lastmod>2019-07-11T13:50:24.197Z</lastmod>
     
   </url>
   
@@ -66,6 +66,13 @@
   
   <url>
     <loc>http://www.zhangyongxuan.com/photos/index.html</loc>
+    
+    <lastmod>2019-07-11T07:48:01.985Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.zhangyongxuan.com/baidu_verify_k1MIIq3zvt.html</loc>
     
     <lastmod>2019-07-11T07:48:01.985Z</lastmod>
     
