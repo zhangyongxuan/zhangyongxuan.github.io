@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.zhangyongxuan.com/2019/07/16/arrayfun/</loc>
+    
+    <lastmod>2019-07-16T09:03:08.027Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.zhangyongxuan.com/2019/07/16/generatorandasync/</loc>
     
     <lastmod>2019-07-16T07:19:34.383Z</lastmod>
@@ -51,13 +58,6 @@
   </url>
   
   <url>
-    <loc>http://www.zhangyongxuan.com/2019/06/15/startreact/</loc>
-    
-    <lastmod>2019-07-11T13:50:24.197Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.zhangyongxuan.com/2019/03/27/start/</loc>
     
     <lastmod>2019-07-11T13:50:24.197Z</lastmod>
@@ -65,9 +65,9 @@
   </url>
   
   <url>
-    <loc>http://www.zhangyongxuan.com/baidu_verify_k1MIIq3zvt.html</loc>
+    <loc>http://www.zhangyongxuan.com/2019/06/15/startreact/</loc>
     
-    <lastmod>2019-07-11T07:48:01.985Z</lastmod>
+    <lastmod>2019-07-11T13:50:24.197Z</lastmod>
     
   </url>
   
@@ -79,7 +79,14 @@
   </url>
   
   <url>
-    <loc>http://www.zhangyongxuan.com/liuyanban/index.html</loc>
+    <loc>http://www.zhangyongxuan.com/tags/index.html</loc>
+    
+    <lastmod>2019-07-11T07:48:01.985Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.zhangyongxuan.com/baidu_verify_k1MIIq3zvt.html</loc>
     
     <lastmod>2019-07-11T07:48:01.985Z</lastmod>
     
@@ -93,7 +100,7 @@
   </url>
   
   <url>
-    <loc>http://www.zhangyongxuan.com/tags/index.html</loc>
+    <loc>http://www.zhangyongxuan.com/liuyanban/index.html</loc>
     
     <lastmod>2019-07-11T07:48:01.985Z</lastmod>
     
