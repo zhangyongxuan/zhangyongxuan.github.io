@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.zhangyongxuan.com/2019/07/16/generatorandasync/</loc>
+    
+    <lastmod>2019-07-16T07:19:34.383Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.zhangyongxuan.com/2019/07/15/promise/</loc>
     
     <lastmod>2019-07-15T10:52:27.406Z</lastmod>
@@ -58,13 +65,6 @@
   </url>
   
   <url>
-    <loc>http://www.zhangyongxuan.com/liuyanban/index.html</loc>
-    
-    <lastmod>2019-07-11T07:48:01.985Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.zhangyongxuan.com/baidu_verify_k1MIIq3zvt.html</loc>
     
     <lastmod>2019-07-11T07:48:01.985Z</lastmod>
@@ -73,6 +73,13 @@
   
   <url>
     <loc>http://www.zhangyongxuan.com/categories/index.html</loc>
+    
+    <lastmod>2019-07-11T07:48:01.985Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.zhangyongxuan.com/liuyanban/index.html</loc>
     
     <lastmod>2019-07-11T07:48:01.985Z</lastmod>
     
