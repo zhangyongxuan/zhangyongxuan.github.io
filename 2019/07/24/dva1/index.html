@@ -76,7 +76,7 @@
 
 
 
-  <meta name="keywords" content="前端,react,">
+  <meta name="keywords" content="前端,react,Dva,">
 
 
 
@@ -89,18 +89,18 @@
 
 
 
-<meta name="description" content="在React China中的一篇文章说：高阶组件本质上是一个函数，这个函数接受的参数是另一个组件，在函数内部对参数中的组件进行一系列操作之后返回出一个新的组件。以我个人理解就是个经纪公司，专门用来包装组件。">
-<meta name="keywords" content="前端,react">
+<meta name="description" content="对于Dva我的理解是这样的：Dva重新组织了react项目，内置了react-router，redux，request，减少了配置这些模块的代码，将程序猿的精力都留给处理业务逻辑">
+<meta name="keywords" content="前端,react,Dva">
 <meta property="og:type" content="article">
-<meta property="og:title" content="高阶组件入门">
-<meta property="og:url" content="http://www.zhangyongxuan.com/2019/07/18/hoc/index.html">
+<meta property="og:title" content="Dva入门">
+<meta property="og:url" content="http://www.zhangyongxuan.com/2019/07/24/dva1/index.html">
 <meta property="og:site_name" content="张小轩的个人网站">
-<meta property="og:description" content="在React China中的一篇文章说：高阶组件本质上是一个函数，这个函数接受的参数是另一个组件，在函数内部对参数中的组件进行一系列操作之后返回出一个新的组件。以我个人理解就是个经纪公司，专门用来包装组件。">
+<meta property="og:description" content="对于Dva我的理解是这样的：Dva重新组织了react项目，内置了react-router，redux，request，减少了配置这些模块的代码，将程序猿的精力都留给处理业务逻辑">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-07-18T12:44:28.969Z">
+<meta property="og:updated_time" content="2019-07-24T15:29:48.559Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="高阶组件入门">
-<meta name="twitter:description" content="在React China中的一篇文章说：高阶组件本质上是一个函数，这个函数接受的参数是另一个组件，在函数内部对参数中的组件进行一系列操作之后返回出一个新的组件。以我个人理解就是个经纪公司，专门用来包装组件。">
+<meta name="twitter:title" content="Dva入门">
+<meta name="twitter:description" content="对于Dva我的理解是这样的：Dva重新组织了react项目，内置了react-router，redux，request，减少了配置这些模块的代码，将程序猿的精力都留给处理业务逻辑">
 
 
 
@@ -130,13 +130,13 @@
 
 
 
-  <link rel="canonical" href="http://www.zhangyongxuan.com/2019/07/18/hoc/">
+  <link rel="canonical" href="http://www.zhangyongxuan.com/2019/07/24/dva1/">
 
 
 
 
 
-  <title>高阶组件入门 | 张小轩的个人网站</title>
+  <title>Dva入门 | 张小轩的个人网站</title>
   
 
 
@@ -313,7 +313,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.zhangyongxuan.com/2019/07/18/hoc/">
+    <link itemprop="mainEntityOfPage" href="http://www.zhangyongxuan.com/2019/07/24/dva1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="张小轩">
@@ -330,7 +330,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">高阶组件入门</h2>
+          <h2 class="post-title" itemprop="name headline">Dva入门</h2>
         
 
         <div class="post-meta">
@@ -343,8 +343,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-18T20:41:51+08:00">
-                2019-07-18
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-24T23:22:43+08:00">
+                2019-07-24
               </time>
             
 
@@ -402,7 +402,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  617字
+                  1.6k字
                 </span>
               
 
@@ -418,7 +418,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  2分钟
+                  6分钟
                 </span>
               
             </div>
@@ -439,95 +439,168 @@
       
 
       
-        <p><strong><em>在React China中的一篇文章说：高阶组件本质上是一个函数，这个函数接受的参数是另一个组件，在函数内部对参数中的组件进行一系列操作之后返回出一个新的组件。以我个人理解就是个经纪公司，专门用来包装组件。</em></strong><br><a id="more"></a><br> 这是一个简单的高阶组件，它的功能是将父组件中的数据进行过滤之后传递给子组件，其中穿插了refs转发的技术点：</p>
-<pre><code>import React from &#39;react&#39;
-/*
-这是一个高阶组件，接受两个参数，第一个参数是要包装的组件，第二个参数为string类型，表示要过滤的数据类型
-*/
-function Hoc(WrapperComponent,type){ 
-    class Hoc extends React.Component{ //首先，要包装这个组件的话需要一个组件来做容器
-        constructor(props){
-            super(props)
+        <p><strong><em>对于Dva我的理解是这样的：Dva重新组织了react项目，内置了react-router，redux，request，减少了配置这些模块的代码，将程序猿的精力都留给处理业务逻辑 </em></strong></p>
+<a id="more"></a>
+<h1 id="什么是Dva"><a href="#什么是Dva" class="headerlink" title="什么是Dva"></a>什么是Dva</h1><blockquote>
+<p>Dva基于现有应用架构 (redux + react-router + redux-saga 等)的一层轻量封装，没有引入任何新概念，全部代码不到 100 行。</p>
+</blockquote>
+<p>这是Dva官方文档中对它的介绍，我的理解是这样的：</p>
+<p>Dva重新组织了react项目，内置了react-router，redux，request，减少了配置这些模块的代码，将程序猿的精力都留给处理业务逻辑。</p>
+<p>使用Dva非常简单，首先通过 npm 安装 dva-cli 并确保版本是 0.9.1 或以上。</p>
+<pre><code>$ npm install dva-cli -g
+$ dva -v
+dva-cli version 0.9.1
+</code></pre><p>安装完 dva-cli 之后，就可以在命令行里访问到 dva 命令（不能访问？）。现在，你可以通过 dva new 创建新应用。</p>
+<pre><code>$ dva new dva-quickstart
+</code></pre><p>这会创建 dva-quickstart 目录，包含项目初始化目录和文件，并提供开发服务器、构建脚本、数据 mock 服务、代理服务器等功能。</p>
+<p>然后我们 cd 进入 dva-quickstart 目录，并启动开发服务器：</p>
+<pre><code>$ cd dva-quickstart
+$ npm start
+</code></pre><p>之后就会自打开系统默认浏览器，并访问<code>http://localhost:8000/</code>,只是后就能看到dva的欢迎页面了</p>
+<h1 id="dva中的数据流向，以及dva脚手架搭建的项目目录结构"><a href="#dva中的数据流向，以及dva脚手架搭建的项目目录结构" class="headerlink" title="dva中的数据流向，以及dva脚手架搭建的项目目录结构"></a>dva中的数据流向，以及dva脚手架搭建的项目目录结构</h1><h2 id="项目目录结构"><a href="#项目目录结构" class="headerlink" title="项目目录结构"></a>项目目录结构</h2><p><a href="https://blog.csdn.net/wangrong111222/article/details/79835490" target="_blank" rel="noopener">原文地址</a></p>
+<blockquote>
+<p>项目中一般src里的目录标配：</p>
+<ul>
+<li>./assets   :放置静态资源 比如图片;</li>
+<li>./components   :放置木偶组件，只负责从./routes的智能组件来读取props填充展示，一般来讲是纯函数的react书写方式;</li>
+<li>./models   :是一个处理数据的地方，比如在model里面调用./service输出的方法来获取数据填充到store;其实我觉得就是store的整体的集合，以 namespace作为唯一标识进行区分；</li>
+<li>./routes   :放置若干智能组件的地方，智能组件里一般通过dva的connect（({yourModle})=&gt;({yourModle})）（yourComponent）方法来和你的组件来实现数据互通的，生成带数据的活组件；（一般来讲智能组件的样式也在这级目录，因为组件就近维护原则吧）;</li>
+<li>./services   :负责向后台请求数据，在services里调用后台提供的api获取数据;</li>
+<li>./utils   :放置工具类：比如常见的后台接口请求工具类；这里是默认封装了fetch数据交互的方法，直接入参调用即可;</li>
+<li>index.css   :index.html的样式，你懂的;</li>
+<li>index.js   :主页的入口位置，也是初始化dva的位置；什么 app.use( )/app.model( )/app.router( )/app.start( )都是在这里的完成的;</li>
+<li>index.html   :入口挂载dom的html模板;</li>
+<li>router.js   :配置路由的地方，会从./routes文件夹下引入写好的智能组件来组装页面，export default 出一个方法来生成router结构。</li>
+</ul>
+</blockquote>
+<h1 id="数据流向问题"><a href="#数据流向问题" class="headerlink" title="数据流向问题"></a>数据流向问题</h1><p>数据流向简单来说的话就是：</p>
+<p><code>server----&gt;services----&gt;models----&gt;routes----&gt;components</code></p>
+<p>这样说可能有点过于简单，下面就以获取一个表格数据为例，看看具体数据流向</p>
+<p>多话不说直接上代码：</p>
+<p>首先，我们的表格数据是从后端服务器通过请求接口获取到的，那么上面也说了，<code>services</code>文件夹下的<code>.js</code>文件的任务就是请求接口从后端拿到数据：</p>
+<pre><code>// services/test.js
+import request from &#39;../utils/request&#39; //这里导入dva封装的request模块
+
+export function fetchData(){ // 这是一个无参请求的示例                                                                               const url = &#39;xxxxxxxxxx&#39;                       
+    return request(url)
+}
+export function fetchData1(params){ // 这是一个带参请求的示例
+    const url = &#39;xxxxxxxxxx&#39;                       
+    return request(url,{...params})
+}
+</code></pre><p>在这里，使用dva封装的request向后端发送请求，接收到数据之后作为函数的返回值return出去。</p>
+<pre><code>// models/test.js
+import {fetchData,fetchData1} from &#39;../services/test&#39;
+export default {
+    namespace:&quot;test&quot;,
+    state:{
+        data : {},
+        data1:{}
+    },
+    reducers:{
+        getData:(state,action)=&gt;{ // 这里就和redux的reducer一样，去更新状态
+            const newState = Object.assign({},state)
+            // console.log(action)
+            newState.data = action.value
+            return newState; 
+        },
+        getData1:(state,action)=&gt;{
+            const newState = Object.assign({},state)
+            // console.log(action)
+            newState.data1 = action.value
+            return newState;
         }
+    },
+    effects:{
+        *fetchData(action,opr){
+            const call = opr.call;
+            const put = opr.put;
+            const res = yield call(fetchData) //调用services里的函数获得返回值
 
+            // console.log(res,111)
+            const a = {
+                type:&#39;getData&#39;,
+                value:res.data
+            }
+            yield put(a) //向reducers提交一个action
+            return res; //这里返回的值会传到dispatch().then()的成功回调参数里
+        },
+        *fetchData1(action,opr){
+            const call = opr.call;
+            const put = opr.put;
+            const res = yield call(fetchData1,params) //有参无参区别就在于这里
 
-        render(){
-
-
-            /*
-                在这里根据函数的第二个参数去处理Hoc组件props中接受的父组件传过来的数据
-            */
-            const {forwardRef,...others} = this.props; //（5）
-            /*对Hoc的props进行解构，拿到ref和其他参数，此时的ref就是在return中的forwardRef函数传递的那个ref*/
-            const otherProps = {...others}
-
-            let newProps = {};
-            for(let key in otherProps){
-                // console.log(typeof otherProps[key])
-                if(typeof otherProps[key] === type){
-                    newProps[key] = otherProps[key]
-                }
-            }//处理之后创建一个新的对象newProps
-            return (
-                &lt;div &gt;
-                    &lt;WrapperComponent {...newProps} ref = {forwardRef} /&gt;//在这里将这个newProps转给函数接受的那个组件参数，将之前解构的ref一并传给它  （6） 最终挂载到参数组件
-                &lt;/div&gt;
-            )
-
-
+            // console.log(res,111)
+            const a = {
+                type:&#39;getData&#39;,
+                value:res.data
+            }
+            yield put(a)
+            return res;
         }
     }
 
-/*
-在这里使用react原型上的函数forwardRef对父组件传递的ref进行转发，否则父组件传递的ref只会挂载到Hoc组件而到不了参数组件，而我们的需求是要挂载到参数组件，forwardRef函数回调中第一个参数为父组件传递的值，第二个参数为父组件传递的那个ref
-*/
-    return React.forwardRef((props,ref)=&gt;{ //（3）
-        return &lt;Hoc {...props} forwardRef = {ref} /&gt; // （4）
-    });
 }
 
+</code></pre><p>models层写好了，这里有一步至关重要，那就是去index.js注册这个model：</p>
+<pre><code>index.js
 
-class Loc extends React.Component{
+// + app.model(require(&#39;./models/test&#39;).default);
 
+</code></pre><p>根据刚才所说的数据流向，现在轮到了routes层：</p>
+<pre><code>import React, { Component } from &#39;react&#39;;
+import {connect} from &#39;dva&#39; //这里导入dva的connect函数
+class Test extends Component {
 
-    render(){
+ fetchData=()=&gt;{
+        const dispatch = this.props.dispatch;
+        const action = {
+            type : &#39;test/fetchData&#39;,
+            value:1
+        }
+        dispatch(action).then(res=&gt;{ //这里提交action就和redux一样
+            console.log(res)
+        })
+       }
+        fetchData1=()=&gt;{
+        const dispatch = this.props.dispatch;
+        const action = {
+            type : &#39;test/fetchData1&#39;,
+            value:1
+        }
+        dispatch(action).then(res=&gt;{
+            console.log(res)
+        })
+       }
+
+    render() {
+        // console.log(this.props)在这里有我们操作全局状态用的dispatch函数以及下边回调函数返回的那些属性名和对应的值
+
         return (
             &lt;div&gt;
-                Loc
+              &lt;Button onClick={()=&gt;{this.fetchData()}}&gt;fetchData&lt;/Button&gt;
+              &lt;Button onClick={()=&gt;{this.fetchData1()}}&gt;fetchData&lt;/Button&gt;
+
             &lt;/div&gt;
-        )
+        );
     }
 }
-const HocComp = Hoc(Loc,&#39;string&#39;);
+
+export default connect(state=&gt;{ //这里的state是全局的state
+
+    const data = state.test.data; //每一个model下的namespace在组合的时候变成了一个全局state的一个key，这个key所对应的value就是该namespace下对应的state的值
+    const data = state.test.data;
+    const data1 = state.test.data1;
 
 
-
-
-class Foc extends React.Component{
-    constructor(props){
-        super(props);
-        this.ref = React.createRef(); //创建一个ref  （1）
+    return{ //这个回调函数的返回值会被解构，然后合并到后边括号中组件的props当中
+        data,
+        data1
     }
-    componentDidMount(){
-        console.log(this.ref.current.props)
-        console.log(this.ref.current)
-    }
-
-
-    render(){
-
-        return (
-            &lt;div&gt;
-            //在这里将创建好的ref作为ref传递给子组件HocComp
-                &lt;HocComp v1 = &#39;231&#39; v2 = {123} v3 = {{a:1}} ref ={this.ref} /&gt; // （2）
-            &lt;/div&gt;
-        )
-    }
-}
-export default Foc
-
-
-</code></pre><p>以上代码中，父组件中React.createRef()方法创建的ref对象的流向用数字表示。</p>
+})(Test); //经过connect包装后，会赋予Test这个组件一些我们要用到的东西
+// export default Test;
+</code></pre><p>其实connect函数是一个高阶组件，<a href="http://www.zhangyongxuan.com/2019/07/18/hoc/">点这里复习高阶组件</a></p>
+<p>这样，整个数据流程，从请求数据到数据渲染整个流程就跑完了，这样走一遍之后是不是觉得dva的数据流向其实也并不复杂</p>
 <script type="text/javascript" src="/js/src/bai.js"></script>
       
     </div>
@@ -557,12 +630,12 @@ export default Foc
   <!-- JS库 sweetalert 可修改路径 -->
   <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-  <p><span>本文标题:</span><a href="/2019/07/18/hoc/">高阶组件入门</a></p>
+  <p><span>本文标题:</span><a href="/2019/07/24/dva1/">Dva入门</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 张小轩 的个人博客">张小轩</a></p>
-  <p><span>发布时间:</span>2019年07月18日 - 20:41</p>
-  <p><span>最后更新:</span>2019年07月18日 - 20:44</p>
-  <p><span>原始链接:</span><a href="/2019/07/18/hoc/" title="高阶组件入门">http://www.zhangyongxuan.com/2019/07/18/hoc/</a>
-    <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://www.zhangyongxuan.com/2019/07/18/hoc/" aria-label="复制成功！"></i></span>
+  <p><span>发布时间:</span>2019年07月24日 - 23:22</p>
+  <p><span>最后更新:</span>2019年07月24日 - 23:29</p>
+  <p><span>原始链接:</span><a href="/2019/07/24/dva1/" title="Dva入门">http://www.zhangyongxuan.com/2019/07/24/dva1/</a>
+    <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://www.zhangyongxuan.com/2019/07/24/dva1/" aria-label="复制成功！"></i></span>
   </p>
 </div>
 <script> 
@@ -594,6 +667,8 @@ export default Foc
           
             <a href="/tags/react/" <i class="fa fa-tag"> react</a>
           
+            <a href="/tags/Dva/" <i class="fa fa-tag"> Dva</a>
+          
         </div>
       
 
@@ -605,8 +680,8 @@ export default Foc
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/07/17/reactref/" rel="next" title="react中的ref和content">
-                <i class="fa fa-chevron-left"></i> react中的ref和content
+              <a href="/2019/07/18/hoc/" rel="next" title="高阶组件入门">
+                <i class="fa fa-chevron-left"></i> 高阶组件入门
               </a>
             
           </div>
@@ -614,10 +689,6 @@ export default Foc
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/07/24/dva1/" rel="prev" title="Dva入门">
-                Dva入门 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -674,8 +745,17 @@ export default Foc
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -760,6 +840,22 @@ export default Foc
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#什么是Dva"><span class="nav-number">1.</span> <span class="nav-text">什么是Dva</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#dva中的数据流向，以及dva脚手架搭建的项目目录结构"><span class="nav-number">2.</span> <span class="nav-text">dva中的数据流向，以及dva脚手架搭建的项目目录结构</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#项目目录结构"><span class="nav-number">2.1.</span> <span class="nav-text">项目目录结构</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#数据流向问题"><span class="nav-number">3.</span> <span class="nav-text">数据流向问题</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
