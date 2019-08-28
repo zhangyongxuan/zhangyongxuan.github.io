@@ -4,7 +4,7 @@
   <url>
     <loc>http://www.zhangyongxuan.com/2019/07/11/git/</loc>
     
-    <lastmod>2019-08-28T08:15:45.567Z</lastmod>
+    <lastmod>2019-08-28T08:27:06.422Z</lastmod>
     
   </url>
   
@@ -142,13 +142,6 @@
   </url>
   
   <url>
-    <loc>http://www.zhangyongxuan.com/categories/index.html</loc>
-    
-    <lastmod>2019-07-11T07:48:01.985Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.zhangyongxuan.com/liuyanban/index.html</loc>
     
     <lastmod>2019-07-11T07:48:01.985Z</lastmod>
@@ -156,7 +149,7 @@
   </url>
   
   <url>
-    <loc>http://www.zhangyongxuan.com/tags/index.html</loc>
+    <loc>http://www.zhangyongxuan.com/categories/index.html</loc>
     
     <lastmod>2019-07-11T07:48:01.985Z</lastmod>
     
@@ -164,6 +157,13 @@
   
   <url>
     <loc>http://www.zhangyongxuan.com/photos/index.html</loc>
+    
+    <lastmod>2019-07-11T07:48:01.985Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.zhangyongxuan.com/tags/index.html</loc>
     
     <lastmod>2019-07-11T07:48:01.985Z</lastmod>
     

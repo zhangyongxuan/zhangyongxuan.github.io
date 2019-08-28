@@ -98,7 +98,7 @@
 <meta property="og:description" content="上班第一天，终于强迫自己学会了git的基本应用">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/1416338-2b5d1a64e15419d7.png">
-<meta property="og:updated_time" content="2019-08-28T08:15:45.567Z">
+<meta property="og:updated_time" content="2019-08-28T08:27:06.422Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="git入门">
 <meta name="twitter:description" content="上班第一天，终于强迫自己学会了git的基本应用">
@@ -404,7 +404,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1.6k字
+                  1.7k字
                 </span>
               
 
@@ -479,25 +479,60 @@
 <p> <code>git reset -hard [版本标识]</code> //回滚到指定版本</p>
 <p> <code>git push -f origin matser</code>  //强制提交</p>
 <h2 id="忽略文件"><a href="#忽略文件" class="headerlink" title="忽略文件"></a>忽略文件</h2><ul>
-<li>.gitignore 文件是git的一套忽略规则，对该文件所在目录以及所在目录子目录都有效，该文件一般格式为：<br><code>`</code><h1 id="以’-’开始的行，被视为注释"><a href="#以’-’开始的行，被视为注释" class="headerlink" title="以’#’开始的行，被视为注释."></a>以’#’开始的行，被视为注释.</h1></li>
+<li>.gitignore 文件是git的一套忽略规则，对该文件所在目录以及所在目录子目录都有效，该文件一般格式为：<pre><code># 以&#39;#&#39;开始的行，被视为注释.                            
+# 忽略掉所有文件名是 foo.txt的文件.
+foo.txt
+# 忽略所有生成的 html文件,
+*.html
+# foo.html是手工维护的，所以例外.
+!foo.html
+# 忽略所有.o和 .a文件.
+*.[oa]
+配置语法：
+以斜杠“/”开头表示目录；
+以星号“*”通配多个字符；
+以问号“?”通配单个字符
+以方括号“[]”包含单个字符的匹配列表；
+以叹号“!”表示不忽略(跟踪)匹配到的文件或目录；
+</code></pre></li>
 </ul>
-<h1 id="忽略掉所有文件名是-foo-txt的文件"><a href="#忽略掉所有文件名是-foo-txt的文件" class="headerlink" title="忽略掉所有文件名是 foo.txt的文件."></a>忽略掉所有文件名是 foo.txt的文件.</h1><p>foo.txt</p>
-<h1 id="忽略所有生成的-html文件"><a href="#忽略所有生成的-html文件" class="headerlink" title="忽略所有生成的 html文件,"></a>忽略所有生成的 html文件,</h1><p>*.html</p>
-<h1 id="foo-html是手工维护的，所以例外"><a href="#foo-html是手工维护的，所以例外" class="headerlink" title="foo.html是手工维护的，所以例外."></a>foo.html是手工维护的，所以例外.</h1><p>!foo.html</p>
-<h1 id="忽略所有-o和-a文件"><a href="#忽略所有-o和-a文件" class="headerlink" title="忽略所有.o和 .a文件."></a>忽略所有.o和 .a文件.</h1><p><em>.[oa]<br>配置语法：<br>以斜杠“/”开头表示目录；<br>以星号“</em>”通配多个字符；<br>以问号“?”通配单个字符<br>以方括号“[]”包含单个字符的匹配列表；<br>以叹号“!”表示不忽略(跟踪)匹配到的文件或目录；</p>
-<pre><code>
-这里需要注意的是，该文件必须在第一次推代码的时候就创建，如果你不慎在创建.gitignore文件之前就push了项目，那么即使你在.gitignore文件中写入新的过滤规则，这些规则也不会起作用，Git仍然会对所有文件进行版本管理。
-简单来说，出现这种问题的原因就是Git已经开始管理这些文件了，所以你无法再通过过滤规则过滤它们。因此一定要养成在项目开始就创建.gitignore文件的习惯，否则一旦push，处理起来会非常麻烦。   
-那么，如果在.gitignore文件创建之后需要忽略某个文件该怎么办？这里还有一种命令忽略的方式。  
-- .gitignore只能忽略那些原来没有被track的文件，如果某些文件已经被纳入了版本管理中，则修改.gitignore是无效的。正确的做法是在每个clone下来的仓库中手动设置不要检查特定文件的更改情况。命令为：
-</code></pre><p>git update-index –assume-unchanged <filename> </filename></p>
-<pre><code>如果要还原的话，使用命令：
-</code></pre><p>git update-index –no-assume-unchanged <filename></filename></p>
-<pre><code>
-- 使用.git/info/exclude  
-git 还提供了另一种 exclude 的方式来做同样的事情，不同的是 .gitignore 这个文件本身会提交到版本库中去。用来保存的是公共的需要排除的文件。而 .git/info/exclude 这里设置的则是你自己本地需要排除的文件。 他不会影响到其他人。也不会提交到版本库中去。
-举例：
-</code></pre><h1 id="git-ls-files-–others-–exclude-from-git-info-exclude"><a href="#git-ls-files-–others-–exclude-from-git-info-exclude" class="headerlink" title="git ls-files –others –exclude-from=.git/info/exclude"></a>git ls-files –others –exclude-from=.git/info/exclude</h1><h1 id="Lines-that-start-with-‘-’-are-comments"><a href="#Lines-that-start-with-‘-’-are-comments" class="headerlink" title="Lines that start with ‘#’ are comments."></a>Lines that start with ‘#’ are comments.</h1><h1 id="For-a-project-mostly-in-C-the-following-would-be-a-good-set-of"><a href="#For-a-project-mostly-in-C-the-following-would-be-a-good-set-of" class="headerlink" title="For a project mostly in C, the following would be a good set of"></a>For a project mostly in C, the following would be a good set of</h1><h1 id="exclude-patterns-uncomment-them-if-you-want-to-use-them"><a href="#exclude-patterns-uncomment-them-if-you-want-to-use-them" class="headerlink" title="exclude patterns (uncomment them if you want to use them):"></a>exclude patterns (uncomment them if you want to use them):</h1><h1 id="oa"><a href="#oa" class="headerlink" title="*.[oa]"></a>*.[oa]</h1><h1 id><a href="#" class="headerlink" title="*~"></a>*~</h1><p>.gradle/<br>.idea/<br>.settings/<br>appcompat_v7/<br>bin/<br>build/<br>gen/<br>gradle/<br>out/<br>proguard/<br>ship/<br>target/<br>.classpath<br>.gitignore<br>.idea<br>.project<br>.readme<br>.update-config<br>*.iml<br>local.properties<br><code>`</code><br>.gitignore 还有个有意思的小功能， 一个空的 .gitignore 文件 可以当作是一个 placeholder 。当你需要为项目创建一个空的 log 目录时， 这就变的很有用。 你可以创建一个 log 目录 在里面放置一个空的 .gitignore 文件。这样当你 clone 这个 repo 的时候 git 会自动的创建好一个空的 log 目录了。</p>
+<p>这里需要注意的是，该文件必须在第一次推代码的时候就创建，如果你不慎在创建.gitignore文件之前就push了项目，那么即使你在.gitignore文件中写入新的过滤规则，这些规则也不会起作用，Git仍然会对所有文件进行版本管理。<br>简单来说，出现这种问题的原因就是Git已经开始管理这些文件了，所以你无法再通过过滤规则过滤它们。因此一定要养成在项目开始就创建.gitignore文件的习惯，否则一旦push，处理起来会非常麻烦。<br>那么，如果在.gitignore文件创建之后需要忽略某个文件该怎么办？这里还有一种命令忽略的方式。  </p>
+<ul>
+<li><p>.gitignore只能忽略那些原来没有被track的文件，如果某些文件已经被纳入了版本管理中，则修改.gitignore是无效的。正确的做法是在每个clone下来的仓库中手动设置不要检查特定文件的更改情况。命令为：</p>
+<pre><code>git update-index --assume-unchanged &lt;filename&gt; 
+</code></pre><p>如果要还原的话，使用命令：</p>
+<pre><code>git update-index --no-assume-unchanged &lt;filename&gt;
+</code></pre></li>
+<li><p>使用.git/info/exclude<br>git 还提供了另一种 exclude 的方式来做同样的事情，不同的是 .gitignore 这个文件本身会提交到版本库中去。用来保存的是公共的需要排除的文件。而 .git/info/exclude 这里设置的则是你自己本地需要排除的文件。 他不会影响到其他人。也不会提交到版本库中去。<br>举例：</p>
+<pre><code># git ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with &#39;#&#39; are comments.
+# For a project mostly in C, the following would be a good set of
+# exclude patterns (uncomment them if you want to use them):
+# *.[oa]
+# *~
+.gradle/
+.idea/
+.settings/
+appcompat_v7/
+bin/
+build/
+gen/
+gradle/
+out/
+proguard/
+ship/
+target/
+.classpath
+.gitignore
+.idea
+.project
+.readme
+.update-config
+*.iml
+local.properties
+</code></pre><p>.gitignore 还有个有意思的小功能， 一个空的 .gitignore 文件 可以当作是一个 placeholder 。当你需要为项目创建一个空的 log 目录时， 这就变的很有用。 你可以创建一个 log 目录 在里面放置一个空的 .gitignore 文件。这样当你 clone 这个 repo 的时候 git 会自动的创建好一个空的 log 目录了。</p>
+</li>
+</ul>
 <h2 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h2><p>为软件发布创建标签是推荐的。这个概念早已存在，在 SVN 中也有。你可以执行如下命令创建一个叫做 1.0.0 的标签：<br><code>git tag 1.0.0 1b2e1d63ff</code><br>1b2e1d63ff 是你想要标记的提交 ID 的前 10 位字符。可以使用下列命令获取提交 ID：<br>git log<br>你也可以使用少一点的提交 ID 前几位，只要它的指向具有唯一性</p>
 <script type="text/javascript" src="/js/src/bai.js"></script>
       
@@ -531,7 +566,7 @@ git 还提供了另一种 exclude 的方式来做同样的事情，不同的是 
   <p><span>本文标题:</span><a href="/2019/07/11/git/">git入门</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 张小轩 的个人博客">张小轩</a></p>
   <p><span>发布时间:</span>2019年07月11日 - 22:16</p>
-  <p><span>最后更新:</span>2019年08月28日 - 16:15</p>
+  <p><span>最后更新:</span>2019年08月28日 - 16:27</p>
   <p><span>原始链接:</span><a href="/2019/07/11/git/" title="git入门">http://www.zhangyongxuan.com/2019/07/11/git/</a>
     <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://www.zhangyongxuan.com/2019/07/11/git/" aria-label="复制成功！"></i></span>
   </p>
@@ -750,7 +785,7 @@ git 还提供了另一种 exclude 的方式来做同样的事情，不同的是 
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#git"><span class="nav-number">1.</span> <span class="nav-text">git</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#常用命令"><span class="nav-number">1.1.</span> <span class="nav-text">常用命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#git分支"><span class="nav-number">1.2.</span> <span class="nav-text">git分支</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#分支常用命令"><span class="nav-number">1.2.1.</span> <span class="nav-text">分支常用命令</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#查看提交日志"><span class="nav-number">1.3.</span> <span class="nav-text">查看提交日志</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#提交本地修改"><span class="nav-number">1.4.</span> <span class="nav-text">提交本地修改</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#拉取远程仓库代码"><span class="nav-number">1.5.</span> <span class="nav-text">拉取远程仓库代码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#版本回滚"><span class="nav-number">1.6.</span> <span class="nav-text">版本回滚</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#忽略文件"><span class="nav-number">1.7.</span> <span class="nav-text">忽略文件</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#以’-’开始的行，被视为注释"><span class="nav-number">2.</span> <span class="nav-text">以’#’开始的行，被视为注释.</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#忽略掉所有文件名是-foo-txt的文件"><span class="nav-number">3.</span> <span class="nav-text">忽略掉所有文件名是 foo.txt的文件.</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#忽略所有生成的-html文件"><span class="nav-number">4.</span> <span class="nav-text">忽略所有生成的 html文件,</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#foo-html是手工维护的，所以例外"><span class="nav-number">5.</span> <span class="nav-text">foo.html是手工维护的，所以例外.</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#忽略所有-o和-a文件"><span class="nav-number">6.</span> <span class="nav-text">忽略所有.o和 .a文件.</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#git-ls-files-–others-–exclude-from-git-info-exclude"><span class="nav-number">7.</span> <span class="nav-text">git ls-files –others –exclude-from=.git/info/exclude</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Lines-that-start-with-‘-’-are-comments"><span class="nav-number">8.</span> <span class="nav-text">Lines that start with ‘#’ are comments.</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#For-a-project-mostly-in-C-the-following-would-be-a-good-set-of"><span class="nav-number">9.</span> <span class="nav-text">For a project mostly in C, the following would be a good set of</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#exclude-patterns-uncomment-them-if-you-want-to-use-them"><span class="nav-number">10.</span> <span class="nav-text">exclude patterns (uncomment them if you want to use them):</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#oa"><span class="nav-number">11.</span> <span class="nav-text">*.[oa]</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#null"><span class="nav-number">12.</span> <span class="nav-text">*~</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#标签"><span class="nav-number">12.1.</span> <span class="nav-text">标签</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#git"><span class="nav-number">1.</span> <span class="nav-text">git</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#常用命令"><span class="nav-number">1.1.</span> <span class="nav-text">常用命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#git分支"><span class="nav-number">1.2.</span> <span class="nav-text">git分支</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#分支常用命令"><span class="nav-number">1.2.1.</span> <span class="nav-text">分支常用命令</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#查看提交日志"><span class="nav-number">1.3.</span> <span class="nav-text">查看提交日志</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#提交本地修改"><span class="nav-number">1.4.</span> <span class="nav-text">提交本地修改</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#拉取远程仓库代码"><span class="nav-number">1.5.</span> <span class="nav-text">拉取远程仓库代码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#版本回滚"><span class="nav-number">1.6.</span> <span class="nav-text">版本回滚</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#忽略文件"><span class="nav-number">1.7.</span> <span class="nav-text">忽略文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#标签"><span class="nav-number">1.8.</span> <span class="nav-text">标签</span></a></li></ol></li></ol></div>
             
 
           </div>
