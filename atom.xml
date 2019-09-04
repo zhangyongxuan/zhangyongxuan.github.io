@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://www.zhangyongxuan.com/"/>
+  <link href="http://blog.zhangyongxuan.com/"/>
   <updated>2019-08-27T09:42:24.805Z</updated>
-  <id>http://www.zhangyongxuan.com/</id>
+  <id>http://blog.zhangyongxuan.com/</id>
   
   <author>
     <name>张小轩</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>cookie</title>
-    <link href="http://www.zhangyongxuan.com/2019/08/22/cookie/"/>
-    <id>http://www.zhangyongxuan.com/2019/08/22/cookie/</id>
+    <link href="http://blog.zhangyongxuan.com/2019/08/22/cookie/"/>
+    <id>http://blog.zhangyongxuan.com/2019/08/22/cookie/</id>
     <published>2019-08-22T07:34:03.000Z</published>
     <updated>2019-08-27T09:42:24.805Z</updated>
     
@@ -31,19 +31,19 @@
     
     </summary>
     
-      <category term="Cookie" scheme="http://www.zhangyongxuan.com/categories/Cookie/"/>
+      <category term="Cookie" scheme="http://blog.zhangyongxuan.com/categories/Cookie/"/>
     
     
-      <category term="服务端" scheme="http://www.zhangyongxuan.com/tags/%E6%9C%8D%E5%8A%A1%E7%AB%AF/"/>
+      <category term="服务端" scheme="http://blog.zhangyongxuan.com/tags/%E6%9C%8D%E5%8A%A1%E7%AB%AF/"/>
     
-      <category term="node" scheme="http://www.zhangyongxuan.com/tags/node/"/>
+      <category term="node" scheme="http://blog.zhangyongxuan.com/tags/node/"/>
     
   </entry>
   
   <entry>
     <title>less</title>
-    <link href="http://www.zhangyongxuan.com/2019/07/26/less/"/>
-    <id>http://www.zhangyongxuan.com/2019/07/26/less/</id>
+    <link href="http://blog.zhangyongxuan.com/2019/07/26/less/"/>
+    <id>http://blog.zhangyongxuan.com/2019/07/26/less/</id>
     <published>2019-07-26T06:11:47.000Z</published>
     <updated>2019-07-26T06:13:03.213Z</updated>
     
@@ -55,19 +55,19 @@
     
     </summary>
     
-      <category term="css" scheme="http://www.zhangyongxuan.com/categories/css/"/>
+      <category term="css" scheme="http://blog.zhangyongxuan.com/categories/css/"/>
     
     
-      <category term="css" scheme="http://www.zhangyongxuan.com/tags/css/"/>
+      <category term="css" scheme="http://blog.zhangyongxuan.com/tags/css/"/>
     
-      <category term="less" scheme="http://www.zhangyongxuan.com/tags/less/"/>
+      <category term="less" scheme="http://blog.zhangyongxuan.com/tags/less/"/>
     
   </entry>
   
   <entry>
     <title>鹏哥的webpack笔记</title>
-    <link href="http://www.zhangyongxuan.com/2019/07/25/webpacksimple/"/>
-    <id>http://www.zhangyongxuan.com/2019/07/25/webpacksimple/</id>
+    <link href="http://blog.zhangyongxuan.com/2019/07/25/webpacksimple/"/>
+    <id>http://blog.zhangyongxuan.com/2019/07/25/webpacksimple/</id>
     <published>2019-07-25T09:50:35.000Z</published>
     <updated>2019-07-25T09:55:52.677Z</updated>
     
@@ -79,19 +79,19 @@
     
     </summary>
     
-      <category term="webpack" scheme="http://www.zhangyongxuan.com/categories/webpack/"/>
+      <category term="webpack" scheme="http://blog.zhangyongxuan.com/categories/webpack/"/>
     
     
-      <category term="前端" scheme="http://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="webpack" scheme="http://www.zhangyongxuan.com/tags/webpack/"/>
+      <category term="webpack" scheme="http://blog.zhangyongxuan.com/tags/webpack/"/>
     
   </entry>
   
   <entry>
     <title>webpack纯手工搭建react项目</title>
-    <link href="http://www.zhangyongxuan.com/2019/07/25/webpack-react/"/>
-    <id>http://www.zhangyongxuan.com/2019/07/25/webpack-react/</id>
+    <link href="http://blog.zhangyongxuan.com/2019/07/25/webpack-react/"/>
+    <id>http://blog.zhangyongxuan.com/2019/07/25/webpack-react/</id>
     <published>2019-07-25T09:42:14.000Z</published>
     <updated>2019-07-25T09:49:57.469Z</updated>
     
@@ -103,25 +103,25 @@
     
     </summary>
     
-      <category term="webpack" scheme="http://www.zhangyongxuan.com/categories/webpack/"/>
+      <category term="webpack" scheme="http://blog.zhangyongxuan.com/categories/webpack/"/>
     
     
-      <category term="前端" scheme="http://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="react" scheme="http://www.zhangyongxuan.com/tags/react/"/>
+      <category term="react" scheme="http://blog.zhangyongxuan.com/tags/react/"/>
     
-      <category term="webpack" scheme="http://www.zhangyongxuan.com/tags/webpack/"/>
+      <category term="webpack" scheme="http://blog.zhangyongxuan.com/tags/webpack/"/>
     
   </entry>
   
   <entry>
     <title>Dva入门</title>
-    <link href="http://www.zhangyongxuan.com/2019/07/24/dva1/"/>
-    <id>http://www.zhangyongxuan.com/2019/07/24/dva1/</id>
+    <link href="http://blog.zhangyongxuan.com/2019/07/24/dva1/"/>
+    <id>http://blog.zhangyongxuan.com/2019/07/24/dva1/</id>
     <published>2019-07-24T15:22:43.000Z</published>
     <updated>2019-07-24T15:29:48.559Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>对于Dva我的理解是这样的：Dva重新组织了react项目，内置了react-router，redux，request，减少了配置这些模块的代码，将程序猿的精力都留给处理业务逻辑 </em></strong></p><a id="more"></a><h1 id="什么是Dva"><a href="#什么是Dva" class="headerlink" title="什么是Dva"></a>什么是Dva</h1><blockquote><p>Dva基于现有应用架构 (redux + react-router + redux-saga 等)的一层轻量封装，没有引入任何新概念，全部代码不到 100 行。</p></blockquote><p>这是Dva官方文档中对它的介绍，我的理解是这样的：</p><p>Dva重新组织了react项目，内置了react-router，redux，request，减少了配置这些模块的代码，将程序猿的精力都留给处理业务逻辑。</p><p>使用Dva非常简单，首先通过 npm 安装 dva-cli 并确保版本是 0.9.1 或以上。</p><pre><code>$ npm install dva-cli -g$ dva -vdva-cli version 0.9.1</code></pre><p>安装完 dva-cli 之后，就可以在命令行里访问到 dva 命令（不能访问？）。现在，你可以通过 dva new 创建新应用。</p><pre><code>$ dva new dva-quickstart</code></pre><p>这会创建 dva-quickstart 目录，包含项目初始化目录和文件，并提供开发服务器、构建脚本、数据 mock 服务、代理服务器等功能。</p><p>然后我们 cd 进入 dva-quickstart 目录，并启动开发服务器：</p><pre><code>$ cd dva-quickstart$ npm start</code></pre><p>之后就会自打开系统默认浏览器，并访问<code>http://localhost:8000/</code>,只是后就能看到dva的欢迎页面了</p><h1 id="dva中的数据流向，以及dva脚手架搭建的项目目录结构"><a href="#dva中的数据流向，以及dva脚手架搭建的项目目录结构" class="headerlink" title="dva中的数据流向，以及dva脚手架搭建的项目目录结构"></a>dva中的数据流向，以及dva脚手架搭建的项目目录结构</h1><h2 id="项目目录结构"><a href="#项目目录结构" class="headerlink" title="项目目录结构"></a>项目目录结构</h2><p><a href="https://blog.csdn.net/wangrong111222/article/details/79835490" target="_blank" rel="noopener">原文地址</a></p><blockquote><p>项目中一般src里的目录标配：</p><ul><li>./assets   :放置静态资源 比如图片;</li><li>./components   :放置木偶组件，只负责从./routes的智能组件来读取props填充展示，一般来讲是纯函数的react书写方式;</li><li>./models   :是一个处理数据的地方，比如在model里面调用./service输出的方法来获取数据填充到store;其实我觉得就是store的整体的集合，以 namespace作为唯一标识进行区分；</li><li>./routes   :放置若干智能组件的地方，智能组件里一般通过dva的connect（({yourModle})=&gt;({yourModle})）（yourComponent）方法来和你的组件来实现数据互通的，生成带数据的活组件；（一般来讲智能组件的样式也在这级目录，因为组件就近维护原则吧）;</li><li>./services   :负责向后台请求数据，在services里调用后台提供的api获取数据;</li><li>./utils   :放置工具类：比如常见的后台接口请求工具类；这里是默认封装了fetch数据交互的方法，直接入参调用即可;</li><li>index.css   :index.html的样式，你懂的;</li><li>index.js   :主页的入口位置，也是初始化dva的位置；什么 app.use( )/app.model( )/app.router( )/app.start( )都是在这里的完成的;</li><li>index.html   :入口挂载dom的html模板;</li><li>router.js   :配置路由的地方，会从./routes文件夹下引入写好的智能组件来组装页面，export default 出一个方法来生成router结构。</li></ul></blockquote><h1 id="数据流向问题"><a href="#数据流向问题" class="headerlink" title="数据流向问题"></a>数据流向问题</h1><p>数据流向简单来说的话就是：</p><p><code>server----&gt;services----&gt;models----&gt;routes----&gt;components</code></p><p>这样说可能有点过于简单，下面就以获取一个表格数据为例，看看具体数据流向</p><p>多话不说直接上代码：</p><p>首先，我们的表格数据是从后端服务器通过请求接口获取到的，那么上面也说了，<code>services</code>文件夹下的<code>.js</code>文件的任务就是请求接口从后端拿到数据：</p><pre><code>// services/test.jsimport request from &#39;../utils/request&#39; //这里导入dva封装的request模块export function fetchData(){ // 这是一个无参请求的示例                                                                               const url = &#39;xxxxxxxxxx&#39;                           return request(url)}export function fetchData1(params){ // 这是一个带参请求的示例    const url = &#39;xxxxxxxxxx&#39;                           return request(url,{...params})}</code></pre><p>在这里，使用dva封装的request向后端发送请求，接收到数据之后作为函数的返回值return出去。</p><pre><code>// models/test.jsimport {fetchData,fetchData1} from &#39;../services/test&#39;export default {    namespace:&quot;test&quot;,    state:{        data : {},        data1:{}    },    reducers:{        getData:(state,action)=&gt;{ // 这里就和redux的reducer一样，去更新状态            const newState = Object.assign({},state)            // console.log(action)            newState.data = action.value            return newState;         },        getData1:(state,action)=&gt;{            const newState = Object.assign({},state)            // console.log(action)            newState.data1 = action.value            return newState;        }    },    effects:{        *fetchData(action,opr){            const call = opr.call;            const put = opr.put;            const res = yield call(fetchData) //调用services里的函数获得返回值            // console.log(res,111)            const a = {                type:&#39;getData&#39;,                value:res.data            }            yield put(a) //向reducers提交一个action            return res; //这里返回的值会传到dispatch().then()的成功回调参数里        },        *fetchData1(action,opr){            const call = opr.call;            const put = opr.put;            const res = yield call(fetchData1,params) //有参无参区别就在于这里            // console.log(res,111)            const a = {                type:&#39;getData&#39;,                value:res.data            }            yield put(a)            return res;        }    }}</code></pre><p>models层写好了，这里有一步至关重要，那就是去index.js注册这个model：</p><pre><code>index.js// + app.model(require(&#39;./models/test&#39;).default);</code></pre><p>根据刚才所说的数据流向，现在轮到了routes层：</p><pre><code>import React, { Component } from &#39;react&#39;;import {connect} from &#39;dva&#39; //这里导入dva的connect函数class Test extends Component { fetchData=()=&gt;{        const dispatch = this.props.dispatch;        const action = {            type : &#39;test/fetchData&#39;,            value:1        }        dispatch(action).then(res=&gt;{ //这里提交action就和redux一样            console.log(res)        })       }        fetchData1=()=&gt;{        const dispatch = this.props.dispatch;        const action = {            type : &#39;test/fetchData1&#39;,            value:1        }        dispatch(action).then(res=&gt;{            console.log(res)        })       }    render() {        // console.log(this.props)在这里有我们操作全局状态用的dispatch函数以及下边回调函数返回的那些属性名和对应的值        return (            &lt;div&gt;              &lt;Button onClick={()=&gt;{this.fetchData()}}&gt;fetchData&lt;/Button&gt;              &lt;Button onClick={()=&gt;{this.fetchData1()}}&gt;fetchData&lt;/Button&gt;            &lt;/div&gt;        );    }}export default connect(state=&gt;{ //这里的state是全局的state    const data = state.test.data; //每一个model下的namespace在组合的时候变成了一个全局state的一个key，这个key所对应的value就是该namespace下对应的state的值    const data = state.test.data;    const data1 = state.test.data1;    return{ //这个回调函数的返回值会被解构，然后合并到后边括号中组件的props当中        data,        data1    }})(Test); //经过connect包装后，会赋予Test这个组件一些我们要用到的东西// export default Test;</code></pre><p>其实connect函数是一个高阶组件，<a href="http://www.zhangyongxuan.com/2019/07/18/hoc/">点这里复习高阶组件</a></p><p>这样，整个数据流程，从请求数据到数据渲染整个流程就跑完了，这样走一遍之后是不是觉得dva的数据流向其实也并不复杂</p><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>对于Dva我的理解是这样的：Dva重新组织了react项目，内置了react-router，redux，request，减少了配置这些模块的代码，将程序猿的精力都留给处理业务逻辑 </em></strong></p><a id="more"></a><h1 id="什么是Dva"><a href="#什么是Dva" class="headerlink" title="什么是Dva"></a>什么是Dva</h1><blockquote><p>Dva基于现有应用架构 (redux + react-router + redux-saga 等)的一层轻量封装，没有引入任何新概念，全部代码不到 100 行。</p></blockquote><p>这是Dva官方文档中对它的介绍，我的理解是这样的：</p><p>Dva重新组织了react项目，内置了react-router，redux，request，减少了配置这些模块的代码，将程序猿的精力都留给处理业务逻辑。</p><p>使用Dva非常简单，首先通过 npm 安装 dva-cli 并确保版本是 0.9.1 或以上。</p><pre><code>$ npm install dva-cli -g$ dva -vdva-cli version 0.9.1</code></pre><p>安装完 dva-cli 之后，就可以在命令行里访问到 dva 命令（不能访问？）。现在，你可以通过 dva new 创建新应用。</p><pre><code>$ dva new dva-quickstart</code></pre><p>这会创建 dva-quickstart 目录，包含项目初始化目录和文件，并提供开发服务器、构建脚本、数据 mock 服务、代理服务器等功能。</p><p>然后我们 cd 进入 dva-quickstart 目录，并启动开发服务器：</p><pre><code>$ cd dva-quickstart$ npm start</code></pre><p>之后就会自打开系统默认浏览器，并访问<code>http://localhost:8000/</code>,只是后就能看到dva的欢迎页面了</p><h1 id="dva中的数据流向，以及dva脚手架搭建的项目目录结构"><a href="#dva中的数据流向，以及dva脚手架搭建的项目目录结构" class="headerlink" title="dva中的数据流向，以及dva脚手架搭建的项目目录结构"></a>dva中的数据流向，以及dva脚手架搭建的项目目录结构</h1><h2 id="项目目录结构"><a href="#项目目录结构" class="headerlink" title="项目目录结构"></a>项目目录结构</h2><p><a href="https://blog.csdn.net/wangrong111222/article/details/79835490" target="_blank" rel="noopener">原文地址</a></p><blockquote><p>项目中一般src里的目录标配：</p><ul><li>./assets   :放置静态资源 比如图片;</li><li>./components   :放置木偶组件，只负责从./routes的智能组件来读取props填充展示，一般来讲是纯函数的react书写方式;</li><li>./models   :是一个处理数据的地方，比如在model里面调用./service输出的方法来获取数据填充到store;其实我觉得就是store的整体的集合，以 namespace作为唯一标识进行区分；</li><li>./routes   :放置若干智能组件的地方，智能组件里一般通过dva的connect（({yourModle})=&gt;({yourModle})）（yourComponent）方法来和你的组件来实现数据互通的，生成带数据的活组件；（一般来讲智能组件的样式也在这级目录，因为组件就近维护原则吧）;</li><li>./services   :负责向后台请求数据，在services里调用后台提供的api获取数据;</li><li>./utils   :放置工具类：比如常见的后台接口请求工具类；这里是默认封装了fetch数据交互的方法，直接入参调用即可;</li><li>index.css   :index.html的样式，你懂的;</li><li>index.js   :主页的入口位置，也是初始化dva的位置；什么 app.use( )/app.model( )/app.router( )/app.start( )都是在这里的完成的;</li><li>index.html   :入口挂载dom的html模板;</li><li>router.js   :配置路由的地方，会从./routes文件夹下引入写好的智能组件来组装页面，export default 出一个方法来生成router结构。</li></ul></blockquote><h1 id="数据流向问题"><a href="#数据流向问题" class="headerlink" title="数据流向问题"></a>数据流向问题</h1><p>数据流向简单来说的话就是：</p><p><code>server----&gt;services----&gt;models----&gt;routes----&gt;components</code></p><p>这样说可能有点过于简单，下面就以获取一个表格数据为例，看看具体数据流向</p><p>多话不说直接上代码：</p><p>首先，我们的表格数据是从后端服务器通过请求接口获取到的，那么上面也说了，<code>services</code>文件夹下的<code>.js</code>文件的任务就是请求接口从后端拿到数据：</p><pre><code>// services/test.jsimport request from &#39;../utils/request&#39; //这里导入dva封装的request模块export function fetchData(){ // 这是一个无参请求的示例                                                                               const url = &#39;xxxxxxxxxx&#39;                           return request(url)}export function fetchData1(params){ // 这是一个带参请求的示例    const url = &#39;xxxxxxxxxx&#39;                           return request(url,{...params})}</code></pre><p>在这里，使用dva封装的request向后端发送请求，接收到数据之后作为函数的返回值return出去。</p><pre><code>// models/test.jsimport {fetchData,fetchData1} from &#39;../services/test&#39;export default {    namespace:&quot;test&quot;,    state:{        data : {},        data1:{}    },    reducers:{        getData:(state,action)=&gt;{ // 这里就和redux的reducer一样，去更新状态            const newState = Object.assign({},state)            // console.log(action)            newState.data = action.value            return newState;         },        getData1:(state,action)=&gt;{            const newState = Object.assign({},state)            // console.log(action)            newState.data1 = action.value            return newState;        }    },    effects:{        *fetchData(action,opr){            const call = opr.call;            const put = opr.put;            const res = yield call(fetchData) //调用services里的函数获得返回值            // console.log(res,111)            const a = {                type:&#39;getData&#39;,                value:res.data            }            yield put(a) //向reducers提交一个action            return res; //这里返回的值会传到dispatch().then()的成功回调参数里        },        *fetchData1(action,opr){            const call = opr.call;            const put = opr.put;            const res = yield call(fetchData1,params) //有参无参区别就在于这里            // console.log(res,111)            const a = {                type:&#39;getData&#39;,                value:res.data            }            yield put(a)            return res;        }    }}</code></pre><p>models层写好了，这里有一步至关重要，那就是去index.js注册这个model：</p><pre><code>index.js// + app.model(require(&#39;./models/test&#39;).default);</code></pre><p>根据刚才所说的数据流向，现在轮到了routes层：</p><pre><code>import React, { Component } from &#39;react&#39;;import {connect} from &#39;dva&#39; //这里导入dva的connect函数class Test extends Component { fetchData=()=&gt;{        const dispatch = this.props.dispatch;        const action = {            type : &#39;test/fetchData&#39;,            value:1        }        dispatch(action).then(res=&gt;{ //这里提交action就和redux一样            console.log(res)        })       }        fetchData1=()=&gt;{        const dispatch = this.props.dispatch;        const action = {            type : &#39;test/fetchData1&#39;,            value:1        }        dispatch(action).then(res=&gt;{            console.log(res)        })       }    render() {        // console.log(this.props)在这里有我们操作全局状态用的dispatch函数以及下边回调函数返回的那些属性名和对应的值        return (            &lt;div&gt;              &lt;Button onClick={()=&gt;{this.fetchData()}}&gt;fetchData&lt;/Button&gt;              &lt;Button onClick={()=&gt;{this.fetchData1()}}&gt;fetchData&lt;/Button&gt;            &lt;/div&gt;        );    }}export default connect(state=&gt;{ //这里的state是全局的state    const data = state.test.data; //每一个model下的namespace在组合的时候变成了一个全局state的一个key，这个key所对应的value就是该namespace下对应的state的值    const data = state.test.data;    const data1 = state.test.data1;    return{ //这个回调函数的返回值会被解构，然后合并到后边括号中组件的props当中        data,        data1    }})(Test); //经过connect包装后，会赋予Test这个组件一些我们要用到的东西// export default Test;</code></pre><p>其实connect函数是一个高阶组件，<a href="http://www.zhangyongxuan.com/2019/07/18/hoc/" target="_blank" rel="noopener">点这里复习高阶组件</a></p><p>这样，整个数据流程，从请求数据到数据渲染整个流程就跑完了，这样走一遍之后是不是觉得dva的数据流向其实也并不复杂</p><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
     
     <summary type="html">
     
@@ -129,21 +129,21 @@
     
     </summary>
     
-      <category term="React" scheme="http://www.zhangyongxuan.com/categories/React/"/>
+      <category term="React" scheme="http://blog.zhangyongxuan.com/categories/React/"/>
     
     
-      <category term="前端" scheme="http://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="react" scheme="http://www.zhangyongxuan.com/tags/react/"/>
+      <category term="react" scheme="http://blog.zhangyongxuan.com/tags/react/"/>
     
-      <category term="Dva" scheme="http://www.zhangyongxuan.com/tags/Dva/"/>
+      <category term="Dva" scheme="http://blog.zhangyongxuan.com/tags/Dva/"/>
     
   </entry>
   
   <entry>
     <title>高阶组件入门</title>
-    <link href="http://www.zhangyongxuan.com/2019/07/18/hoc/"/>
-    <id>http://www.zhangyongxuan.com/2019/07/18/hoc/</id>
+    <link href="http://blog.zhangyongxuan.com/2019/07/18/hoc/"/>
+    <id>http://blog.zhangyongxuan.com/2019/07/18/hoc/</id>
     <published>2019-07-18T12:41:51.000Z</published>
     <updated>2019-07-18T12:44:28.969Z</updated>
     
@@ -155,19 +155,19 @@
     
     </summary>
     
-      <category term="React" scheme="http://www.zhangyongxuan.com/categories/React/"/>
+      <category term="React" scheme="http://blog.zhangyongxuan.com/categories/React/"/>
     
     
-      <category term="前端" scheme="http://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="react" scheme="http://www.zhangyongxuan.com/tags/react/"/>
+      <category term="react" scheme="http://blog.zhangyongxuan.com/tags/react/"/>
     
   </entry>
   
   <entry>
     <title>react中的ref和content</title>
-    <link href="http://www.zhangyongxuan.com/2019/07/17/reactref/"/>
-    <id>http://www.zhangyongxuan.com/2019/07/17/reactref/</id>
+    <link href="http://blog.zhangyongxuan.com/2019/07/17/reactref/"/>
+    <id>http://blog.zhangyongxuan.com/2019/07/17/reactref/</id>
     <published>2019-07-17T09:38:28.000Z</published>
     <updated>2019-07-17T09:45:25.353Z</updated>
     
@@ -179,19 +179,19 @@
     
     </summary>
     
-      <category term="React" scheme="http://www.zhangyongxuan.com/categories/React/"/>
+      <category term="React" scheme="http://blog.zhangyongxuan.com/categories/React/"/>
     
     
-      <category term="前端" scheme="http://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="react" scheme="http://www.zhangyongxuan.com/tags/react/"/>
+      <category term="react" scheme="http://blog.zhangyongxuan.com/tags/react/"/>
     
   </entry>
   
   <entry>
     <title>reactform</title>
-    <link href="http://www.zhangyongxuan.com/2019/07/17/reactform/"/>
-    <id>http://www.zhangyongxuan.com/2019/07/17/reactform/</id>
+    <link href="http://blog.zhangyongxuan.com/2019/07/17/reactform/"/>
+    <id>http://blog.zhangyongxuan.com/2019/07/17/reactform/</id>
     <published>2019-07-17T09:30:01.000Z</published>
     <updated>2019-07-17T09:35:30.630Z</updated>
     
@@ -203,19 +203,19 @@
     
     </summary>
     
-      <category term="React" scheme="http://www.zhangyongxuan.com/categories/React/"/>
+      <category term="React" scheme="http://blog.zhangyongxuan.com/categories/React/"/>
     
     
-      <category term="前端" scheme="http://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="react" scheme="http://www.zhangyongxuan.com/tags/react/"/>
+      <category term="react" scheme="http://blog.zhangyongxuan.com/tags/react/"/>
     
   </entry>
   
   <entry>
     <title>react基础</title>
-    <link href="http://www.zhangyongxuan.com/2019/07/17/react01/"/>
-    <id>http://www.zhangyongxuan.com/2019/07/17/react01/</id>
+    <link href="http://blog.zhangyongxuan.com/2019/07/17/react01/"/>
+    <id>http://blog.zhangyongxuan.com/2019/07/17/react01/</id>
     <published>2019-07-17T09:27:24.000Z</published>
     <updated>2019-07-17T09:28:40.033Z</updated>
     
@@ -227,19 +227,19 @@
     
     </summary>
     
-      <category term="React" scheme="http://www.zhangyongxuan.com/categories/React/"/>
+      <category term="React" scheme="http://blog.zhangyongxuan.com/categories/React/"/>
     
     
-      <category term="前端" scheme="http://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="react" scheme="http://www.zhangyongxuan.com/tags/react/"/>
+      <category term="react" scheme="http://blog.zhangyongxuan.com/tags/react/"/>
     
   </entry>
   
   <entry>
     <title>数组常用方法</title>
-    <link href="http://www.zhangyongxuan.com/2019/07/16/arrayfun/"/>
-    <id>http://www.zhangyongxuan.com/2019/07/16/arrayfun/</id>
+    <link href="http://blog.zhangyongxuan.com/2019/07/16/arrayfun/"/>
+    <id>http://blog.zhangyongxuan.com/2019/07/16/arrayfun/</id>
     <published>2019-07-16T08:59:43.000Z</published>
     <updated>2019-07-19T10:15:37.319Z</updated>
     
@@ -251,21 +251,21 @@
     
     </summary>
     
-      <category term="ES6" scheme="http://www.zhangyongxuan.com/categories/ES6/"/>
+      <category term="ES6" scheme="http://blog.zhangyongxuan.com/categories/ES6/"/>
     
     
-      <category term="前端" scheme="http://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="Javascript" scheme="http://www.zhangyongxuan.com/tags/Javascript/"/>
+      <category term="Javascript" scheme="http://blog.zhangyongxuan.com/tags/Javascript/"/>
     
-      <category term="ES6" scheme="http://www.zhangyongxuan.com/tags/ES6/"/>
+      <category term="ES6" scheme="http://blog.zhangyongxuan.com/tags/ES6/"/>
     
   </entry>
   
   <entry>
     <title>Generator函数和async函数</title>
-    <link href="http://www.zhangyongxuan.com/2019/07/16/generatorandasync/"/>
-    <id>http://www.zhangyongxuan.com/2019/07/16/generatorandasync/</id>
+    <link href="http://blog.zhangyongxuan.com/2019/07/16/generatorandasync/"/>
+    <id>http://blog.zhangyongxuan.com/2019/07/16/generatorandasync/</id>
     <published>2019-07-16T07:18:16.000Z</published>
     <updated>2019-07-16T07:19:34.383Z</updated>
     
@@ -277,21 +277,21 @@
     
     </summary>
     
-      <category term="ES6" scheme="http://www.zhangyongxuan.com/categories/ES6/"/>
+      <category term="ES6" scheme="http://blog.zhangyongxuan.com/categories/ES6/"/>
     
     
-      <category term="前端" scheme="http://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="Javascript" scheme="http://www.zhangyongxuan.com/tags/Javascript/"/>
+      <category term="Javascript" scheme="http://blog.zhangyongxuan.com/tags/Javascript/"/>
     
-      <category term="ES6" scheme="http://www.zhangyongxuan.com/tags/ES6/"/>
+      <category term="ES6" scheme="http://blog.zhangyongxuan.com/tags/ES6/"/>
     
   </entry>
   
   <entry>
     <title>Promise</title>
-    <link href="http://www.zhangyongxuan.com/2019/07/15/promise/"/>
-    <id>http://www.zhangyongxuan.com/2019/07/15/promise/</id>
+    <link href="http://blog.zhangyongxuan.com/2019/07/15/promise/"/>
+    <id>http://blog.zhangyongxuan.com/2019/07/15/promise/</id>
     <published>2019-07-15T10:50:12.000Z</published>
     <updated>2019-07-15T10:52:27.406Z</updated>
     
@@ -303,21 +303,21 @@
     
     </summary>
     
-      <category term="ES6" scheme="http://www.zhangyongxuan.com/categories/ES6/"/>
+      <category term="ES6" scheme="http://blog.zhangyongxuan.com/categories/ES6/"/>
     
     
-      <category term="前端" scheme="http://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="Javascript" scheme="http://www.zhangyongxuan.com/tags/Javascript/"/>
+      <category term="Javascript" scheme="http://blog.zhangyongxuan.com/tags/Javascript/"/>
     
-      <category term="ES6" scheme="http://www.zhangyongxuan.com/tags/ES6/"/>
+      <category term="ES6" scheme="http://blog.zhangyongxuan.com/tags/ES6/"/>
     
   </entry>
   
   <entry>
     <title>es6函数和类</title>
-    <link href="http://www.zhangyongxuan.com/2019/07/15/funcionandclass/"/>
-    <id>http://www.zhangyongxuan.com/2019/07/15/funcionandclass/</id>
+    <link href="http://blog.zhangyongxuan.com/2019/07/15/funcionandclass/"/>
+    <id>http://blog.zhangyongxuan.com/2019/07/15/funcionandclass/</id>
     <published>2019-07-15T07:41:59.000Z</published>
     <updated>2019-07-15T07:56:21.161Z</updated>
     
@@ -329,23 +329,23 @@
     
     </summary>
     
-      <category term="ES6" scheme="http://www.zhangyongxuan.com/categories/ES6/"/>
+      <category term="ES6" scheme="http://blog.zhangyongxuan.com/categories/ES6/"/>
     
     
-      <category term="前端" scheme="http://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="Javascript" scheme="http://www.zhangyongxuan.com/tags/Javascript/"/>
+      <category term="Javascript" scheme="http://blog.zhangyongxuan.com/tags/Javascript/"/>
     
-      <category term="ES6" scheme="http://www.zhangyongxuan.com/tags/ES6/"/>
+      <category term="ES6" scheme="http://blog.zhangyongxuan.com/tags/ES6/"/>
     
-      <category term="面向对象" scheme="http://www.zhangyongxuan.com/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
+      <category term="面向对象" scheme="http://blog.zhangyongxuan.com/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
     
   </entry>
   
   <entry>
     <title>ES6新特性</title>
-    <link href="http://www.zhangyongxuan.com/2019/07/12/es6day1/"/>
-    <id>http://www.zhangyongxuan.com/2019/07/12/es6day1/</id>
+    <link href="http://blog.zhangyongxuan.com/2019/07/12/es6day1/"/>
+    <id>http://blog.zhangyongxuan.com/2019/07/12/es6day1/</id>
     <published>2019-07-12T08:01:04.000Z</published>
     <updated>2019-07-15T07:44:33.823Z</updated>
     
@@ -357,21 +357,21 @@
     
     </summary>
     
-      <category term="ES6" scheme="http://www.zhangyongxuan.com/categories/ES6/"/>
+      <category term="ES6" scheme="http://blog.zhangyongxuan.com/categories/ES6/"/>
     
     
-      <category term="前端" scheme="http://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="Javascript" scheme="http://www.zhangyongxuan.com/tags/Javascript/"/>
+      <category term="Javascript" scheme="http://blog.zhangyongxuan.com/tags/Javascript/"/>
     
-      <category term="ES6" scheme="http://www.zhangyongxuan.com/tags/ES6/"/>
+      <category term="ES6" scheme="http://blog.zhangyongxuan.com/tags/ES6/"/>
     
   </entry>
   
   <entry>
     <title>git入门</title>
-    <link href="http://www.zhangyongxuan.com/2019/07/11/git/"/>
-    <id>http://www.zhangyongxuan.com/2019/07/11/git/</id>
+    <link href="http://blog.zhangyongxuan.com/2019/07/11/git/"/>
+    <id>http://blog.zhangyongxuan.com/2019/07/11/git/</id>
     <published>2019-07-11T14:16:57.000Z</published>
     <updated>2019-08-28T08:29:47.194Z</updated>
     
@@ -383,19 +383,19 @@
     
     </summary>
     
-      <category term="git" scheme="http://www.zhangyongxuan.com/categories/git/"/>
+      <category term="git" scheme="http://blog.zhangyongxuan.com/categories/git/"/>
     
     
-      <category term="git" scheme="http://www.zhangyongxuan.com/tags/git/"/>
+      <category term="git" scheme="http://blog.zhangyongxuan.com/tags/git/"/>
     
-      <category term="版本控制" scheme="http://www.zhangyongxuan.com/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/"/>
+      <category term="版本控制" scheme="http://blog.zhangyongxuan.com/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/"/>
     
   </entry>
   
   <entry>
     <title>常用API地址</title>
-    <link href="http://www.zhangyongxuan.com/2019/07/11/api/"/>
-    <id>http://www.zhangyongxuan.com/2019/07/11/api/</id>
+    <link href="http://blog.zhangyongxuan.com/2019/07/11/api/"/>
+    <id>http://blog.zhangyongxuan.com/2019/07/11/api/</id>
     <published>2019-07-11T14:11:55.000Z</published>
     <updated>2019-07-11T14:28:43.570Z</updated>
     
@@ -408,14 +408,14 @@
     </summary>
     
     
-      <category term="api" scheme="http://www.zhangyongxuan.com/tags/api/"/>
+      <category term="api" scheme="http://blog.zhangyongxuan.com/tags/api/"/>
     
   </entry>
   
   <entry>
     <title>React版HellowWorld</title>
-    <link href="http://www.zhangyongxuan.com/2019/06/15/startreact/"/>
-    <id>http://www.zhangyongxuan.com/2019/06/15/startreact/</id>
+    <link href="http://blog.zhangyongxuan.com/2019/06/15/startreact/"/>
+    <id>http://blog.zhangyongxuan.com/2019/06/15/startreact/</id>
     <published>2019-06-15T01:49:57.000Z</published>
     <updated>2019-07-11T13:50:24.197Z</updated>
     
@@ -427,23 +427,23 @@
     
     </summary>
     
-      <category term="React" scheme="http://www.zhangyongxuan.com/categories/React/"/>
+      <category term="React" scheme="http://blog.zhangyongxuan.com/categories/React/"/>
     
     
-      <category term="前端" scheme="http://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="react" scheme="http://www.zhangyongxuan.com/tags/react/"/>
+      <category term="react" scheme="http://blog.zhangyongxuan.com/tags/react/"/>
     
   </entry>
   
   <entry>
     <title>起点</title>
-    <link href="http://www.zhangyongxuan.com/2019/03/27/start/"/>
-    <id>http://www.zhangyongxuan.com/2019/03/27/start/</id>
+    <link href="http://blog.zhangyongxuan.com/2019/03/27/start/"/>
+    <id>http://blog.zhangyongxuan.com/2019/03/27/start/</id>
     <published>2019-03-26T18:23:39.000Z</published>
     <updated>2019-08-26T08:33:03.558Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>那年夏天，懵懂的我怀揣梦想，来到了这个陌生的城市</em></strong><br><strong><em>开始了我的追梦之路</em></strong><br><!-- ***也遇见了她*** --><br><a id="more"></a></p><h3 id="梦想"><a href="#梦想" class="headerlink" title="梦想"></a>梦想</h3><p> <strong><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;梦想这个字眼对于我们来说，并不陌生。我们每个人都有或有过梦想，每个阶段都会有不同的梦想。小时候有小时候的梦想，长大以后会有长大以后的梦想。</em></strong></p><div id="aplayer-anvEJtXI" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"><pre class="aplayer-lrc-content">[00:36.530]小时候的我 做着美的梦[00:44.170]梦想中 那片天空 好像挂满笑容[00:50.930]长大后的我 坚定着美梦[00:58.910]因为我 已慢慢懂 努力就能成功[01:04.890][01:07.100]我一个人的力量[01:10.850]能去闯 就算要飞越海洋[01:16.470]也不能 阻挡我对梦的渴望  [01:21.960]我一个人的信仰 [01:25.600]像太阳 散发着炽热的光 [01:31.180]能照亮 所有内心 灰暗的地方 [01:38.240] [01:59.370]天边的彩虹 倒映我的梦 [02:06.890]路边的 彩色霓虹 流淌着感动 [02:14.300]风吹的温柔 带走了沉重 [02:22.400]我要和别人不同 做自己的英雄 [02:28.500] [02:29.579]我一个人的力量 [02:33.950]能去闯 就算要飞越海洋 [02:39.340]也不能 阻挡我对梦的渴望 [02:44.990]我一个人的信仰 [02:48.750]像太阳 散发着炽热的光 [02:54.410]能照亮 所有内心 灰暗的地方 [03:01.290] [03:03.340]我一个人的力量 [03:07.280]能去闯 就算要飞越海洋 [03:12.760]也不能 阻挡我对梦的渴望 [03:18.250]我一个人的信仰 [03:21.829]像太阳 散发着炽热的光 [03:27.590]能照亮 所有内心 灰暗的地方 [03:34.550] [03:37.829]小时候的我 做着美的梦 [03:45.180]梦想中 那片天空 好像挂满笑容 [03:51.890]长大后的我 坚定着美梦 [03:59.890]因为我 已慢慢懂 努力就能成功 [04:06.180] [04:09.900]就能成功 [04:12.280]</pre></div><script>var ap = new APlayer({element: document.getElementById("aplayer-anvEJtXI"),narrow: false,autoplay: false,showlrc: 2,music: {title: "慢慢懂",author: "汪苏泷",url: "http://music.163.com/song/media/outer/url?id=165383.mp3",pic: "http://p1.music.126.net/k_WHGJoTvS6H7exsSnK1iA==/3304032446773006.jpg?param=130y130",}});window.aplayers || (window.aplayers = []);window.aplayers.push(ap);</script><p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在我上小学的时候，看到天上的星星一闪一闪的，我就会想，为什么天上的星星不会掉下来，为什么他们会发光。那个时候，我的梦想就是长大之后做一名天文学家。再长大些之后，看到爸妈每天给学生上课，每周休息两天，每年还有寒暑假，就觉得做一名人民教师也挺好的，于是那个时候我的梦想就变成了长大后，像爸妈一样，做一名人民教师。后来上了高中，有了一些与众不同的经历之后，我感觉到了那种在病痛面前什么也做不了的无力、无助、绝望。所以，那个时候，我的梦想就变成了做一名医生。再后来，上大学了，我的专业并不是理想中的医学专业，而是以前从来没有想过的“软件工程”。<br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;慢慢的，我懂了，每个人并不是生来就能不顾一切的去做自己想做的事情，如果我们没有能力去改变社会，那么就只能乖乖的听从社会的安排，来改变自己。所以，我的梦想又变成了毕业之后做一名软件工程师。</p><p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;到了选择编程语言的时候，周围的人都选择了目前世界上最火的语言之一 — Java…….但是这一次我不想妥协，我毅然决然的选择了我喜欢的编程语言 —-Javascript ，但是在我们学校开设的所有课程都是关于Java的，我只能去自己摸索，自己看书查资料去学习这门从来没有接触过的语言，以至于我自学了两三个月还没有入门。直到2017年圣诞节的时候，我遇到了我的第一个前端的老师，我管他叫君哥（真实姓名不便透露），感谢我君哥，是他带我进入了web前端的大门，让我认识了一个不一样的Javascript。<br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;再到后来，我遇到了我第二个前端老师—云姐，从她这里我才真正认识了前端，了解了前端开发工程师在一个项目中所承担的角色，学会了如何合理的利用网络资源去学习自己所需要的知识，并且在真正的前端领域初窥门径。</p><!-- ### 她***&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我所选的这个方向注定了我未来的路不是那么好走，或许真像电视里演得一样，冥冥之中，一切都是定数。孤身一人，不知道何去何存的我，几经周折带着我的前端梦来到了这座机会与绝望并存的城市，认识了她。***<div id="aplayer-GLLclBNe" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"><pre class="aplayer-lrc-content">[00:26.30]我在沙滩划个圆圈  [00:28.69]属于我俩安逸世界  [00:31.14]不用和别人连线  [00:36.33]我不管你来自深渊  [00:38.68]也不在乎身上鳞片  [00:41.38]爱情能超越一切  [00:45.93]只要你在我身边  [00:47.79]所有蜚语流言 完全视而不见  [00:50.73]请不要匆匆一面  [00:52.72]一转身就沉入海平线  [00:58.25]传说中你为爱甘心被搁浅  [01:03.33]我也可以为你 潜入海里面  [01:08.02]怎么忍心断绝  [01:10.65]忘记我不变的誓言  [01:14.31]我眼泪断了线  [01:18.36]现实里有了我对你的眷恋  [01:23.40]我愿意化作雕像 等你出现  [01:28.19]再见再也不见  [01:30.68]心碎了飘荡在海边  [01:34.57]你抬头就看见  [01:59.54]我在沙滩划个圆圈  [02:02.19]属于我俩安逸世界  [02:04.63]不用和别人连线  [02:09.42]我不管你来自深渊  [02:12.33]也不在乎身上鳞片  [02:14.73]爱情能超越一切  [02:19.06]只要你在我身边  [02:21.11]所有蜚语流言 完全视而不见  [02:24.14]请不要匆匆一面  [02:26.18]一转身就沉入海平线  [02:31.88]传说中你为爱甘心被搁浅  [02:36.87]我也可以为你 潜入海里面  [02:41.64]怎么忍心断绝  [02:44.29]忘记我不变的誓言 [02:47.75]我眼泪断了线  [02:52.04]现实里有了我对你的眷恋  [02:57.03]我愿意化作雕像 等你出现  [03:01.87]再见再也不见  [03:04.66]心碎了飘荡在海边  [03:07.95]你抬头就看见  [03:12.54]传说中你为爱甘心被搁浅  [03:17.23]我也可以为你 潜入海里面  [03:22.02]怎么忍心断绝  [03:24.71]忘记我不变的誓言  [03:28.04]我眼泪断了线  [03:32.43]现实里有了我对你的眷恋  [03:37.48]我愿意化作雕像 等你出现  [03:42.21]再见再也不见  [03:44.85]心碎了飘荡在海边  [03:48.16]你抬头就看见  [03:52.12]你 你抬头就看见  [03:57.30]你 你抬头就看见</pre></div><script>var ap = new APlayer({element: document.getElementById("aplayer-GLLclBNe"),narrow: false,autoplay: false,showlrc: 2,music: {title: "美人鱼",author: "林俊杰",url: "http://music.163.com/song/media/outer/url?id=108931.mp3",pic: "http://p2.music.126.net/3jBJ00NEgPuhRFAYwErgag==/109951163533012556.jpg?param=130y130",}});window.aplayers || (window.aplayers = []);window.aplayers.push(ap);</script><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人真的是一种奇怪的生物，有时候在听到某一首歌的时候就会想起一个人。那是一个周末，去网吧玩游戏，一个人玩的无聊，看到旁边坐的一个小姐姐生涩的手指按着机械键盘咔咔响，在玩qq飞车，于是。。。。<br>“嗨！你也玩qq飞车吗？一起啊”<br>“我还不会玩”<br> “没事，我也不会”<br> “那好呀，一起玩”<br> 其实我是会玩的，当时就是想找个一起玩的人，就这样我认识了她。 –&gt;<br> <!-- 后来又一起玩了几次游戏，慢慢熟悉了起来，看电影，吃饭 ， 玩游戏， 逛街 ，一切在顺其自然的发生。 第一次去ktv的时候，她唱了这首林俊杰的 《美人鱼》 ，从那次之后仿佛这就变成了一首属于她的歌，无论在哪里听到这首歌我的脑海里浮现出的都是那次在ktv她唱这首歌的场景。这时候我突然发觉，我可能是有点喜欢她。 就这样，过了一段时间，我鼓起勇气在ktv告白了，很幸运，她答应我了。我们就这样在一起了。蓝风铃的香味、清澈的眼睛、空气刘海、阳光、可爱，正所谓“情人眼里出西施”，在一起之后就觉得她哪哪都好。最喜欢的就是她的眼睛，就像一汪清泉，清澈见底，笑起来眼睛下面就会出现一对卧蚕，觉得很美。 --><p></p><p><center>这就是我的起点</center></p><script type="text/javascript" src="/js/src/bai.js"></script>   ]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>那年夏天，懵懂的我怀揣梦想，来到了这个陌生的城市</em></strong><br><strong><em>开始了我的追梦之路</em></strong><br><!-- ***也遇见了她*** --><br><a id="more"></a></p><h3 id="梦想"><a href="#梦想" class="headerlink" title="梦想"></a>梦想</h3><p> <strong><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;梦想这个字眼对于我们来说，并不陌生。我们每个人都有或有过梦想，每个阶段都会有不同的梦想。小时候有小时候的梦想，长大以后会有长大以后的梦想。</em></strong></p><div id="aplayer-OhliLlPI" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"><pre class="aplayer-lrc-content">[00:36.530]小时候的我 做着美的梦[00:44.170]梦想中 那片天空 好像挂满笑容[00:50.930]长大后的我 坚定着美梦[00:58.910]因为我 已慢慢懂 努力就能成功[01:04.890][01:07.100]我一个人的力量[01:10.850]能去闯 就算要飞越海洋[01:16.470]也不能 阻挡我对梦的渴望  [01:21.960]我一个人的信仰 [01:25.600]像太阳 散发着炽热的光 [01:31.180]能照亮 所有内心 灰暗的地方 [01:38.240] [01:59.370]天边的彩虹 倒映我的梦 [02:06.890]路边的 彩色霓虹 流淌着感动 [02:14.300]风吹的温柔 带走了沉重 [02:22.400]我要和别人不同 做自己的英雄 [02:28.500] [02:29.579]我一个人的力量 [02:33.950]能去闯 就算要飞越海洋 [02:39.340]也不能 阻挡我对梦的渴望 [02:44.990]我一个人的信仰 [02:48.750]像太阳 散发着炽热的光 [02:54.410]能照亮 所有内心 灰暗的地方 [03:01.290] [03:03.340]我一个人的力量 [03:07.280]能去闯 就算要飞越海洋 [03:12.760]也不能 阻挡我对梦的渴望 [03:18.250]我一个人的信仰 [03:21.829]像太阳 散发着炽热的光 [03:27.590]能照亮 所有内心 灰暗的地方 [03:34.550] [03:37.829]小时候的我 做着美的梦 [03:45.180]梦想中 那片天空 好像挂满笑容 [03:51.890]长大后的我 坚定着美梦 [03:59.890]因为我 已慢慢懂 努力就能成功 [04:06.180] [04:09.900]就能成功 [04:12.280]</pre></div><script>var ap = new APlayer({element: document.getElementById("aplayer-OhliLlPI"),narrow: false,autoplay: false,showlrc: 2,music: {title: "慢慢懂",author: "汪苏泷",url: "http://music.163.com/song/media/outer/url?id=165383.mp3",pic: "http://p1.music.126.net/k_WHGJoTvS6H7exsSnK1iA==/3304032446773006.jpg?param=130y130",}});window.aplayers || (window.aplayers = []);window.aplayers.push(ap);</script><p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在我上小学的时候，看到天上的星星一闪一闪的，我就会想，为什么天上的星星不会掉下来，为什么他们会发光。那个时候，我的梦想就是长大之后做一名天文学家。再长大些之后，看到爸妈每天给学生上课，每周休息两天，每年还有寒暑假，就觉得做一名人民教师也挺好的，于是那个时候我的梦想就变成了长大后，像爸妈一样，做一名人民教师。后来上了高中，有了一些与众不同的经历之后，我感觉到了那种在病痛面前什么也做不了的无力、无助、绝望。所以，那个时候，我的梦想就变成了做一名医生。再后来，上大学了，我的专业并不是理想中的医学专业，而是以前从来没有想过的“软件工程”。<br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;慢慢的，我懂了，每个人并不是生来就能不顾一切的去做自己想做的事情，如果我们没有能力去改变社会，那么就只能乖乖的听从社会的安排，来改变自己。所以，我的梦想又变成了毕业之后做一名软件工程师。</p><p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;到了选择编程语言的时候，周围的人都选择了目前世界上最火的语言之一 — Java…….但是这一次我不想妥协，我毅然决然的选择了我喜欢的编程语言 —-Javascript ，但是在我们学校开设的所有课程都是关于Java的，我只能去自己摸索，自己看书查资料去学习这门从来没有接触过的语言，以至于我自学了两三个月还没有入门。直到2017年圣诞节的时候，我遇到了我的第一个前端的老师，我管他叫君哥（真实姓名不便透露），感谢我君哥，是他带我进入了web前端的大门，让我认识了一个不一样的Javascript。<br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;再到后来，我遇到了我第二个前端老师—云姐，从她这里我才真正认识了前端，了解了前端开发工程师在一个项目中所承担的角色，学会了如何合理的利用网络资源去学习自己所需要的知识，并且在真正的前端领域初窥门径。</p><!-- ### 她***&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我所选的这个方向注定了我未来的路不是那么好走，或许真像电视里演得一样，冥冥之中，一切都是定数。孤身一人，不知道何去何存的我，几经周折带着我的前端梦来到了这座机会与绝望并存的城市，认识了她。***<div id="aplayer-bRnOImQi" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"><pre class="aplayer-lrc-content">[00:26.30]我在沙滩划个圆圈  [00:28.69]属于我俩安逸世界  [00:31.14]不用和别人连线  [00:36.33]我不管你来自深渊  [00:38.68]也不在乎身上鳞片  [00:41.38]爱情能超越一切  [00:45.93]只要你在我身边  [00:47.79]所有蜚语流言 完全视而不见  [00:50.73]请不要匆匆一面  [00:52.72]一转身就沉入海平线  [00:58.25]传说中你为爱甘心被搁浅  [01:03.33]我也可以为你 潜入海里面  [01:08.02]怎么忍心断绝  [01:10.65]忘记我不变的誓言  [01:14.31]我眼泪断了线  [01:18.36]现实里有了我对你的眷恋  [01:23.40]我愿意化作雕像 等你出现  [01:28.19]再见再也不见  [01:30.68]心碎了飘荡在海边  [01:34.57]你抬头就看见  [01:59.54]我在沙滩划个圆圈  [02:02.19]属于我俩安逸世界  [02:04.63]不用和别人连线  [02:09.42]我不管你来自深渊  [02:12.33]也不在乎身上鳞片  [02:14.73]爱情能超越一切  [02:19.06]只要你在我身边  [02:21.11]所有蜚语流言 完全视而不见  [02:24.14]请不要匆匆一面  [02:26.18]一转身就沉入海平线  [02:31.88]传说中你为爱甘心被搁浅  [02:36.87]我也可以为你 潜入海里面  [02:41.64]怎么忍心断绝  [02:44.29]忘记我不变的誓言 [02:47.75]我眼泪断了线  [02:52.04]现实里有了我对你的眷恋  [02:57.03]我愿意化作雕像 等你出现  [03:01.87]再见再也不见  [03:04.66]心碎了飘荡在海边  [03:07.95]你抬头就看见  [03:12.54]传说中你为爱甘心被搁浅  [03:17.23]我也可以为你 潜入海里面  [03:22.02]怎么忍心断绝  [03:24.71]忘记我不变的誓言  [03:28.04]我眼泪断了线  [03:32.43]现实里有了我对你的眷恋  [03:37.48]我愿意化作雕像 等你出现  [03:42.21]再见再也不见  [03:44.85]心碎了飘荡在海边  [03:48.16]你抬头就看见  [03:52.12]你 你抬头就看见  [03:57.30]你 你抬头就看见</pre></div><script>var ap = new APlayer({element: document.getElementById("aplayer-bRnOImQi"),narrow: false,autoplay: false,showlrc: 2,music: {title: "美人鱼",author: "林俊杰",url: "http://music.163.com/song/media/outer/url?id=108931.mp3",pic: "http://p2.music.126.net/3jBJ00NEgPuhRFAYwErgag==/109951163533012556.jpg?param=130y130",}});window.aplayers || (window.aplayers = []);window.aplayers.push(ap);</script><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人真的是一种奇怪的生物，有时候在听到某一首歌的时候就会想起一个人。那是一个周末，去网吧玩游戏，一个人玩的无聊，看到旁边坐的一个小姐姐生涩的手指按着机械键盘咔咔响，在玩qq飞车，于是。。。。<br>“嗨！你也玩qq飞车吗？一起啊”<br>“我还不会玩”<br> “没事，我也不会”<br> “那好呀，一起玩”<br> 其实我是会玩的，当时就是想找个一起玩的人，就这样我认识了她。 –&gt;<br> <!-- 后来又一起玩了几次游戏，慢慢熟悉了起来，看电影，吃饭 ， 玩游戏， 逛街 ，一切在顺其自然的发生。 第一次去ktv的时候，她唱了这首林俊杰的 《美人鱼》 ，从那次之后仿佛这就变成了一首属于她的歌，无论在哪里听到这首歌我的脑海里浮现出的都是那次在ktv她唱这首歌的场景。这时候我突然发觉，我可能是有点喜欢她。 就这样，过了一段时间，我鼓起勇气在ktv告白了，很幸运，她答应我了。我们就这样在一起了。蓝风铃的香味、清澈的眼睛、空气刘海、阳光、可爱，正所谓“情人眼里出西施”，在一起之后就觉得她哪哪都好。最喜欢的就是她的眼睛，就像一汪清泉，清澈见底，笑起来眼睛下面就会出现一对卧蚕，觉得很美。 --><p></p><p><center>这就是我的起点</center></p><script type="text/javascript" src="/js/src/bai.js"></script>   ]]></content>
     
     <summary type="html">
     
@@ -451,12 +451,12 @@
     
     </summary>
     
-      <category term="记录生活" scheme="http://www.zhangyongxuan.com/categories/%E8%AE%B0%E5%BD%95%E7%94%9F%E6%B4%BB/"/>
+      <category term="记录生活" scheme="http://blog.zhangyongxuan.com/categories/%E8%AE%B0%E5%BD%95%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="梦想" scheme="http://www.zhangyongxuan.com/tags/%E6%A2%A6%E6%83%B3/"/>
+      <category term="梦想" scheme="http://blog.zhangyongxuan.com/tags/%E6%A2%A6%E6%83%B3/"/>
     
-      <category term="起点" scheme="http://www.zhangyongxuan.com/tags/%E8%B5%B7%E7%82%B9/"/>
+      <category term="起点" scheme="http://blog.zhangyongxuan.com/tags/%E8%B5%B7%E7%82%B9/"/>
     
   </entry>
   
