@@ -76,7 +76,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT,zhangyongxuan,web_xiaoxuan,xiaoxuan">
+  <meta name="keywords" content="前端,jQuery,分页,ajax,">
 
 
 
@@ -89,17 +89,18 @@
 
 
 
-<meta name="description" content="张永轩个人网站博客zhangyongxuan">
-<meta name="keywords" content="xuan,xiaoxuan,张小轩,张永轩,zhangyongxuan,zhangxiaoxuan,北漂,beipiao">
-<meta property="og:type" content="website">
-<meta property="og:title" content="张小轩的个人博客">
-<meta property="og:url" content="https://blog.zhangyongxuan.com/tags/ES6/index.html">
+<meta name="description" content="一直在写vue和react的项目，习惯了有组件的快乐生活，近期突然项目上让去写一个jQuery模块，一脸懵逼，jQuery是啥？分页？果然生于忧患，死于安乐呀，赶紧写个分页小demo压压惊">
+<meta name="keywords" content="前端,jQuery,分页,ajax">
+<meta property="og:type" content="article">
+<meta property="og:title" content="jq实现分页">
+<meta property="og:url" content="https://blog.zhangyongxuan.com/2019/09/18/jqpagination/index.html">
 <meta property="og:site_name" content="张小轩的个人博客">
-<meta property="og:description" content="张永轩个人网站博客zhangyongxuan">
+<meta property="og:description" content="一直在写vue和react的项目，习惯了有组件的快乐生活，近期突然项目上让去写一个jQuery模块，一脸懵逼，jQuery是啥？分页？果然生于忧患，死于安乐呀，赶紧写个分页小demo压压惊">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-09-18T10:45:10.630Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="张小轩的个人博客">
-<meta name="twitter:description" content="张永轩个人网站博客zhangyongxuan">
+<meta name="twitter:title" content="jq实现分页">
+<meta name="twitter:description" content="一直在写vue和react的项目，习惯了有组件的快乐生活，近期突然项目上让去写一个jQuery模块，一脸懵逼，jQuery是啥？分页？果然生于忧患，死于安乐呀，赶紧写个分页小demo压压惊">
 
 
 
@@ -129,7 +130,7 @@
 
 
 
-  <link rel="canonical" href="https://blog.zhangyongxuan.com/tags/ES6/">
+  <link rel="canonical" href="https://blog.zhangyongxuan.com/2019/09/18/jqpagination/">
 
 
 
@@ -138,7 +139,7 @@
 
 
 
-  <title>标签: ES6 | 张小轩的个人博客</title>
+  <title>jq实现分页 | 张小轩的个人博客</title>
   
 
 
@@ -157,7 +158,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
       <div class="header-inner"><div class="site-brand-wrapper">
   <div class="site-meta ">
@@ -301,156 +302,351 @@
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+    
+
+  
+
   
   
   
-  <div class="post-block tag">
-
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h2>ES6<small>标签</small>
-        </h2>
-      </div>
-
-      
-        
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://blog.zhangyongxuan.com/2019/09/18/jqpagination/">
 
-      <h3 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="张小轩">
+      <meta itemprop="description" content="总有一天，脚步也能到达那些梦曾经到过的地方">
+      <meta itemprop="image" content="/images/tx.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="张小轩的个人博客">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2019/07/16/arrayfun/" itemprop="url">
-              
-                <span itemprop="name">数组常用方法</span>
-              
-            </a>
         
-      </h3>
+          <h2 class="post-title" itemprop="name headline">jq实现分页</h2>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-07-16T16:59:43+08:00" content="2019-07-16">
-          07-16
-        </time>
-      </div>
+        <div class="post-meta">
+        
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-09-18T16:09:19+08:00">
+                2019-09-18
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/jQuery/" itemprop="url" rel="index">
+                    <span itemprop="name">jQuery</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>热度
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>℃
+            </span>
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  1.4k字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  6分钟
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2019/07/16/generatorandasync/" itemprop="url">
-              
-                <span itemprop="name">Generator函数和async函数</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-07-16T15:18:16+08:00" content="2019-07-16">
-          07-16
-        </time>
-      </div>
-
-    </header>
-  </article>
-
+      
 
       
-        
+        <p><strong><em>一直在写vue和react的项目，习惯了有组件的快乐生活，近期突然项目上让去写一个jQuery模块，一脸懵逼，jQuery是啥？分页？果然生于忧患，死于安乐呀，赶紧写个分页小demo压压惊</em></strong><br><a id="more"></a></p>
+<hr>
+<p>首先介绍一下我们前端大家庭的元老级成员–jQuery<br> 英文名：jQuery<br> 中文名： 极快瑞<br> 出生日期：2006年1月<br> 老爸： John Resig（歪果仁）<br> 码生理想： 立志成为一个为互联网扫清兼容性问题的代码库<br> 简介：jQuery是一个快速、简洁的JavaScript框架，是继Prototype之后又一个优秀的JavaScript代码库（或JavaScript框架）。jQuery设计的宗旨是“write Less，Do More”，即倡导写更少的代码，做更多的事情。它封装JavaScript常用的功能代码，提供一种简便的JavaScript设计模式，优化HTML文档操作、事件处理、动画设计和Ajax交互。</p>
+<hr>
+<p>言归正传，在我们前端的世界里，jq是每个前端程序猿的必经之路，有道是jq不通，何以通前端？虽然jq在今天的项目中逐渐的被react、vue等新型的MVVM框架替代，但是由于它上手快，接近原生，门槛低等特点，还是作为一个前端入门级框架被大家所学习，在这里记录一个jq实现分页的小demo，以便以后查阅。</p>
+<p>首先需要写dom，分页组件的dom结构如下（css样式因需求而异）：</p>
+<pre><code>&lt;!--page-box这个div就是整个分页的容器--&gt;
+&lt;div class=&quot;page-box&quot;&gt; 
+&lt;!--page-total这个span是显示当前数据是从第几条到第几条--&gt;
+    &lt;span id=&quot;page-total&quot;&gt;&lt;/span&gt;
+&lt;!--这个div是上一页按钮--&gt;
+    &lt;div id=&quot;prev&quot;&gt;&lt;a&gt;&lt;&lt;/a&gt;&lt;/div&gt;
+&lt;!--这个ul是页码的容器--&gt;    
+    &lt;ul id=&quot;page&quot;&gt;&lt;/ul&gt;
+&lt;!--这个div是下一页按钮--&gt;
+    &lt;div id=&quot;next&quot;&gt;&lt;a&gt;&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre><p>下面实现分页小demo顺便复习复习jq的ajax（经典）<br>js部分：</p>
+<pre><code>// 首先需要封装一个使用ajax请求接口的函数
+function fetchList(page){
+    $.ajax({
+        url: &#39;******&#39;, // 请求接口地址
+        async: true, // 请求类型 true/异步 false/同步
+        dataType: &#39;json&#39;, // 预期的服务器响应的数据类型
+        type: &#39;get&#39;, // 请求类型 可选值有 get/post/update/delete
+        data:page,//请求参数
+        beforeSend:function(xhr){}, // 请求发送之前的回调函数，回传的参数为xhr对象
+        complete:function(xhr,status){}, // 请求完成时的回调（无论请求成功与否），回传的参数为xhr对象和请求结果状态
+        success:function(res,status,xhr){
+            if(res&amp;&amp;res.content.length&gt;0){
+                page(res);
+            }
+        },//请求成功时的回调，回传的参数为响应体，状态和xhr对象
+        error: function(xhr,status,error){},//请求失败时的回调，回传的参数为xhr对象，状态和错误信息
+    })
+}
+// 封装一个方法来渲染分页部分的dom 这函数接受一个参数，为ajax请求成功后返回的带分页信息的响应体，在ajax请求成功并得到数据的时候调用该函数
+function page(res){
+    // 每次调用改方法时页码容器和显示数据条数的容器都要清空
+    $(&#39;#page-total&#39;).empty();
+    $(&#39;#page&#39;).empty();
+    // 从相应体中获取分页需要的一些参数
+    var total = res.totalElements; // 数据总数
+    var currentPage = res.currentPage;    // 当前页
+    var size = res.size; // 每页数据条数
+    var totalPages = res.totalPages; // 总页数
+    var start = currentPage == 0 ? 1 : currentPage*size + 1; // 当前页第一条数据在总数据中的位置，如果是第一页则是第一条，若不是则是第(当前页码*每页数据条数+1)条
+    var end = currentPage == totalPages-1 ? total : currentPage*size + size;// 当前页最后一条数据在总数据中的位置，如果是最后一页则是第（数据总数）条，若不是则是（当前页码*每页数据条数+每页数据条数）
+    $(&quot;#page-total&quot;).append(&quot;显示&quot;+start+&quot;-&quot;+end+&quot; 共 &quot;+total+&quot;条&quot;); 
+    // 渲染页码
+    $(&#39;#next&#39;).attr(&#39;total-pages&#39;,totalPages);  // 在这里为下一页按钮的div添加一个自定义属性total-pages，记录总页数，用来判断书否进行下一页操作
+    // 接下来就是渲染页码
+    for (var i = 0;i&lt;totalPages;i++){
+        if(i==page) //判断当前页是不是该按钮控制的那一页，如果是就添加一个active类名
+            $(&#39;#page&#39;).append(&quot;&lt;li class=&#39;active&#39; current-page=&quot;+page+&quot;  page-no=&quot;+i+ &quot;&gt;&quot;+(i+1)+&quot;&lt;/li&gt;&quot;); // 自定义属性current-page表示当前页 ，page-no表示该页码按钮控制跳转到第几页
+        else
+            $(&#39;#page&#39;).append(&quot;&lt;li current-page=&quot;+page+&quot;  page-no=&quot;+i+ &quot;&gt;&quot;+(i+1)+&quot;&lt;/li&gt;&quot;);
+    }
+}
+// 为页码按钮，上一页下一页添加事件
+$(&#39;#page&#39;).on(&#39;click&#39;,&#39;li&#39;,function(e){
+        var currentPage = Number($(this).attr(&#39;current-page&#39;));
+        var page = Number($(this).attr(&#39;page-no&#39;));
+        var params = {
+            page:page,
+            size:10
+        }
+        if(currentPage!==page){ //判断点击的这一页是否为当前页，如果不是则执行跳页操作
+            $(&quot;#page li&quot;).removeClass(&#39;active&#39;);
+            $(this).addClass(&#39;active&#39;);
+            getNotices(params);
+        }
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2019/07/15/promise/" itemprop="url">
-              
-                <span itemprop="name">Promise</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-07-15T18:50:12+08:00" content="2019-07-15">
-          07-15
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-      
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2019/07/15/funcionandclass/" itemprop="url">
-              
-                <span itemprop="name">es6函数和类</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-07-15T15:41:59+08:00" content="2019-07-15">
-          07-15
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-      
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2019/07/12/es6day1/" itemprop="url">
-              
-                <span itemprop="name">ES6新特性</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-07-12T16:01:04+08:00" content="2019-07-12">
-          07-12
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
+    })
+    $(&#39;#next&#39;).on(&#39;click&#39;,function(e){
+        var totalPages = Number($(this).attr(&#39;total-pages&#39;));
+        var currentPage = Number($($(&#39;#page li&#39;)[0]).attr(&#39;current-page&#39;));
+        if(currentPage&lt;(totalPages-1)){ // 判断当前页是否为最后一页，如果否则执行下一页操作
+            var params = {
+                page:currentPage+1,
+                size:10
+            }
+            getNotices(params);
+        }
+    })
+    $(&#39;#prev&#39;).on(&#39;click&#39;,function(e){
+        var currentPage = Number($($(&#39;#page li&#39;)[0]).attr(&#39;current-page&#39;));
+        if(currentPage&gt;0){ // 判断当前页是否为第一页，如果否则执行上一页操作
+            var params = {
+                page:currentPage-1,
+                size:10
+            }
+            getNotices(params);
+        }
+    })
+</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>
       
     </div>
+    
+    
+    
 
+    
+
+
+  
+    <div>
+        
+            <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+        
+   </div>
+     <div>
+      
+        
+<div class="my_post_copyright">
+  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+  
+  <!-- JS库 sweetalert 可修改路径 -->
+  <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <p><span>本文标题:</span><a href="/2019/09/18/jqpagination/">jq实现分页</a></p>
+  <p><span>文章作者:</span><a href="/" title="访问 张小轩 的个人博客">张小轩</a></p>
+  <p><span>发布时间:</span>2019年09月18日 - 16:09</p>
+  <p><span>最后更新:</span>2019年09月18日 - 18:45</p>
+  <p><span>原始链接:</span><a href="/2019/09/18/jqpagination/" title="jq实现分页">https://blog.zhangyongxuan.com/2019/09/18/jqpagination/</a>
+    <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://blog.zhangyongxuan.com/2019/09/18/jqpagination/" aria-label="复制成功！"></i></span>
+  </p>
+</div>
+<script> 
+    var clipboard = new Clipboard('.fa-clipboard');
+      $(".fa-clipboard").click(function(){
+      clipboard.on('success', function(){
+        swal({   
+          title: "",   
+          text: '复制成功',
+          icon: "success", 
+          showConfirmButton: true
+          });
+        });
+    });  
+</script>
+
+      
+   </div>
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/前端/" <i class="fa fa-tag"> 前端</a>
+          
+            <a href="/tags/jQuery/" <i class="fa fa-tag"> jQuery</a>
+          
+            <a href="/tags/分页/" <i class="fa fa-tag"> 分页</a>
+          
+            <a href="/tags/ajax/" <i class="fa fa-tag"> ajax</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/08/22/cookie/" rel="next" title="cookie">
+                <i class="fa fa-chevron-left"></i> cookie
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -458,6 +654,15 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC80Mjc4OS8xOTMzNg"></div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -740,6 +945,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
@@ -768,6 +977,17 @@
 
 
 
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
   
 
 
