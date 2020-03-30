@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.zhangyongxuan.com/"/>
-  <updated>2019-11-11T12:33:48.517Z</updated>
+  <updated>2020-03-30T07:49:37.877Z</updated>
   <id>https://blog.zhangyongxuan.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>nginx负载均衡</title>
+    <link href="https://blog.zhangyongxuan.com/2020/03/30/nginxfzjh/"/>
+    <id>https://blog.zhangyongxuan.com/2020/03/30/nginxfzjh/</id>
+    <published>2020-03-30T05:44:48.000Z</published>
+    <updated>2020-03-30T07:49:37.877Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>Nginx (engine x) 是一个高性能的HTTP和反向代理web服务器，同时也提供了IMAP/POP3/SMTP服务。它是一款轻量级的Web 服务器/反向代理服务器及电子邮件（IMAP/POP3）代理服务器，在BSD-like 协议下发行。其特点是占有内存少，并发能力强，事实上nginx的并发能力在同类型的网页服务器中表现较好，中国大陆使用nginx网站用户有：百度、京东、新浪、网易、腾讯、淘宝等。</em></strong></p><a id="more"></a><h1 id="什么是负载均衡"><a href="#什么是负载均衡" class="headerlink" title="什么是负载均衡"></a>什么是负载均衡</h1><p>负载均衡（Load Balance），是一种通过程序的方式来管理分布式服务器的策略，有个形象的例子，就是我们程序猿日常开发一个需求的过程一样，客户就是我们的客户端，需求就相当于是请求，PM就负责负载均衡的程序，PM接到客户的需求，这时候就会根据我们每个人的情况给我们这些程序猿分配任务，我们接到任务之后就会各司其职，开始码代码，过程中要是有人请假了或者什么原因不能码代码了，PM就会让别人接手他的工作，而客户根本不知道他提的需求代码是谁写的，他只知道提需求是提给我们的PM，PM会了解我们每个人的工作饱和度，不会让有人的工作量太过饱和或者不饱和，我们管这种调度策略叫做负载均衡。</p><h1 id="代理"><a href="#代理" class="headerlink" title="代理"></a>代理</h1><p>代理分为两种：正向代理和反向代理</p><ul><li>正向代理：<br>正向代理（Forward Proxy）最大的特点就是，客户端知道自己要访问的是哪一台服务器，代理服务器代理客户端向服务器发送请求，而被访问的服务器只知道访问自己的是代理服务器，而并不清楚真正访问自己的是哪一个客户端。比如科学上网，俗称翻墙，还有咱们玩游戏的时候的各种加速器。<br>一次正向代理的过程大致是这样：客户端告诉代理服务器，我想访问xxxxx，然后代理服务器代替客户端向xxxxx发送请求，在接受到xxxxx的返回结果后告诉客户端返回结果。</li><li>反向代理：<br>反向代理（Reverse Proxy）则是刚好相反，它是后端的代理服务器，这时候客户端也不知道具体处理自己请求的是哪一台服务器了，他只知道自己的请求要发送给这个代理服务器，然后这个服务器再根据一定的策略将请求分配给不同的服务器去处理，最后将返回的结果告诉客户端。</li></ul><h1 id="Nginx是什么"><a href="#Nginx是什么" class="headerlink" title="Nginx是什么"></a>Nginx是什么</h1><p>Nginx是一种基于c实现的高性能Web服务器，可以通过一些负载均衡算法解决负载均衡的问题。因为它具有高并发、高可靠性、高扩展性、开源等特点，成为开发人员常用的反向代理工具。</p><h1 id="负载均衡常用算法"><a href="#负载均衡常用算法" class="headerlink" title="负载均衡常用算法"></a>负载均衡常用算法</h1><h2 id="1-轮询-（round-robin）"><a href="#1-轮询-（round-robin）" class="headerlink" title="1.轮询 （round-robin）"></a>1.轮询 （round-robin）</h2><p>轮询是负载均衡算法中最基础最简单的算法，它不需要额外的配置参数。假设配置文件中共有N台服务器，该算法就会按照这N台服务器的次序依次选择一台服务器处理请求，当所有的服务器都被调用过一次之后，就会从第一台服务器重新开始新一轮的遍历。<br>特点： 这种算法不考虑服务器性能的差距，适用于集群的各台服务器性能相差不大的情况，对于服务器性能差距较大的情况，容易引发资源分配不合理的情况出现。</p><p>express模拟轮询处理请求：<br>proxyServer.js:</p><pre><code>const express = require(&quot;express&quot;);const app = new express();const http = require(&quot;http&quot;);const servers = [  { weight: 10, host: &quot;http://localhost&quot;, port: 8088, id: 0 },  { weight: 9, host: &quot;http://localhost&quot;, port: 8089, id: 1 }];const port = 8087;let currentServer = null;let currentIndex = 0;app.get(&quot;/&quot;, (req, res) =&gt; {  if (currentIndex === servers.length - 1) {    currentIndex = 0;  } else {    currentIndex++;  }  currentServer = servers[currentIndex];  http.get(`${currentServer.host}:${currentServer.port}`, res1 =&gt; {    console.log(&quot;proxy success&quot;);    let data = &quot;&quot;;    res1.on(&quot;data&quot;, chunk =&gt; {      data += chunk;    });    res1.on(&quot;end&quot;, () =&gt; {      res.send(data);    });  });});app.listen(port, () =&gt; {  console.log(`success:${port}`);});</code></pre><p>server1.js:</p><pre><code>const express = require (&#39;express&#39;);const app = new express();const port = 8088;app.get(&#39;/&#39;, (req,res)=&gt;{    res.send(`Hello World! I am port ${port}～`)})app.listen(port,()=&gt;{console.log(`success:${port}`)})</code></pre><p>server2.js:</p><pre><code>const express = require (&#39;express&#39;);const app = new express();const port = 8089;app.get(&#39;/&#39;, (req,res)=&gt;{    res.send(`Hello World! I am port ${port}～`)})app.listen(port,()=&gt;{console.log(`success:${port}`)})</code></pre><h2 id="2-加权轮询"><a href="#2-加权轮询" class="headerlink" title="2. 加权轮询"></a>2. 加权轮询</h2><p>为了避免普通轮询带来的弊端，使用一个权值来表示服务器性能，权值越高表示服务器性能越强，这就有点类似于我们平时说的 “能力越强，责任越大”，其实说白了就是会的多就多干点活。在这种酸中，客户端的请求按照权值比例分配，当一个请求到达的时候，优先分配权值大的服务器去处理请求。</p><p>特点：加权轮询可以适用于服务器性能层次不齐的集群中，使资源分配更加合理。</p><p>加权轮询的核心思想就是 “能者多劳” ，性能越强的服务器被选中的几率越大。</p><h2 id="3-IP哈希（IP-hash）"><a href="#3-IP哈希（IP-hash）" class="headerlink" title="3. IP哈希（IP hash）"></a>3. IP哈希（IP hash）</h2><p>ip hash 使依据发出请求的客户端IP来决定由哪一台服务器来处理请求，这种算法可以保证相同IP发送的请求分配给同一台服务器来处理，或者带有相同hash值的不通IP映射到同一台服务器。</p><p>特点： 这种策略一定程度上解决了集群部署的情况下，Session不共享的问题。</p><h2 id="4-最小连接数策略"><a href="#4-最小连接数策略" class="headerlink" title="4. 最小连接数策略"></a>4. 最小连接数策略</h2><p> 当反向代理服务器接收到客户端发来的请求时，去遍历服务器列表并且将请求分配给当前处理请求最少的那一台服务器，这个就类似于，PM觉得你工作不饱和就会给你分配新的任务一样。</p><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;&lt;em&gt;Nginx (engine x) 是一个高性能的HTTP和反向代理web服务器，同时也提供了IMAP/POP3/SMTP服务。它是一款轻量级的Web 服务器/反向代理服务器及电子邮件（IMAP/POP3）代理服务器，在BSD-like 协议下发行。其特点是占有内存少，并发能力强，事实上nginx的并发能力在同类型的网页服务器中表现较好，中国大陆使用nginx网站用户有：百度、京东、新浪、网易、腾讯、淘宝等。&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="nginx" scheme="https://blog.zhangyongxuan.com/categories/nginx/"/>
+    
+    
+      <category term="nginx" scheme="https://blog.zhangyongxuan.com/tags/nginx/"/>
+    
+      <category term="反向代理" scheme="https://blog.zhangyongxuan.com/tags/%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/"/>
+    
+      <category term="负载均衡" scheme="https://blog.zhangyongxuan.com/tags/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1/"/>
+    
+  </entry>
   
   <entry>
     <title>Docker</title>
@@ -483,30 +509,6 @@
     
     
       <category term="api" scheme="https://blog.zhangyongxuan.com/tags/api/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>React版HellowWorld</title>
-    <link href="https://blog.zhangyongxuan.com/2019/06/15/startreact/"/>
-    <id>https://blog.zhangyongxuan.com/2019/06/15/startreact/</id>
-    <published>2019-06-15T01:49:57.000Z</published>
-    <updated>2019-07-11T13:50:24.197Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>紧张刺激的毕业设计悄然进入尾声，我终于迫于生计放弃了刚刚学了点皮毛的Vue，拿起了《React引领未来的用户界面开发框架》，都是心酸啊，但是还是要在前端的路上继续摸索呀</em></strong><br><a id="more"></a></p><h3 id="React-是什么"><a href="#React-是什么" class="headerlink" title="React 是什么"></a>React 是什么</h3><p>React 是一个用于构建用户界面的 JAVASCRIPT 库。</p><p>React主要用于构建UI，很多人认为 React 是 MVC 中的 V（视图）。</p><p>React 起源于 Facebook 的内部项目，用来架设 Instagram 的网站，并于 2013 年 5 月开源。</p><p>React 拥有较高的性能，代码逻辑非常简单，越来越多的人已开始关注和使用它。</p><p>嗯。。。这就是作为一个菜鸟，队react的初步认识。</p><h3 id="React版HellowWorld教程"><a href="#React版HellowWorld教程" class="headerlink" title="React版HellowWorld教程"></a>React版HellowWorld教程</h3><p>HellowWorld是我们程序猿入门一门编程语言的时候的第一个“项目”<br>现在无论是前端开发还是后端开发，都趋于工程化模块化的开发模式了，所以在这里本菜鸟就只记录最方便实用的脚手架使用方法。</p><h4 id="1-安装环境"><a href="#1-安装环境" class="headerlink" title="1.安装环境"></a>1.安装环境</h4><p>首先肯定是需要node环境的，作为一个21世纪的前端程序猿，如果你没了解过node的话，那么恭喜你，你已经OUT了，不开玩笑地说，前端程序员一定要去了解node的<br>至于node环境的安装，那简直是简单的不能再简单了，windows系统下的node环境搭建就像安装一个游戏一样简单，linux环境有点小复杂，但不是问题，谢谢伟大的菜鸟教程给予本菜鸟的大力支持，谢谢！谢谢！<br><a href="https://www.runoob.com/nodejs/nodejs-tutorial.html" target="_blank" rel="noopener">全套教程点击这里👈</a></p><h4 id="2-安装并使用react脚手架创建项目"><a href="#2-安装并使用react脚手架创建项目" class="headerlink" title="2.安装并使用react脚手架创建项目"></a>2.安装并使用react脚手架创建项目</h4><p>在这里我是使用node的包管理器npm来安装react脚手架<br>全局安装react脚手架</p><pre><code>$ cnpm install -g create-react-app</code></pre><p>在某盘某文件夹下打开cmd，运行下边命令创建项目</p><pre><code>$ create-react-app reacttest</code></pre><p>这时候，项目已经搭建好了,项目目录如下：</p><pre><code>reacttest/  README.md  node_modules/  package.json  .gitignore  public/    favicon.ico    index.html    manifest.json  src/    App.css    App.js    App.test.js    index.css    index.js    logo.svg</code></pre><p>运行项目</p><pre><code>$ cd reacttest/$ npm start</code></pre><p>这时候静静等待启动完成，它会自动打开一个react官方示例页面，到这里React版的HellowWorld就完成了</p><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;紧张刺激的毕业设计悄然进入尾声，我终于迫于生计放弃了刚刚学了点皮毛的Vue，拿起了《React引领未来的用户界面开发框架》，都是心酸啊，但是还是要在前端的路上继续摸索呀&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;
-    
-    </summary>
-    
-      <category term="React" scheme="https://blog.zhangyongxuan.com/categories/React/"/>
-    
-    
-      <category term="前端" scheme="https://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-      <category term="react" scheme="https://blog.zhangyongxuan.com/tags/react/"/>
     
   </entry>
   
