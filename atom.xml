@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.zhangyongxuan.com/"/>
-  <updated>2020-04-02T06:44:26.990Z</updated>
+  <updated>2020-04-09T08:16:10.614Z</updated>
   <id>https://blog.zhangyongxuan.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>js面向对象基础</title>
+    <link href="https://blog.zhangyongxuan.com/2020/04/09/jsobject/"/>
+    <id>https://blog.zhangyongxuan.com/2020/04/09/jsobject/</id>
+    <published>2020-04-09T06:43:25.000Z</published>
+    <updated>2020-04-09T08:16:10.614Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>js作为一种基于对象的弱类型脚本语言，在前后端分离的今天担任着不可或缺的一部分任务，随着前端的发展，越来复杂的逻辑，让前端程序猿们不再满足于这种基于对象的编程方式，这时候js基于原型链的一种面向对象的实现方法被越来越多的人所采纳</em></strong></p><a id="more"></a><h1 id="js基于对象而不是面向对象"><a href="#js基于对象而不是面向对象" class="headerlink" title="js基于对象而不是面向对象"></a>js基于对象而不是面向对象</h1><p>js是一种基于对象的语言，所谓基于对象，简单来说就是在js中有对象的概念，但是没有类的概念，学过java的人都知道，在java中，要创建一个对象实例，首先需要一个有一个这个对象的类，用类去创建这个类的对象实例，而基于对象则是用对象去创建对象。举个网上的例子：</p><ul><li><p>面向对象就是先设计一个房子的图纸，然后按照图纸的设计去建造一个房子</p></li><li><p>基于对象就是先建造一个房子，然后根据已有的房子的样子再去建造一个房子</p><p>也就是说：</p></li><li><p>面向对象： 先有一个对象的抽象描述（类），然后根据这个类去构建一个新的对象</p></li><li><p>基于对象：现有一个具体对象，然后根据这个具体的对象，去创建一个新的对象</p><p>由此看来js中的所有对象都是同一个对象的子对象。</p><p>面向对象的三大基本特征：封装，多态，继承，然而基于对象和面向对象最大的区别也在这里，基于对象虽然也使用了对象，但是无法利用现有对象模板产生新的对象类型，产生新的对象，所以就没有继承这一说，没有继承也就没有多态了。</p></li></ul><blockquote><p>多态体现的就是继承，一般体现在抽象类上。js语言基于对象，它封装了一些对象，调用对象的方法，设置对象的属性，但是没办法产生新的类，只能使用现有的对象的方法和属性。  </p></blockquote><h1 id="原型链"><a href="#原型链" class="headerlink" title="原型链"></a>原型链</h1><p>我们在js中创建一个对象的时候，会使用new关键字，他具体做了什么事情呢，其实他就干了三件事</p><ul><li><ol><li>创建一个空对象: <code>var obj = {}</code></li></ol></li><li><ol start="2"><li>使这个空对象的<em>proto</em>指向基函数prototype : <code>obj._proto_ = Basr.prototype</code></li></ol></li><li><ol start="3"><li>将基函数的this指向改为新的对象: <code>Base.call(obj)</code></li></ol></li></ul><p>其实，所有的函数都是 Function 的实例。在构造函数上都有一个原型属性 prototype，该属性也是一个对象；那么在原型对象上有一个 constructor 属性，该属性指向的就是构造函数；而实例对象上有一个 <em>proto</em>  属性，该属性也指向原型对象，并且该属性不是标准属性，不可以用在编程中，该属性用于浏览器内部使用。</p><pre><code>// _proto_在函数里有一个属性prototype由该函数创建的对象默认会连接到该属性上    //prototype 与 _proto_ 的关系_proto_是站在对象角度来说的prototype 是站在构造函数角度来说的</code></pre><p>所谓原型链就是有限的实例对象和原型之间组成有限链，就是用来实现共享属性和继承的。一个对象有原型对象，原型对象也有一个原型对象，一个对象的末级原型对象也就是Object的原型对象是null。</p><pre><code>// 原型链示例 7    var arr = []; 8    arr -&gt; Array.prototype -&gt;Object.prototype -&gt; null 9    var o = new Object();10    o -&gt; Object.prototype -&gt; null;</code></pre><h1 id="js面向对象"><a href="#js面向对象" class="headerlink" title="js面向对象"></a>js面向对象</h1><p>  es5面向对象继承实现：</p><pre><code>    function Animal() { }    function Dog() { }    Object.defineProperties(Animal.prototype, {    name: {        value() {        return &#39;Animal&#39;;        }    },    say: {        value() {        return `I &#39; m ${this.name()}`        }    }    })    Dog.prototype = Object.create(Animal.prototype);    console.log(new Dog().say());  // 输出  I&#39;m Animal</code></pre><p>多态就是子类重写父类方法</p><pre><code>    function Animal() { }    function Dog() { }    Object.defineProperties(Animal.prototype, {    name: {        value() {        return &#39;Animal&#39;;        }    },    say: {        value() {        return `I &#39; m ${this.name()}`        }    }    })    Dog.prototype = Object.create(Animal.prototype, {        name: {            value() {            return &#39;Lucy&#39;;            }        }    });    console.log(new Dog().say());  // 输出  I&#39;m Lucy</code></pre><p>  在es6中提供了语法糖 ，一定程度上简化了继承与多态的实现：</p><pre><code>    class Person {        say() {            console.log(&#39;我姓&#39; + this.xs);        }    }    class PersonZ extends Person {         xs = &#39;张&#39;;    }    new PersonZ().say();  // 输出  我姓张</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;&lt;em&gt;js作为一种基于对象的弱类型脚本语言，在前后端分离的今天担任着不可或缺的一部分任务，随着前端的发展，越来复杂的逻辑，让前端程序猿们不再满足于这种基于对象的编程方式，这时候js基于原型链的一种面向对象的实现方法被越来越多的人所采纳&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="js" scheme="https://blog.zhangyongxuan.com/categories/js/"/>
+    
+    
+      <category term="前端" scheme="https://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="面向对象" scheme="https://blog.zhangyongxuan.com/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
+    
+      <category term="js" scheme="https://blog.zhangyongxuan.com/tags/js/"/>
+    
+  </entry>
   
   <entry>
     <title>webpack搭建dva项目</title>
@@ -491,30 +517,6 @@
       <category term="Javascript" scheme="https://blog.zhangyongxuan.com/tags/Javascript/"/>
     
       <category term="ES6" scheme="https://blog.zhangyongxuan.com/tags/ES6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>git入门</title>
-    <link href="https://blog.zhangyongxuan.com/2019/07/11/git/"/>
-    <id>https://blog.zhangyongxuan.com/2019/07/11/git/</id>
-    <published>2019-07-11T14:16:57.000Z</published>
-    <updated>2019-08-28T08:29:47.194Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>上班第一天，终于强迫自己学会了git的基本应用</em></strong><br><a id="more"></a></p><h1 id="git"><a href="#git" class="headerlink" title="git"></a>git</h1><p>什么是git？</p><p>git就是全球最好用的一个版本控制工具，一种分布式的版本控制工具。</p><h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><p><code>git clone [url]</code> //克隆远程仓库代码</p><p> <code>git add</code> //将想要快照的内容写入缓存区</p><p> <code>git status</code> //绿色文件表示添加到缓存区的文件有改动；红色表示添加到缓存区的文件没有改动</p><p> <code>git commit -m</code> //‘第一次版本提交’ -m选项添加备注信息</p><p> <code>git clone url</code> //使用 git clone 拷贝一个 Git 仓库到本地</p><p><code>git diff</code>  //尚未缓存的改动</p><p><code>git diff --cached</code>　//查看已缓存的改动</p><p><code>git diff HEAD</code>  //查看已缓存的与未缓存的所有改动</p><p> <code>diff git diff --stat</code>　　//显示摘要而非整个</p><p><code>git commit -a</code>  //跳过git add 提交缓存的流程 </p><p><code>git reset HEAD</code>  //用于取消已缓存的内容</p><p><code>git rm file</code><br>　　//git rm 会将条目从缓存区中移除。这与 git reset HEAD 将条目取消缓存是有区别的。<br>　　“取消缓存”的意思就是将缓存区恢复为我们做出修改之前的样子。<br>　　默认情况下，git rm file 会将文件从缓存区和你的硬盘中（工作目录）删除。</p><p><code>git mv</code>   //重命名磁盘上的文件 如 git mv README README.md</p><p><code>git push -u origin master</code> //提交代码</p><h2 id="git分支"><a href="#git分支" class="headerlink" title="git分支"></a>git分支</h2><p>git-flow主要有5中分支：master、hotfix、release、develop、feature<br><img src="https://upload-images.jianshu.io/upload_images/1416338-2b5d1a64e15419d7.png" alt="git-flow分支图" title="git-flow分支图"></p><p>feature分支开始于develop分支，完成以后合并到develop分支。<br>当完成一定数量feature分支以后，从develop再开一个release分支出来，这些特性将被更行到下一个发布的版本中，之后的feature将不会被合并到release中。<br>之后在release分支中，只修改bug，然后完成release分支。完成release分支会完成以下三个操作：1、合并release分支到master；2、给master打上版本的标签；3、release回归到develop分支。<br>当发现master上有bug时，开一个hotfix，完成后合并到master分支。<br><a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank" rel="noopener">Gitflow Workflow文档</a></p><h3 id="分支常用命令"><a href="#分支常用命令" class="headerlink" title="分支常用命令"></a>分支常用命令</h3><p> <code>git checkout [分支名]</code>//切换到指定分支</p><p> <code>git branch [分支名]</code> //创建分支命令</p><p> <code>git branch [分支名]</code> //列出分支</p><p> <code>git checkout [分支名]</code> //切换分支命令</p><p> <code>git merge [分支名]</code> //合并分支</p><p> <code>git checkout -b [分支名]</code> //创建新分支并立即切换到该分支下</p><p> <code>git branch -d [分支名]</code> //删除分支命令 </p><p><strong><em>ps:状态 uu 表示冲突未解决 可以用 git add 要告诉 Git 文件冲突已经解决</em></strong></p><h2 id="查看提交日志"><a href="#查看提交日志" class="headerlink" title="查看提交日志"></a>查看提交日志</h2><p><code>git log</code> //命令列出历史提交记录</p><p><code>git log -n</code> //命令列出历史提交记录前三条</p><p><code>git log --oneline</code> //查看历史记录的简洁的版本</p><p><code>git log --oneline --graph</code> //查看历史中什么时候出现了分支、合并</p><h2 id="提交本地修改"><a href="#提交本地修改" class="headerlink" title="提交本地修改"></a>提交本地修改</h2><p> <code>git commit -m [修改信息]</code></p><h2 id="拉取远程仓库代码"><a href="#拉取远程仓库代码" class="headerlink" title="拉取远程仓库代码"></a>拉取远程仓库代码</h2><p> <code>git pull</code> //从远端仓库提取数据并尝试合并到当前分支</p><p> <code>git fetch</code> //从远程仓库下载新分支与数据</p><h2 id="版本回滚"><a href="#版本回滚" class="headerlink" title="版本回滚"></a>版本回滚</h2><p> <code>git log -n</code>  //查看最近n条提交日志</p><p> <code>git reset -hard [版本标识]</code> //回滚到指定版本</p><p> <code>git push -f origin matser</code>  //强制提交</p><h2 id="忽略文件"><a href="#忽略文件" class="headerlink" title="忽略文件"></a>忽略文件</h2><ul><li>.gitignore 文件是git的一套忽略规则，对该文件所在目录以及所在目录子目录都有效，该文件一般格式为：<pre><code># 以&#39;#&#39;开始的行，被视为注释.                            # 忽略掉所有文件名是 foo.txt的文件.foo.txt# 忽略所有生成的 html文件,*.html# foo.html是手工维护的，所以例外.!foo.html# 忽略所有.o和 .a文件.*.[oa]配置语法：# 以斜杠“/”开头表示目录；# 以星号“*”通配多个字符；# 以问号“?”通配单个字符以方括号“[]”包含单个字符的匹配列表；以叹号“!”表示不忽略(跟踪)匹配到的文件或目录；</code></pre></li></ul><p>这里需要注意的是，该文件必须在第一次推代码的时候就创建，如果你不慎在创建.gitignore文件之前就push了项目，那么即使你在.gitignore文件中写入新的过滤规则，这些规则也不会起作用，Git仍然会对所有文件进行版本管理。<br>简单来说，出现这种问题的原因就是Git已经开始管理这些文件了，所以你无法再通过过滤规则过滤它们。因此一定要养成在项目开始就创建.gitignore文件的习惯，否则一旦push，处理起来会非常麻烦。<br>那么，如果在.gitignore文件创建之后需要忽略某个文件该怎么办？这里还有一种命令忽略的方式。  </p><ul><li><p>.gitignore只能忽略那些原来没有被track的文件，如果某些文件已经被纳入了版本管理中，则修改.gitignore是无效的。正确的做法是在每个clone下来的仓库中手动设置不要检查特定文件的更改情况。命令为：</p><pre><code>git update-index --assume-unchanged &lt;filename&gt; </code></pre><p>如果要还原的话，使用命令：</p><pre><code>git update-index --no-assume-unchanged &lt;filename&gt;</code></pre></li><li><p>使用.git/info/exclude<br>git 还提供了另一种 exclude 的方式来做同样的事情，不同的是 .gitignore 这个文件本身会提交到版本库中去。用来保存的是公共的需要排除的文件。而 .git/info/exclude 这里设置的则是你自己本地需要排除的文件。 他不会影响到其他人。也不会提交到版本库中去。<br>举例：</p><pre><code># git ls-files --others --exclude-from=.git/info/exclude# Lines that start with &#39;#&#39; are comments.# For a project mostly in C, the following would be a good set of# exclude patterns (uncomment them if you want to use them):# *.[oa]# *~.gradle/.idea/.settings/appcompat_v7/bin/build/gen/gradle/out/proguard/ship/target/.classpath.gitignore.idea.project.readme.update-config*.imllocal.properties</code></pre><p>.gitignore 还有个有意思的小功能， 一个空的 .gitignore 文件 可以当作是一个 placeholder 。当你需要为项目创建一个空的 log 目录时， 这就变的很有用。 你可以创建一个 log 目录 在里面放置一个空的 .gitignore 文件。这样当你 clone 这个 repo 的时候 git 会自动的创建好一个空的 log 目录了。</p></li></ul><h2 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h2><p>为软件发布创建标签是推荐的。这个概念早已存在，在 SVN 中也有。你可以执行如下命令创建一个叫做 1.0.0 的标签：<br><code>git tag 1.0.0 1b2e1d63ff</code><br>1b2e1d63ff 是你想要标记的提交 ID 的前 10 位字符。可以使用下列命令获取提交 ID：<br>git log<br>你也可以使用少一点的提交 ID 前几位，只要它的指向具有唯一性</p><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;上班第一天，终于强迫自己学会了git的基本应用&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;
-    
-    </summary>
-    
-      <category term="git" scheme="https://blog.zhangyongxuan.com/categories/git/"/>
-    
-    
-      <category term="git" scheme="https://blog.zhangyongxuan.com/tags/git/"/>
-    
-      <category term="版本控制" scheme="https://blog.zhangyongxuan.com/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/"/>
     
   </entry>
   
