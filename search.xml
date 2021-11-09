@@ -1,127 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>起点</title>
-    <url>/2021/03/27/start/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>那年夏天，懵懂的我怀揣梦想，来到了这个陌生的城市</em></strong><br><strong><em>开始了我的追梦之路</em></strong><br><!-- ***也遇见了她*** --><br><a id="more"></a></p>
-<h3 id="梦想"><a href="#梦想" class="headerlink" title="梦想"></a>梦想</h3><p> <strong><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;梦想这个字眼对于我们来说，并不陌生。我们每个人都有或有过梦想，每个阶段都会有不同的梦想。小时候有小时候的梦想，长大以后会有长大以后的梦想。</em></strong></p>
-<div id="aplayer-QmEnmxlC" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
-				<pre class="aplayer-lrc-content">[00:36.530]小时候的我 做着美的梦
-[00:44.170]梦想中 那片天空 好像挂满笑容
-[00:50.930]长大后的我 坚定着美梦
-[00:58.910]因为我 已慢慢懂 努力就能成功
-[01:04.890]
-[01:07.100]我一个人的力量
-[01:10.850]能去闯 就算要飞越海洋
-[01:16.470]也不能 阻挡我对梦的渴望  [01:21.960]我一个人的信仰 [01:25.600]像太阳 散发着炽热的光 [01:31.180]能照亮 所有内心 灰暗的地方 [01:38.240] [01:59.370]天边的彩虹 倒映我的梦 [02:06.890]路边的 彩色霓虹 流淌着感动 [02:14.300]风吹的温柔 带走了沉重 [02:22.400]我要和别人不同 做自己的英雄 [02:28.500] [02:29.579]我一个人的力量 [02:33.950]能去闯 就算要飞越海洋 [02:39.340]也不能 阻挡我对梦的渴望 [02:44.990]我一个人的信仰 [02:48.750]像太阳 散发着炽热的光 [02:54.410]能照亮 所有内心 灰暗的地方 [03:01.290] [03:03.340]我一个人的力量 [03:07.280]能去闯 就算要飞越海洋 [03:12.760]也不能 阻挡我对梦的渴望 [03:18.250]我一个人的信仰 [03:21.829]像太阳 散发着炽热的光 [03:27.590]能照亮 所有内心 灰暗的地方 [03:34.550] [03:37.829]小时候的我 做着美的梦 [03:45.180]梦想中 那片天空 好像挂满笑容 [03:51.890]长大后的我 坚定着美梦 [03:59.890]因为我 已慢慢懂 努力就能成功 [04:06.180] [04:09.900]就能成功 [04:12.280]</pre>
-			</div>
-			<script>
-				var ap = new APlayer({
-					element: document.getElementById("aplayer-QmEnmxlC"),
-					narrow: false,
-					autoplay: false,
-					showlrc: 2,
-					music: {
-						title: "慢慢懂",
-						author: "汪苏泷",
-						url: "http://music.163.com/song/media/outer/url?id=165383.mp3",
-						pic: "http://p1.music.126.net/k_WHGJoTvS6H7exsSnK1iA==/3304032446773006.jpg?param=130y130",
-					}
-				});
-				window.aplayers || (window.aplayers = []);
-				window.aplayers.push(ap);
-			</script>
-<p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在我上小学的时候，看到天上的星星一闪一闪的，我就会想，为什么天上的星星不会掉下来，为什么他们会发光。那个时候，我的梦想就是长大之后做一名天文学家。再长大些之后，看到爸妈每天给学生上课，每周休息两天，每年还有寒暑假，就觉得做一名人民教师也挺好的，于是那个时候我的梦想就变成了长大后，像爸妈一样，做一名人民教师。后来上了高中，有了一些与众不同的经历之后，我感觉到了那种在病痛面前什么也做不了的无力、无助、绝望。所以，那个时候，我的梦想就变成了做一名医生。再后来，上大学了，我的专业并不是理想中的医学专业，而是以前从来没有想过的“软件工程”。<br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;慢慢的，我懂了，每个人并不是生来就能不顾一切的去做自己想做的事情，如果我们没有能力去改变社会，那么就只能乖乖的听从社会的安排，来改变自己。所以，我的梦想又变成了毕业之后做一名软件工程师。</p>
-<p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;到了选择编程语言的时候，周围的人都选择了目前世界上最火的语言之一 — Java…….但是这一次我不想妥协，我毅然决然的选择了我喜欢的编程语言 —-Javascript ，但是在我们学校开设的所有课程都是关于Java的，我只能去自己摸索，自己看书查资料去学习这门从来没有接触过的语言，以至于我自学了两三个月还没有入门。直到2017年圣诞节的时候，我遇到了我的第一个前端的老师，我管他叫君哥（真实姓名不便透露），感谢我君哥，是他带我进入了web前端的大门，让我认识了一个不一样的Javascript。<br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;再到后来，我遇到了我第二个前端老师—云姐，从她这里我才真正认识了前端，了解了前端开发工程师在一个项目中所承担的角色，学会了如何合理的利用网络资源去学习自己所需要的知识，并且在真正的前端领域初窥门径。</p>
-<!-- ### 她
-***&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我所选的这个方向注定了我未来的路不是那么好走，或许真像电视里演得一样，冥冥之中，一切都是定数。孤身一人，不知道何去何存的我，几经周折带着我的前端梦来到了这座机会与绝望并存的城市，认识了她。***
-<div id="aplayer-fLhLbrtJ" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
-				<pre class="aplayer-lrc-content">[00:26.30]我在沙滩划个圆圈  
-[00:28.69]属于我俩安逸世界  
-[00:31.14]不用和别人连线  
-[00:36.33]我不管你来自深渊  
-[00:38.68]也不在乎身上鳞片  
-[00:41.38]爱情能超越一切  
-[00:45.93]只要你在我身边  
-[00:47.79]所有蜚语流言 完全视而不见  
-[00:50.73]请不要匆匆一面  
-[00:52.72]一转身就沉入海平线  
-[00:58.25]传说中你为爱甘心被搁浅  
-[01:03.33]我也可以为你 潜入海里面  
-[01:08.02]怎么忍心断绝  
-[01:10.65]忘记我不变的誓言  
-[01:14.31]我眼泪断了线  
-[01:18.36]现实里有了我对你的眷恋  
-[01:23.40]我愿意化作雕像 等你出现  
-[01:28.19]再见再也不见  
-[01:30.68]心碎了飘荡在海边  
-[01:34.57]你抬头就看见  
-[01:59.54]我在沙滩划个圆圈  
-[02:02.19]属于我俩安逸世界  
-[02:04.63]不用和别人连线  
-[02:09.42]我不管你来自深渊  
-[02:12.33]也不在乎身上鳞片  
-[02:14.73]爱情能超越一切  
-[02:19.06]只要你在我身边  
-[02:21.11]所有蜚语流言 完全视而不见  
-[02:24.14]请不要匆匆一面  
-[02:26.18]一转身就沉入海平线  
-[02:31.88]传说中你为爱甘心被搁浅  
-[02:36.87]我也可以为你 潜入海里面  
-[02:41.64]怎么忍心断绝  
-[02:44.29]忘记我不变的誓言 
-[02:47.75]我眼泪断了线  
-[02:52.04]现实里有了我对你的眷恋  
-[02:57.03]我愿意化作雕像 等你出现  
-[03:01.87]再见再也不见  
-[03:04.66]心碎了飘荡在海边  
-[03:07.95]你抬头就看见  
-[03:12.54]传说中你为爱甘心被搁浅  
-[03:17.23]我也可以为你 潜入海里面  
-[03:22.02]怎么忍心断绝  
-[03:24.71]忘记我不变的誓言  
-[03:28.04]我眼泪断了线  
-[03:32.43]现实里有了我对你的眷恋  
-[03:37.48]我愿意化作雕像 等你出现  
-[03:42.21]再见再也不见  
-[03:44.85]心碎了飘荡在海边  
-[03:48.16]你抬头就看见  
-[03:52.12]你 你抬头就看见  
-[03:57.30]你 你抬头就看见</pre>
-			</div>
-			<script>
-				var ap = new APlayer({
-					element: document.getElementById("aplayer-fLhLbrtJ"),
-					narrow: false,
-					autoplay: false,
-					showlrc: 2,
-					music: {
-						title: "美人鱼",
-						author: "林俊杰",
-						url: "http://music.163.com/song/media/outer/url?id=108931.mp3",
-						pic: "http://p2.music.126.net/3jBJ00NEgPuhRFAYwErgag==/109951163533012556.jpg?param=130y130",
-					}
-				});
-				window.aplayers || (window.aplayers = []);
-				window.aplayers.push(ap);
-			</script>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人真的是一种奇怪的生物，有时候在听到某一首歌的时候就会想起一个人。那是一个周末，去网吧玩游戏，一个人玩的无聊，看到旁边坐的一个小姐姐生涩的手指按着机械键盘咔咔响，在玩qq飞车，于是。。。。<br>“嗨！你也玩qq飞车吗？一起啊”<br>“我还不会玩”<br> “没事，我也不会”<br> “那好呀，一起玩”<br> 其实我是会玩的，当时就是想找个一起玩的人，就这样我认识了她。 –&gt;<br> <!-- 后来又一起玩了几次游戏，慢慢熟悉了起来，看电影，吃饭 ， 玩游戏， 逛街 ，一切在顺其自然的发生。
- 第一次去ktv的时候，她唱了这首林俊杰的 《美人鱼》 ，从那次之后仿佛这就变成了一首属于她的歌，无论在哪里听到这首歌我的脑海里浮现出的都是那次在ktv她唱这首歌的场景。这时候我突然发觉，我可能是有点喜欢她。
- 就这样，过了一段时间，我鼓起勇气在ktv告白了，很幸运，她答应我了。我们就这样在一起了。
-蓝风铃的香味、清澈的眼睛、空气刘海、阳光、可爱，正所谓“情人眼里出西施”，在一起之后就觉得她哪哪都好。
-最喜欢的就是她的眼睛，就像一汪清泉，清澈见底，笑起来眼睛下面就会出现一对卧蚕，觉得很美。 --><p></p>
-<p><center>这就是我的起点</center></p>
-<script type="text/javascript" src="/js/src/bai.js"></script>   
-]]></content>
-      <categories>
-        <category>记录生活</category>
-      </categories>
-      <tags>
-        <tag>梦想</tag>
-        <tag>起点</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>React版HellowWorld</title>
     <url>/2021/06/15/startreact/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>紧张刺激的毕业设计悄然进入尾声，我终于迫于生计放弃了刚刚学了点皮毛的Vue，拿起了《React引领未来的用户界面开发框架》，都是心酸啊，但是还是要在前端的路上继续摸索呀</em></strong><br><a id="more"></a></p>
@@ -164,169 +43,6 @@ $ npm start
       <tags>
         <tag>前端</tag>
         <tag>react</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>cookie</title>
-    <url>/2021/08/22/cookie/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>由于HTTP协议是无状态的，而服务器端的业务必须是要有状态的。Cookie诞生的最初目的是为了存储web中的状态信息，以方便服务器端使用。比如判断用户是否是第一次访问网站。目前最新的规范是RFC 6265，它是一个由浏览器服务器共同协作实现的规范。</em></strong><br><a id="more"></a></p>
-<h1 id="Cookie的工作流程"><a href="#Cookie的工作流程" class="headerlink" title="Cookie的工作流程"></a>Cookie的工作流程</h1><p>cookie通常是由后端服务器生成，当浏览器向后端服务器发送请求的时候，后端服务器向相应头写入cookie，浏览器接收到这个带着cookie信息的相应时就会把cookie存在本地磁盘的某个地方，当该页面下一次向服务器发送请求的时候，就会自动带上这个cookie信息，cookie都有过期事件，当cookie过期之后，浏览器就会将该条cookie信息删除。<br>简单来说工作流程就是如下：</p>
-<pre><code>server(set-cookie)--(cookie)--&gt;Browser--(cookie)--&gt;server
-</code></pre><p>通常被用来做通用登录验证，防止XSS(跨站脚本攻击)</p>
-<h1 id="服务器端的发送与解析"><a href="#服务器端的发送与解析" class="headerlink" title="服务器端的发送与解析"></a>服务器端的发送与解析</h1><ul>
-<li><h2 id="发送cookie"><a href="#发送cookie" class="headerlink" title="发送cookie"></a>发送cookie</h2>服务器端像客户端发送Cookie是通过HTTP响应报文实现的，在Set-Cookie中设置需要像客户端发送的cookie，cookie格式如下：<pre><code>Set-Cookie: &quot;name=value;domain=.domain.com;path=/;expires=Sat, 11 Jun 2016 11:29:42 GMT;HttpOnly;secure&quot;
-</code></pre></li>
-<li>name : 一个唯一确定的cookie名称。通常来讲cookie的名称是不区分大小写的</li>
-<li>value : 存储在cookie中的字符串值。最好为cookie的name和value进行url编码</li>
-<li>demain ： cookie对于哪个域是有效的。所有向该域发送的请求中都会包含这个cookie信息。这个值可以包含子域(如：yq.aliyun.com)，也可以不包含它(如：.aliyun.com，则对于aliyun.com的所有子域都有效).</li>
-<li>path: 表示这个cookie影响到的路径，浏览器跟会根据这项配置，像指定域中匹配的路径发送cookie。</li>
-<li>expires:失效时间，表示cookie何时应该被删除的时间戳(也就是，何时应该停止向服务器发送这个cookie)。如果不设置这个时间戳，浏览器会在页面关闭时即将删除所有cookie；不过也可以自己设置删除时间。这个值是GMT时间格式，如果客户端和服务器端时间不一致，使用expires就会存在偏差。</li>
-<li>HttpOnly: 告知浏览器不允许通过脚本document.cookie去更改这个值，同样这个值在document.cookie中也不可见。但在http请求张仍然会携带这个cookie。注意这个值虽然在脚本中不可获取，但仍然在浏览器安装目录中以文件形式存在。这项设置通常在服务器端设置。</li>
-<li>secure: 安全标志，指定后，只有在使用SSL链接时候才能发送到服务器，如果是http链接则不会传递该信息。就算设置了secure 属性也并不代表他人不能看到你机器本地保存的 cookie 信息，所以不要把重要信息放cookie就对了服务器端设置</li>
-</ul>
-<p>设置cookie的例子：</p>
-<pre><code>var http = require(&#39;http&#39;);
-var fs = require(&#39;fs&#39;);
-http.createServer(function(req, res) {
-  res.setHeader(&#39;status&#39;, &#39;200 OK&#39;);
-  res.setHeader(&#39;Set-Cookie&#39;, &#39;isVisit=true;domain=.yourdomain.com;path=/;max-age=1000&#39;);
-  res.write(&#39;Hello World&#39;);
-  res.end();
-}).listen(8888);
-console.log(&#39;running localhost:8888&#39;) 
-</code></pre><p>可以对设置cookie进行一层封装</p>
-<pre><code>const setCookie = (name,value,options)=&gt;{
-    if (!name) {
-    throw new Error(&quot;coolie must have name&quot;);
-    }
-    const enc = encodeURIComponent;
-    const part = [];
-    val = (val !== null &amp;&amp; val !== undefined) ? val.toString() : &quot;&quot;;
-    options = options||{};
-    part.push(`${enc(name)}=${enc(value)}`);
-    options.domain&amp;&amp;part.push(`domian=${options.domain}`);
-     if (options.path) {
-    parts.push(&quot;path=&quot; + options.path);
-    }
-    // 如果不设置expires和max-age浏览器会在页面关闭时清空cookie
-    if (options.expires) {
-      parts.push(&quot;expires=&quot; + options.expires.toGMTString());
-    }
-    if (options.maxAge &amp;&amp; typeof options.maxAge === &quot;number&quot;) {
-      parts.push(&quot;max-age=&quot; + options.maxAge);
-    }
-    if (options.httpOnly) {
-      parts.push(&quot;HTTPOnly&quot;);
-    }
-    if (options.secure) {
-      parts.push(&quot;secure&quot;);
-    }
-
-    return parts.join(&quot;;&quot;);
-}
-</code></pre><p>这里要注意的一点是,对cookie的操作并没有删除，当我们需要删除一条cookie记录的时候只需要将它的有效时间设置为一个过去的时间，这条数据就会被删除。还有就是domain项必须有两个点，因此不能设置为localhost:</p>
-<pre><code>something that wasn&#39;t made clear to me here and totally confused me for a while was that domain name
-</code></pre><ul>
-<li><h2 id="服务端解析cookie"><a href="#服务端解析cookie" class="headerlink" title="服务端解析cookie"></a>服务端解析cookie</h2></li>
-</ul>
-<p>cookie可以设置不同的域与路径，所以对于同一个name value，在不同域不同路径下是可以重复的，浏览器会按照与当前请求url或页面地址最佳匹配的顺序来排定先后顺序，所以当前端传递到服务器端的cookie有多个重复name value时，我们只需要最匹配的那个，也就是第一个。服务器端解析代码如下：</p>
-<pre><code>var parse = function(cstr) {
-  if (!cstr) {
-    return null;
-  }
-
-  var dec = decodeURIComponent;
-  var cookies = {};
-  var parts = cstr.split(/\s*;\s*/g);
-  parts.forEach(function(p){
-    var pos = p.indexOf(&#39;=&#39;);
-    // name 与value存入cookie之前，必须经过编码
-    var name = pos &gt; -1 ? dec(p.substr(0, pos)) : p;
-    var val = pos &gt; -1 ? dec(p.substr(pos + 1)) : null;
-    //只需要拿到最匹配的那个
-    if (!cookies.hasOwnProperty(name)) {
-      cookies[name] = val;
-    }/* else if (!cookies[name] instanceof Array) {
-      cookies[name] = [cookies[name]].push(val);
-    } else {
-      cookies[name].push(val);
-    }*/
-  });
-
-  return cookies;
-}
-</code></pre><ul>
-<li><h2 id="客户端的存取"><a href="#客户端的存取" class="headerlink" title="客户端的存取"></a>客户端的存取</h2>浏览器将后台传递过来的cookie进行管理，并且允许开发者在JavaScript中使用document.cookie来存取cookie。但是这个接口使用起来非常蹩脚。它会因为使用它的方式不同而表现出不同的行为。<br>当用来获取属性值时，document.cookie返回当前页面可用的（根据cookie的域、路径、失效时间和安全设置）所有的字符串，字符串的格式如下：</li>
-</ul>
-<pre><code>&quot;name1=value1;name2=value2;name3=value3&quot;;
-</code></pre><p>设置document.cookie并不会覆盖cookie，除非设置的name value domain path都与一个已存在cookie重复。<br>由于cookie的读写非常不方便，我们可以自己封装一些函数来处理cookie，主要是针对cookie的添加、修改、删除。</p>
-<pre><code>var cookieUtils = {
-    get: function(name){
-     var cookieName=encodeURIComponent(name) + &quot;=&quot;;
-     //只取得最匹配的name，value
-     var cookieStart = document.cookie.indexOf(cookieName);
-     var cookieValue = null;
-
-     if (cookieStart &gt; -1) {
-      // 从cookieStart算起
-      var cookieEnd = document.cookie.indexOf(&#39;;&#39;, cookieStart);
-      //从=后面开始
-      if (cookieEnd &gt; -1) {
-       cookieValue = decodeURIComponent(document.cookie.substring(cookieStart + cookieName.length, cookieEnd));
-      } else {
-       cookieValue = decodeURIComponent(document.cookie.substring(cookieStart + cookieName.length, document.cookie.length));
-      }
-     }
-
-     return cookieValue;
-    },
-
-    set: function(name, val, options) {
-      if (!name) {
-        throw new Error(&quot;coolie must have name&quot;);
-      }
-      var enc = encodeURIComponent;
-      var parts = [];
-
-      val = (val !== null &amp;&amp; val !== undefined) ? val.toString() : &quot;&quot;;
-      options = options || {};
-      parts.push(enc(name) + &quot;=&quot; + enc(val));
-      // domain中必须包含两个点号
-      if (options.domain) {
-        parts.push(&quot;domain=&quot; + options.domain);
-      }
-      if (options.path) {
-        parts.push(&quot;path=&quot; + options.path);
-      }
-      // 如果不设置expires和max-age浏览器会在页面关闭时清空cookie
-      if (options.expires) {
-        parts.push(&quot;expires=&quot; + options.expires.toGMTString());
-      }
-      if (options.maxAge &amp;&amp; typeof options.maxAge === &quot;number&quot;) {
-        parts.push(&quot;max-age=&quot; + options.maxAge);
-      }
-      if (options.httpOnly) {
-        parts.push(&quot;HTTPOnly&quot;);
-      }
-      if (options.secure) {
-        parts.push(&quot;secure&quot;);
-      }
-
-      document.cookie = parts.join(&quot;;&quot;);
-    },
-    delete: function(name, options) {
-     options.expires = new Date(0);// 设置为过去日期
-     this.set(name, null, options);
-    }
-   }
-</code></pre><p>更多详细内容在原文<br><a href="https://www.jb51.net/article/86598.htm?pc" target="_blank" rel="noopener">点我查看原文</a></p>
-<script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-      <categories>
-        <category>Cookie</category>
-      </categories>
-      <tags>
-        <tag>服务端</tag>
-        <tag>node</tag>
       </tags>
   </entry>
   <entry>
@@ -634,100 +350,6 @@ export default connect(state=&gt;{ //这里的state是全局的state
       </tags>
   </entry>
   <entry>
-    <title>es6函数和类</title>
-    <url>/2021/07/15/funcionandclass/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>从es6中做出的改变来看，JavaScript正在向一门面向对象的语言进行发展（小声bb）</em></strong><br><a id="more"></a></p>
-<h2 id="es6函数"><a href="#es6函数" class="headerlink" title="es6函数"></a>es6函数</h2><p>箭头函数是es6中函数的一种新的写法，也是平时我们用的比较多的写法</p>
-<h3 id="箭头函数在项目中最常用的几个点"><a href="#箭头函数在项目中最常用的几个点" class="headerlink" title="箭头函数在项目中最常用的几个点"></a>箭头函数在项目中最常用的几个点</h3><h4 id="函数配合解构赋值的用法"><a href="#函数配合解构赋值的用法" class="headerlink" title="函数配合解构赋值的用法"></a>函数配合解构赋值的用法</h4><p>其实配合解构赋值使用并不是箭头函数的专利，普通函数也可以配合解构赋值进行使用：</p>
-<pre><code>function fun({name,age}){
-    return `My name is ${name},I am ${age}years old`
-}
-console.log(fun({name:&#39;zyx&#39;,age:22})) //My name is zyx,I am 22years old
-</code></pre><p>但是解构赋值和箭头函数都是es6新增特性，所以要用新的就都用新的啊，不然多low：</p>
-<pre><code>let fun = ({name,age})=&gt; `My name is ${name},I am ${age}years old`;
-console.log(fun({name:&#39;zyx&#39;,age:22})) //My name is zyx,I am 22years old
-</code></pre><p>这两段代码对比之下，箭头函数显得更加简洁明了</p>
-<h4 id="配合扩展运算符的用法"><a href="#配合扩展运算符的用法" class="headerlink" title="配合扩展运算符的用法"></a>配合扩展运算符的用法</h4><p>个人觉得这个功能就是阮大佬在<a href="http://es6.ruanyifeng.com/" target="_blank" rel="noopener">《es6入门》</a>一书函数的扩展一章中提到的rest参数：</p>
-<pre><code>let fun = (a,...prams)=&gt;{
-    console.log(prams)
-}
-fun(1,2,3,4) // [2,3,4]
-</code></pre><p>我自己说实话还没发现两者有什么不同</p>
-<h4 id="函数的默认参数设置"><a href="#函数的默认参数设置" class="headerlink" title="函数的默认参数设置"></a>函数的默认参数设置</h4><p>这也不是箭头函数的专利，es6对函数的这一扩展在真实的项目中比较实用，在我们真实的项目中存在着各种各样的情况，所以这时候默认值的作用就举足轻重了，它可以避免很多莫名其妙的可能会让你始料不及的错误,在es5中我们是这样解决默认值问题的：</p>
-<pre><code>function fun (x,y){
-    var y = y ? y : 1;
-    return x + y;
-}
-console.log(fun(2)) // 输出3
-</code></pre><p>而上边这段代码经过es6改写之后变成了：</p>
-<pre><code>let fun = (x,y=1)=&gt;x+y;
-console.log(fun(2)) // 输出3
-</code></pre><p>箭头函数加默认值设置将代码缩减为2行，这就是es6的魅力</p>
-<h4 id="多重调用"><a href="#多重调用" class="headerlink" title="多重调用"></a>多重调用</h4><pre><code>    let sums = n =&gt; m =&gt; m+n;
-    console.log(sums(1)(2)); // 3
-    console.log(sums(1)); // m =&gt; m+n
-</code></pre><p>分析上边这段代码，sums函数接收一个参数之后返回了一个接受一个参数的函数，这个函数返回了两个参数的和，说起来可能有点绕口，那么将代码还原为es5是什么样的呢，如下：</p>
-<pre><code>function sums(n){
-    return function(m){
-        return m+n;
-    }
-}
-console.log(sums(1)(2)); // 3
-console.log(sums(1)); // ƒ (m){return m+n;}
-</code></pre><p>在我看来这个写法有点像闭包（虽然我也不太理解闭包），在我的理解当中一个函数的返回值是另外一个函数的时候就产生了闭包。</p>
-<p>话说在这种对比之下箭头函数和传统函数高下立见！</p>
-<h2 id="es6-class"><a href="#es6-class" class="headerlink" title="es6 class"></a>es6 class</h2><h3 id="以下内容纯属个人理解，大佬们请轻点pen"><a href="#以下内容纯属个人理解，大佬们请轻点pen" class="headerlink" title="以下内容纯属个人理解，大佬们请轻点pen"></a><center><strong><em>以下内容纯属个人理解，大佬们请轻点pen</em></strong></center></h3><p>class关键字是用来定义一个类，在es6之前js被定义为一门基于对象的弱类型脚本语言，之所以说它是基于对象而不是面向对象，就是因为在es6之前js根本没有类的概念，但很奇怪的是它有对象的概念，所以就被定义为基于对象的语言，更加奇怪的是它没有类的概念竟然也可以进行面向对象的编程：</p>
-<pre><code>function People(name,age){
-    this.name = name;
-    this.age = age;
-} //不管装的多像是构造方法，那也不是真正的构造方法
-People.prototype.say = function(){
-    console.log(&#39;My name is &#39;+this.name+&#39; ,I am &#39;+this.age+&#39; years old&#39;)
-}
-var zyx = new People(&#39;zyx&#39;,22); //假装是new一个对象
-zyx.say(); //My name is zyx ,I am 22 years old
-</code></pre><p>这样的写法和那些面向对象的语言比如java中面向对象编程的写法大相径庭，本来基于对象就已经很奇怪了，现在这样一门基于对象的语言竟然还有这样奇怪的面向对象编程方式，那岂不是让不了解的人更加觉得js是一门“不正经”的语言，所以es引入了class关键字，引入了类的概念，但这并不代表js就已经蜕变为像java那样的面向对象的语言了，js蜕变之路从es6才刚刚开始，据我所知class关键字只是一个语法糖，它的内部原理其实和上边这种写法一样，方法全在该对象的prototype属性上，但是起码写法上比较符合那些面向对象的语言中的面向对象的编程：</p>
-<pre><code>class People{
-    constructor(name,age){
-        this.name = name;
-        this.age = age;
-    }
-    say(){
-        console.log(`My name is ${this.name}, I am ${this.age} years old`)
-    }
-}
-let zyx = new People(&#39;zyx&#39;,23); //注意这里，class定义的类只能通过new关键字来创建实例
-zyx.say();//My name is zyx ,I am 23 years old
-</code></pre><p><strong><em>为了更加趋向于面向对象，es6限制了class定义的类只能用new关键字去创建实例</em></strong></p>
-<h3 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h3><pre><code>export default calss XXX extends Component{}
-</code></pre><p>据说react.js中到处是这样的写法，但是我本人目前还没有系统的学习过react，所以za也不知道，za也不敢说，za也不敢问啊。</p>
-<p><strong><em>既然有类的概念了，那么继承肯定是必不可少的，用我们公司大佬的话来说继承就是（咳咳，该拿出笔记本记笔记了）：将一些可以重复使用的代码抽象，放到顶层已供更多组件去使用，从而减少重复代码，提高代码质量的一种方法</em></strong></p>
-<p>那么es6中既然有class，那必然会有extends了，下边简单的以上边那个people类为父类举个栗子（个人比较喜欢吃这家的栗子）：</p>
-<pre><code>class ShangHaiPeople extends People {
-    constructor(name,age,money){
-        super(name,age);
-        this.money = money;
-    }
-
-    say(){
-        console.log(`My name is ${this.name}, I am ${this.age} years old，I am a ShangHaiPeople,I have ￥ ${this.money}`)
-    }
-}
-
-let zyx = new ShangHaiPeople(&#39;zyx&#39;,22,100000000)
-zyx.say();//My name is zyx, I am 22 years old，I am a ShangHaiPeople,I have ￥ 100000000
-</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-      <categories>
-        <category>ES6</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>Javascript</tag>
-        <tag>ES6</tag>
-        <tag>面向对象</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Generator函数和async函数</title>
     <url>/2021/07/16/generatorandasync/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>本文所有引用都出自—–&gt;阮一峰《ES6入门》</em></strong><br><a id="more"></a></p>
@@ -827,108 +449,97 @@ fun(); //  111
       </tags>
   </entry>
   <entry>
-    <title>git入门</title>
-    <url>/2021/07/11/git/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>上班第一天，终于强迫自己学会了git的基本应用</em></strong><br><a id="more"></a></p>
-<h1 id="git"><a href="#git" class="headerlink" title="git"></a>git</h1><p>什么是git？</p>
-<p>git就是全球最好用的一个版本控制工具，一种分布式的版本控制工具。</p>
-<h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><p><code>git clone [url]</code> //克隆远程仓库代码</p>
-<p> <code>git add</code> //将想要快照的内容写入缓存区</p>
-<p> <code>git status</code> //绿色文件表示添加到缓存区的文件有改动；红色表示添加到缓存区的文件没有改动</p>
-<p> <code>git commit -m</code> //‘第一次版本提交’ -m选项添加备注信息</p>
-<p> <code>git clone url</code> //使用 git clone 拷贝一个 Git 仓库到本地</p>
-<p><code>git diff</code>  //尚未缓存的改动</p>
-<p><code>git diff --cached</code>　//查看已缓存的改动</p>
-<p><code>git diff HEAD</code>  //查看已缓存的与未缓存的所有改动</p>
-<p> <code>diff git diff --stat</code>　　//显示摘要而非整个</p>
-<p><code>git commit -a</code>  //跳过git add 提交缓存的流程 </p>
-<p><code>git reset HEAD</code>  //用于取消已缓存的内容</p>
-<p><code>git rm file</code><br>　　//git rm 会将条目从缓存区中移除。这与 git reset HEAD 将条目取消缓存是有区别的。<br>　　“取消缓存”的意思就是将缓存区恢复为我们做出修改之前的样子。<br>　　默认情况下，git rm file 会将文件从缓存区和你的硬盘中（工作目录）删除。</p>
-<p><code>git mv</code>   //重命名磁盘上的文件 如 git mv README README.md</p>
-<p><code>git push -u origin master</code> //提交代码</p>
-<h2 id="git分支"><a href="#git分支" class="headerlink" title="git分支"></a>git分支</h2><p>git-flow主要有5中分支：master、hotfix、release、develop、feature<br><img src="https://upload-images.jianshu.io/upload_images/1416338-2b5d1a64e15419d7.png" alt="git-flow分支图" title="git-flow分支图"></p>
-<p>feature分支开始于develop分支，完成以后合并到develop分支。<br>当完成一定数量feature分支以后，从develop再开一个release分支出来，这些特性将被更行到下一个发布的版本中，之后的feature将不会被合并到release中。<br>之后在release分支中，只修改bug，然后完成release分支。完成release分支会完成以下三个操作：1、合并release分支到master；2、给master打上版本的标签；3、release回归到develop分支。<br>当发现master上有bug时，开一个hotfix，完成后合并到master分支。<br><a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank" rel="noopener">Gitflow Workflow文档</a></p>
-<h3 id="分支常用命令"><a href="#分支常用命令" class="headerlink" title="分支常用命令"></a>分支常用命令</h3><p> <code>git checkout [分支名]</code>//切换到指定分支</p>
-<p> <code>git branch [分支名]</code> //创建分支命令</p>
-<p> <code>git branch [分支名]</code> //列出分支</p>
-<p> <code>git checkout [分支名]</code> //切换分支命令</p>
-<p> <code>git merge [分支名]</code> //合并分支</p>
-<p> <code>git checkout -b [分支名]</code> //创建新分支并立即切换到该分支下</p>
-<p> <code>git branch -d [分支名]</code> //删除分支命令 </p>
-<p><strong><em>ps:状态 uu 表示冲突未解决 可以用 git add 要告诉 Git 文件冲突已经解决</em></strong></p>
-<h2 id="查看提交日志"><a href="#查看提交日志" class="headerlink" title="查看提交日志"></a>查看提交日志</h2><p><code>git log</code> //命令列出历史提交记录</p>
-<p><code>git log -n</code> //命令列出历史提交记录前三条</p>
-<p><code>git log --oneline</code> //查看历史记录的简洁的版本</p>
-<p><code>git log --oneline --graph</code> //查看历史中什么时候出现了分支、合并</p>
-<h2 id="提交本地修改"><a href="#提交本地修改" class="headerlink" title="提交本地修改"></a>提交本地修改</h2><p> <code>git commit -m [修改信息]</code></p>
-<h2 id="拉取远程仓库代码"><a href="#拉取远程仓库代码" class="headerlink" title="拉取远程仓库代码"></a>拉取远程仓库代码</h2><p> <code>git pull</code> //从远端仓库提取数据并尝试合并到当前分支</p>
-<p> <code>git fetch</code> //从远程仓库下载新分支与数据</p>
-<h2 id="版本回滚"><a href="#版本回滚" class="headerlink" title="版本回滚"></a>版本回滚</h2><p> <code>git log -n</code>  //查看最近n条提交日志</p>
-<p> <code>git reset -hard [版本标识]</code> //回滚到指定版本</p>
-<p> <code>git push -f origin matser</code>  //强制提交</p>
-<h2 id="忽略文件"><a href="#忽略文件" class="headerlink" title="忽略文件"></a>忽略文件</h2><ul>
-<li>.gitignore 文件是git的一套忽略规则，对该文件所在目录以及所在目录子目录都有效，该文件一般格式为：<pre><code># 以&#39;#&#39;开始的行，被视为注释.                            
-# 忽略掉所有文件名是 foo.txt的文件.
-foo.txt
-# 忽略所有生成的 html文件,
-*.html
-# foo.html是手工维护的，所以例外.
-!foo.html
-# 忽略所有.o和 .a文件.
-*.[oa]
-配置语法：
-# 以斜杠“/”开头表示目录；
-# 以星号“*”通配多个字符；
-# 以问号“?”通配单个字符
-以方括号“[]”包含单个字符的匹配列表；
-以叹号“!”表示不忽略(跟踪)匹配到的文件或目录；
-</code></pre></li>
-</ul>
-<p>这里需要注意的是，该文件必须在第一次推代码的时候就创建，如果你不慎在创建.gitignore文件之前就push了项目，那么即使你在.gitignore文件中写入新的过滤规则，这些规则也不会起作用，Git仍然会对所有文件进行版本管理。<br>简单来说，出现这种问题的原因就是Git已经开始管理这些文件了，所以你无法再通过过滤规则过滤它们。因此一定要养成在项目开始就创建.gitignore文件的习惯，否则一旦push，处理起来会非常麻烦。<br>那么，如果在.gitignore文件创建之后需要忽略某个文件该怎么办？这里还有一种命令忽略的方式。  </p>
-<ul>
-<li><p>.gitignore只能忽略那些原来没有被track的文件，如果某些文件已经被纳入了版本管理中，则修改.gitignore是无效的。正确的做法是在每个clone下来的仓库中手动设置不要检查特定文件的更改情况。命令为：</p>
-<pre><code>git update-index --assume-unchanged &lt;filename&gt; 
-</code></pre><p>如果要还原的话，使用命令：</p>
-<pre><code>git update-index --no-assume-unchanged &lt;filename&gt;
-</code></pre></li>
-<li><p>使用.git/info/exclude<br>git 还提供了另一种 exclude 的方式来做同样的事情，不同的是 .gitignore 这个文件本身会提交到版本库中去。用来保存的是公共的需要排除的文件。而 .git/info/exclude 这里设置的则是你自己本地需要排除的文件。 他不会影响到其他人。也不会提交到版本库中去。<br>举例：</p>
-<pre><code># git ls-files --others --exclude-from=.git/info/exclude
-# Lines that start with &#39;#&#39; are comments.
-# For a project mostly in C, the following would be a good set of
-# exclude patterns (uncomment them if you want to use them):
-# *.[oa]
-# *~
-.gradle/
-.idea/
-.settings/
-appcompat_v7/
-bin/
-build/
-gen/
-gradle/
-out/
-proguard/
-ship/
-target/
-.classpath
-.gitignore
-.idea
-.project
-.readme
-.update-config
-*.iml
-local.properties
-</code></pre><p>.gitignore 还有个有意思的小功能， 一个空的 .gitignore 文件 可以当作是一个 placeholder 。当你需要为项目创建一个空的 log 目录时， 这就变的很有用。 你可以创建一个 log 目录 在里面放置一个空的 .gitignore 文件。这样当你 clone 这个 repo 的时候 git 会自动的创建好一个空的 log 目录了。</p>
-</li>
-</ul>
-<h2 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h2><p>为软件发布创建标签是推荐的。这个概念早已存在，在 SVN 中也有。你可以执行如下命令创建一个叫做 1.0.0 的标签：<br><code>git tag 1.0.0 1b2e1d63ff</code><br>1b2e1d63ff 是你想要标记的提交 ID 的前 10 位字符。可以使用下列命令获取提交 ID：<br>git log<br>你也可以使用少一点的提交 ID 前几位，只要它的指向具有唯一性</p>
-<script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+    <title>es6函数和类</title>
+    <url>/2021/07/15/funcionandclass/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>从es6中做出的改变来看，JavaScript正在向一门面向对象的语言进行发展（小声bb）</em></strong><br><a id="more"></a></p>
+<h2 id="es6函数"><a href="#es6函数" class="headerlink" title="es6函数"></a>es6函数</h2><p>箭头函数是es6中函数的一种新的写法，也是平时我们用的比较多的写法</p>
+<h3 id="箭头函数在项目中最常用的几个点"><a href="#箭头函数在项目中最常用的几个点" class="headerlink" title="箭头函数在项目中最常用的几个点"></a>箭头函数在项目中最常用的几个点</h3><h4 id="函数配合解构赋值的用法"><a href="#函数配合解构赋值的用法" class="headerlink" title="函数配合解构赋值的用法"></a>函数配合解构赋值的用法</h4><p>其实配合解构赋值使用并不是箭头函数的专利，普通函数也可以配合解构赋值进行使用：</p>
+<pre><code>function fun({name,age}){
+    return `My name is ${name},I am ${age}years old`
+}
+console.log(fun({name:&#39;zyx&#39;,age:22})) //My name is zyx,I am 22years old
+</code></pre><p>但是解构赋值和箭头函数都是es6新增特性，所以要用新的就都用新的啊，不然多low：</p>
+<pre><code>let fun = ({name,age})=&gt; `My name is ${name},I am ${age}years old`;
+console.log(fun({name:&#39;zyx&#39;,age:22})) //My name is zyx,I am 22years old
+</code></pre><p>这两段代码对比之下，箭头函数显得更加简洁明了</p>
+<h4 id="配合扩展运算符的用法"><a href="#配合扩展运算符的用法" class="headerlink" title="配合扩展运算符的用法"></a>配合扩展运算符的用法</h4><p>个人觉得这个功能就是阮大佬在<a href="http://es6.ruanyifeng.com/" target="_blank" rel="noopener">《es6入门》</a>一书函数的扩展一章中提到的rest参数：</p>
+<pre><code>let fun = (a,...prams)=&gt;{
+    console.log(prams)
+}
+fun(1,2,3,4) // [2,3,4]
+</code></pre><p>我自己说实话还没发现两者有什么不同</p>
+<h4 id="函数的默认参数设置"><a href="#函数的默认参数设置" class="headerlink" title="函数的默认参数设置"></a>函数的默认参数设置</h4><p>这也不是箭头函数的专利，es6对函数的这一扩展在真实的项目中比较实用，在我们真实的项目中存在着各种各样的情况，所以这时候默认值的作用就举足轻重了，它可以避免很多莫名其妙的可能会让你始料不及的错误,在es5中我们是这样解决默认值问题的：</p>
+<pre><code>function fun (x,y){
+    var y = y ? y : 1;
+    return x + y;
+}
+console.log(fun(2)) // 输出3
+</code></pre><p>而上边这段代码经过es6改写之后变成了：</p>
+<pre><code>let fun = (x,y=1)=&gt;x+y;
+console.log(fun(2)) // 输出3
+</code></pre><p>箭头函数加默认值设置将代码缩减为2行，这就是es6的魅力</p>
+<h4 id="多重调用"><a href="#多重调用" class="headerlink" title="多重调用"></a>多重调用</h4><pre><code>    let sums = n =&gt; m =&gt; m+n;
+    console.log(sums(1)(2)); // 3
+    console.log(sums(1)); // m =&gt; m+n
+</code></pre><p>分析上边这段代码，sums函数接收一个参数之后返回了一个接受一个参数的函数，这个函数返回了两个参数的和，说起来可能有点绕口，那么将代码还原为es5是什么样的呢，如下：</p>
+<pre><code>function sums(n){
+    return function(m){
+        return m+n;
+    }
+}
+console.log(sums(1)(2)); // 3
+console.log(sums(1)); // ƒ (m){return m+n;}
+</code></pre><p>在我看来这个写法有点像闭包（虽然我也不太理解闭包），在我的理解当中一个函数的返回值是另外一个函数的时候就产生了闭包。</p>
+<p>话说在这种对比之下箭头函数和传统函数高下立见！</p>
+<h2 id="es6-class"><a href="#es6-class" class="headerlink" title="es6 class"></a>es6 class</h2><h3 id="以下内容纯属个人理解，大佬们请轻点pen"><a href="#以下内容纯属个人理解，大佬们请轻点pen" class="headerlink" title="以下内容纯属个人理解，大佬们请轻点pen"></a><center><strong><em>以下内容纯属个人理解，大佬们请轻点pen</em></strong></center></h3><p>class关键字是用来定义一个类，在es6之前js被定义为一门基于对象的弱类型脚本语言，之所以说它是基于对象而不是面向对象，就是因为在es6之前js根本没有类的概念，但很奇怪的是它有对象的概念，所以就被定义为基于对象的语言，更加奇怪的是它没有类的概念竟然也可以进行面向对象的编程：</p>
+<pre><code>function People(name,age){
+    this.name = name;
+    this.age = age;
+} //不管装的多像是构造方法，那也不是真正的构造方法
+People.prototype.say = function(){
+    console.log(&#39;My name is &#39;+this.name+&#39; ,I am &#39;+this.age+&#39; years old&#39;)
+}
+var zyx = new People(&#39;zyx&#39;,22); //假装是new一个对象
+zyx.say(); //My name is zyx ,I am 22 years old
+</code></pre><p>这样的写法和那些面向对象的语言比如java中面向对象编程的写法大相径庭，本来基于对象就已经很奇怪了，现在这样一门基于对象的语言竟然还有这样奇怪的面向对象编程方式，那岂不是让不了解的人更加觉得js是一门“不正经”的语言，所以es引入了class关键字，引入了类的概念，但这并不代表js就已经蜕变为像java那样的面向对象的语言了，js蜕变之路从es6才刚刚开始，据我所知class关键字只是一个语法糖，它的内部原理其实和上边这种写法一样，方法全在该对象的prototype属性上，但是起码写法上比较符合那些面向对象的语言中的面向对象的编程：</p>
+<pre><code>class People{
+    constructor(name,age){
+        this.name = name;
+        this.age = age;
+    }
+    say(){
+        console.log(`My name is ${this.name}, I am ${this.age} years old`)
+    }
+}
+let zyx = new People(&#39;zyx&#39;,23); //注意这里，class定义的类只能通过new关键字来创建实例
+zyx.say();//My name is zyx ,I am 23 years old
+</code></pre><p><strong><em>为了更加趋向于面向对象，es6限制了class定义的类只能用new关键字去创建实例</em></strong></p>
+<h3 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h3><pre><code>export default calss XXX extends Component{}
+</code></pre><p>据说react.js中到处是这样的写法，但是我本人目前还没有系统的学习过react，所以za也不知道，za也不敢说，za也不敢问啊。</p>
+<p><strong><em>既然有类的概念了，那么继承肯定是必不可少的，用我们公司大佬的话来说继承就是（咳咳，该拿出笔记本记笔记了）：将一些可以重复使用的代码抽象，放到顶层已供更多组件去使用，从而减少重复代码，提高代码质量的一种方法</em></strong></p>
+<p>那么es6中既然有class，那必然会有extends了，下边简单的以上边那个people类为父类举个栗子（个人比较喜欢吃这家的栗子）：</p>
+<pre><code>class ShangHaiPeople extends People {
+    constructor(name,age,money){
+        super(name,age);
+        this.money = money;
+    }
+
+    say(){
+        console.log(`My name is ${this.name}, I am ${this.age} years old，I am a ShangHaiPeople,I have ￥ ${this.money}`)
+    }
+}
+
+let zyx = new ShangHaiPeople(&#39;zyx&#39;,22,100000000)
+zyx.say();//My name is zyx, I am 22 years old，I am a ShangHaiPeople,I have ￥ 100000000
+</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
       <categories>
-        <category>git</category>
+        <category>ES6</category>
       </categories>
       <tags>
-        <tag>git</tag>
-        <tag>版本控制</tag>
+        <tag>前端</tag>
+        <tag>Javascript</tag>
+        <tag>ES6</tag>
+        <tag>面向对象</tag>
       </tags>
   </entry>
   <entry>
@@ -1168,6 +779,292 @@ const go = function*(){
 <pre><code>let a = 1;
 [...a] //Uncaught TypeError: number 1 is not iterable (cannot read property Symbol(Symbol.iterator))
 </code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+      <categories>
+        <category>ES6</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>Javascript</tag>
+        <tag>ES6</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>git入门</title>
+    <url>/2021/07/11/git/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>上班第一天，终于强迫自己学会了git的基本应用</em></strong><br><a id="more"></a></p>
+<h1 id="git"><a href="#git" class="headerlink" title="git"></a>git</h1><p>什么是git？</p>
+<p>git就是全球最好用的一个版本控制工具，一种分布式的版本控制工具。</p>
+<h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><p><code>git clone [url]</code> //克隆远程仓库代码</p>
+<p> <code>git add</code> //将想要快照的内容写入缓存区</p>
+<p> <code>git status</code> //绿色文件表示添加到缓存区的文件有改动；红色表示添加到缓存区的文件没有改动</p>
+<p> <code>git commit -m</code> //‘第一次版本提交’ -m选项添加备注信息</p>
+<p> <code>git clone url</code> //使用 git clone 拷贝一个 Git 仓库到本地</p>
+<p><code>git diff</code>  //尚未缓存的改动</p>
+<p><code>git diff --cached</code>　//查看已缓存的改动</p>
+<p><code>git diff HEAD</code>  //查看已缓存的与未缓存的所有改动</p>
+<p> <code>diff git diff --stat</code>　　//显示摘要而非整个</p>
+<p><code>git commit -a</code>  //跳过git add 提交缓存的流程 </p>
+<p><code>git reset HEAD</code>  //用于取消已缓存的内容</p>
+<p><code>git rm file</code><br>　　//git rm 会将条目从缓存区中移除。这与 git reset HEAD 将条目取消缓存是有区别的。<br>　　“取消缓存”的意思就是将缓存区恢复为我们做出修改之前的样子。<br>　　默认情况下，git rm file 会将文件从缓存区和你的硬盘中（工作目录）删除。</p>
+<p><code>git mv</code>   //重命名磁盘上的文件 如 git mv README README.md</p>
+<p><code>git push -u origin master</code> //提交代码</p>
+<h2 id="git分支"><a href="#git分支" class="headerlink" title="git分支"></a>git分支</h2><p>git-flow主要有5中分支：master、hotfix、release、develop、feature<br><img src="https://upload-images.jianshu.io/upload_images/1416338-2b5d1a64e15419d7.png" alt="git-flow分支图" title="git-flow分支图"></p>
+<p>feature分支开始于develop分支，完成以后合并到develop分支。<br>当完成一定数量feature分支以后，从develop再开一个release分支出来，这些特性将被更行到下一个发布的版本中，之后的feature将不会被合并到release中。<br>之后在release分支中，只修改bug，然后完成release分支。完成release分支会完成以下三个操作：1、合并release分支到master；2、给master打上版本的标签；3、release回归到develop分支。<br>当发现master上有bug时，开一个hotfix，完成后合并到master分支。<br><a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank" rel="noopener">Gitflow Workflow文档</a></p>
+<h3 id="分支常用命令"><a href="#分支常用命令" class="headerlink" title="分支常用命令"></a>分支常用命令</h3><p> <code>git checkout [分支名]</code>//切换到指定分支</p>
+<p> <code>git branch [分支名]</code> //创建分支命令</p>
+<p> <code>git branch [分支名]</code> //列出分支</p>
+<p> <code>git checkout [分支名]</code> //切换分支命令</p>
+<p> <code>git merge [分支名]</code> //合并分支</p>
+<p> <code>git checkout -b [分支名]</code> //创建新分支并立即切换到该分支下</p>
+<p> <code>git branch -d [分支名]</code> //删除分支命令 </p>
+<p><strong><em>ps:状态 uu 表示冲突未解决 可以用 git add 要告诉 Git 文件冲突已经解决</em></strong></p>
+<h2 id="查看提交日志"><a href="#查看提交日志" class="headerlink" title="查看提交日志"></a>查看提交日志</h2><p><code>git log</code> //命令列出历史提交记录</p>
+<p><code>git log -n</code> //命令列出历史提交记录前三条</p>
+<p><code>git log --oneline</code> //查看历史记录的简洁的版本</p>
+<p><code>git log --oneline --graph</code> //查看历史中什么时候出现了分支、合并</p>
+<h2 id="提交本地修改"><a href="#提交本地修改" class="headerlink" title="提交本地修改"></a>提交本地修改</h2><p> <code>git commit -m [修改信息]</code></p>
+<h2 id="拉取远程仓库代码"><a href="#拉取远程仓库代码" class="headerlink" title="拉取远程仓库代码"></a>拉取远程仓库代码</h2><p> <code>git pull</code> //从远端仓库提取数据并尝试合并到当前分支</p>
+<p> <code>git fetch</code> //从远程仓库下载新分支与数据</p>
+<h2 id="版本回滚"><a href="#版本回滚" class="headerlink" title="版本回滚"></a>版本回滚</h2><p> <code>git log -n</code>  //查看最近n条提交日志</p>
+<p> <code>git reset -hard [版本标识]</code> //回滚到指定版本</p>
+<p> <code>git push -f origin matser</code>  //强制提交</p>
+<h2 id="忽略文件"><a href="#忽略文件" class="headerlink" title="忽略文件"></a>忽略文件</h2><ul>
+<li>.gitignore 文件是git的一套忽略规则，对该文件所在目录以及所在目录子目录都有效，该文件一般格式为：<pre><code># 以&#39;#&#39;开始的行，被视为注释.                            
+# 忽略掉所有文件名是 foo.txt的文件.
+foo.txt
+# 忽略所有生成的 html文件,
+*.html
+# foo.html是手工维护的，所以例外.
+!foo.html
+# 忽略所有.o和 .a文件.
+*.[oa]
+配置语法：
+# 以斜杠“/”开头表示目录；
+# 以星号“*”通配多个字符；
+# 以问号“?”通配单个字符
+以方括号“[]”包含单个字符的匹配列表；
+以叹号“!”表示不忽略(跟踪)匹配到的文件或目录；
+</code></pre></li>
+</ul>
+<p>这里需要注意的是，该文件必须在第一次推代码的时候就创建，如果你不慎在创建.gitignore文件之前就push了项目，那么即使你在.gitignore文件中写入新的过滤规则，这些规则也不会起作用，Git仍然会对所有文件进行版本管理。<br>简单来说，出现这种问题的原因就是Git已经开始管理这些文件了，所以你无法再通过过滤规则过滤它们。因此一定要养成在项目开始就创建.gitignore文件的习惯，否则一旦push，处理起来会非常麻烦。<br>那么，如果在.gitignore文件创建之后需要忽略某个文件该怎么办？这里还有一种命令忽略的方式。  </p>
+<ul>
+<li><p>.gitignore只能忽略那些原来没有被track的文件，如果某些文件已经被纳入了版本管理中，则修改.gitignore是无效的。正确的做法是在每个clone下来的仓库中手动设置不要检查特定文件的更改情况。命令为：</p>
+<pre><code>git update-index --assume-unchanged &lt;filename&gt; 
+</code></pre><p>如果要还原的话，使用命令：</p>
+<pre><code>git update-index --no-assume-unchanged &lt;filename&gt;
+</code></pre></li>
+<li><p>使用.git/info/exclude<br>git 还提供了另一种 exclude 的方式来做同样的事情，不同的是 .gitignore 这个文件本身会提交到版本库中去。用来保存的是公共的需要排除的文件。而 .git/info/exclude 这里设置的则是你自己本地需要排除的文件。 他不会影响到其他人。也不会提交到版本库中去。<br>举例：</p>
+<pre><code># git ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with &#39;#&#39; are comments.
+# For a project mostly in C, the following would be a good set of
+# exclude patterns (uncomment them if you want to use them):
+# *.[oa]
+# *~
+.gradle/
+.idea/
+.settings/
+appcompat_v7/
+bin/
+build/
+gen/
+gradle/
+out/
+proguard/
+ship/
+target/
+.classpath
+.gitignore
+.idea
+.project
+.readme
+.update-config
+*.iml
+local.properties
+</code></pre><p>.gitignore 还有个有意思的小功能， 一个空的 .gitignore 文件 可以当作是一个 placeholder 。当你需要为项目创建一个空的 log 目录时， 这就变的很有用。 你可以创建一个 log 目录 在里面放置一个空的 .gitignore 文件。这样当你 clone 这个 repo 的时候 git 会自动的创建好一个空的 log 目录了。</p>
+</li>
+</ul>
+<h2 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h2><p>为软件发布创建标签是推荐的。这个概念早已存在，在 SVN 中也有。你可以执行如下命令创建一个叫做 1.0.0 的标签：<br><code>git tag 1.0.0 1b2e1d63ff</code><br>1b2e1d63ff 是你想要标记的提交 ID 的前 10 位字符。可以使用下列命令获取提交 ID：<br>git log<br>你也可以使用少一点的提交 ID 前几位，只要它的指向具有唯一性</p>
+<script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+      <categories>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+        <tag>版本控制</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>less</title>
+    <url>/2021/07/26/less/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>css预处理器用一种专门的编程语言，为css增加一些编程语言的特性，例如在css中使用变量、简单的逻辑程序、函数等等。而且还能让css可读性更佳，代码更易于维护。</em></strong></p>
+<a id="more"></a>
+<h2 id="css"><a href="#css" class="headerlink" title="css"></a>css</h2><p>css不是编程语言，它没有变量，函数，条件语句等语法，只是一群简单的属性描述，代码不利于维护和扩展。</p>
+<h2 id="css预处理器"><a href="#css预处理器" class="headerlink" title="css预处理器"></a>css预处理器</h2><p>css预处理器用一种专门的编程语言，为css增加一些编程语言的特性，例如在css中使用变量、简单的逻辑程序、函数等等。而且还能让css可读性更佳，代码更易于维护。</p>
+<h2 id="常用的css预处理器"><a href="#常用的css预处理器" class="headerlink" title="常用的css预处理器"></a>常用的css预处理器</h2><p> 最好用的两个，sass和less。</p>
+<h2 id="less的使用"><a href="#less的使用" class="headerlink" title="less的使用"></a>less的使用</h2><ul>
+<li><p>安装</p>
+<pre><code>npm i less-loader less --save-dev
+</code></pre></li>
+<li><p>在webpack中配置</p>
+</li>
+</ul>
+<pre><code>{
+    test : /\.less$/,
+    user : [{
+        loader : &#39;style-loader&#39;
+    },]
+    user : [{
+        loader : &#39;css-loader&#39;
+    },]
+    user : [{
+        loader : &#39;less-loader&#39;
+    },]
+}
+</code></pre><ul>
+<li>新建后缀为.less的文件，然后在页面中引用：<pre><code>import &#39;./style/index.less
+</code></pre><h2 id="less的语法"><a href="#less的语法" class="headerlink" title="less的语法"></a>less的语法</h2></li>
+<li>变量：<br>使用@+变量名的方式定义变量，使用变量时在变量名前加@<pre><code>@size : 20px;
+.box{
+  font-size : @siza
+}
+</code></pre></li>
+<li>混合:<br>将一些通用的属性集合用class封装起来，然后在另一个class中去引用这个class下的所有属性。当然，除了class，id属性集也可以以相同的方式引用。<pre><code>.cla1{
+  color:red;
+}
+.cla2{
+  .cla1;
+}
+</code></pre></li>
+<li>带参数混合:<br>在less中，你还可以像函数一样定义一个带参数的属性集合<pre><code>.clas(@color){
+  color:@color;
+}
+.box{
+  .cla(&#39;red&#39;)
+}
+</code></pre>@arguments变量，包含了所有传进来的参数，如果你不想单独处理每一个参数的话可以像这样写：<pre><code>.box(@x:0,@y:0,@color){
+   width:@arguments;
+   height :@arguments;
+   color : @arguments;
+}
+</code></pre></li>
+<li>嵌套:<br>为了让css代码简洁清晰，易维护，现在less允许我们以嵌套的方式编写层叠样式，子元素样式可以直接嵌套在父元素样式中：</li>
+</ul>
+<pre><code>.box{
+
+    .smallbox{
+
+    }
+}
+</code></pre><ul>
+<li>运算:<br>在less中，任何数字、颜色或者变量都可以参与运算。</li>
+</ul>
+<pre><code>@basewidth:20px;
+.cl{
+    width : @basewidth*2;
+}
+</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+      <categories>
+        <category>css</category>
+      </categories>
+      <tags>
+        <tag>css</tag>
+        <tag>less</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Promise</title>
+    <url>/2021/07/15/promise/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>就像它的含义一样，它自己的状态和外界是没有关系的</em></strong><br><a id="more"></a></p>
+<h1 id="Promise"><a href="#Promise" class="headerlink" title="Promise"></a>Promise</h1><p>在阮大佬的《ES6入门》中提到，promise就和它的意思一样，承诺了要做什么事情，那就一定会完成，pomise也是一样它有三个状态：pending（进行中）、fulfilled（已成功）和rejected（已失败）。而踏着三种状态之间的转换之和该promise对象中的操作有关，和别的因素无关，promise对象的状态变化很简单，只有两种：1、pending =&gt; rejected   2、 pending =&gt; fulfilled 这中情况的状态转换对应了promise构造函数中传进来的来个默认参数 1、resolve() 2、reject(),下边是个例子：</p>
+<pre><code>let fun = (num) =&gt; new Promise((resolve,reject)=&gt;{
+    if(num%2===0){
+        resolve({type:&#39;偶数&#39;,value:num})
+    }else{
+        reject({type:&#39;奇数&#39;,value:num})
+    }
+})
+
+fun(2).then((data)=&gt;{
+console.log(data);
+},(data)=&gt;{
+console.log(data);
+}) //{type: &quot;偶数&quot;, value: 2} fulfilled 状态
+fun(3).then((data)=&gt;{
+console.log(data);
+},(data)=&gt;{
+console.log(data);
+})//{type: &quot;奇数&quot;, value: 3} rejected状态
+</code></pre><h1 id="异步和Promise"><a href="#异步和Promise" class="headerlink" title="异步和Promise"></a>异步和Promise</h1><p>假设有两个操作a，b  ，而b的操作需要等待a的结果，这时候这种情况就是异步，es5中通过回调来实现这样的功能，要用回调模拟ajax请求的话如下写法：</p>
+<pre><code>function ajax(time,callback){
+    setTimeout(()=&gt;{
+        callback();
+        console.log(&#39;执行结束&#39;);
+    },time)
+}
+console.log(&#39;程序开始&#39;);
+ajax(2000,()=&gt;{
+    console.log(&#39;异步执行&#39;);
+})
+console.log(&#39;程序结束&#39;);
+</code></pre><p>这只是一个简单的测试demo，在真实项目当中可能操作与操作之间会一环套一环，这时候就会陷入前端程序猿们最害怕的回调地狱，当程序出现bug的时候就非常难以调试，在es中promise的出现很大程度上减轻了js异步编程的难度，同样是上边这个例子，用es6 promise写法如下：</p>
+<pre><code>function ajax(time){
+return new Promise((resolve,reject)=&gt;{
+     setTimeout(()=&gt;{
+        resolve();
+        console.log(&#39;执行结束&#39;);
+        //这里只考虑成功的情况
+    },time)
+})
+}
+console.log(&#39;程序开始&#39;);
+ajax(2000).then(()=&gt;{
+    console.log(&#39;程序结束&#39;);
+})
+console.log(&#39;程序结束&#39;);
+</code></pre><p>这两种写法运行结果是一模一样的，但是写法却天差地别，es6 promise杜绝了es5中的那种回调嵌套回调的写法，从代码上来看，和同步编程没什么区别，所以可以理解为用同步的方式来解决异步的问题。</p>
+<h1 id="resolve-和-reject"><a href="#resolve-和-reject" class="headerlink" title="resolve 和 reject"></a>resolve 和 reject</h1><p>pormise的resolve函数和reject函数有可能是带有参数的，在这样的情况下这个参数会传递给then 函数中对应的回调，如下代码所示：</p>
+<pre><code>let pro = new Promise((resolve,reject)=&gt;{
+    setTimeout(()=&gt;{
+        resolve({
+            name : &#39;zyx&#39;,
+            age : 22
+        })
+    })
+})
+
+pro.then(data=&gt;{
+    console.log(data); //{name: &quot;zyx&quot;, age: 22}
+})
+</code></pre><p>有时候resolve和reject的函数可能也是个promise对象那么这两个promise对象的状态之间就会产生联系，看下面这段代码：</p>
+<pre><code>let pro1 = new Promise((resolve,reject)=&gt;{
+    setTimeout(()=&gt;{
+        reject();
+    },2000)
+})
+let pro2 = new Promise((resolve,reject)=&gt;{
+resolve(pro1)
+})
+
+pro2.then(()=&gt;{
+    console.log(&#39;resolve&#39;)
+},()=&gt;{
+    console.log(&#39;reject&#39;)
+})  // reject
+</code></pre><p>上边这段代码中pro2的resolve函数参数是另一个promise对象pro1，这时候pro2的状态就会取决于pro1的状态，可以看到虽然pro2使用resolve函数试图将状态改变为fulfilled，但是后边还是执行了reject的回调。这种情况得注意，否则在真正的项目开发中可能会陷入逻辑上的混乱。</p>
+<p>值得注意的是，调用resolve或者reject并不会终结promise的参数函数的执行：</p>
+<pre><code>let pro = new Promise((resolve,reject)=&gt;{
+    console.log(&#39;start&#39;)
+    setTimeout(()=&gt;resolve(),2000)
+    console.log(&#39;resolve end&#39;)
+})
+pro.then(()=&gt;{
+    console.log(&#39;callback&#39;)
+})
+// start
+// resolve end
+// callback
+</code></pre><p>从这个例子的输出结果中，突然发现了一个现象，就是promise参数函数中的代码会马上执行（同步执行），而异步回调之中的代码则会等待promise对象状态发生改变之后才会执行。</p>
+<script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
       <categories>
         <category>ES6</category>
       </categories>
@@ -1487,109 +1384,6 @@ render() {
       </tags>
   </entry>
   <entry>
-    <title>Promise</title>
-    <url>/2021/07/15/promise/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>就像它的含义一样，它自己的状态和外界是没有关系的</em></strong><br><a id="more"></a></p>
-<h1 id="Promise"><a href="#Promise" class="headerlink" title="Promise"></a>Promise</h1><p>在阮大佬的《ES6入门》中提到，promise就和它的意思一样，承诺了要做什么事情，那就一定会完成，pomise也是一样它有三个状态：pending（进行中）、fulfilled（已成功）和rejected（已失败）。而踏着三种状态之间的转换之和该promise对象中的操作有关，和别的因素无关，promise对象的状态变化很简单，只有两种：1、pending =&gt; rejected   2、 pending =&gt; fulfilled 这中情况的状态转换对应了promise构造函数中传进来的来个默认参数 1、resolve() 2、reject(),下边是个例子：</p>
-<pre><code>let fun = (num) =&gt; new Promise((resolve,reject)=&gt;{
-    if(num%2===0){
-        resolve({type:&#39;偶数&#39;,value:num})
-    }else{
-        reject({type:&#39;奇数&#39;,value:num})
-    }
-})
-
-fun(2).then((data)=&gt;{
-console.log(data);
-},(data)=&gt;{
-console.log(data);
-}) //{type: &quot;偶数&quot;, value: 2} fulfilled 状态
-fun(3).then((data)=&gt;{
-console.log(data);
-},(data)=&gt;{
-console.log(data);
-})//{type: &quot;奇数&quot;, value: 3} rejected状态
-</code></pre><h1 id="异步和Promise"><a href="#异步和Promise" class="headerlink" title="异步和Promise"></a>异步和Promise</h1><p>假设有两个操作a，b  ，而b的操作需要等待a的结果，这时候这种情况就是异步，es5中通过回调来实现这样的功能，要用回调模拟ajax请求的话如下写法：</p>
-<pre><code>function ajax(time,callback){
-    setTimeout(()=&gt;{
-        callback();
-        console.log(&#39;执行结束&#39;);
-    },time)
-}
-console.log(&#39;程序开始&#39;);
-ajax(2000,()=&gt;{
-    console.log(&#39;异步执行&#39;);
-})
-console.log(&#39;程序结束&#39;);
-</code></pre><p>这只是一个简单的测试demo，在真实项目当中可能操作与操作之间会一环套一环，这时候就会陷入前端程序猿们最害怕的回调地狱，当程序出现bug的时候就非常难以调试，在es中promise的出现很大程度上减轻了js异步编程的难度，同样是上边这个例子，用es6 promise写法如下：</p>
-<pre><code>function ajax(time){
-return new Promise((resolve,reject)=&gt;{
-     setTimeout(()=&gt;{
-        resolve();
-        console.log(&#39;执行结束&#39;);
-        //这里只考虑成功的情况
-    },time)
-})
-}
-console.log(&#39;程序开始&#39;);
-ajax(2000).then(()=&gt;{
-    console.log(&#39;程序结束&#39;);
-})
-console.log(&#39;程序结束&#39;);
-</code></pre><p>这两种写法运行结果是一模一样的，但是写法却天差地别，es6 promise杜绝了es5中的那种回调嵌套回调的写法，从代码上来看，和同步编程没什么区别，所以可以理解为用同步的方式来解决异步的问题。</p>
-<h1 id="resolve-和-reject"><a href="#resolve-和-reject" class="headerlink" title="resolve 和 reject"></a>resolve 和 reject</h1><p>pormise的resolve函数和reject函数有可能是带有参数的，在这样的情况下这个参数会传递给then 函数中对应的回调，如下代码所示：</p>
-<pre><code>let pro = new Promise((resolve,reject)=&gt;{
-    setTimeout(()=&gt;{
-        resolve({
-            name : &#39;zyx&#39;,
-            age : 22
-        })
-    })
-})
-
-pro.then(data=&gt;{
-    console.log(data); //{name: &quot;zyx&quot;, age: 22}
-})
-</code></pre><p>有时候resolve和reject的函数可能也是个promise对象那么这两个promise对象的状态之间就会产生联系，看下面这段代码：</p>
-<pre><code>let pro1 = new Promise((resolve,reject)=&gt;{
-    setTimeout(()=&gt;{
-        reject();
-    },2000)
-})
-let pro2 = new Promise((resolve,reject)=&gt;{
-resolve(pro1)
-})
-
-pro2.then(()=&gt;{
-    console.log(&#39;resolve&#39;)
-},()=&gt;{
-    console.log(&#39;reject&#39;)
-})  // reject
-</code></pre><p>上边这段代码中pro2的resolve函数参数是另一个promise对象pro1，这时候pro2的状态就会取决于pro1的状态，可以看到虽然pro2使用resolve函数试图将状态改变为fulfilled，但是后边还是执行了reject的回调。这种情况得注意，否则在真正的项目开发中可能会陷入逻辑上的混乱。</p>
-<p>值得注意的是，调用resolve或者reject并不会终结promise的参数函数的执行：</p>
-<pre><code>let pro = new Promise((resolve,reject)=&gt;{
-    console.log(&#39;start&#39;)
-    setTimeout(()=&gt;resolve(),2000)
-    console.log(&#39;resolve end&#39;)
-})
-pro.then(()=&gt;{
-    console.log(&#39;callback&#39;)
-})
-// start
-// resolve end
-// callback
-</code></pre><p>从这个例子的输出结果中，突然发现了一个现象，就是promise参数函数中的代码会马上执行（同步执行），而异步回调之中的代码则会等待promise对象状态发生改变之后才会执行。</p>
-<script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-      <categories>
-        <category>ES6</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>Javascript</tag>
-        <tag>ES6</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>reactform</title>
     <url>/2021/07/17/reactform/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>react表单</em></strong><br><a id="more"></a></p>
@@ -1650,151 +1444,6 @@ pro.then(()=&gt;{
       <tags>
         <tag>前端</tag>
         <tag>react</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>react中的ref和content</title>
-    <url>/2021/07/17/reactref/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>一般的 react 数据流中，父级与子级是通过 props 进行 “沟通”， 如果要子级发生改变，父级可以改变传入的 props。但是有时，需要强制修改子级，这种情况下需要用到 ref</em></strong><br><a id="more"></a></p>
-<h1 id="一般使用-ref-的场景"><a href="#一般使用-ref-的场景" class="headerlink" title="一般使用 ref 的场景:"></a>一般使用 ref 的场景:</h1><h2 id="1-处理焦点，文本选择，-媒体控制"><a href="#1-处理焦点，文本选择，-媒体控制" class="headerlink" title="1.处理焦点，文本选择， 媒体控制"></a>1.处理焦点，文本选择， 媒体控制</h2><h2 id="2-触发强制动画"><a href="#2-触发强制动画" class="headerlink" title="2.触发强制动画"></a>2.触发强制动画</h2><h2 id="3-集成第三方-dom-库"><a href="#3-集成第三方-dom-库" class="headerlink" title="3.集成第三方 dom 库"></a>3.集成第三方 dom 库</h2><pre><code>class AutoFocusTextInput extends React.Component {
-  componentDidMount() {
-    this.textInput.focusTextInput();
-  }
-  render() {
-    return (
-      &lt;CustomTextInput
-        ref={(input) =&gt; { this.textInput = input; }} /&gt;
-    );
-  }
-}
-</code></pre><pre><code>class CustomTextInput extends React.Component {
-  constructor(props) {
-    super(props);
-    this.focus = this.focus.bind(this);
-  }
-
-  focus() {
-    // 直接使用原生 API 使 text 输入框获得焦点
-    this.textInput.focus();
-  }
-
-  render() {
-    // 使用 `ref` 的回调将 text 输入框的 DOM 节点存储到 React
-    // 实例上（比如 this.textInput）
-    return (
-      &lt;div&gt;
-        &lt;input
-          type=&quot;text&quot;
-          ref={(input) =&gt; { this.textInput = input; }} /&gt;
-        &lt;input
-          type=&quot;button&quot;
-          value=&quot;Focus the text input&quot;
-          onClick={this.focus}
-        /&gt;
-      &lt;/div&gt;
-    );
-  }
-}
-</code></pre><h1 id="content"><a href="#content" class="headerlink" title="content"></a>content</h1><p>在 react 中，数据以自上到下的方向传递，如果一个数据在最顶层，而最底层的组件需要用到这个数据，那么数据需要传递很多层才能到达最底层。这种操作会异常麻烦。</p>
-<p>context 可以解决这个问题</p>
-<pre><code>//定义一个全局context
-import React from &#39;react&#39;
-const GlobalContext = React.createContext()
-export default GlobalContext
-//父组件中provider
-&lt;GlobalContext.Provider value={value}&gt;
-&lt;Content /&gt;
-&lt;/GlobalContext.Provider&gt;
-// 子组件
-&lt;GlobalContext.Consumer&gt;
-{value =&gt; &lt;button&gt;test-{value}&lt;/button&gt;}
-&lt;/GlobalContext.Consumer&gt;
-
-</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-      <categories>
-        <category>React</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>react</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>less</title>
-    <url>/2021/07/26/less/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>css预处理器用一种专门的编程语言，为css增加一些编程语言的特性，例如在css中使用变量、简单的逻辑程序、函数等等。而且还能让css可读性更佳，代码更易于维护。</em></strong></p>
-<a id="more"></a>
-<h2 id="css"><a href="#css" class="headerlink" title="css"></a>css</h2><p>css不是编程语言，它没有变量，函数，条件语句等语法，只是一群简单的属性描述，代码不利于维护和扩展。</p>
-<h2 id="css预处理器"><a href="#css预处理器" class="headerlink" title="css预处理器"></a>css预处理器</h2><p>css预处理器用一种专门的编程语言，为css增加一些编程语言的特性，例如在css中使用变量、简单的逻辑程序、函数等等。而且还能让css可读性更佳，代码更易于维护。</p>
-<h2 id="常用的css预处理器"><a href="#常用的css预处理器" class="headerlink" title="常用的css预处理器"></a>常用的css预处理器</h2><p> 最好用的两个，sass和less。</p>
-<h2 id="less的使用"><a href="#less的使用" class="headerlink" title="less的使用"></a>less的使用</h2><ul>
-<li><p>安装</p>
-<pre><code>npm i less-loader less --save-dev
-</code></pre></li>
-<li><p>在webpack中配置</p>
-</li>
-</ul>
-<pre><code>{
-    test : /\.less$/,
-    user : [{
-        loader : &#39;style-loader&#39;
-    },]
-    user : [{
-        loader : &#39;css-loader&#39;
-    },]
-    user : [{
-        loader : &#39;less-loader&#39;
-    },]
-}
-</code></pre><ul>
-<li>新建后缀为.less的文件，然后在页面中引用：<pre><code>import &#39;./style/index.less
-</code></pre><h2 id="less的语法"><a href="#less的语法" class="headerlink" title="less的语法"></a>less的语法</h2></li>
-<li>变量：<br>使用@+变量名的方式定义变量，使用变量时在变量名前加@<pre><code>@size : 20px;
-.box{
-  font-size : @siza
-}
-</code></pre></li>
-<li>混合:<br>将一些通用的属性集合用class封装起来，然后在另一个class中去引用这个class下的所有属性。当然，除了class，id属性集也可以以相同的方式引用。<pre><code>.cla1{
-  color:red;
-}
-.cla2{
-  .cla1;
-}
-</code></pre></li>
-<li>带参数混合:<br>在less中，你还可以像函数一样定义一个带参数的属性集合<pre><code>.clas(@color){
-  color:@color;
-}
-.box{
-  .cla(&#39;red&#39;)
-}
-</code></pre>@arguments变量，包含了所有传进来的参数，如果你不想单独处理每一个参数的话可以像这样写：<pre><code>.box(@x:0,@y:0,@color){
-   width:@arguments;
-   height :@arguments;
-   color : @arguments;
-}
-</code></pre></li>
-<li>嵌套:<br>为了让css代码简洁清晰，易维护，现在less允许我们以嵌套的方式编写层叠样式，子元素样式可以直接嵌套在父元素样式中：</li>
-</ul>
-<pre><code>.box{
-
-    .smallbox{
-
-    }
-}
-</code></pre><ul>
-<li>运算:<br>在less中，任何数字、颜色或者变量都可以参与运算。</li>
-</ul>
-<pre><code>@basewidth:20px;
-.cl{
-    width : @basewidth*2;
-}
-</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-      <categories>
-        <category>css</category>
-      </categories>
-      <tags>
-        <tag>css</tag>
-        <tag>less</tag>
       </tags>
   </entry>
   <entry>
@@ -1963,6 +1612,73 @@ module.exports = {
       </tags>
   </entry>
   <entry>
+    <title>react中的ref和content</title>
+    <url>/2021/07/17/reactref/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>一般的 react 数据流中，父级与子级是通过 props 进行 “沟通”， 如果要子级发生改变，父级可以改变传入的 props。但是有时，需要强制修改子级，这种情况下需要用到 ref</em></strong><br><a id="more"></a></p>
+<h1 id="一般使用-ref-的场景"><a href="#一般使用-ref-的场景" class="headerlink" title="一般使用 ref 的场景:"></a>一般使用 ref 的场景:</h1><h2 id="1-处理焦点，文本选择，-媒体控制"><a href="#1-处理焦点，文本选择，-媒体控制" class="headerlink" title="1.处理焦点，文本选择， 媒体控制"></a>1.处理焦点，文本选择， 媒体控制</h2><h2 id="2-触发强制动画"><a href="#2-触发强制动画" class="headerlink" title="2.触发强制动画"></a>2.触发强制动画</h2><h2 id="3-集成第三方-dom-库"><a href="#3-集成第三方-dom-库" class="headerlink" title="3.集成第三方 dom 库"></a>3.集成第三方 dom 库</h2><pre><code>class AutoFocusTextInput extends React.Component {
+  componentDidMount() {
+    this.textInput.focusTextInput();
+  }
+  render() {
+    return (
+      &lt;CustomTextInput
+        ref={(input) =&gt; { this.textInput = input; }} /&gt;
+    );
+  }
+}
+</code></pre><pre><code>class CustomTextInput extends React.Component {
+  constructor(props) {
+    super(props);
+    this.focus = this.focus.bind(this);
+  }
+
+  focus() {
+    // 直接使用原生 API 使 text 输入框获得焦点
+    this.textInput.focus();
+  }
+
+  render() {
+    // 使用 `ref` 的回调将 text 输入框的 DOM 节点存储到 React
+    // 实例上（比如 this.textInput）
+    return (
+      &lt;div&gt;
+        &lt;input
+          type=&quot;text&quot;
+          ref={(input) =&gt; { this.textInput = input; }} /&gt;
+        &lt;input
+          type=&quot;button&quot;
+          value=&quot;Focus the text input&quot;
+          onClick={this.focus}
+        /&gt;
+      &lt;/div&gt;
+    );
+  }
+}
+</code></pre><h1 id="content"><a href="#content" class="headerlink" title="content"></a>content</h1><p>在 react 中，数据以自上到下的方向传递，如果一个数据在最顶层，而最底层的组件需要用到这个数据，那么数据需要传递很多层才能到达最底层。这种操作会异常麻烦。</p>
+<p>context 可以解决这个问题</p>
+<pre><code>//定义一个全局context
+import React from &#39;react&#39;
+const GlobalContext = React.createContext()
+export default GlobalContext
+//父组件中provider
+&lt;GlobalContext.Provider value={value}&gt;
+&lt;Content /&gt;
+&lt;/GlobalContext.Provider&gt;
+// 子组件
+&lt;GlobalContext.Consumer&gt;
+{value =&gt; &lt;button&gt;test-{value}&lt;/button&gt;}
+&lt;/GlobalContext.Consumer&gt;
+
+</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+      <categories>
+        <category>React</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>react</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>jq实现分页</title>
     <url>/2021/09/18/jqpagination/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>一直在写vue和react的项目，习惯了有组件的快乐生活，近期突然项目上让去写一个jQuery模块，一脸懵逼，jQuery是啥？分页？果然生于忧患，死于安乐呀，赶紧写个分页小demo压压惊</em></strong><br><a id="more"></a></p>
@@ -2069,6 +1785,169 @@ $(&#39;#page&#39;).on(&#39;click&#39;,&#39;li&#39;,function(e){
         <tag>jQuery</tag>
         <tag>分页</tag>
         <tag>ajax</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>cookie</title>
+    <url>/2021/08/22/cookie/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>由于HTTP协议是无状态的，而服务器端的业务必须是要有状态的。Cookie诞生的最初目的是为了存储web中的状态信息，以方便服务器端使用。比如判断用户是否是第一次访问网站。目前最新的规范是RFC 6265，它是一个由浏览器服务器共同协作实现的规范。</em></strong><br><a id="more"></a></p>
+<h1 id="Cookie的工作流程"><a href="#Cookie的工作流程" class="headerlink" title="Cookie的工作流程"></a>Cookie的工作流程</h1><p>cookie通常是由后端服务器生成，当浏览器向后端服务器发送请求的时候，后端服务器向相应头写入cookie，浏览器接收到这个带着cookie信息的相应时就会把cookie存在本地磁盘的某个地方，当该页面下一次向服务器发送请求的时候，就会自动带上这个cookie信息，cookie都有过期事件，当cookie过期之后，浏览器就会将该条cookie信息删除。<br>简单来说工作流程就是如下：</p>
+<pre><code>server(set-cookie)--(cookie)--&gt;Browser--(cookie)--&gt;server
+</code></pre><p>通常被用来做通用登录验证，防止XSS(跨站脚本攻击)</p>
+<h1 id="服务器端的发送与解析"><a href="#服务器端的发送与解析" class="headerlink" title="服务器端的发送与解析"></a>服务器端的发送与解析</h1><ul>
+<li><h2 id="发送cookie"><a href="#发送cookie" class="headerlink" title="发送cookie"></a>发送cookie</h2>服务器端像客户端发送Cookie是通过HTTP响应报文实现的，在Set-Cookie中设置需要像客户端发送的cookie，cookie格式如下：<pre><code>Set-Cookie: &quot;name=value;domain=.domain.com;path=/;expires=Sat, 11 Jun 2016 11:29:42 GMT;HttpOnly;secure&quot;
+</code></pre></li>
+<li>name : 一个唯一确定的cookie名称。通常来讲cookie的名称是不区分大小写的</li>
+<li>value : 存储在cookie中的字符串值。最好为cookie的name和value进行url编码</li>
+<li>demain ： cookie对于哪个域是有效的。所有向该域发送的请求中都会包含这个cookie信息。这个值可以包含子域(如：yq.aliyun.com)，也可以不包含它(如：.aliyun.com，则对于aliyun.com的所有子域都有效).</li>
+<li>path: 表示这个cookie影响到的路径，浏览器跟会根据这项配置，像指定域中匹配的路径发送cookie。</li>
+<li>expires:失效时间，表示cookie何时应该被删除的时间戳(也就是，何时应该停止向服务器发送这个cookie)。如果不设置这个时间戳，浏览器会在页面关闭时即将删除所有cookie；不过也可以自己设置删除时间。这个值是GMT时间格式，如果客户端和服务器端时间不一致，使用expires就会存在偏差。</li>
+<li>HttpOnly: 告知浏览器不允许通过脚本document.cookie去更改这个值，同样这个值在document.cookie中也不可见。但在http请求张仍然会携带这个cookie。注意这个值虽然在脚本中不可获取，但仍然在浏览器安装目录中以文件形式存在。这项设置通常在服务器端设置。</li>
+<li>secure: 安全标志，指定后，只有在使用SSL链接时候才能发送到服务器，如果是http链接则不会传递该信息。就算设置了secure 属性也并不代表他人不能看到你机器本地保存的 cookie 信息，所以不要把重要信息放cookie就对了服务器端设置</li>
+</ul>
+<p>设置cookie的例子：</p>
+<pre><code>var http = require(&#39;http&#39;);
+var fs = require(&#39;fs&#39;);
+http.createServer(function(req, res) {
+  res.setHeader(&#39;status&#39;, &#39;200 OK&#39;);
+  res.setHeader(&#39;Set-Cookie&#39;, &#39;isVisit=true;domain=.yourdomain.com;path=/;max-age=1000&#39;);
+  res.write(&#39;Hello World&#39;);
+  res.end();
+}).listen(8888);
+console.log(&#39;running localhost:8888&#39;) 
+</code></pre><p>可以对设置cookie进行一层封装</p>
+<pre><code>const setCookie = (name,value,options)=&gt;{
+    if (!name) {
+    throw new Error(&quot;coolie must have name&quot;);
+    }
+    const enc = encodeURIComponent;
+    const part = [];
+    val = (val !== null &amp;&amp; val !== undefined) ? val.toString() : &quot;&quot;;
+    options = options||{};
+    part.push(`${enc(name)}=${enc(value)}`);
+    options.domain&amp;&amp;part.push(`domian=${options.domain}`);
+     if (options.path) {
+    parts.push(&quot;path=&quot; + options.path);
+    }
+    // 如果不设置expires和max-age浏览器会在页面关闭时清空cookie
+    if (options.expires) {
+      parts.push(&quot;expires=&quot; + options.expires.toGMTString());
+    }
+    if (options.maxAge &amp;&amp; typeof options.maxAge === &quot;number&quot;) {
+      parts.push(&quot;max-age=&quot; + options.maxAge);
+    }
+    if (options.httpOnly) {
+      parts.push(&quot;HTTPOnly&quot;);
+    }
+    if (options.secure) {
+      parts.push(&quot;secure&quot;);
+    }
+
+    return parts.join(&quot;;&quot;);
+}
+</code></pre><p>这里要注意的一点是,对cookie的操作并没有删除，当我们需要删除一条cookie记录的时候只需要将它的有效时间设置为一个过去的时间，这条数据就会被删除。还有就是domain项必须有两个点，因此不能设置为localhost:</p>
+<pre><code>something that wasn&#39;t made clear to me here and totally confused me for a while was that domain name
+</code></pre><ul>
+<li><h2 id="服务端解析cookie"><a href="#服务端解析cookie" class="headerlink" title="服务端解析cookie"></a>服务端解析cookie</h2></li>
+</ul>
+<p>cookie可以设置不同的域与路径，所以对于同一个name value，在不同域不同路径下是可以重复的，浏览器会按照与当前请求url或页面地址最佳匹配的顺序来排定先后顺序，所以当前端传递到服务器端的cookie有多个重复name value时，我们只需要最匹配的那个，也就是第一个。服务器端解析代码如下：</p>
+<pre><code>var parse = function(cstr) {
+  if (!cstr) {
+    return null;
+  }
+
+  var dec = decodeURIComponent;
+  var cookies = {};
+  var parts = cstr.split(/\s*;\s*/g);
+  parts.forEach(function(p){
+    var pos = p.indexOf(&#39;=&#39;);
+    // name 与value存入cookie之前，必须经过编码
+    var name = pos &gt; -1 ? dec(p.substr(0, pos)) : p;
+    var val = pos &gt; -1 ? dec(p.substr(pos + 1)) : null;
+    //只需要拿到最匹配的那个
+    if (!cookies.hasOwnProperty(name)) {
+      cookies[name] = val;
+    }/* else if (!cookies[name] instanceof Array) {
+      cookies[name] = [cookies[name]].push(val);
+    } else {
+      cookies[name].push(val);
+    }*/
+  });
+
+  return cookies;
+}
+</code></pre><ul>
+<li><h2 id="客户端的存取"><a href="#客户端的存取" class="headerlink" title="客户端的存取"></a>客户端的存取</h2>浏览器将后台传递过来的cookie进行管理，并且允许开发者在JavaScript中使用document.cookie来存取cookie。但是这个接口使用起来非常蹩脚。它会因为使用它的方式不同而表现出不同的行为。<br>当用来获取属性值时，document.cookie返回当前页面可用的（根据cookie的域、路径、失效时间和安全设置）所有的字符串，字符串的格式如下：</li>
+</ul>
+<pre><code>&quot;name1=value1;name2=value2;name3=value3&quot;;
+</code></pre><p>设置document.cookie并不会覆盖cookie，除非设置的name value domain path都与一个已存在cookie重复。<br>由于cookie的读写非常不方便，我们可以自己封装一些函数来处理cookie，主要是针对cookie的添加、修改、删除。</p>
+<pre><code>var cookieUtils = {
+    get: function(name){
+     var cookieName=encodeURIComponent(name) + &quot;=&quot;;
+     //只取得最匹配的name，value
+     var cookieStart = document.cookie.indexOf(cookieName);
+     var cookieValue = null;
+
+     if (cookieStart &gt; -1) {
+      // 从cookieStart算起
+      var cookieEnd = document.cookie.indexOf(&#39;;&#39;, cookieStart);
+      //从=后面开始
+      if (cookieEnd &gt; -1) {
+       cookieValue = decodeURIComponent(document.cookie.substring(cookieStart + cookieName.length, cookieEnd));
+      } else {
+       cookieValue = decodeURIComponent(document.cookie.substring(cookieStart + cookieName.length, document.cookie.length));
+      }
+     }
+
+     return cookieValue;
+    },
+
+    set: function(name, val, options) {
+      if (!name) {
+        throw new Error(&quot;coolie must have name&quot;);
+      }
+      var enc = encodeURIComponent;
+      var parts = [];
+
+      val = (val !== null &amp;&amp; val !== undefined) ? val.toString() : &quot;&quot;;
+      options = options || {};
+      parts.push(enc(name) + &quot;=&quot; + enc(val));
+      // domain中必须包含两个点号
+      if (options.domain) {
+        parts.push(&quot;domain=&quot; + options.domain);
+      }
+      if (options.path) {
+        parts.push(&quot;path=&quot; + options.path);
+      }
+      // 如果不设置expires和max-age浏览器会在页面关闭时清空cookie
+      if (options.expires) {
+        parts.push(&quot;expires=&quot; + options.expires.toGMTString());
+      }
+      if (options.maxAge &amp;&amp; typeof options.maxAge === &quot;number&quot;) {
+        parts.push(&quot;max-age=&quot; + options.maxAge);
+      }
+      if (options.httpOnly) {
+        parts.push(&quot;HTTPOnly&quot;);
+      }
+      if (options.secure) {
+        parts.push(&quot;secure&quot;);
+      }
+
+      document.cookie = parts.join(&quot;;&quot;);
+    },
+    delete: function(name, options) {
+     options.expires = new Date(0);// 设置为过去日期
+     this.set(name, null, options);
+    }
+   }
+</code></pre><p>更多详细内容在原文<br><a href="https://www.jb51.net/article/86598.htm?pc" target="_blank" rel="noopener">点我查看原文</a></p>
+<script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+      <categories>
+        <category>Cookie</category>
+      </categories>
+      <tags>
+        <tag>服务端</tag>
+        <tag>node</tag>
       </tags>
   </entry>
   <entry>
@@ -2334,6 +2213,127 @@ module.exports= merge(commonConfig, devConfig);
       <tags>
         <tag>前端</tag>
         <tag>webpack</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>起点</title>
+    <url>/2021/03/27/start/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>那年夏天，懵懂的我怀揣梦想，来到了这个陌生的城市</em></strong><br><strong><em>开始了我的追梦之路</em></strong><br><!-- ***也遇见了她*** --><br><a id="more"></a></p>
+<h3 id="梦想"><a href="#梦想" class="headerlink" title="梦想"></a>梦想</h3><p> <strong><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;梦想这个字眼对于我们来说，并不陌生。我们每个人都有或有过梦想，每个阶段都会有不同的梦想。小时候有小时候的梦想，长大以后会有长大以后的梦想。</em></strong></p>
+<div id="aplayer-uJorGjdd" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+				<pre class="aplayer-lrc-content">[00:36.530]小时候的我 做着美的梦
+[00:44.170]梦想中 那片天空 好像挂满笑容
+[00:50.930]长大后的我 坚定着美梦
+[00:58.910]因为我 已慢慢懂 努力就能成功
+[01:04.890]
+[01:07.100]我一个人的力量
+[01:10.850]能去闯 就算要飞越海洋
+[01:16.470]也不能 阻挡我对梦的渴望  [01:21.960]我一个人的信仰 [01:25.600]像太阳 散发着炽热的光 [01:31.180]能照亮 所有内心 灰暗的地方 [01:38.240] [01:59.370]天边的彩虹 倒映我的梦 [02:06.890]路边的 彩色霓虹 流淌着感动 [02:14.300]风吹的温柔 带走了沉重 [02:22.400]我要和别人不同 做自己的英雄 [02:28.500] [02:29.579]我一个人的力量 [02:33.950]能去闯 就算要飞越海洋 [02:39.340]也不能 阻挡我对梦的渴望 [02:44.990]我一个人的信仰 [02:48.750]像太阳 散发着炽热的光 [02:54.410]能照亮 所有内心 灰暗的地方 [03:01.290] [03:03.340]我一个人的力量 [03:07.280]能去闯 就算要飞越海洋 [03:12.760]也不能 阻挡我对梦的渴望 [03:18.250]我一个人的信仰 [03:21.829]像太阳 散发着炽热的光 [03:27.590]能照亮 所有内心 灰暗的地方 [03:34.550] [03:37.829]小时候的我 做着美的梦 [03:45.180]梦想中 那片天空 好像挂满笑容 [03:51.890]长大后的我 坚定着美梦 [03:59.890]因为我 已慢慢懂 努力就能成功 [04:06.180] [04:09.900]就能成功 [04:12.280]</pre>
+			</div>
+			<script>
+				var ap = new APlayer({
+					element: document.getElementById("aplayer-uJorGjdd"),
+					narrow: false,
+					autoplay: false,
+					showlrc: 2,
+					music: {
+						title: "慢慢懂",
+						author: "汪苏泷",
+						url: "http://music.163.com/song/media/outer/url?id=165383.mp3",
+						pic: "http://p1.music.126.net/k_WHGJoTvS6H7exsSnK1iA==/3304032446773006.jpg?param=130y130",
+					}
+				});
+				window.aplayers || (window.aplayers = []);
+				window.aplayers.push(ap);
+			</script>
+<p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在我上小学的时候，看到天上的星星一闪一闪的，我就会想，为什么天上的星星不会掉下来，为什么他们会发光。那个时候，我的梦想就是长大之后做一名天文学家。再长大些之后，看到爸妈每天给学生上课，每周休息两天，每年还有寒暑假，就觉得做一名人民教师也挺好的，于是那个时候我的梦想就变成了长大后，像爸妈一样，做一名人民教师。后来上了高中，有了一些与众不同的经历之后，我感觉到了那种在病痛面前什么也做不了的无力、无助、绝望。所以，那个时候，我的梦想就变成了做一名医生。再后来，上大学了，我的专业并不是理想中的医学专业，而是以前从来没有想过的“软件工程”。<br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;慢慢的，我懂了，每个人并不是生来就能不顾一切的去做自己想做的事情，如果我们没有能力去改变社会，那么就只能乖乖的听从社会的安排，来改变自己。所以，我的梦想又变成了毕业之后做一名软件工程师。</p>
+<p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;到了选择编程语言的时候，周围的人都选择了目前世界上最火的语言之一 — Java…….但是这一次我不想妥协，我毅然决然的选择了我喜欢的编程语言 —-Javascript ，但是在我们学校开设的所有课程都是关于Java的，我只能去自己摸索，自己看书查资料去学习这门从来没有接触过的语言，以至于我自学了两三个月还没有入门。直到2017年圣诞节的时候，我遇到了我的第一个前端的老师，我管他叫君哥（真实姓名不便透露），感谢我君哥，是他带我进入了web前端的大门，让我认识了一个不一样的Javascript。<br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;再到后来，我遇到了我第二个前端老师—云姐，从她这里我才真正认识了前端，了解了前端开发工程师在一个项目中所承担的角色，学会了如何合理的利用网络资源去学习自己所需要的知识，并且在真正的前端领域初窥门径。</p>
+<!-- ### 她
+***&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我所选的这个方向注定了我未来的路不是那么好走，或许真像电视里演得一样，冥冥之中，一切都是定数。孤身一人，不知道何去何存的我，几经周折带着我的前端梦来到了这座机会与绝望并存的城市，认识了她。***
+<div id="aplayer-zLZPNPYP" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+				<pre class="aplayer-lrc-content">[00:26.30]我在沙滩划个圆圈  
+[00:28.69]属于我俩安逸世界  
+[00:31.14]不用和别人连线  
+[00:36.33]我不管你来自深渊  
+[00:38.68]也不在乎身上鳞片  
+[00:41.38]爱情能超越一切  
+[00:45.93]只要你在我身边  
+[00:47.79]所有蜚语流言 完全视而不见  
+[00:50.73]请不要匆匆一面  
+[00:52.72]一转身就沉入海平线  
+[00:58.25]传说中你为爱甘心被搁浅  
+[01:03.33]我也可以为你 潜入海里面  
+[01:08.02]怎么忍心断绝  
+[01:10.65]忘记我不变的誓言  
+[01:14.31]我眼泪断了线  
+[01:18.36]现实里有了我对你的眷恋  
+[01:23.40]我愿意化作雕像 等你出现  
+[01:28.19]再见再也不见  
+[01:30.68]心碎了飘荡在海边  
+[01:34.57]你抬头就看见  
+[01:59.54]我在沙滩划个圆圈  
+[02:02.19]属于我俩安逸世界  
+[02:04.63]不用和别人连线  
+[02:09.42]我不管你来自深渊  
+[02:12.33]也不在乎身上鳞片  
+[02:14.73]爱情能超越一切  
+[02:19.06]只要你在我身边  
+[02:21.11]所有蜚语流言 完全视而不见  
+[02:24.14]请不要匆匆一面  
+[02:26.18]一转身就沉入海平线  
+[02:31.88]传说中你为爱甘心被搁浅  
+[02:36.87]我也可以为你 潜入海里面  
+[02:41.64]怎么忍心断绝  
+[02:44.29]忘记我不变的誓言 
+[02:47.75]我眼泪断了线  
+[02:52.04]现实里有了我对你的眷恋  
+[02:57.03]我愿意化作雕像 等你出现  
+[03:01.87]再见再也不见  
+[03:04.66]心碎了飘荡在海边  
+[03:07.95]你抬头就看见  
+[03:12.54]传说中你为爱甘心被搁浅  
+[03:17.23]我也可以为你 潜入海里面  
+[03:22.02]怎么忍心断绝  
+[03:24.71]忘记我不变的誓言  
+[03:28.04]我眼泪断了线  
+[03:32.43]现实里有了我对你的眷恋  
+[03:37.48]我愿意化作雕像 等你出现  
+[03:42.21]再见再也不见  
+[03:44.85]心碎了飘荡在海边  
+[03:48.16]你抬头就看见  
+[03:52.12]你 你抬头就看见  
+[03:57.30]你 你抬头就看见</pre>
+			</div>
+			<script>
+				var ap = new APlayer({
+					element: document.getElementById("aplayer-zLZPNPYP"),
+					narrow: false,
+					autoplay: false,
+					showlrc: 2,
+					music: {
+						title: "美人鱼",
+						author: "林俊杰",
+						url: "http://music.163.com/song/media/outer/url?id=108931.mp3",
+						pic: "http://p2.music.126.net/3jBJ00NEgPuhRFAYwErgag==/109951163533012556.jpg?param=130y130",
+					}
+				});
+				window.aplayers || (window.aplayers = []);
+				window.aplayers.push(ap);
+			</script>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人真的是一种奇怪的生物，有时候在听到某一首歌的时候就会想起一个人。那是一个周末，去网吧玩游戏，一个人玩的无聊，看到旁边坐的一个小姐姐生涩的手指按着机械键盘咔咔响，在玩qq飞车，于是。。。。<br>“嗨！你也玩qq飞车吗？一起啊”<br>“我还不会玩”<br> “没事，我也不会”<br> “那好呀，一起玩”<br> 其实我是会玩的，当时就是想找个一起玩的人，就这样我认识了她。 –&gt;<br> <!-- 后来又一起玩了几次游戏，慢慢熟悉了起来，看电影，吃饭 ， 玩游戏， 逛街 ，一切在顺其自然的发生。
+ 第一次去ktv的时候，她唱了这首林俊杰的 《美人鱼》 ，从那次之后仿佛这就变成了一首属于她的歌，无论在哪里听到这首歌我的脑海里浮现出的都是那次在ktv她唱这首歌的场景。这时候我突然发觉，我可能是有点喜欢她。
+ 就这样，过了一段时间，我鼓起勇气在ktv告白了，很幸运，她答应我了。我们就这样在一起了。
+蓝风铃的香味、清澈的眼睛、空气刘海、阳光、可爱，正所谓“情人眼里出西施”，在一起之后就觉得她哪哪都好。
+最喜欢的就是她的眼睛，就像一汪清泉，清澈见底，笑起来眼睛下面就会出现一对卧蚕，觉得很美。 --><p></p>
+<p><center>这就是我的起点</center></p>
+<script type="text/javascript" src="/js/src/bai.js"></script>   
+]]></content>
+      <categories>
+        <category>记录生活</category>
+      </categories>
+      <tags>
+        <tag>梦想</tag>
+        <tag>起点</tag>
       </tags>
   </entry>
   <entry>
