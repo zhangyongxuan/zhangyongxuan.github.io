@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.zhangyongxuan.com/2021/11/10/reactPagination/</loc>
+    
+    <lastmod>2021-11-10T10:54:20.282Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.zhangyongxuan.com/2021/09/18/jqpagination/</loc>
     
     <lastmod>2021-11-10T06:34:24.306Z</lastmod>
@@ -58,14 +65,14 @@
   </url>
   
   <url>
-    <loc>https://blog.zhangyongxuan.com/2021/07/26/less/</loc>
+    <loc>https://blog.zhangyongxuan.com/2021/07/15/promise/</loc>
     
     <lastmod>2021-11-10T06:34:24.291Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.zhangyongxuan.com/2021/07/15/promise/</loc>
+    <loc>https://blog.zhangyongxuan.com/2021/07/26/less/</loc>
     
     <lastmod>2021-11-10T06:34:24.291Z</lastmod>
     

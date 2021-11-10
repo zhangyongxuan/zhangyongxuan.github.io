@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.zhangyongxuan.com/"/>
-  <updated>2021-11-10T06:34:24.306Z</updated>
+  <updated>2021-11-10T10:54:20.282Z</updated>
   <id>https://blog.zhangyongxuan.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>React实现简单的分页器组件</title>
+    <link href="https://blog.zhangyongxuan.com/2021/11/10/reactPagination/"/>
+    <id>https://blog.zhangyongxuan.com/2021/11/10/reactPagination/</id>
+    <published>2021-11-10T06:41:08.000Z</published>
+    <updated>2021-11-10T10:54:20.282Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>在日常的开发中，一般用到分页器的时候都是使用一些UI组件库里封装好的组件，假如离开了这些组件库该怎么办？这时候只能自己封装一个简单地分页器了</em></strong></p><a id="more"></a><h1 id="一、分页器需要的参数"><a href="#一、分页器需要的参数" class="headerlink" title="一、分页器需要的参数"></a>一、分页器需要的参数</h1><h2 id="一个简单分页器所需要的主要参数有四个，分别是："><a href="#一个简单分页器所需要的主要参数有四个，分别是：" class="headerlink" title="一个简单分页器所需要的主要参数有四个，分别是："></a>一个简单分页器所需要的主要参数有四个，分别是：</h2><pre><code>onChange  // 页码变化时的回调函数 functiontotal   // 数据总数 numberpageSize // 每页数据数 numbercurrentPage // 当前页页码 number</code></pre><p>根据total和pageSize可以算出总页数 totalPage = total/size<br>当total和size中任何一个发生变化时都需要重新计算totalPage   </p><h2 id="还有一个比较特殊的内部参数：步长-step"><a href="#还有一个比较特殊的内部参数：步长-step" class="headerlink" title="还有一个比较特殊的内部参数：步长 step"></a>还有一个比较特殊的内部参数：步长 step</h2><p>这个参数非常重要，表示向前step页，向后step页。而在分页器的展示形态里也起着至关重要的作用，step一般来说是奇数，在这里我管Math.ceil(step/2)叫半步长</p><h1 id="二、-分页器的展示形态"><a href="#二、-分页器的展示形态" class="headerlink" title="二、 分页器的展示形态"></a>二、 分页器的展示形态</h1><p>分页器的展示形态是取决于当前页、总页数和步长<br>如果总页数少，那么就会显示所有页，如果总页数多那么就会出现左右省略号<br>左省略号点击之后是向前step页，右省略号点击之后是向后step页 </p><p>首先，分页器的展示形态分为有省略号和无省略号两种，而不管有没有省略号，第一页和最后一页以及向前（后）1页都是显示的</p><h2 id="1、无省略号的情况分为2种"><a href="#1、无省略号的情况分为2种" class="headerlink" title="1、无省略号的情况分为2种"></a>1、无省略号的情况分为2种</h2><p>第一种：第一页就是最后一页，此时的分页器形态为：</p><pre><code>&lt; 1 &gt;</code></pre><p>第二种：总页数大于1且小于等于步长+1，这时候分页器的形态为：</p><pre><code>&lt;  1  2  3  4  5  &gt;</code></pre><h2 id="2、有省略号的情况分为三种情况，此时总页数必然是大于步长-1的"><a href="#2、有省略号的情况分为三种情况，此时总页数必然是大于步长-1的" class="headerlink" title="2、有省略号的情况分为三种情况，此时总页数必然是大于步长+1的"></a>2、有省略号的情况分为三种情况，此时总页数必然是大于步长+1的</h2><p>第一种情况： 无左省略号，有右省略号 ， 分页器形态为：</p><pre><code>&lt;  1  2  3  4  5  &gt;&gt;  10  &gt;</code></pre><p>第二种情况： 有左省略号，无右省略号 ， 分页器形态为：</p><pre><code>&lt;  1  &lt;&lt;  6  7  8  9  10  &gt;</code></pre><p>第二种情况： 有左省略号，无右省略号 ， 分页器形态为：</p><pre><code>&lt;  1  &lt;&lt;  6  7  8  9  10  &gt;</code></pre><p>第三种情况： 有左省略号，无右省略号 ， 分页器形态为：</p><pre><code>&lt;  1  &lt;&lt;  6  7  8  9  10  &gt;&gt;  50  &gt;</code></pre><h1 id="三、-源码"><a href="#三、-源码" class="headerlink" title="三、 源码"></a>三、 源码</h1><p>index.js : </p><pre><code>/* eslint-disable react-hooks/exhaustive-deps */import React, { useEffect, useState } from &quot;react&quot;;import &quot;./style.scss&quot;;const step = 5; // 步长const halfStep = Math.ceil(step / 2); // 当前页前后页数const Pagination = ({  onChange = (e) =&gt; e,  total = 500,  pageSize = 10,  currentPage = 1,  sizeOptions = [10, 20, 30, 40, 50]}) =&gt; {  const [current, setCurrent] = useState(currentPage);  const [size, setSize] = useState(pageSize);  const [pageItemList, setPageItemList] = useState([]);  const [totalPage, setTotalPage] = useState(0);  const [showSizeList, setShowSizeList] = useState(false);  /**   * 向前/后 步长页   * @param {*} type   * @returns   */  const getJumpItem = ({ type }) =&gt; {    return {      type,      text: type &gt; 0 ? &quot;&gt;&gt;&quot; : &quot;&lt;&lt;&quot;,      num: Math.random(),      title: `向${type &gt; 0 ? &quot;后&quot; : &quot;前&quot;}${step}页`    };  };  useEffect(() =&gt; {    setTotalPage(Math.ceil(total / size));  }, [total, size]);  useEffect(() =&gt; {    onChange({ total: totalPage, currentPage: current });  }, [current, size]);  // 核心逻辑  useEffect(() =&gt; {    const subList = []; // 除了第一页和最后一页中间的部分    if (totalPage &gt; step + 1) {      // 总页数大于步长+1说明有省略      if (current - halfStep &lt; 1) {        // 当前页-半步长小于1不显示向前步长数        for (let i = 1; i &lt;= step; i++) {          if (i &lt; step) {            subList.push({              type: 0,              text: i + 1,              num: i + 1,              title: i + 1            });          } else {            // 最后一页push向后步长页            subList.push(getJumpItem({ type: 1 }));          }        }      } else if (current + halfStep &gt; totalPage) {        //  当前页+半步长大于总页数不显示向后步长页        for (let i = totalPage - step; i &lt; totalPage; i++) {          if (i === totalPage - step) {            // 第一个push向前步长页            subList.push(getJumpItem({ type: -1 }));          } else {            subList.push({              type: 0,              text: i,              num: i,              title: i            });          }        }      } else {        // 同时显示向前和向后步长页        for (let i = 1; i &lt;= step + 2; i++) {          const opr = i - halfStep - 1;          if (i === 1 &amp;&amp; current - halfStep !== 1) {            subList.push(getJumpItem({ type: -1 }));            console.log(-1);          } else if (i === step + 2 &amp;&amp; current + halfStep !== totalPage) {            console.log(1);            subList.push(getJumpItem({ type: 1 }));          } else if (i &gt; 1 &amp;&amp; i &lt; step + 2) {            console.log(current + 1);            subList.push({              type: 0,              text: current + opr,              num: current + opr,              title: current + opr            });          }        }      }    } else if ((totalPage &gt; 2 &amp;&amp; totalPage &lt;= step) || totalPage === step + 1) {      /***       * 总页数大于2且小于等于步长时除了第一页和最后一页中间还有总页数-2 从第二页开始       * 总页数刚好等于步长时也是一样的逻辑       */      for (let i = 2; i &lt; totalPage; i++) {        subList.push({          type: 0,          text: i,          num: i,          title: i        });      }    }    if (totalPage &gt; 1) {      setPageItemList([        {          type: 0,          text: 1,          num: 1,          title: 1        },        ...subList,        {          type: 0,          text: totalPage,          num: totalPage,          title: totalPage        }      ]);    } else if (totalPage !== 0) {      setPageItemList([        {          type: 0,          text: 1,          num: 1,          title: 1        }      ]);    }  }, [totalPage, current]);  const leftTxt = &quot;&lt;&quot;,    rightTxt = &quot;&gt;&quot;;  return (    &lt;div className=&quot;pagination-container&quot;&gt;      &lt;ul className=&quot;pagination-sub-container&quot;&gt;        {current !== 1 &amp;&amp; (          &lt;li onClick={() =&gt; setCurrent(current - 1)}&gt;{leftTxt}&lt;/li&gt;        )}        {pageItemList.map(({ type, num, text, title }) =&gt; {          const eleProps = {            title,            key: num          };          if (type === 0) {            eleProps.style = {              border: num !== current ? &quot;1px solid gainsboro&quot; : &quot;1px solid gray&quot;            };            eleProps.onClick = () =&gt; {              if (num !== current) {                setCurrent(num);              }            };          } else {            eleProps.onClick = () =&gt; {              let curP = current + step * type;              if (curP &gt; totalPage) {                curP = totalPage;              }              if (curP &lt; 1) {                curP = 1;              }              setCurrent(curP);            };          }          return &lt;li {...eleProps}&gt;{text}&lt;/li&gt;;        })}        {current !== totalPage &amp;&amp; (          &lt;li onClick={() =&gt; setCurrent(current + 1)}&gt;{rightTxt}&lt;/li&gt;        )}        &lt;li          className=&quot;size&quot;          onClick={() =&gt; {            setShowSizeList(!showSizeList);          }}        &gt;          {size}条/页 ↓          {showSizeList &amp;&amp; (            &lt;ul className=&quot;set-size-box&quot;&gt;              {sizeOptions.map((item) =&gt; (                &lt;li                  onClick={() =&gt; {                    setCurrent(1);                    setSize(item);                    setShowSizeList(false);                  }}                &gt;                  {item}                &lt;/li&gt;              ))}            &lt;/ul&gt;          )}        &lt;/li&gt;      &lt;/ul&gt;      &lt;div style={{ clear: "both" }} /&gt;    &lt;/div&gt;  );};export default Pagination;</code></pre><p>style.scss:</p><pre><code>.pagination-container {  float: left;  .pagination-sub-container {    position: relative;    float: left;    li {      list-style-type: none;      display: inline-block;      width: 40px;      height: 40px;      line-height: 40px;      text-align: center;      margin: 5px;      border-radius: 8px;      font-size: 14px;      box-sizing: border-box;      cursor: pointer;      -moz-user-select: none;      -webkit-user-select: none;      -ms-user-select: none;      user-select: none;      border: 1px solid gainsboro;    }    li:hover {      border: 1px solid gray;    }    .size {      min-width: 80px;      border: 1px solid gray;      position: relative;      .set-size-box {        float: left;        // height: 40px;        // line-height: 40px;        // border-radius: 8px;        // vertical-align: middle;        padding: 0;        margin: 0;        li {          min-width: 100%;          margin: 0;        }      }    }  }}</code></pre><p> <a href="https://codesandbox.io/s/components-test-phrpl" target="_blank" rel="noopener">自己试试</a></p><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;&lt;em&gt;在日常的开发中，一般用到分页器的时候都是使用一些UI组件库里封装好的组件，假如离开了这些组件库该怎么办？这时候只能自己封装一个简单地分页器了&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="React" scheme="https://blog.zhangyongxuan.com/categories/React/"/>
+    
+    
+      <category term="react" scheme="https://blog.zhangyongxuan.com/tags/react/"/>
+    
+      <category term="es6" scheme="https://blog.zhangyongxuan.com/tags/es6/"/>
+    
+      <category term="UI组件" scheme="https://blog.zhangyongxuan.com/tags/UI%E7%BB%84%E4%BB%B6/"/>
+    
+  </entry>
   
   <entry>
     <title>爬虫利器Puppeteer</title>
@@ -160,9 +186,9 @@
     
       <category term="前端" scheme="https://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="react" scheme="https://blog.zhangyongxuan.com/tags/react/"/>
-    
       <category term="webpack" scheme="https://blog.zhangyongxuan.com/tags/webpack/"/>
+    
+      <category term="react" scheme="https://blog.zhangyongxuan.com/tags/react/"/>
     
   </entry>
   
@@ -386,11 +412,11 @@
     
       <category term="前端" scheme="https://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
+      <category term="面向对象" scheme="https://blog.zhangyongxuan.com/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
+    
       <category term="Javascript" scheme="https://blog.zhangyongxuan.com/tags/Javascript/"/>
     
       <category term="ES6" scheme="https://blog.zhangyongxuan.com/tags/ES6/"/>
-    
-      <category term="面向对象" scheme="https://blog.zhangyongxuan.com/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
     
   </entry>
   
@@ -485,32 +511,6 @@
       <category term="前端" scheme="https://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
       <category term="react" scheme="https://blog.zhangyongxuan.com/tags/react/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>js面向对象基础</title>
-    <link href="https://blog.zhangyongxuan.com/2020/04/09/jsobject/"/>
-    <id>https://blog.zhangyongxuan.com/2020/04/09/jsobject/</id>
-    <published>2020-04-09T06:43:25.000Z</published>
-    <updated>2021-11-10T06:32:56.400Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>js作为一种基于对象的弱类型脚本语言，在前后端分离的今天担任着不可或缺的一部分任务，随着前端的发展，越来复杂的逻辑，让前端程序猿们不再满足于这种基于对象的编程方式，这时候js基于原型链的一种面向对象的实现方法被越来越多的人所采纳</em></strong></p><a id="more"></a><h1 id="js基于对象而不是面向对象"><a href="#js基于对象而不是面向对象" class="headerlink" title="js基于对象而不是面向对象"></a>js基于对象而不是面向对象</h1><p>js是一种基于对象的语言，所谓基于对象，简单来说就是在js中有对象的概念，但是没有类的概念，学过java的人都知道，在java中，要创建一个对象实例，首先需要一个有一个这个对象的类，用类去创建这个类的对象实例，而基于对象则是用对象去创建对象。举个网上的例子：</p><ul><li><p>面向对象就是先设计一个房子的图纸，然后按照图纸的设计去建造一个房子</p></li><li><p>基于对象就是先建造一个房子，然后根据已有的房子的样子再去建造一个房子</p><p>也就是说：</p></li><li><p>面向对象： 先有一个对象的抽象描述（类），然后根据这个类去构建一个新的对象</p></li><li><p>基于对象：现有一个具体对象，然后根据这个具体的对象，去创建一个新的对象</p><p>由此看来js中的所有对象都是同一个对象的子对象。</p><p>面向对象的三大基本特征：封装，多态，继承，然而基于对象和面向对象最大的区别也在这里，基于对象虽然也使用了对象，但是无法利用现有对象模板产生新的对象类型，产生新的对象，所以就没有继承这一说，没有继承也就没有多态了。</p></li></ul><blockquote><p>多态体现的就是继承，一般体现在抽象类上。js语言基于对象，它封装了一些对象，调用对象的方法，设置对象的属性，但是没办法产生新的类，只能使用现有的对象的方法和属性。  </p></blockquote><h1 id="原型链"><a href="#原型链" class="headerlink" title="原型链"></a>原型链</h1><p>我们在js中创建一个对象的时候，会使用new关键字，他具体做了什么事情呢，其实他就干了三件事</p><ul><li><ol><li>创建一个空对象: <code>var obj = {}</code></li></ol></li><li><ol start="2"><li>使这个空对象的<em>proto</em>指向基函数prototype : <code>obj._proto_ = Basr.prototype</code></li></ol></li><li><ol start="3"><li>将基函数的this指向改为新的对象: <code>Base.call(obj)</code></li></ol></li></ul><p>其实，所有的函数都是 Function 的实例。在构造函数上都有一个原型属性 prototype，该属性也是一个对象；那么在原型对象上有一个 constructor 属性，该属性指向的就是构造函数；而实例对象上有一个 <em>proto</em>  属性，该属性也指向原型对象，并且该属性不是标准属性，不可以用在编程中，该属性用于浏览器内部使用。</p><pre><code>// _proto_在函数里有一个属性prototype由该函数创建的对象默认会连接到该属性上    //prototype 与 _proto_ 的关系_proto_是站在对象角度来说的prototype 是站在构造函数角度来说的</code></pre><p>所谓原型链就是有限的实例对象和原型之间组成有限链，就是用来实现共享属性和继承的。一个对象有原型对象，原型对象也有一个原型对象，一个对象的末级原型对象也就是Object的原型对象是null。</p><pre><code>// 原型链示例 7    var arr = []; 8    arr -&gt; Array.prototype -&gt;Object.prototype -&gt; null 9    var o = new Object();10    o -&gt; Object.prototype -&gt; null;</code></pre><h1 id="js面向对象"><a href="#js面向对象" class="headerlink" title="js面向对象"></a>js面向对象</h1><p>  es5面向对象继承实现：</p><pre><code>    function Animal() { }    function Dog() { }    Object.defineProperties(Animal.prototype, {    name: {        value() {        return &#39;Animal&#39;;        }    },    say: {        value() {        return `I &#39; m ${this.name()}`        }    }    })    Dog.prototype = Object.create(Animal.prototype);    console.log(new Dog().say());  // 输出  I&#39;m Animal</code></pre><p>多态就是子类重写父类方法</p><pre><code>    function Animal() { }    function Dog() { }    Object.defineProperties(Animal.prototype, {    name: {        value() {        return &#39;Animal&#39;;        }    },    say: {        value() {        return `I &#39; m ${this.name()}`        }    }    })    Dog.prototype = Object.create(Animal.prototype, {        name: {            value() {            return &#39;Lucy&#39;;            }        }    });    console.log(new Dog().say());  // 输出  I&#39;m Lucy</code></pre><p>  在es6中提供了语法糖 ，一定程度上简化了继承与多态的实现：</p><pre><code>    class Person {        say() {            console.log(&#39;我姓&#39; + this.xs);        }    }    class PersonZ extends Person {         xs = &#39;张&#39;;    }    new PersonZ().say();  // 输出  我姓张</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;&lt;em&gt;js作为一种基于对象的弱类型脚本语言，在前后端分离的今天担任着不可或缺的一部分任务，随着前端的发展，越来复杂的逻辑，让前端程序猿们不再满足于这种基于对象的编程方式，这时候js基于原型链的一种面向对象的实现方法被越来越多的人所采纳&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="js" scheme="https://blog.zhangyongxuan.com/categories/js/"/>
-    
-    
-      <category term="前端" scheme="https://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-      <category term="面向对象" scheme="https://blog.zhangyongxuan.com/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
-    
-      <category term="js" scheme="https://blog.zhangyongxuan.com/tags/js/"/>
     
   </entry>
   
