@@ -1,0 +1,1555 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="react,webpack,dva,">
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="张小轩的个人博客" type="application/atom+xml">
+
+
+
+
+
+
+<meta name="description" content="webpack作为新一代前端打包工具，为前端工程化提供了一些很方便的解决方式，在经过好几天的踩坑之后，一路蹒跚、跌跌撞撞的终于使用webpack-dev-middleware 插件+express搭建出了一个dva的项目">
+<meta name="keywords" content="react,webpack,dva">
+<meta property="og:type" content="article">
+<meta property="og:title" content="webpack搭建dva项目">
+<meta property="og:url" content="https://blog.zhangyongxuan.com/2020/04/02/webpackDvaDemo/index.html">
+<meta property="og:site_name" content="张小轩的个人博客">
+<meta property="og:description" content="webpack作为新一代前端打包工具，为前端工程化提供了一些很方便的解决方式，在经过好几天的踩坑之后，一路蹒跚、跌跌撞撞的终于使用webpack-dev-middleware 插件+express搭建出了一个dva的项目">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2021-11-10T06:32:56.401Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="webpack搭建dva项目">
+<meta name="twitter:description" content="webpack作为新一代前端打包工具，为前端工程化提供了一些很方便的解决方式，在经过好几天的踩坑之后，一路蹒跚、跌跌撞撞的终于使用webpack-dev-middleware 插件+express搭建出了一个dva的项目">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://blog.zhangyongxuan.com/2020/04/02/webpackDvaDemo/">
+
+
+
+
+  <meta name="baidu-site-verification" content="Qq6dyd8OtU">
+
+
+
+  <title>webpack搭建dva项目 | 张小轩的个人博客</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">张小轩的个人博客</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <h1 class="site-subtitle" itemprop="description"></h1>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-liuyanban">
+          <a href="/liuyanban/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-commenting-o"></i> <br>
+            
+            留言版
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            文章
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-photos">
+          <a href="/photos/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-camera-retro"></i> <br>
+            
+            相册
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://blog.zhangyongxuan.com/2020/04/02/webpackDvaDemo/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="张小轩">
+      <meta itemprop="description" content="总有一天，脚步也能到达那些梦曾经到过的地方">
+      <meta itemprop="image" content="/images/tx.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="张小轩的个人博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">webpack搭建dva项目</h2>
+        
+
+        <div class="post-meta">
+        
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-04-02T13:36:03+08:00">
+                2020-04-02
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/webpack/" itemprop="url" rel="index">
+                    <span itemprop="name">webpack</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>热度
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>℃
+            </span>
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  1.7k字
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  8分钟
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><strong><em>webpack作为新一代前端打包工具，为前端工程化提供了一些很方便的解决方式，在经过好几天的踩坑之后，一路蹒跚、跌跌撞撞的终于使用webpack-dev-middleware 插件+express搭建出了一个dva的项目</em></strong></p>
+<a id="more"></a>
+<h1 id="webpack-dev-middleware-插件"><a href="#webpack-dev-middleware-插件" class="headerlink" title="webpack-dev-middleware 插件"></a>webpack-dev-middleware 插件</h1><p>首先介绍一下这个webpack-dev-middleware 插件，webpack-dev-middleware,作用就是，生成一个与webpack的compiler绑定的中间件，然后在express启动的服务app中调用这个中间件。<br>这个中间件的作用有三点：  </p>
+<ul>
+<li>1.通过监听代码的变更，实现自动打包</li>
+<li>2.快速编译并且将打包后的文件缓存在内存之中。（这就是webpack明明可以用watch mode，可以实现一样的效果，但是为什么还需要这个中间件的原因）</li>
+<li>3.返回的是一个中间件，支持express的use格式</li>
+</ul>
+<p>ps: 这个中间件打包后的产物直接走内存，相比于webpack每次打包完之后将新的文件放在本地指定位置来说效率更快，对于开发来讲更加方便</p>
+<h1 id="项目搭建"><a href="#项目搭建" class="headerlink" title="项目搭建"></a>项目搭建</h1><h2 id="1-创建一个文件夹，在文件夹目录运行npm-init生成package-json-安装相关依赖"><a href="#1-创建一个文件夹，在文件夹目录运行npm-init生成package-json-安装相关依赖" class="headerlink" title="1.创建一个文件夹，在文件夹目录运行npm init生成package.json 安装相关依赖"></a>1.创建一个文件夹，在文件夹目录运行npm init生成package.json 安装相关依赖</h2><p>生成的package.json文件如下，可直接复制之后  yarn。</p>
+<pre><code>{
+  &quot;name&quot;: &quot;reactwebpackexc&quot;,
+  &quot;version&quot;: &quot;0.1.0&quot;,
+  &quot;private&quot;: true,
+  &quot;dependencies&quot;: {
+    &quot;babel-core&quot;: &quot;^6.26.3&quot;,
+    &quot;babel-loader&quot;: &quot;^8.1.0&quot;,
+    &quot;babel-preset-env&quot;: &quot;^1.7.0&quot;,
+    &quot;commitizen&quot;: &quot;^4.0.3&quot;,
+    &quot;cz-conventional-changelog&quot;: &quot;^3.1.0&quot;,
+    &quot;dva&quot;: &quot;^2.4.1&quot;,
+    &quot;express&quot;: &quot;^4.17.1&quot;,
+    &quot;react&quot;: &quot;^16.13.1&quot;,
+    &quot;react-dev-utils&quot;: &quot;^10.2.1&quot;,
+    &quot;react-dom&quot;: &quot;^16.13.1&quot;,
+    &quot;react-scripts&quot;: &quot;3.4.1&quot;
+  },
+  &quot;devDependencies&quot;: {
+    &quot;@babel/preset-react&quot;: &quot;^7.9.4&quot;,
+    &quot;clean-webpack-plugin&quot;: &quot;^3.0.0&quot;,
+    &quot;eslint&quot;: &quot;^6.8.0&quot;,
+    &quot;eslint-friendly-formatter&quot;: &quot;^4.0.1&quot;,
+    &quot;eslint-loader&quot;: &quot;^3.0.3&quot;,
+    &quot;html-webpack-plugin&quot;: &quot;^4.0.3&quot;,
+    &quot;webpack&quot;: &quot;^4.42.1&quot;,
+    &quot;webpack-cli&quot;: &quot;^3.3.11&quot;,
+    &quot;webpack-dev-middleware&quot;: &quot;^3.7.2&quot;,
+    &quot;webpackbar&quot;: &quot;^4.0.0&quot;
+  },
+  &quot;scripts&quot;: {
+    &quot;start&quot;: &quot;node script/start.js&quot;,
+    &quot;build:dll&quot;: &quot;webpack --progress --config config/webpack.dll.config.js&quot;, 
+    &quot;build:dll-dev&quot;: &quot;webpack --progress --config config/webpack.dll-dev.config.js&quot;,
+    &quot;commit&quot;: &quot;git-cz&quot;
+  },
+  &quot;config&quot;: {
+    &quot;commitizen&quot;: {
+      &quot;path&quot;: &quot;./node_modules/cz-conventional-changelog&quot;
+    }
+  }
+}
+
+</code></pre><h2 id="项目文件目录如下："><a href="#项目文件目录如下：" class="headerlink" title="项目文件目录如下："></a>项目文件目录如下：</h2><pre><code>config  (项目所需的配置文件都在该文件夹下)
+|__webpack.config.js  (webpack基础配置文件)
+|__webpack.dll-dev.config.js  (webpack dll 插件配置文件)
+|__routes.js  (路由配置文件)
+public  (静态文件，html模板相关的文件)
+|__index.html (spa应用入口页面模板)
+script （项目启动文件）
+|__start.js (启动本地开发服务器文件)
+src
+|__Layout (整体布局相关文件夹)
+|__model (dva model相关文件夹)
+|__routes (dva 路由组件相关文件夹)
+|__service (请求接口相关文件夹)
+|__index.js (项目入口文件)
+|__router.js (项目路由组件入口文件)
+
+</code></pre><h2 id="重要文件代码"><a href="#重要文件代码" class="headerlink" title="重要文件代码"></a>重要文件代码</h2><p>webpack.config.js （webpack基础配置文件）：</p>
+<pre><code>const path = require(&#39;path&#39;);
+const WebpackBar = require(&#39;webpackbar&#39;);
+const webpack = require(&#39;webpack&#39;);
+const HtmlWebpackPlugin = require(&#39;html-webpack-plugin&#39;);
+
+const plugins = require(&#39;./plugins&#39;);
+
+
+module.exports = function (mode) {
+    const isDev = mode === &#39;development&#39;;
+
+    return {
+        mode: mode,
+        devtool: isDev
+            ? &#39;source-map&#39;
+            : false,
+        entry: {
+            main: path.resolve(__dirname, &#39;../src/index.js&#39;),
+        },
+        output: {
+            filename: &#39;[name].js&#39;,
+            path: !isDev ? path.resolve(__dirname, &#39;../dist/[hash]&#39;) : path.resolve(__dirname, &#39;../static/dist&#39;),
+            publicPath: &#39;/app&#39;
+        },
+        plugins: Array.from(new Set([
+            ...plugins,
+            new HtmlWebpackPlugin({
+                filename: !isDev ? path.resolve(__dirname, &#39;../dist/[hash]/index.html&#39;) : path.resolve(__dirname, &#39;../static/dist/index.html&#39;),
+                template: path.resolve(__dirname, &#39;../public/index.html&#39;)
+            }),
+            new webpack.DllReferencePlugin({   // 这个插件时配合DllPligin插件使用的，指定library的映射文件
+                context:&#39;/app&#39;,  
+                manifest: !isDev ? require(&#39;../dist/vendor-manifest.json&#39;) : require(&#39;../static/vendor-manifest.json&#39;)
+            }),
+            new WebpackBar({ name: &#39;✈ 打包中。。。&#39;, color: &#39;red&#39; }),
+            new webpack.NamedModulesPlugin(), // 用于启动 HMR 时可以显示模块的相对路径
+            new webpack.HotModuleReplacementPlugin(), // Hot Module Replacement 的插件
+
+        ])),
+        module: {
+            rules: [{ test: /\.js$/, use: &#39;babel-loader&#39;, exclude: /node_modules/ }, { test: /\.jsx$/, use: &#39;babel-loader&#39;, exclude: /node_modules/ }]
+        },
+
+    }
+}
+</code></pre><p>这里就和正常webpack配置一样</p>
+<p>webpack.dll-dev.config.js(DllPlugin插件配置文件)：</p>
+<pre><code>
+
+const path = require(&#39;path&#39;);
+const webpack = require(&#39;webpack&#39;);
+const WebpackBar = require(&#39;webpackbar&#39;);
+const { CleanWebpackPlugin } = require(&#39;clean-webpack-plugin&#39;);
+
+module.exports = {
+    mode: &#39;development&#39;,
+    devtool: &#39;source-map&#39;,
+    entry: {
+        vendor: [&#39;react&#39;,
+            &#39;react-dom&#39;,
+            &#39;dva&#39;,
+            &#39;dva/router&#39;,
+            &#39;dva/saga&#39;,
+            &#39;dva/fetch&#39;,], 
+    },
+    output: {
+        path: path.resolve(__dirname, &#39;../static/dll&#39;),
+        filename: &#39;[name].dll.js&#39;,
+        library: &#39;[name]_library&#39;,
+        publicPath: &#39;/app&#39;
+
+    },
+    plugins: [
+        new webpack.DllPlugin({
+            path: path.resolve(&#39;./static&#39;, &#39;[name]-manifest.json&#39;),
+            name: &#39;[name]_library&#39;,
+            context: &#39;app&#39;
+        }),
+        new CleanWebpackPlugin({
+            root: path.resolve(__dirname,&#39;../&#39;) , // 根目录
+            verbose: true, // 开启在控制台输出信息
+            dry: false, // 启用删除文件
+        }),
+        new WebpackBar({ name: &#39;✈ 生成DLL文件&#39;, color: &#39;blue&#39; }),
+    ],
+
+    module: {
+        rules: [{ test: /\.js$/, use: &#39;babel-loader&#39;, exclude: /node_modules/ }]
+    }
+};
+</code></pre><p>这里使用DllPlugin插件是将除了业务代码之外的框架代码提前打包，提高业务代码打包的效率，所以再yarn start 之前需要运行yarn build:dll-dev生成library文件</p>
+<p>start.js(开发服务器启动文件):</p>
+<pre><code>&#39;use strict&#39;;
+const webpack = require(&#39;webpack&#39;);
+const express = require(&#39;express&#39;);
+const path = require(&#39;path&#39;);
+const webpackMiddleWare = require(&#39;webpack-dev-middleware&#39;);
+const webpackConfigFac = require(&#39;../config/webpack.config&#39;);
+const openBrowser = require(&#39;react-dev-utils/openBrowser&#39;);
+
+
+const app = new express();
+const compiler = webpack(webpackConfigFac(&#39;development&#39;));
+app.use(express.static(path.resolve(__dirname, &#39;../static&#39;))); // 指定静态文件目录
+app.use(webpackMiddleWare(compiler, {
+    publicPath: &#39;/app&#39;
+}));
+app.get(&#39;*&#39;, function (request, response) { response.sendFile(path.resolve(__dirname, &#39;../public&#39;, &#39;index.html&#39;)) })   //  createBrowserHistory 的服务端配置
+app.listen(3000, () =&gt; {
+    console.log(`server is running in port 3000`);
+    console.log(`http://localhost:3000/app`);
+    openBrowser(&#39;http://localhost:3000/app&#39;);
+})
+</code></pre><p>index.js (项目入口文件):</p>
+<pre><code>import dva from &#39;dva&#39;;
+import { createBrowserHistory } from &#39;history&#39;;
+import routes from &#39;./router&#39;;
+
+
+
+const app = dva({
+  history: createBrowserHistory({
+    basename:&#39;/app&#39;
+  })
+});
+app.router(routes);
+app.start(&#39;#root&#39;);
+</code></pre><p>router.js(路由处理文件)：</p>
+<pre><code>import React from &#39;react&#39;;
+import { routerRedux, Switch, Route,Redirect } from &#39;dva/router&#39;;
+import routes from &#39;../config/routes&#39;;
+
+
+const { ConnectedRouter } = routerRedux;
+
+function getRoutes(routes) {
+    if (routes.components) {
+        getRoutes(routes.components);
+    } else {
+        return routes.map(item =&gt; {
+            return &lt;Route path={item.path} key={item.path} component={require(`./routes/${item.component}`).default} /&gt;;
+        })
+    }
+}
+
+
+export default function ({ history }) {
+    return (&lt;ConnectedRouter history={history}&gt;
+        &lt;Switch&gt;
+            {
+                getRoutes(routes)
+            }
+            &lt;Redirect form=&#39;/&#39; to=&#39;home&#39; /&gt;
+        &lt;/Switch&gt;
+    &lt;/ConnectedRouter&gt;)
+}
+</code></pre><p>.babelrc(babel配置文件):</p>
+<pre><code>{
+    &quot;presets&quot;: [&quot;@babel/preset-env&quot;,&quot;@babel/preset-react&quot;],
+    &quot;plugins&quot;: [&quot;@babel/plugin-transform-runtime&quot;,&quot;@babel/plugin-proposal-class-properties&quot;]
+}
+</code></pre><h2 id="这里记录一下管理react路由的history使用"><a href="#这里记录一下管理react路由的history使用" class="headerlink" title="这里记录一下管理react路由的history使用"></a>这里记录一下管理react路由的history使用</h2><h3 id="history-插件的使用"><a href="#history-插件的使用" class="headerlink" title="history 插件的使用"></a>history 插件的使用</h3><pre><code> cnpm install history --save
+ import { createBrowserHistory } from &#39;history&#39;;
+</code></pre><h3 id="使用history的三种方式"><a href="#使用history的三种方式" class="headerlink" title="使用history的三种方式"></a>使用history的三种方式</h3><ol>
+<li>createBrowserHistory   现代浏览器使用</li>
+</ol>
+<pre><code>        createBrowserHistory({
+            basename: &#39;&#39;, // 基链接
+            forceRefresh: false, // 是否强制刷新整个页面
+            keyLength: 6, // location.key的长度
+            getUserConfirmation: (message,callback) =&gt; callback(window.confirm(message)) // 跳转拦截函数
+        })
+</code></pre><ol start="2">
+<li>createMemoryHistory 手机端使用</li>
+</ol>
+<pre><code>        createMemoryHistory({
+            initialEntries: [&#39;/&#39;], // 初始载入路径，和MemoryRouter中的initialEntries是一样的
+            initialIndex: 0, // initialEntries初始载入索引
+            keyLength: 6, // location.key的长度
+            getUserConfirmation: null // 路由跳转拦截函数
+        })
+</code></pre><ol start="3">
+<li>createHashHistory (老版本浏览器使用，由于太过古老，这里不做记录)</li>
+</ol>
+<p> <a href="https://github.com/zhangyongxuan/webpackExcDemo.git" target="_blank" rel="noopener">源码地址</a></p>
+<script type="text/javascript" src="/js/src/bai.js"></script>
+      
+    </div>
+    
+    
+    
+
+    
+
+
+  
+    <div>
+        
+            <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+        
+   </div>
+     <div>
+      
+        
+<div class="my_post_copyright">
+  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+  
+  <!-- JS库 sweetalert 可修改路径 -->
+  <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <p><span>本文标题:</span><a href="/2020/04/02/webpackDvaDemo/">webpack搭建dva项目</a></p>
+  <p><span>文章作者:</span><a href="/" title="访问 张小轩 的个人博客">张小轩</a></p>
+  <p><span>发布时间:</span>2020年04月02日 - 13:36</p>
+  <p><span>最后更新:</span>2021年11月10日 - 14:32</p>
+  <p><span>原始链接:</span><a href="/2020/04/02/webpackDvaDemo/" title="webpack搭建dva项目">https://blog.zhangyongxuan.com/2020/04/02/webpackDvaDemo/</a>
+    <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://blog.zhangyongxuan.com/2020/04/02/webpackDvaDemo/" aria-label="复制成功！"></i></span>
+  </p>
+</div>
+<script> 
+    var clipboard = new Clipboard('.fa-clipboard');
+      $(".fa-clipboard").click(function(){
+      clipboard.on('success', function(){
+        swal({   
+          title: "",   
+          text: '复制成功',
+          icon: "success", 
+          showConfirmButton: true
+          });
+        });
+    });  
+</script>
+
+      
+   </div>
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/react/" <i class="fa fa-tag"> react</a>
+          
+            <a href="/tags/webpack/" <i class="fa fa-tag"> webpack</a>
+          
+            <a href="/tags/dva/" <i class="fa fa-tag"> dva</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2020/03/30/nginxfzjh/" rel="next" title="nginx负载均衡">
+                <i class="fa fa-chevron-left"></i> nginx负载均衡
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2020/04/09/jsobject/" rel="prev" title="js面向对象基础">
+                js面向对象基础 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC80Mjc4OS8xOTMzNg"></div>
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/tx.jpg" alt="张小轩">
+            
+              <p class="site-author-name" itemprop="name">张小轩</p>
+              <p class="site-description motion-element" itemprop="description">总有一天，脚步也能到达那些梦曾经到过的地方</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">23</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">11</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">25</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/zhangyongxuan" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:1966674622@qq.com.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#webpack-dev-middleware-插件"><span class="nav-number">1.</span> <span class="nav-text">webpack-dev-middleware 插件</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#项目搭建"><span class="nav-number">2.</span> <span class="nav-text">项目搭建</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-创建一个文件夹，在文件夹目录运行npm-init生成package-json-安装相关依赖"><span class="nav-number">2.1.</span> <span class="nav-text">1.创建一个文件夹，在文件夹目录运行npm init生成package.json 安装相关依赖</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#项目文件目录如下："><span class="nav-number">2.2.</span> <span class="nav-text">项目文件目录如下：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#重要文件代码"><span class="nav-number">2.3.</span> <span class="nav-text">重要文件代码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#这里记录一下管理react路由的history使用"><span class="nav-number">2.4.</span> <span class="nav-text">这里记录一下管理react路由的history使用</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#history-插件的使用"><span class="nav-number">2.4.1.</span> <span class="nav-text">history 插件的使用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#使用history的三种方式"><span class="nav-number">2.4.2.</span> <span class="nav-text">使用history的三种方式</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="copyright">&copy; 2019 &mdash; <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">张小轩</span>
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">26.6k</span>
+  
+</div>
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i>本站访客数
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      人次
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i>本站总访问量
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      人
+    </span>
+  
+</div>
+
+
+
+
+
+
+
+
+        
+          <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+        <script>
+            var now = new Date();
+            function createtime() {
+                var grt= new Date("02/23/2019 00:00:00");//此处修改你的建站时间或者网站上线时间
+                now.setTime(now.getTime()+250);
+                days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+                hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+                if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+                mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+                seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+                snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
+                document.getElementById("timeDate").innerHTML = "Run for "+dnum+" Days ";
+                document.getElementById("times").innerHTML = hnum + " Hours " + mnum + " m " + snum + " s";
+            }
+                setInterval("createtime()",250);
+        </script>
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  <link rel="stylesheet" href="/lib/prettify/skins/github.css" type="text/css">
+<script src="/lib/prettify/prettify.js" type="text/javascript"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+      $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto;');
+      prettyPrint();
+  });
+</script>
+  <!-- 代码块复制功能 -->
+  <script type="text/javascript" src="/lib/zclip/clipboard.min.js"></script>	
+<script type="text/javascript" src="/js/src/custom.js"></script>
+</body>
+</html>

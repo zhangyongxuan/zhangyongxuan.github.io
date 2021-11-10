@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://blog.zhangyongxuan.com/2019/03/27/start/</loc>
+    <loc>https://blog.zhangyongxuan.com/2021/09/18/jqpagination/</loc>
     <lastmod>2021-11-10</lastmod>
   </url>
   <url>
@@ -9,75 +9,87 @@
     <lastmod>2021-11-10</lastmod>
   </url>
   <url>
-    <loc>https://blog.zhangyongxuan.com/2021/06/15/startreact/</loc>
-    <lastmod>2021-11-09</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.zhangyongxuan.com/2021/07/11/api/</loc>
-    <lastmod>2021-11-09</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.zhangyongxuan.com/2021/07/16/arrayfun/</loc>
-    <lastmod>2021-11-09</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.zhangyongxuan.com/2021/07/24/dva1/</loc>
-    <lastmod>2021-11-09</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.zhangyongxuan.com/2021/07/15/funcionandclass/</loc>
-    <lastmod>2021-11-09</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.zhangyongxuan.com/2021/07/12/es6day1/</loc>
-    <lastmod>2021-11-09</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.zhangyongxuan.com/2021/07/16/generatorandasync/</loc>
-    <lastmod>2021-11-09</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.zhangyongxuan.com/2021/07/11/git/</loc>
-    <lastmod>2021-11-09</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.zhangyongxuan.com/2021/07/15/promise/</loc>
-    <lastmod>2021-11-09</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.zhangyongxuan.com/2021/07/18/hoc/</loc>
-    <lastmod>2021-11-09</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.zhangyongxuan.com/2021/07/26/less/</loc>
-    <lastmod>2021-11-09</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.zhangyongxuan.com/2021/07/17/react01/</loc>
-    <lastmod>2021-11-09</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.zhangyongxuan.com/2021/07/17/reactform/</loc>
-    <lastmod>2021-11-09</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.zhangyongxuan.com/2021/07/17/reactref/</loc>
-    <lastmod>2021-11-09</lastmod>
+    <loc>https://blog.zhangyongxuan.com/2021/08/22/cookie/</loc>
+    <lastmod>2021-11-10</lastmod>
   </url>
   <url>
     <loc>https://blog.zhangyongxuan.com/2021/07/25/webpacksimple/</loc>
-    <lastmod>2021-11-09</lastmod>
+    <lastmod>2021-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.zhangyongxuan.com/2021/07/17/reactref/</loc>
+    <lastmod>2021-11-10</lastmod>
   </url>
   <url>
     <loc>https://blog.zhangyongxuan.com/2021/07/25/webpack-react/</loc>
-    <lastmod>2021-11-09</lastmod>
+    <lastmod>2021-11-10</lastmod>
   </url>
   <url>
-    <loc>https://blog.zhangyongxuan.com/2021/08/22/cookie/</loc>
-    <lastmod>2021-11-09</lastmod>
+    <loc>https://blog.zhangyongxuan.com/2021/07/17/reactform/</loc>
+    <lastmod>2021-11-10</lastmod>
   </url>
   <url>
-    <loc>https://blog.zhangyongxuan.com/2021/09/18/jqpagination/</loc>
-    <lastmod>2021-11-09</lastmod>
+    <loc>https://blog.zhangyongxuan.com/2021/07/17/react01/</loc>
+    <lastmod>2021-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.zhangyongxuan.com/2021/07/26/less/</loc>
+    <lastmod>2021-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.zhangyongxuan.com/2021/07/15/promise/</loc>
+    <lastmod>2021-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.zhangyongxuan.com/2021/07/11/git/</loc>
+    <lastmod>2021-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.zhangyongxuan.com/2021/07/18/hoc/</loc>
+    <lastmod>2021-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.zhangyongxuan.com/2021/07/16/generatorandasync/</loc>
+    <lastmod>2021-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.zhangyongxuan.com/2021/07/15/funcionandclass/</loc>
+    <lastmod>2021-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.zhangyongxuan.com/2021/07/12/es6day1/</loc>
+    <lastmod>2021-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.zhangyongxuan.com/2021/07/24/dva1/</loc>
+    <lastmod>2021-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.zhangyongxuan.com/2021/07/16/arrayfun/</loc>
+    <lastmod>2021-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.zhangyongxuan.com/2021/06/15/startreact/</loc>
+    <lastmod>2021-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.zhangyongxuan.com/2021/07/11/api/</loc>
+    <lastmod>2021-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.zhangyongxuan.com/2019/03/27/start/</loc>
+    <lastmod>2021-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.zhangyongxuan.com/2020/04/02/webpackDvaDemo/</loc>
+    <lastmod>2021-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.zhangyongxuan.com/2020/04/09/jsobject/</loc>
+    <lastmod>2021-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.zhangyongxuan.com/2020/03/30/nginxfzjh/</loc>
+    <lastmod>2021-11-10</lastmod>
   </url>
 </urlset> 
