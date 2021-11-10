@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://blog.zhangyongxuan.com/"/>
-  <updated>2021-11-10T10:54:20.282Z</updated>
-  <id>https://blog.zhangyongxuan.com/</id>
+  <link href="https://www.zhangyongxuan.com/"/>
+  <updated>2021-11-10T11:11:06.086Z</updated>
+  <id>https://www.zhangyongxuan.com/</id>
   
   <author>
     <name>张小轩</name>
@@ -18,12 +18,12 @@
   
   <entry>
     <title>React实现简单的分页器组件</title>
-    <link href="https://blog.zhangyongxuan.com/2021/11/10/reactPagination/"/>
-    <id>https://blog.zhangyongxuan.com/2021/11/10/reactPagination/</id>
+    <link href="https://www.zhangyongxuan.com/2021/11/10/reactPagination/"/>
+    <id>https://www.zhangyongxuan.com/2021/11/10/reactPagination/</id>
     <published>2021-11-10T06:41:08.000Z</published>
-    <updated>2021-11-10T10:54:20.282Z</updated>
+    <updated>2021-11-10T11:11:06.086Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>在日常的开发中，一般用到分页器的时候都是使用一些UI组件库里封装好的组件，假如离开了这些组件库该怎么办？这时候只能自己封装一个简单地分页器了</em></strong></p><a id="more"></a><h1 id="一、分页器需要的参数"><a href="#一、分页器需要的参数" class="headerlink" title="一、分页器需要的参数"></a>一、分页器需要的参数</h1><h2 id="一个简单分页器所需要的主要参数有四个，分别是："><a href="#一个简单分页器所需要的主要参数有四个，分别是：" class="headerlink" title="一个简单分页器所需要的主要参数有四个，分别是："></a>一个简单分页器所需要的主要参数有四个，分别是：</h2><pre><code>onChange  // 页码变化时的回调函数 functiontotal   // 数据总数 numberpageSize // 每页数据数 numbercurrentPage // 当前页页码 number</code></pre><p>根据total和pageSize可以算出总页数 totalPage = total/size<br>当total和size中任何一个发生变化时都需要重新计算totalPage   </p><h2 id="还有一个比较特殊的内部参数：步长-step"><a href="#还有一个比较特殊的内部参数：步长-step" class="headerlink" title="还有一个比较特殊的内部参数：步长 step"></a>还有一个比较特殊的内部参数：步长 step</h2><p>这个参数非常重要，表示向前step页，向后step页。而在分页器的展示形态里也起着至关重要的作用，step一般来说是奇数，在这里我管Math.ceil(step/2)叫半步长</p><h1 id="二、-分页器的展示形态"><a href="#二、-分页器的展示形态" class="headerlink" title="二、 分页器的展示形态"></a>二、 分页器的展示形态</h1><p>分页器的展示形态是取决于当前页、总页数和步长<br>如果总页数少，那么就会显示所有页，如果总页数多那么就会出现左右省略号<br>左省略号点击之后是向前step页，右省略号点击之后是向后step页 </p><p>首先，分页器的展示形态分为有省略号和无省略号两种，而不管有没有省略号，第一页和最后一页以及向前（后）1页都是显示的</p><h2 id="1、无省略号的情况分为2种"><a href="#1、无省略号的情况分为2种" class="headerlink" title="1、无省略号的情况分为2种"></a>1、无省略号的情况分为2种</h2><p>第一种：第一页就是最后一页，此时的分页器形态为：</p><pre><code>&lt; 1 &gt;</code></pre><p>第二种：总页数大于1且小于等于步长+1，这时候分页器的形态为：</p><pre><code>&lt;  1  2  3  4  5  &gt;</code></pre><h2 id="2、有省略号的情况分为三种情况，此时总页数必然是大于步长-1的"><a href="#2、有省略号的情况分为三种情况，此时总页数必然是大于步长-1的" class="headerlink" title="2、有省略号的情况分为三种情况，此时总页数必然是大于步长+1的"></a>2、有省略号的情况分为三种情况，此时总页数必然是大于步长+1的</h2><p>第一种情况： 无左省略号，有右省略号 ， 分页器形态为：</p><pre><code>&lt;  1  2  3  4  5  &gt;&gt;  10  &gt;</code></pre><p>第二种情况： 有左省略号，无右省略号 ， 分页器形态为：</p><pre><code>&lt;  1  &lt;&lt;  6  7  8  9  10  &gt;</code></pre><p>第二种情况： 有左省略号，无右省略号 ， 分页器形态为：</p><pre><code>&lt;  1  &lt;&lt;  6  7  8  9  10  &gt;</code></pre><p>第三种情况： 有左省略号，无右省略号 ， 分页器形态为：</p><pre><code>&lt;  1  &lt;&lt;  6  7  8  9  10  &gt;&gt;  50  &gt;</code></pre><h1 id="三、-源码"><a href="#三、-源码" class="headerlink" title="三、 源码"></a>三、 源码</h1><p>index.js : </p><pre><code>/* eslint-disable react-hooks/exhaustive-deps */import React, { useEffect, useState } from &quot;react&quot;;import &quot;./style.scss&quot;;const step = 5; // 步长const halfStep = Math.ceil(step / 2); // 当前页前后页数const Pagination = ({  onChange = (e) =&gt; e,  total = 500,  pageSize = 10,  currentPage = 1,  sizeOptions = [10, 20, 30, 40, 50]}) =&gt; {  const [current, setCurrent] = useState(currentPage);  const [size, setSize] = useState(pageSize);  const [pageItemList, setPageItemList] = useState([]);  const [totalPage, setTotalPage] = useState(0);  const [showSizeList, setShowSizeList] = useState(false);  /**   * 向前/后 步长页   * @param {*} type   * @returns   */  const getJumpItem = ({ type }) =&gt; {    return {      type,      text: type &gt; 0 ? &quot;&gt;&gt;&quot; : &quot;&lt;&lt;&quot;,      num: Math.random(),      title: `向${type &gt; 0 ? &quot;后&quot; : &quot;前&quot;}${step}页`    };  };  useEffect(() =&gt; {    setTotalPage(Math.ceil(total / size));  }, [total, size]);  useEffect(() =&gt; {    onChange({ total: totalPage, currentPage: current });  }, [current, size]);  // 核心逻辑  useEffect(() =&gt; {    const subList = []; // 除了第一页和最后一页中间的部分    if (totalPage &gt; step + 1) {      // 总页数大于步长+1说明有省略      if (current - halfStep &lt; 1) {        // 当前页-半步长小于1不显示向前步长数        for (let i = 1; i &lt;= step; i++) {          if (i &lt; step) {            subList.push({              type: 0,              text: i + 1,              num: i + 1,              title: i + 1            });          } else {            // 最后一页push向后步长页            subList.push(getJumpItem({ type: 1 }));          }        }      } else if (current + halfStep &gt; totalPage) {        //  当前页+半步长大于总页数不显示向后步长页        for (let i = totalPage - step; i &lt; totalPage; i++) {          if (i === totalPage - step) {            // 第一个push向前步长页            subList.push(getJumpItem({ type: -1 }));          } else {            subList.push({              type: 0,              text: i,              num: i,              title: i            });          }        }      } else {        // 同时显示向前和向后步长页        for (let i = 1; i &lt;= step + 2; i++) {          const opr = i - halfStep - 1;          if (i === 1 &amp;&amp; current - halfStep !== 1) {            subList.push(getJumpItem({ type: -1 }));            console.log(-1);          } else if (i === step + 2 &amp;&amp; current + halfStep !== totalPage) {            console.log(1);            subList.push(getJumpItem({ type: 1 }));          } else if (i &gt; 1 &amp;&amp; i &lt; step + 2) {            console.log(current + 1);            subList.push({              type: 0,              text: current + opr,              num: current + opr,              title: current + opr            });          }        }      }    } else if ((totalPage &gt; 2 &amp;&amp; totalPage &lt;= step) || totalPage === step + 1) {      /***       * 总页数大于2且小于等于步长时除了第一页和最后一页中间还有总页数-2 从第二页开始       * 总页数刚好等于步长时也是一样的逻辑       */      for (let i = 2; i &lt; totalPage; i++) {        subList.push({          type: 0,          text: i,          num: i,          title: i        });      }    }    if (totalPage &gt; 1) {      setPageItemList([        {          type: 0,          text: 1,          num: 1,          title: 1        },        ...subList,        {          type: 0,          text: totalPage,          num: totalPage,          title: totalPage        }      ]);    } else if (totalPage !== 0) {      setPageItemList([        {          type: 0,          text: 1,          num: 1,          title: 1        }      ]);    }  }, [totalPage, current]);  const leftTxt = &quot;&lt;&quot;,    rightTxt = &quot;&gt;&quot;;  return (    &lt;div className=&quot;pagination-container&quot;&gt;      &lt;ul className=&quot;pagination-sub-container&quot;&gt;        {current !== 1 &amp;&amp; (          &lt;li onClick={() =&gt; setCurrent(current - 1)}&gt;{leftTxt}&lt;/li&gt;        )}        {pageItemList.map(({ type, num, text, title }) =&gt; {          const eleProps = {            title,            key: num          };          if (type === 0) {            eleProps.style = {              border: num !== current ? &quot;1px solid gainsboro&quot; : &quot;1px solid gray&quot;            };            eleProps.onClick = () =&gt; {              if (num !== current) {                setCurrent(num);              }            };          } else {            eleProps.onClick = () =&gt; {              let curP = current + step * type;              if (curP &gt; totalPage) {                curP = totalPage;              }              if (curP &lt; 1) {                curP = 1;              }              setCurrent(curP);            };          }          return &lt;li {...eleProps}&gt;{text}&lt;/li&gt;;        })}        {current !== totalPage &amp;&amp; (          &lt;li onClick={() =&gt; setCurrent(current + 1)}&gt;{rightTxt}&lt;/li&gt;        )}        &lt;li          className=&quot;size&quot;          onClick={() =&gt; {            setShowSizeList(!showSizeList);          }}        &gt;          {size}条/页 ↓          {showSizeList &amp;&amp; (            &lt;ul className=&quot;set-size-box&quot;&gt;              {sizeOptions.map((item) =&gt; (                &lt;li                  onClick={() =&gt; {                    setCurrent(1);                    setSize(item);                    setShowSizeList(false);                  }}                &gt;                  {item}                &lt;/li&gt;              ))}            &lt;/ul&gt;          )}        &lt;/li&gt;      &lt;/ul&gt;      &lt;div style={{ clear: "both" }} /&gt;    &lt;/div&gt;  );};export default Pagination;</code></pre><p>style.scss:</p><pre><code>.pagination-container {  float: left;  .pagination-sub-container {    position: relative;    float: left;    li {      list-style-type: none;      display: inline-block;      width: 40px;      height: 40px;      line-height: 40px;      text-align: center;      margin: 5px;      border-radius: 8px;      font-size: 14px;      box-sizing: border-box;      cursor: pointer;      -moz-user-select: none;      -webkit-user-select: none;      -ms-user-select: none;      user-select: none;      border: 1px solid gainsboro;    }    li:hover {      border: 1px solid gray;    }    .size {      min-width: 80px;      border: 1px solid gray;      position: relative;      .set-size-box {        float: left;        // height: 40px;        // line-height: 40px;        // border-radius: 8px;        // vertical-align: middle;        padding: 0;        margin: 0;        li {          min-width: 100%;          margin: 0;        }      }    }  }}</code></pre><p> <a href="https://codesandbox.io/s/components-test-phrpl" target="_blank" rel="noopener">自己试试</a></p><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>在日常的开发中，一般用到分页器的时候都是使用一些UI组件库里封装好的组件，假如离开了这些组件库该怎么办？这时候只能自己封装一个简单地分页器了</em></strong></p><a id="more"></a><h1 id="一、分页器需要的参数"><a href="#一、分页器需要的参数" class="headerlink" title="一、分页器需要的参数"></a>一、分页器需要的参数</h1><h2 id="一个简单分页器所需要的主要参数有四个，分别是："><a href="#一个简单分页器所需要的主要参数有四个，分别是：" class="headerlink" title="一个简单分页器所需要的主要参数有四个，分别是："></a>一个简单分页器所需要的主要参数有四个，分别是：</h2><pre><code>onChange  // 页码变化时的回调函数 functiontotal   // 数据总数 numberpageSize // 每页数据数 numbercurrentPage // 当前页页码 number</code></pre><p>根据total和pageSize可以算出总页数 totalPage = total/size<br>当total和size中任何一个发生变化时都需要重新计算totalPage   </p><h2 id="还有一个比较特殊的内部参数：步长-step"><a href="#还有一个比较特殊的内部参数：步长-step" class="headerlink" title="还有一个比较特殊的内部参数：步长 step"></a>还有一个比较特殊的内部参数：步长 step</h2><p>这个参数非常重要，表示向前step页，向后step页。而在分页器的展示形态里也起着至关重要的作用，step一般来说是奇数，在这里我管Math.ceil(step/2)叫半步长</p><h1 id="二、-分页器的展示形态"><a href="#二、-分页器的展示形态" class="headerlink" title="二、 分页器的展示形态"></a>二、 分页器的展示形态</h1><p>分页器的展示形态是取决于当前页、总页数和步长<br>如果总页数少，那么就会显示所有页，如果总页数多那么就会出现左右省略号<br>左省略号点击之后是向前step页，右省略号点击之后是向后step页 </p><p>首先，分页器的展示形态分为有省略号和无省略号两种，而不管有没有省略号，第一页和最后一页以及向前（后）1页都是显示的</p><h2 id="1、无省略号的情况分为2种"><a href="#1、无省略号的情况分为2种" class="headerlink" title="1、无省略号的情况分为2种"></a>1、无省略号的情况分为2种</h2><p>第一种：第一页就是最后一页，此时的分页器形态为：</p><pre><code>&lt; 1 &gt;</code></pre><p>第二种：总页数大于1且小于等于步长+1，这时候分页器的形态为：</p><pre><code>&lt;  1  2  3  4  5  &gt;</code></pre><h2 id="2、有省略号的情况分为三种情况，此时总页数必然是大于步长-1的"><a href="#2、有省略号的情况分为三种情况，此时总页数必然是大于步长-1的" class="headerlink" title="2、有省略号的情况分为三种情况，此时总页数必然是大于步长+1的"></a>2、有省略号的情况分为三种情况，此时总页数必然是大于步长+1的</h2><p>第一种情况： 无左省略号，有右省略号 ， 分页器形态为：</p><pre><code>&lt;  1  2  3  4  5  &gt;&gt;  10  &gt;</code></pre><p>第二种情况： 有左省略号，无右省略号 ， 分页器形态为：</p><pre><code>&lt;  1  &lt;&lt;  6  7  8  9  10  &gt;</code></pre><p>第三种情况： 有左省略号，无右省略号 ， 分页器形态为：</p><pre><code>&lt;  1  &lt;&lt;  6  7  8  9  10  &gt;&gt;  50  &gt;</code></pre><h1 id="三、-源码"><a href="#三、-源码" class="headerlink" title="三、 源码"></a>三、 源码</h1><p>index.js : </p><pre><code>/* eslint-disable react-hooks/exhaustive-deps */import React, { useEffect, useState } from &quot;react&quot;;import &quot;./style.scss&quot;;const step = 5; // 步长const halfStep = Math.ceil(step / 2); // 当前页前后页数const Pagination = ({  onChange = (e) =&gt; e,  total = 500,  pageSize = 10,  currentPage = 1,  sizeOptions = [10, 20, 30, 40, 50]}) =&gt; {  const [current, setCurrent] = useState(currentPage);  const [size, setSize] = useState(pageSize);  const [pageItemList, setPageItemList] = useState([]);  const [totalPage, setTotalPage] = useState(0);  const [showSizeList, setShowSizeList] = useState(false);  /**   * 向前/后 步长页   * @param {*} type   * @returns   */  const getJumpItem = ({ type }) =&gt; {    return {      type,      text: type &gt; 0 ? &quot;&gt;&gt;&quot; : &quot;&lt;&lt;&quot;,      num: Math.random(),      title: `向${type &gt; 0 ? &quot;后&quot; : &quot;前&quot;}${step}页`    };  };  useEffect(() =&gt; {    setTotalPage(Math.ceil(total / size));  }, [total, size]);  useEffect(() =&gt; {    onChange({ total: totalPage, currentPage: current });  }, [current, size]);  // 核心逻辑  useEffect(() =&gt; {    const subList = []; // 除了第一页和最后一页中间的部分    if (totalPage &gt; step + 1) {      // 总页数大于步长+1说明有省略      if (current - halfStep &lt; 1) {        // 当前页-半步长小于1不显示向前步长数        for (let i = 1; i &lt;= step; i++) {          if (i &lt; step) {            subList.push({              type: 0,              text: i + 1,              num: i + 1,              title: i + 1            });          } else {            // 最后一页push向后步长页            subList.push(getJumpItem({ type: 1 }));          }        }      } else if (current + halfStep &gt; totalPage) {        //  当前页+半步长大于总页数不显示向后步长页        for (let i = totalPage - step; i &lt; totalPage; i++) {          if (i === totalPage - step) {            // 第一个push向前步长页            subList.push(getJumpItem({ type: -1 }));          } else {            subList.push({              type: 0,              text: i,              num: i,              title: i            });          }        }      } else {        // 同时显示向前和向后步长页        for (let i = 1; i &lt;= step + 2; i++) {          const opr = i - halfStep - 1;          if (i === 1 &amp;&amp; current - halfStep !== 1) {            subList.push(getJumpItem({ type: -1 }));            console.log(-1);          } else if (i === step + 2 &amp;&amp; current + halfStep !== totalPage) {            console.log(1);            subList.push(getJumpItem({ type: 1 }));          } else if (i &gt; 1 &amp;&amp; i &lt; step + 2) {            console.log(current + 1);            subList.push({              type: 0,              text: current + opr,              num: current + opr,              title: current + opr            });          }        }      }    } else if ((totalPage &gt; 2 &amp;&amp; totalPage &lt;= step) || totalPage === step + 1) {      /***       * 总页数大于2且小于等于步长时除了第一页和最后一页中间还有总页数-2 从第二页开始       * 总页数刚好等于步长时也是一样的逻辑       */      for (let i = 2; i &lt; totalPage; i++) {        subList.push({          type: 0,          text: i,          num: i,          title: i        });      }    }    if (totalPage &gt; 1) {      setPageItemList([        {          type: 0,          text: 1,          num: 1,          title: 1        },        ...subList,        {          type: 0,          text: totalPage,          num: totalPage,          title: totalPage        }      ]);    } else if (totalPage !== 0) {      setPageItemList([        {          type: 0,          text: 1,          num: 1,          title: 1        }      ]);    }  }, [totalPage, current]);  const leftTxt = &quot;&lt;&quot;,    rightTxt = &quot;&gt;&quot;;  return (    &lt;div className=&quot;pagination-container&quot;&gt;      &lt;ul className=&quot;pagination-sub-container&quot;&gt;        {current !== 1 &amp;&amp; (          &lt;li onClick={() =&gt; setCurrent(current - 1)}&gt;{leftTxt}&lt;/li&gt;        )}        {pageItemList.map(({ type, num, text, title }) =&gt; {          const eleProps = {            title,            key: num          };          if (type === 0) {            eleProps.style = {              border: num !== current ? &quot;1px solid gainsboro&quot; : &quot;1px solid gray&quot;            };            eleProps.onClick = () =&gt; {              if (num !== current) {                setCurrent(num);              }            };          } else {            eleProps.onClick = () =&gt; {              let curP = current + step * type;              if (curP &gt; totalPage) {                curP = totalPage;              }              if (curP &lt; 1) {                curP = 1;              }              setCurrent(curP);            };          }          return &lt;li {...eleProps}&gt;{text}&lt;/li&gt;;        })}        {current !== totalPage &amp;&amp; (          &lt;li onClick={() =&gt; setCurrent(current + 1)}&gt;{rightTxt}&lt;/li&gt;        )}        &lt;li          className=&quot;size&quot;          onClick={() =&gt; {            setShowSizeList(!showSizeList);          }}        &gt;          {size}条/页 ↓          {showSizeList &amp;&amp; (            &lt;ul className=&quot;set-size-box&quot;&gt;              {sizeOptions.map((item) =&gt; (                &lt;li                  onClick={() =&gt; {                    setCurrent(1);                    setSize(item);                    setShowSizeList(false);                  }}                &gt;                  {item}                &lt;/li&gt;              ))}            &lt;/ul&gt;          )}        &lt;/li&gt;      &lt;/ul&gt;      &lt;div style={{ clear: "both" }} /&gt;    &lt;/div&gt;  );};export default Pagination;</code></pre><p>style.scss:</p><pre><code>.pagination-container {  float: left;  .pagination-sub-container {    position: relative;    float: left;    li {      list-style-type: none;      display: inline-block;      width: 40px;      height: 40px;      line-height: 40px;      text-align: center;      margin: 5px;      border-radius: 8px;      font-size: 14px;      box-sizing: border-box;      cursor: pointer;      -moz-user-select: none;      -webkit-user-select: none;      -ms-user-select: none;      user-select: none;      border: 1px solid gainsboro;    }    li:hover {      border: 1px solid gray;    }    .size {      min-width: 80px;      border: 1px solid gray;      position: relative;      .set-size-box {        float: left;        // height: 40px;        // line-height: 40px;        // border-radius: 8px;        // vertical-align: middle;        padding: 0;        margin: 0;        li {          min-width: 100%;          margin: 0;        }      }    }  }}</code></pre><p> <a href="https://codesandbox.io/s/components-test-phrpl?file=/src/Pagination/index.js" target="_blank" rel="noopener">自己试试</a></p><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
     
     <summary type="html">
     
@@ -31,21 +31,21 @@
     
     </summary>
     
-      <category term="React" scheme="https://blog.zhangyongxuan.com/categories/React/"/>
+      <category term="React" scheme="https://www.zhangyongxuan.com/categories/React/"/>
     
     
-      <category term="react" scheme="https://blog.zhangyongxuan.com/tags/react/"/>
+      <category term="react" scheme="https://www.zhangyongxuan.com/tags/react/"/>
     
-      <category term="es6" scheme="https://blog.zhangyongxuan.com/tags/es6/"/>
+      <category term="es6" scheme="https://www.zhangyongxuan.com/tags/es6/"/>
     
-      <category term="UI组件" scheme="https://blog.zhangyongxuan.com/tags/UI%E7%BB%84%E4%BB%B6/"/>
+      <category term="UI组件" scheme="https://www.zhangyongxuan.com/tags/UI%E7%BB%84%E4%BB%B6/"/>
     
   </entry>
   
   <entry>
     <title>爬虫利器Puppeteer</title>
-    <link href="https://blog.zhangyongxuan.com/2021/10/31/Puppeteer/"/>
-    <id>https://blog.zhangyongxuan.com/2021/10/31/Puppeteer/</id>
+    <link href="https://www.zhangyongxuan.com/2021/10/31/Puppeteer/"/>
+    <id>https://www.zhangyongxuan.com/2021/10/31/Puppeteer/</id>
     <published>2021-10-31T08:51:52.000Z</published>
     <updated>2021-11-10T06:34:24.306Z</updated>
     
@@ -57,19 +57,19 @@
     
     </summary>
     
-      <category term="Nodejs" scheme="https://blog.zhangyongxuan.com/categories/Nodejs/"/>
+      <category term="Nodejs" scheme="https://www.zhangyongxuan.com/categories/Nodejs/"/>
     
     
-      <category term="node" scheme="https://blog.zhangyongxuan.com/tags/node/"/>
+      <category term="node" scheme="https://www.zhangyongxuan.com/tags/node/"/>
     
-      <category term="爬虫" scheme="https://blog.zhangyongxuan.com/tags/%E7%88%AC%E8%99%AB/"/>
+      <category term="爬虫" scheme="https://www.zhangyongxuan.com/tags/%E7%88%AC%E8%99%AB/"/>
     
   </entry>
   
   <entry>
     <title>jq实现分页</title>
-    <link href="https://blog.zhangyongxuan.com/2021/09/18/jqpagination/"/>
-    <id>https://blog.zhangyongxuan.com/2021/09/18/jqpagination/</id>
+    <link href="https://www.zhangyongxuan.com/2021/09/18/jqpagination/"/>
+    <id>https://www.zhangyongxuan.com/2021/09/18/jqpagination/</id>
     <published>2021-09-18T08:09:19.000Z</published>
     <updated>2021-11-10T06:34:24.306Z</updated>
     
@@ -81,23 +81,23 @@
     
     </summary>
     
-      <category term="jQuery" scheme="https://blog.zhangyongxuan.com/categories/jQuery/"/>
+      <category term="jQuery" scheme="https://www.zhangyongxuan.com/categories/jQuery/"/>
     
     
-      <category term="前端" scheme="https://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="https://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="jQuery" scheme="https://blog.zhangyongxuan.com/tags/jQuery/"/>
+      <category term="jQuery" scheme="https://www.zhangyongxuan.com/tags/jQuery/"/>
     
-      <category term="分页" scheme="https://blog.zhangyongxuan.com/tags/%E5%88%86%E9%A1%B5/"/>
+      <category term="分页" scheme="https://www.zhangyongxuan.com/tags/%E5%88%86%E9%A1%B5/"/>
     
-      <category term="ajax" scheme="https://blog.zhangyongxuan.com/tags/ajax/"/>
+      <category term="ajax" scheme="https://www.zhangyongxuan.com/tags/ajax/"/>
     
   </entry>
   
   <entry>
     <title>cookie</title>
-    <link href="https://blog.zhangyongxuan.com/2021/08/22/cookie/"/>
-    <id>https://blog.zhangyongxuan.com/2021/08/22/cookie/</id>
+    <link href="https://www.zhangyongxuan.com/2021/08/22/cookie/"/>
+    <id>https://www.zhangyongxuan.com/2021/08/22/cookie/</id>
     <published>2021-08-22T07:34:03.000Z</published>
     <updated>2021-11-10T06:34:24.296Z</updated>
     
@@ -109,19 +109,19 @@
     
     </summary>
     
-      <category term="Cookie" scheme="https://blog.zhangyongxuan.com/categories/Cookie/"/>
+      <category term="Cookie" scheme="https://www.zhangyongxuan.com/categories/Cookie/"/>
     
     
-      <category term="服务端" scheme="https://blog.zhangyongxuan.com/tags/%E6%9C%8D%E5%8A%A1%E7%AB%AF/"/>
+      <category term="node" scheme="https://www.zhangyongxuan.com/tags/node/"/>
     
-      <category term="node" scheme="https://blog.zhangyongxuan.com/tags/node/"/>
+      <category term="服务端" scheme="https://www.zhangyongxuan.com/tags/%E6%9C%8D%E5%8A%A1%E7%AB%AF/"/>
     
   </entry>
   
   <entry>
     <title>less</title>
-    <link href="https://blog.zhangyongxuan.com/2021/07/26/less/"/>
-    <id>https://blog.zhangyongxuan.com/2021/07/26/less/</id>
+    <link href="https://www.zhangyongxuan.com/2021/07/26/less/"/>
+    <id>https://www.zhangyongxuan.com/2021/07/26/less/</id>
     <published>2021-07-26T06:11:47.000Z</published>
     <updated>2021-11-10T06:34:24.291Z</updated>
     
@@ -133,19 +133,19 @@
     
     </summary>
     
-      <category term="css" scheme="https://blog.zhangyongxuan.com/categories/css/"/>
+      <category term="css" scheme="https://www.zhangyongxuan.com/categories/css/"/>
     
     
-      <category term="css" scheme="https://blog.zhangyongxuan.com/tags/css/"/>
+      <category term="css" scheme="https://www.zhangyongxuan.com/tags/css/"/>
     
-      <category term="less" scheme="https://blog.zhangyongxuan.com/tags/less/"/>
+      <category term="less" scheme="https://www.zhangyongxuan.com/tags/less/"/>
     
   </entry>
   
   <entry>
     <title>鹏哥的webpack笔记</title>
-    <link href="https://blog.zhangyongxuan.com/2021/07/25/webpacksimple/"/>
-    <id>https://blog.zhangyongxuan.com/2021/07/25/webpacksimple/</id>
+    <link href="https://www.zhangyongxuan.com/2021/07/25/webpacksimple/"/>
+    <id>https://www.zhangyongxuan.com/2021/07/25/webpacksimple/</id>
     <published>2021-07-25T09:50:35.000Z</published>
     <updated>2021-11-10T06:34:24.295Z</updated>
     
@@ -157,19 +157,19 @@
     
     </summary>
     
-      <category term="webpack" scheme="https://blog.zhangyongxuan.com/categories/webpack/"/>
+      <category term="webpack" scheme="https://www.zhangyongxuan.com/categories/webpack/"/>
     
     
-      <category term="前端" scheme="https://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="https://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="webpack" scheme="https://blog.zhangyongxuan.com/tags/webpack/"/>
+      <category term="webpack" scheme="https://www.zhangyongxuan.com/tags/webpack/"/>
     
   </entry>
   
   <entry>
     <title>webpack纯手工搭建react项目</title>
-    <link href="https://blog.zhangyongxuan.com/2021/07/25/webpack-react/"/>
-    <id>https://blog.zhangyongxuan.com/2021/07/25/webpack-react/</id>
+    <link href="https://www.zhangyongxuan.com/2021/07/25/webpack-react/"/>
+    <id>https://www.zhangyongxuan.com/2021/07/25/webpack-react/</id>
     <published>2021-07-25T09:42:14.000Z</published>
     <updated>2021-11-10T06:34:24.294Z</updated>
     
@@ -181,25 +181,25 @@
     
     </summary>
     
-      <category term="webpack" scheme="https://blog.zhangyongxuan.com/categories/webpack/"/>
+      <category term="webpack" scheme="https://www.zhangyongxuan.com/categories/webpack/"/>
     
     
-      <category term="前端" scheme="https://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="https://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="webpack" scheme="https://blog.zhangyongxuan.com/tags/webpack/"/>
+      <category term="react" scheme="https://www.zhangyongxuan.com/tags/react/"/>
     
-      <category term="react" scheme="https://blog.zhangyongxuan.com/tags/react/"/>
+      <category term="webpack" scheme="https://www.zhangyongxuan.com/tags/webpack/"/>
     
   </entry>
   
   <entry>
     <title>Dva入门</title>
-    <link href="https://blog.zhangyongxuan.com/2021/07/24/dva1/"/>
-    <id>https://blog.zhangyongxuan.com/2021/07/24/dva1/</id>
+    <link href="https://www.zhangyongxuan.com/2021/07/24/dva1/"/>
+    <id>https://www.zhangyongxuan.com/2021/07/24/dva1/</id>
     <published>2021-07-24T15:22:43.000Z</published>
     <updated>2021-11-10T06:34:24.249Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>对于Dva我的理解是这样的：Dva重新组织了react项目，内置了react-router，redux，request，减少了配置这些模块的代码，将程序猿的精力都留给处理业务逻辑 </em></strong></p><a id="more"></a><h1 id="什么是Dva"><a href="#什么是Dva" class="headerlink" title="什么是Dva"></a>什么是Dva</h1><blockquote><p>Dva基于现有应用架构 (redux + react-router + redux-saga 等)的一层轻量封装，没有引入任何新概念，全部代码不到 100 行。</p></blockquote><p>这是Dva官方文档中对它的介绍，我的理解是这样的：</p><p>Dva重新组织了react项目，内置了react-router，redux，request，减少了配置这些模块的代码，将程序猿的精力都留给处理业务逻辑。</p><p>使用Dva非常简单，首先通过 npm 安装 dva-cli 并确保版本是 0.9.1 或以上。</p><pre><code>$ npm install dva-cli -g$ dva -vdva-cli version 0.9.1</code></pre><p>安装完 dva-cli 之后，就可以在命令行里访问到 dva 命令（不能访问？）。现在，你可以通过 dva new 创建新应用。</p><pre><code>$ dva new dva-quickstart</code></pre><p>这会创建 dva-quickstart 目录，包含项目初始化目录和文件，并提供开发服务器、构建脚本、数据 mock 服务、代理服务器等功能。</p><p>然后我们 cd 进入 dva-quickstart 目录，并启动开发服务器：</p><pre><code>$ cd dva-quickstart$ npm start</code></pre><p>之后就会自打开系统默认浏览器，并访问<code>http://localhost:8000/</code>,只是后就能看到dva的欢迎页面了</p><h1 id="dva中的数据流向，以及dva脚手架搭建的项目目录结构"><a href="#dva中的数据流向，以及dva脚手架搭建的项目目录结构" class="headerlink" title="dva中的数据流向，以及dva脚手架搭建的项目目录结构"></a>dva中的数据流向，以及dva脚手架搭建的项目目录结构</h1><h2 id="项目目录结构"><a href="#项目目录结构" class="headerlink" title="项目目录结构"></a>项目目录结构</h2><p><a href="https://blog.csdn.net/wangrong111222/article/details/79835490" target="_blank" rel="noopener">原文地址</a></p><blockquote><p>项目中一般src里的目录标配：</p><ul><li>./assets   :放置静态资源 比如图片;</li><li>./components   :放置木偶组件，只负责从./routes的智能组件来读取props填充展示，一般来讲是纯函数的react书写方式;</li><li>./models   :是一个处理数据的地方，比如在model里面调用./service输出的方法来获取数据填充到store;其实我觉得就是store的整体的集合，以 namespace作为唯一标识进行区分；</li><li>./routes   :放置若干智能组件的地方，智能组件里一般通过dva的connect（({yourModle})=&gt;({yourModle})）（yourComponent）方法来和你的组件来实现数据互通的，生成带数据的活组件；（一般来讲智能组件的样式也在这级目录，因为组件就近维护原则吧）;</li><li>./services   :负责向后台请求数据，在services里调用后台提供的api获取数据;</li><li>./utils   :放置工具类：比如常见的后台接口请求工具类；这里是默认封装了fetch数据交互的方法，直接入参调用即可;</li><li>index.css   :index.html的样式，你懂的;</li><li>index.js   :主页的入口位置，也是初始化dva的位置；什么 app.use( )/app.model( )/app.router( )/app.start( )都是在这里的完成的;</li><li>index.html   :入口挂载dom的html模板;</li><li>router.js   :配置路由的地方，会从./routes文件夹下引入写好的智能组件来组装页面，export default 出一个方法来生成router结构。</li></ul></blockquote><h1 id="数据流向问题"><a href="#数据流向问题" class="headerlink" title="数据流向问题"></a>数据流向问题</h1><p>数据流向简单来说的话就是：</p><p><code>server----&gt;services----&gt;models----&gt;routes----&gt;components</code></p><p>这样说可能有点过于简单，下面就以获取一个表格数据为例，看看具体数据流向</p><p>多话不说直接上代码：</p><p>首先，我们的表格数据是从后端服务器通过请求接口获取到的，那么上面也说了，<code>services</code>文件夹下的<code>.js</code>文件的任务就是请求接口从后端拿到数据：</p><pre><code>// services/test.jsimport request from &#39;../utils/request&#39; //这里导入dva封装的request模块export function fetchData(){ // 这是一个无参请求的示例                                                                               const url = &#39;xxxxxxxxxx&#39;                           return request(url)}export function fetchData1(params){ // 这是一个带参请求的示例    const url = &#39;xxxxxxxxxx&#39;                           return request(url,{...params})}</code></pre><p>在这里，使用dva封装的request向后端发送请求，接收到数据之后作为函数的返回值return出去。</p><pre><code>// models/test.jsimport {fetchData,fetchData1} from &#39;../services/test&#39;export default {    namespace:&quot;test&quot;,    state:{        data : {},        data1:{}    },    reducers:{        getData:(state,action)=&gt;{ // 这里就和redux的reducer一样，去更新状态            const newState = Object.assign({},state)            // console.log(action)            newState.data = action.value            return newState;         },        getData1:(state,action)=&gt;{            const newState = Object.assign({},state)            // console.log(action)            newState.data1 = action.value            return newState;        }    },    effects:{        *fetchData(action,opr){            const call = opr.call;            const put = opr.put;            const res = yield call(fetchData) //调用services里的函数获得返回值            // console.log(res,111)            const a = {                type:&#39;getData&#39;,                value:res.data            }            yield put(a) //向reducers提交一个action            return res; //这里返回的值会传到dispatch().then()的成功回调参数里        },        *fetchData1(action,opr){            const call = opr.call;            const put = opr.put;            const res = yield call(fetchData1,params) //有参无参区别就在于这里            // console.log(res,111)            const a = {                type:&#39;getData&#39;,                value:res.data            }            yield put(a)            return res;        }    }}</code></pre><p>models层写好了，这里有一步至关重要，那就是去index.js注册这个model：</p><pre><code>index.js// + app.model(require(&#39;./models/test&#39;).default);</code></pre><p>根据刚才所说的数据流向，现在轮到了routes层：</p><pre><code>import React, { Component } from &#39;react&#39;;import {connect} from &#39;dva&#39; //这里导入dva的connect函数class Test extends Component { fetchData=()=&gt;{        const dispatch = this.props.dispatch;        const action = {            type : &#39;test/fetchData&#39;,            value:1        }        dispatch(action).then(res=&gt;{ //这里提交action就和redux一样            console.log(res)        })       }        fetchData1=()=&gt;{        const dispatch = this.props.dispatch;        const action = {            type : &#39;test/fetchData1&#39;,            value:1        }        dispatch(action).then(res=&gt;{            console.log(res)        })       }    render() {        // console.log(this.props)在这里有我们操作全局状态用的dispatch函数以及下边回调函数返回的那些属性名和对应的值        return (            &lt;div&gt;              &lt;Button onClick={()=&gt;{this.fetchData()}}&gt;fetchData&lt;/Button&gt;              &lt;Button onClick={()=&gt;{this.fetchData1()}}&gt;fetchData&lt;/Button&gt;            &lt;/div&gt;        );    }}export default connect(state=&gt;{ //这里的state是全局的state    const data = state.test.data; //每一个model下的namespace在组合的时候变成了一个全局state的一个key，这个key所对应的value就是该namespace下对应的state的值    const data = state.test.data;    const data1 = state.test.data1;    return{ //这个回调函数的返回值会被解构，然后合并到后边括号中组件的props当中        data,        data1    }})(Test); //经过connect包装后，会赋予Test这个组件一些我们要用到的东西// export default Test;</code></pre><p>其实connect函数是一个高阶组件，<a href="http://www.zhangyongxuan.com/2021/07/18/hoc/" target="_blank" rel="noopener">点这里复习高阶组件</a></p><p>这样，整个数据流程，从请求数据到数据渲染整个流程就跑完了，这样走一遍之后是不是觉得dva的数据流向其实也并不复杂</p><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>对于Dva我的理解是这样的：Dva重新组织了react项目，内置了react-router，redux，request，减少了配置这些模块的代码，将程序猿的精力都留给处理业务逻辑 </em></strong></p><a id="more"></a><h1 id="什么是Dva"><a href="#什么是Dva" class="headerlink" title="什么是Dva"></a>什么是Dva</h1><blockquote><p>Dva基于现有应用架构 (redux + react-router + redux-saga 等)的一层轻量封装，没有引入任何新概念，全部代码不到 100 行。</p></blockquote><p>这是Dva官方文档中对它的介绍，我的理解是这样的：</p><p>Dva重新组织了react项目，内置了react-router，redux，request，减少了配置这些模块的代码，将程序猿的精力都留给处理业务逻辑。</p><p>使用Dva非常简单，首先通过 npm 安装 dva-cli 并确保版本是 0.9.1 或以上。</p><pre><code>$ npm install dva-cli -g$ dva -vdva-cli version 0.9.1</code></pre><p>安装完 dva-cli 之后，就可以在命令行里访问到 dva 命令（不能访问？）。现在，你可以通过 dva new 创建新应用。</p><pre><code>$ dva new dva-quickstart</code></pre><p>这会创建 dva-quickstart 目录，包含项目初始化目录和文件，并提供开发服务器、构建脚本、数据 mock 服务、代理服务器等功能。</p><p>然后我们 cd 进入 dva-quickstart 目录，并启动开发服务器：</p><pre><code>$ cd dva-quickstart$ npm start</code></pre><p>之后就会自打开系统默认浏览器，并访问<code>http://localhost:8000/</code>,只是后就能看到dva的欢迎页面了</p><h1 id="dva中的数据流向，以及dva脚手架搭建的项目目录结构"><a href="#dva中的数据流向，以及dva脚手架搭建的项目目录结构" class="headerlink" title="dva中的数据流向，以及dva脚手架搭建的项目目录结构"></a>dva中的数据流向，以及dva脚手架搭建的项目目录结构</h1><h2 id="项目目录结构"><a href="#项目目录结构" class="headerlink" title="项目目录结构"></a>项目目录结构</h2><p><a href="https://blog.csdn.net/wangrong111222/article/details/79835490" target="_blank" rel="noopener">原文地址</a></p><blockquote><p>项目中一般src里的目录标配：</p><ul><li>./assets   :放置静态资源 比如图片;</li><li>./components   :放置木偶组件，只负责从./routes的智能组件来读取props填充展示，一般来讲是纯函数的react书写方式;</li><li>./models   :是一个处理数据的地方，比如在model里面调用./service输出的方法来获取数据填充到store;其实我觉得就是store的整体的集合，以 namespace作为唯一标识进行区分；</li><li>./routes   :放置若干智能组件的地方，智能组件里一般通过dva的connect（({yourModle})=&gt;({yourModle})）（yourComponent）方法来和你的组件来实现数据互通的，生成带数据的活组件；（一般来讲智能组件的样式也在这级目录，因为组件就近维护原则吧）;</li><li>./services   :负责向后台请求数据，在services里调用后台提供的api获取数据;</li><li>./utils   :放置工具类：比如常见的后台接口请求工具类；这里是默认封装了fetch数据交互的方法，直接入参调用即可;</li><li>index.css   :index.html的样式，你懂的;</li><li>index.js   :主页的入口位置，也是初始化dva的位置；什么 app.use( )/app.model( )/app.router( )/app.start( )都是在这里的完成的;</li><li>index.html   :入口挂载dom的html模板;</li><li>router.js   :配置路由的地方，会从./routes文件夹下引入写好的智能组件来组装页面，export default 出一个方法来生成router结构。</li></ul></blockquote><h1 id="数据流向问题"><a href="#数据流向问题" class="headerlink" title="数据流向问题"></a>数据流向问题</h1><p>数据流向简单来说的话就是：</p><p><code>server----&gt;services----&gt;models----&gt;routes----&gt;components</code></p><p>这样说可能有点过于简单，下面就以获取一个表格数据为例，看看具体数据流向</p><p>多话不说直接上代码：</p><p>首先，我们的表格数据是从后端服务器通过请求接口获取到的，那么上面也说了，<code>services</code>文件夹下的<code>.js</code>文件的任务就是请求接口从后端拿到数据：</p><pre><code>// services/test.jsimport request from &#39;../utils/request&#39; //这里导入dva封装的request模块export function fetchData(){ // 这是一个无参请求的示例                                                                               const url = &#39;xxxxxxxxxx&#39;                           return request(url)}export function fetchData1(params){ // 这是一个带参请求的示例    const url = &#39;xxxxxxxxxx&#39;                           return request(url,{...params})}</code></pre><p>在这里，使用dva封装的request向后端发送请求，接收到数据之后作为函数的返回值return出去。</p><pre><code>// models/test.jsimport {fetchData,fetchData1} from &#39;../services/test&#39;export default {    namespace:&quot;test&quot;,    state:{        data : {},        data1:{}    },    reducers:{        getData:(state,action)=&gt;{ // 这里就和redux的reducer一样，去更新状态            const newState = Object.assign({},state)            // console.log(action)            newState.data = action.value            return newState;         },        getData1:(state,action)=&gt;{            const newState = Object.assign({},state)            // console.log(action)            newState.data1 = action.value            return newState;        }    },    effects:{        *fetchData(action,opr){            const call = opr.call;            const put = opr.put;            const res = yield call(fetchData) //调用services里的函数获得返回值            // console.log(res,111)            const a = {                type:&#39;getData&#39;,                value:res.data            }            yield put(a) //向reducers提交一个action            return res; //这里返回的值会传到dispatch().then()的成功回调参数里        },        *fetchData1(action,opr){            const call = opr.call;            const put = opr.put;            const res = yield call(fetchData1,params) //有参无参区别就在于这里            // console.log(res,111)            const a = {                type:&#39;getData&#39;,                value:res.data            }            yield put(a)            return res;        }    }}</code></pre><p>models层写好了，这里有一步至关重要，那就是去index.js注册这个model：</p><pre><code>index.js// + app.model(require(&#39;./models/test&#39;).default);</code></pre><p>根据刚才所说的数据流向，现在轮到了routes层：</p><pre><code>import React, { Component } from &#39;react&#39;;import {connect} from &#39;dva&#39; //这里导入dva的connect函数class Test extends Component { fetchData=()=&gt;{        const dispatch = this.props.dispatch;        const action = {            type : &#39;test/fetchData&#39;,            value:1        }        dispatch(action).then(res=&gt;{ //这里提交action就和redux一样            console.log(res)        })       }        fetchData1=()=&gt;{        const dispatch = this.props.dispatch;        const action = {            type : &#39;test/fetchData1&#39;,            value:1        }        dispatch(action).then(res=&gt;{            console.log(res)        })       }    render() {        // console.log(this.props)在这里有我们操作全局状态用的dispatch函数以及下边回调函数返回的那些属性名和对应的值        return (            &lt;div&gt;              &lt;Button onClick={()=&gt;{this.fetchData()}}&gt;fetchData&lt;/Button&gt;              &lt;Button onClick={()=&gt;{this.fetchData1()}}&gt;fetchData&lt;/Button&gt;            &lt;/div&gt;        );    }}export default connect(state=&gt;{ //这里的state是全局的state    const data = state.test.data; //每一个model下的namespace在组合的时候变成了一个全局state的一个key，这个key所对应的value就是该namespace下对应的state的值    const data = state.test.data;    const data1 = state.test.data1;    return{ //这个回调函数的返回值会被解构，然后合并到后边括号中组件的props当中        data,        data1    }})(Test); //经过connect包装后，会赋予Test这个组件一些我们要用到的东西// export default Test;</code></pre><p>其实connect函数是一个高阶组件，<a href="http://www.zhangyongxuan.com/2021/07/18/hoc/">点这里复习高阶组件</a></p><p>这样，整个数据流程，从请求数据到数据渲染整个流程就跑完了，这样走一遍之后是不是觉得dva的数据流向其实也并不复杂</p><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
     
     <summary type="html">
     
@@ -207,21 +207,21 @@
     
     </summary>
     
-      <category term="React" scheme="https://blog.zhangyongxuan.com/categories/React/"/>
+      <category term="React" scheme="https://www.zhangyongxuan.com/categories/React/"/>
     
     
-      <category term="前端" scheme="https://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="https://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="react" scheme="https://blog.zhangyongxuan.com/tags/react/"/>
+      <category term="react" scheme="https://www.zhangyongxuan.com/tags/react/"/>
     
-      <category term="Dva" scheme="https://blog.zhangyongxuan.com/tags/Dva/"/>
+      <category term="Dva" scheme="https://www.zhangyongxuan.com/tags/Dva/"/>
     
   </entry>
   
   <entry>
     <title>高阶组件入门</title>
-    <link href="https://blog.zhangyongxuan.com/2021/07/18/hoc/"/>
-    <id>https://blog.zhangyongxuan.com/2021/07/18/hoc/</id>
+    <link href="https://www.zhangyongxuan.com/2021/07/18/hoc/"/>
+    <id>https://www.zhangyongxuan.com/2021/07/18/hoc/</id>
     <published>2021-07-18T12:41:51.000Z</published>
     <updated>2021-11-10T06:34:24.290Z</updated>
     
@@ -233,19 +233,19 @@
     
     </summary>
     
-      <category term="React" scheme="https://blog.zhangyongxuan.com/categories/React/"/>
+      <category term="React" scheme="https://www.zhangyongxuan.com/categories/React/"/>
     
     
-      <category term="前端" scheme="https://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="https://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="react" scheme="https://blog.zhangyongxuan.com/tags/react/"/>
+      <category term="react" scheme="https://www.zhangyongxuan.com/tags/react/"/>
     
   </entry>
   
   <entry>
     <title>react中的ref和content</title>
-    <link href="https://blog.zhangyongxuan.com/2021/07/17/reactref/"/>
-    <id>https://blog.zhangyongxuan.com/2021/07/17/reactref/</id>
+    <link href="https://www.zhangyongxuan.com/2021/07/17/reactref/"/>
+    <id>https://www.zhangyongxuan.com/2021/07/17/reactref/</id>
     <published>2021-07-17T09:38:28.000Z</published>
     <updated>2021-11-10T06:34:24.294Z</updated>
     
@@ -257,19 +257,19 @@
     
     </summary>
     
-      <category term="React" scheme="https://blog.zhangyongxuan.com/categories/React/"/>
+      <category term="React" scheme="https://www.zhangyongxuan.com/categories/React/"/>
     
     
-      <category term="前端" scheme="https://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="https://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="react" scheme="https://blog.zhangyongxuan.com/tags/react/"/>
+      <category term="react" scheme="https://www.zhangyongxuan.com/tags/react/"/>
     
   </entry>
   
   <entry>
     <title>reactform</title>
-    <link href="https://blog.zhangyongxuan.com/2021/07/17/reactform/"/>
-    <id>https://blog.zhangyongxuan.com/2021/07/17/reactform/</id>
+    <link href="https://www.zhangyongxuan.com/2021/07/17/reactform/"/>
+    <id>https://www.zhangyongxuan.com/2021/07/17/reactform/</id>
     <published>2021-07-17T09:30:01.000Z</published>
     <updated>2021-11-10T06:34:24.293Z</updated>
     
@@ -281,19 +281,19 @@
     
     </summary>
     
-      <category term="React" scheme="https://blog.zhangyongxuan.com/categories/React/"/>
+      <category term="React" scheme="https://www.zhangyongxuan.com/categories/React/"/>
     
     
-      <category term="前端" scheme="https://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="https://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="react" scheme="https://blog.zhangyongxuan.com/tags/react/"/>
+      <category term="react" scheme="https://www.zhangyongxuan.com/tags/react/"/>
     
   </entry>
   
   <entry>
     <title>react基础</title>
-    <link href="https://blog.zhangyongxuan.com/2021/07/17/react01/"/>
-    <id>https://blog.zhangyongxuan.com/2021/07/17/react01/</id>
+    <link href="https://www.zhangyongxuan.com/2021/07/17/react01/"/>
+    <id>https://www.zhangyongxuan.com/2021/07/17/react01/</id>
     <published>2021-07-17T09:27:24.000Z</published>
     <updated>2021-11-10T06:34:24.292Z</updated>
     
@@ -305,19 +305,19 @@
     
     </summary>
     
-      <category term="React" scheme="https://blog.zhangyongxuan.com/categories/React/"/>
+      <category term="React" scheme="https://www.zhangyongxuan.com/categories/React/"/>
     
     
-      <category term="前端" scheme="https://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="https://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="react" scheme="https://blog.zhangyongxuan.com/tags/react/"/>
+      <category term="react" scheme="https://www.zhangyongxuan.com/tags/react/"/>
     
   </entry>
   
   <entry>
     <title>数组常用方法</title>
-    <link href="https://blog.zhangyongxuan.com/2021/07/16/arrayfun/"/>
-    <id>https://blog.zhangyongxuan.com/2021/07/16/arrayfun/</id>
+    <link href="https://www.zhangyongxuan.com/2021/07/16/arrayfun/"/>
+    <id>https://www.zhangyongxuan.com/2021/07/16/arrayfun/</id>
     <published>2021-07-16T08:59:43.000Z</published>
     <updated>2021-11-10T06:34:24.239Z</updated>
     
@@ -329,21 +329,21 @@
     
     </summary>
     
-      <category term="ES6" scheme="https://blog.zhangyongxuan.com/categories/ES6/"/>
+      <category term="ES6" scheme="https://www.zhangyongxuan.com/categories/ES6/"/>
     
     
-      <category term="前端" scheme="https://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="https://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="Javascript" scheme="https://blog.zhangyongxuan.com/tags/Javascript/"/>
+      <category term="Javascript" scheme="https://www.zhangyongxuan.com/tags/Javascript/"/>
     
-      <category term="ES6" scheme="https://blog.zhangyongxuan.com/tags/ES6/"/>
+      <category term="ES6" scheme="https://www.zhangyongxuan.com/tags/ES6/"/>
     
   </entry>
   
   <entry>
     <title>Generator函数和async函数</title>
-    <link href="https://blog.zhangyongxuan.com/2021/07/16/generatorandasync/"/>
-    <id>https://blog.zhangyongxuan.com/2021/07/16/generatorandasync/</id>
+    <link href="https://www.zhangyongxuan.com/2021/07/16/generatorandasync/"/>
+    <id>https://www.zhangyongxuan.com/2021/07/16/generatorandasync/</id>
     <published>2021-07-16T07:18:16.000Z</published>
     <updated>2021-11-10T06:34:24.283Z</updated>
     
@@ -355,21 +355,21 @@
     
     </summary>
     
-      <category term="ES6" scheme="https://blog.zhangyongxuan.com/categories/ES6/"/>
+      <category term="ES6" scheme="https://www.zhangyongxuan.com/categories/ES6/"/>
     
     
-      <category term="前端" scheme="https://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="https://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="Javascript" scheme="https://blog.zhangyongxuan.com/tags/Javascript/"/>
+      <category term="Javascript" scheme="https://www.zhangyongxuan.com/tags/Javascript/"/>
     
-      <category term="ES6" scheme="https://blog.zhangyongxuan.com/tags/ES6/"/>
+      <category term="ES6" scheme="https://www.zhangyongxuan.com/tags/ES6/"/>
     
   </entry>
   
   <entry>
     <title>Promise</title>
-    <link href="https://blog.zhangyongxuan.com/2021/07/15/promise/"/>
-    <id>https://blog.zhangyongxuan.com/2021/07/15/promise/</id>
+    <link href="https://www.zhangyongxuan.com/2021/07/15/promise/"/>
+    <id>https://www.zhangyongxuan.com/2021/07/15/promise/</id>
     <published>2021-07-15T10:50:12.000Z</published>
     <updated>2021-11-10T06:34:24.291Z</updated>
     
@@ -381,21 +381,21 @@
     
     </summary>
     
-      <category term="ES6" scheme="https://blog.zhangyongxuan.com/categories/ES6/"/>
+      <category term="ES6" scheme="https://www.zhangyongxuan.com/categories/ES6/"/>
     
     
-      <category term="前端" scheme="https://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="https://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="Javascript" scheme="https://blog.zhangyongxuan.com/tags/Javascript/"/>
+      <category term="Javascript" scheme="https://www.zhangyongxuan.com/tags/Javascript/"/>
     
-      <category term="ES6" scheme="https://blog.zhangyongxuan.com/tags/ES6/"/>
+      <category term="ES6" scheme="https://www.zhangyongxuan.com/tags/ES6/"/>
     
   </entry>
   
   <entry>
     <title>es6函数和类</title>
-    <link href="https://blog.zhangyongxuan.com/2021/07/15/funcionandclass/"/>
-    <id>https://blog.zhangyongxuan.com/2021/07/15/funcionandclass/</id>
+    <link href="https://www.zhangyongxuan.com/2021/07/15/funcionandclass/"/>
+    <id>https://www.zhangyongxuan.com/2021/07/15/funcionandclass/</id>
     <published>2021-07-15T07:41:59.000Z</published>
     <updated>2021-11-10T06:34:24.271Z</updated>
     
@@ -407,23 +407,23 @@
     
     </summary>
     
-      <category term="ES6" scheme="https://blog.zhangyongxuan.com/categories/ES6/"/>
+      <category term="ES6" scheme="https://www.zhangyongxuan.com/categories/ES6/"/>
     
     
-      <category term="前端" scheme="https://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="https://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="面向对象" scheme="https://blog.zhangyongxuan.com/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
+      <category term="Javascript" scheme="https://www.zhangyongxuan.com/tags/Javascript/"/>
     
-      <category term="Javascript" scheme="https://blog.zhangyongxuan.com/tags/Javascript/"/>
+      <category term="ES6" scheme="https://www.zhangyongxuan.com/tags/ES6/"/>
     
-      <category term="ES6" scheme="https://blog.zhangyongxuan.com/tags/ES6/"/>
+      <category term="面向对象" scheme="https://www.zhangyongxuan.com/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
     
   </entry>
   
   <entry>
     <title>ES6新特性</title>
-    <link href="https://blog.zhangyongxuan.com/2021/07/12/es6day1/"/>
-    <id>https://blog.zhangyongxuan.com/2021/07/12/es6day1/</id>
+    <link href="https://www.zhangyongxuan.com/2021/07/12/es6day1/"/>
+    <id>https://www.zhangyongxuan.com/2021/07/12/es6day1/</id>
     <published>2021-07-12T08:01:04.000Z</published>
     <updated>2021-11-10T06:34:24.259Z</updated>
     
@@ -435,21 +435,21 @@
     
     </summary>
     
-      <category term="ES6" scheme="https://blog.zhangyongxuan.com/categories/ES6/"/>
+      <category term="ES6" scheme="https://www.zhangyongxuan.com/categories/ES6/"/>
     
     
-      <category term="前端" scheme="https://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="https://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="Javascript" scheme="https://blog.zhangyongxuan.com/tags/Javascript/"/>
+      <category term="Javascript" scheme="https://www.zhangyongxuan.com/tags/Javascript/"/>
     
-      <category term="ES6" scheme="https://blog.zhangyongxuan.com/tags/ES6/"/>
+      <category term="ES6" scheme="https://www.zhangyongxuan.com/tags/ES6/"/>
     
   </entry>
   
   <entry>
     <title>git入门</title>
-    <link href="https://blog.zhangyongxuan.com/2021/07/11/git/"/>
-    <id>https://blog.zhangyongxuan.com/2021/07/11/git/</id>
+    <link href="https://www.zhangyongxuan.com/2021/07/11/git/"/>
+    <id>https://www.zhangyongxuan.com/2021/07/11/git/</id>
     <published>2021-07-11T14:16:57.000Z</published>
     <updated>2021-11-10T06:34:24.290Z</updated>
     
@@ -461,19 +461,19 @@
     
     </summary>
     
-      <category term="git" scheme="https://blog.zhangyongxuan.com/categories/git/"/>
+      <category term="git" scheme="https://www.zhangyongxuan.com/categories/git/"/>
     
     
-      <category term="git" scheme="https://blog.zhangyongxuan.com/tags/git/"/>
+      <category term="git" scheme="https://www.zhangyongxuan.com/tags/git/"/>
     
-      <category term="版本控制" scheme="https://blog.zhangyongxuan.com/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/"/>
+      <category term="版本控制" scheme="https://www.zhangyongxuan.com/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/"/>
     
   </entry>
   
   <entry>
     <title>常用API地址</title>
-    <link href="https://blog.zhangyongxuan.com/2021/07/11/api/"/>
-    <id>https://blog.zhangyongxuan.com/2021/07/11/api/</id>
+    <link href="https://www.zhangyongxuan.com/2021/07/11/api/"/>
+    <id>https://www.zhangyongxuan.com/2021/07/11/api/</id>
     <published>2021-07-11T14:11:55.000Z</published>
     <updated>2021-11-10T06:34:24.227Z</updated>
     
@@ -486,14 +486,14 @@
     </summary>
     
     
-      <category term="api" scheme="https://blog.zhangyongxuan.com/tags/api/"/>
+      <category term="api" scheme="https://www.zhangyongxuan.com/tags/api/"/>
     
   </entry>
   
   <entry>
     <title>React版HellowWorld</title>
-    <link href="https://blog.zhangyongxuan.com/2021/06/15/startreact/"/>
-    <id>https://blog.zhangyongxuan.com/2021/06/15/startreact/</id>
+    <link href="https://www.zhangyongxuan.com/2021/06/15/startreact/"/>
+    <id>https://www.zhangyongxuan.com/2021/06/15/startreact/</id>
     <published>2021-06-15T01:49:57.000Z</published>
     <updated>2021-11-10T06:34:24.227Z</updated>
     
@@ -505,12 +505,12 @@
     
     </summary>
     
-      <category term="React" scheme="https://blog.zhangyongxuan.com/categories/React/"/>
+      <category term="React" scheme="https://www.zhangyongxuan.com/categories/React/"/>
     
     
-      <category term="前端" scheme="https://blog.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="https://www.zhangyongxuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="react" scheme="https://blog.zhangyongxuan.com/tags/react/"/>
+      <category term="react" scheme="https://www.zhangyongxuan.com/tags/react/"/>
     
   </entry>
   
