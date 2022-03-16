@@ -97,7 +97,7 @@
 <meta property="og:site_name" content="张小轩的个人博客">
 <meta property="og:description" content="在日常的开发中，一般用到分页器的时候都是使用一些UI组件库里封装好的组件，假如离开了这些组件库该怎么办？这时候只能自己封装一个简单地分页器了">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2021-11-10T11:11:06.086Z">
+<meta property="og:updated_time" content="2022-03-16T10:40:17.087Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="React实现简单的分页器组件">
 <meta name="twitter:description" content="在日常的开发中，一般用到分页器的时候都是使用一些UI组件库里封装好的组件，假如离开了这些组件库该怎么办？这时候只能自己封装一个简单地分页器了">
@@ -460,6 +460,8 @@ currentPage // 当前页页码 number
 <pre><code>&lt;  1  2  3  4  5  &gt;&gt;  10  &gt;
 </code></pre><p>第二种情况： 有左省略号，无右省略号 ， 分页器形态为：</p>
 <pre><code>&lt;  1  &lt;&lt;  6  7  8  9  10  &gt;
+</code></pre><p>第二种情况： 有左省略号，无右省略号 ， 分页器形态为：</p>
+<pre><code>&lt;  1  &lt;&lt;  6  7  8  9  10  &gt;
 </code></pre><p>第三种情况： 有左省略号，无右省略号 ， 分页器形态为：</p>
 <pre><code>&lt;  1  &lt;&lt;  6  7  8  9  10  &gt;&gt;  50  &gt;
 </code></pre><h1 id="三、-源码"><a href="#三、-源码" class="headerlink" title="三、 源码"></a>三、 源码</h1><p>index.js : </p>
@@ -753,7 +755,7 @@ export default Pagination;
   <p><span>本文标题:</span><a href="/2021/11/10/reactPagination/">React实现简单的分页器组件</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 张小轩 的个人博客">张小轩</a></p>
   <p><span>发布时间:</span>2021年11月10日 - 14:41</p>
-  <p><span>最后更新:</span>2021年11月10日 - 19:11</p>
+  <p><span>最后更新:</span>2022年03月16日 - 18:40</p>
   <p><span>原始链接:</span><a href="/2021/11/10/reactPagination/" title="React实现简单的分页器组件">https://www.zhangyongxuan.com/2021/11/10/reactPagination/</a>
     <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://www.zhangyongxuan.com/2021/11/10/reactPagination/" aria-label="复制成功！"></i></span>
   </p>
@@ -991,7 +993,7 @@ export default Pagination;
     <footer id="footer" class="footer">
       <div class="footer-inner">
         <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-<div class="copyright">&copy; 2019 &mdash; <span itemprop="copyrightYear">2021</span>
+<div class="copyright">&copy; 2019 &mdash; <span itemprop="copyrightYear">2022</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
@@ -1005,7 +1007,7 @@ export default Pagination;
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">28k</span>
+    <span title="Site words total count">28.1k</span>
   
 </div>
 
@@ -1056,6 +1058,9 @@ export default Pagination;
             }
                 setInterval("createtime()",250);
         </script>
+        <p style="text-align: center">
+          <a target="blank" href="https://beian.miit.gov.cn/">陕ICP备2021014591号-1</a>
+        </p>
       </div>
     </footer>
 

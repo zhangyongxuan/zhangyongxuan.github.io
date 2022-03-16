@@ -1,2115 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>起点</title>
-    <url>/2019/03/27/start/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>那年夏天，懵懂的我怀揣梦想，去了那个陌生的城市</em></strong><br><strong><em>开始了我的追梦之路</em></strong><br><!-- ***也遇见了她*** --><br><a id="more"></a></p>
-<h3 id="梦想"><a href="#梦想" class="headerlink" title="梦想"></a>梦想</h3><p> <strong><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;梦想这个字眼对于我们来说，并不陌生。我们每个人都有或有过梦想，每个阶段都会有不同的梦想。小时候有小时候的梦想，长大以后会有长大以后的梦想。</em></strong></p>
-<div id="aplayer-zduViUcs" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
-				<pre class="aplayer-lrc-content">[00:36.530]小时候的我 做着美的梦
-[00:44.170]梦想中 那片天空 好像挂满笑容
-[00:50.930]长大后的我 坚定着美梦
-[00:58.910]因为我 已慢慢懂 努力就能成功
-[01:04.890]
-[01:07.100]我一个人的力量
-[01:10.850]能去闯 就算要飞越海洋
-[01:16.470]也不能 阻挡我对梦的渴望  [01:21.960]我一个人的信仰 [01:25.600]像太阳 散发着炽热的光 [01:31.180]能照亮 所有内心 灰暗的地方 [01:38.240] [01:59.370]天边的彩虹 倒映我的梦 [02:06.890]路边的 彩色霓虹 流淌着感动 [02:14.300]风吹的温柔 带走了沉重 [02:22.400]我要和别人不同 做自己的英雄 [02:28.500] [02:29.579]我一个人的力量 [02:33.950]能去闯 就算要飞越海洋 [02:39.340]也不能 阻挡我对梦的渴望 [02:44.990]我一个人的信仰 [02:48.750]像太阳 散发着炽热的光 [02:54.410]能照亮 所有内心 灰暗的地方 [03:01.290] [03:03.340]我一个人的力量 [03:07.280]能去闯 就算要飞越海洋 [03:12.760]也不能 阻挡我对梦的渴望 [03:18.250]我一个人的信仰 [03:21.829]像太阳 散发着炽热的光 [03:27.590]能照亮 所有内心 灰暗的地方 [03:34.550] [03:37.829]小时候的我 做着美的梦 [03:45.180]梦想中 那片天空 好像挂满笑容 [03:51.890]长大后的我 坚定着美梦 [03:59.890]因为我 已慢慢懂 努力就能成功 [04:06.180] [04:09.900]就能成功 [04:12.280]</pre>
-			</div>
-			<script>
-				var ap = new APlayer({
-					element: document.getElementById("aplayer-zduViUcs"),
-					narrow: false,
-					autoplay: false,
-					showlrc: 2,
-					music: {
-						title: "慢慢懂",
-						author: "汪苏泷",
-						url: "http://music.163.com/song/media/outer/url?id=165383.mp3",
-						pic: "http://p1.music.126.net/k_WHGJoTvS6H7exsSnK1iA==/3304032446773006.jpg?param=130y130",
-					}
-				});
-				window.aplayers || (window.aplayers = []);
-				window.aplayers.push(ap);
-			</script>
-<p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在我上小学的时候，看到天上的星星一闪一闪的，我就会想，为什么天上的星星不会掉下来，为什么他们会发光。那个时候，我的梦想就是长大之后做一名天文学家。再长大些之后，看到爸妈每天给学生上课，每周休息两天，每年还有寒暑假，就觉得做一名人民教师也挺好的，于是那个时候我的梦想就变成了长大后，像爸妈一样，做一名人民教师。后来上了高中，有了一些与众不同的经历之后，我感觉到了那种在病痛面前什么也做不了的无力、无助、绝望。所以，那个时候，我的梦想就变成了做一名医生。再后来，上大学了，我的专业并不是理想中的医学专业，而是以前从来没有想过的“软件工程”。<br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;慢慢的，我懂了，每个人并不是生来就能不顾一切的去做自己想做的事情，如果我们没有能力去改变社会，那么就只能乖乖的听从社会的安排，来改变自己。所以，我的梦想又变成了毕业之后做一名软件工程师。</p>
-<p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;到了选择编程语言的时候，周围的人都选择了目前世界上最火的语言之一 — Java…….但是这一次我不想妥协，我毅然决然的选择了我喜欢的编程语言 —-Javascript ，但是在我们学校开设的所有课程都是关于Java的，我只能去自己摸索，自己看书查资料去学习这门从来没有接触过的语言，以至于我自学了两三个月还没有入门。直到2017年圣诞节的时候，我遇到了我的第一个前端的老师，我管他叫君哥（真实姓名不便透露），感谢我君哥，是他带我进入了web前端的大门，让我认识了一个不一样的Javascript。<br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;再到后来，我遇到了我第二个前端老师—云姐，从她这里我才真正认识了前端，了解了前端开发工程师在一个项目中所承担的角色，学会了如何合理的利用网络资源去学习自己所需要的知识，并且在真正的前端领域初窥门径。</p>
-<!-- ### 她
-***&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我所选的这个方向注定了我未来的路不是那么好走，或许真像电视里演得一样，冥冥之中，一切都是定数。孤身一人，不知道何去何存的我，几经周折带着我的前端梦来到了这座机会与绝望并存的城市，认识了她。***
-<div id="aplayer-SgsNoqUz" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
-				<pre class="aplayer-lrc-content">[00:26.30]我在沙滩划个圆圈  
-[00:28.69]属于我俩安逸世界  
-[00:31.14]不用和别人连线  
-[00:36.33]我不管你来自深渊  
-[00:38.68]也不在乎身上鳞片  
-[00:41.38]爱情能超越一切  
-[00:45.93]只要你在我身边  
-[00:47.79]所有蜚语流言 完全视而不见  
-[00:50.73]请不要匆匆一面  
-[00:52.72]一转身就沉入海平线  
-[00:58.25]传说中你为爱甘心被搁浅  
-[01:03.33]我也可以为你 潜入海里面  
-[01:08.02]怎么忍心断绝  
-[01:10.65]忘记我不变的誓言  
-[01:14.31]我眼泪断了线  
-[01:18.36]现实里有了我对你的眷恋  
-[01:23.40]我愿意化作雕像 等你出现  
-[01:28.19]再见再也不见  
-[01:30.68]心碎了飘荡在海边  
-[01:34.57]你抬头就看见  
-[01:59.54]我在沙滩划个圆圈  
-[02:02.19]属于我俩安逸世界  
-[02:04.63]不用和别人连线  
-[02:09.42]我不管你来自深渊  
-[02:12.33]也不在乎身上鳞片  
-[02:14.73]爱情能超越一切  
-[02:19.06]只要你在我身边  
-[02:21.11]所有蜚语流言 完全视而不见  
-[02:24.14]请不要匆匆一面  
-[02:26.18]一转身就沉入海平线  
-[02:31.88]传说中你为爱甘心被搁浅  
-[02:36.87]我也可以为你 潜入海里面  
-[02:41.64]怎么忍心断绝  
-[02:44.29]忘记我不变的誓言 
-[02:47.75]我眼泪断了线  
-[02:52.04]现实里有了我对你的眷恋  
-[02:57.03]我愿意化作雕像 等你出现  
-[03:01.87]再见再也不见  
-[03:04.66]心碎了飘荡在海边  
-[03:07.95]你抬头就看见  
-[03:12.54]传说中你为爱甘心被搁浅  
-[03:17.23]我也可以为你 潜入海里面  
-[03:22.02]怎么忍心断绝  
-[03:24.71]忘记我不变的誓言  
-[03:28.04]我眼泪断了线  
-[03:32.43]现实里有了我对你的眷恋  
-[03:37.48]我愿意化作雕像 等你出现  
-[03:42.21]再见再也不见  
-[03:44.85]心碎了飘荡在海边  
-[03:48.16]你抬头就看见  
-[03:52.12]你 你抬头就看见  
-[03:57.30]你 你抬头就看见</pre>
-			</div>
-			<script>
-				var ap = new APlayer({
-					element: document.getElementById("aplayer-SgsNoqUz"),
-					narrow: false,
-					autoplay: false,
-					showlrc: 2,
-					music: {
-						title: "美人鱼",
-						author: "林俊杰",
-						url: "http://music.163.com/song/media/outer/url?id=108931.mp3",
-						pic: "http://p2.music.126.net/3jBJ00NEgPuhRFAYwErgag==/109951163533012556.jpg?param=130y130",
-					}
-				});
-				window.aplayers || (window.aplayers = []);
-				window.aplayers.push(ap);
-			</script>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人真的是一种奇怪的生物，有时候在听到某一首歌的时候就会想起一个人。那是一个周末，去网吧玩游戏，一个人玩的无聊，看到旁边坐的一个小姐姐生涩的手指按着机械键盘咔咔响，在玩qq飞车，于是。。。。<br>“嗨！你也玩qq飞车吗？一起啊”<br>“我还不会玩”<br> “没事，我也不会”<br> “那好呀，一起玩”<br> 其实我是会玩的，当时就是想找个一起玩的人，就这样我认识了她。 –&gt;<br> <!-- 后来又一起玩了几次游戏，慢慢熟悉了起来，看电影，吃饭 ， 玩游戏， 逛街 ，一切在顺其自然的发生。
- 第一次去ktv的时候，她唱了这首林俊杰的 《美人鱼》 ，从那次之后仿佛这就变成了一首属于她的歌，无论在哪里听到这首歌我的脑海里浮现出的都是那次在ktv她唱这首歌的场景。这时候我突然发觉，我可能是有点喜欢她。
- 就这样，过了一段时间，我鼓起勇气在ktv告白了，很幸运，她答应我了。我们就这样在一起了。
-蓝风铃的香味、清澈的眼睛、空气刘海、阳光、可爱，正所谓“情人眼里出西施”，在一起之后就觉得她哪哪都好。
-最喜欢的就是她的眼睛，就像一汪清泉，清澈见底，笑起来眼睛下面就会出现一对卧蚕，觉得很美。 --><p></p>
-<p><center>这就是我的起点</center></p>
-<script type="text/javascript" src="/js/src/bai.js"></script>   
-]]></content>
-      <categories>
-        <category>记录生活</category>
-      </categories>
-      <tags>
-        <tag>梦想</tag>
-        <tag>起点</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>常用API地址</title>
-    <url>/2021/07/11/api/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>一些常用技术栈的API链接</em></strong></p>
+    <title>nginx负载均衡</title>
+    <url>/2020/03/30/nginxfzjh/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>Nginx (engine x) 是一个高性能的HTTP和反向代理web服务器，同时也提供了IMAP/POP3/SMTP服务。它是一款轻量级的Web 服务器/反向代理服务器及电子邮件（IMAP/POP3）代理服务器，在BSD-like 协议下发行。其特点是占有内存少，并发能力强，事实上nginx的并发能力在同类型的网页服务器中表现较好，中国大陆使用nginx网站用户有：百度、京东、新浪、网易、腾讯、淘宝等。</em></strong></p>
 <a id="more"></a>
-<p><a href="https://yarn.bootcss.com/docs/usage/" target="_blank" rel="noopener">yarn</a></p>
-<p><a href="https://git-scm.com/" target="_blank" rel="noopener">git</a></p>
-<p><a href="http://es6.ruanyifeng.com/" target="_blank" rel="noopener">ES6 文档 </a></p>
-<p><a href="http://lesscss.cn/" target="_blank" rel="noopener">less 文档</a></p>
-<p><a href="https://react.docschina.org/" target="_blank" rel="noopener">react官方文档</a></p>
-<p><a href="https://dvajs.com/" target="_blank" rel="noopener">dva 文档</a></p>
-<p><a href="https://cn.redux.js.org/" target="_blank" rel="noopener">redux文档</a></p>
-<p><a href="https://www.webpackjs.com/" target="_blank" rel="noopener">webpack文档</a></p>
-<p><a href="https://redux-saga-in-chinese.js.org/" target="_blank" rel="noopener">redux-saga文档</a></p>
-<p><a href="https://reacttraining.com/react-router/web/example/basic" target="_blank" rel="noopener">react-router文档</a></p>
-<script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-      <tags>
-        <tag>api</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>React版HellowWorld</title>
-    <url>/2021/06/15/startreact/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>紧张刺激的毕业设计悄然进入尾声，我终于迫于生计放弃了刚刚学了点皮毛的Vue，拿起了《React引领未来的用户界面开发框架》，都是心酸啊，但是还是要在前端的路上继续摸索呀</em></strong><br><a id="more"></a></p>
-<h3 id="React-是什么"><a href="#React-是什么" class="headerlink" title="React 是什么"></a>React 是什么</h3><p>React 是一个用于构建用户界面的 JAVASCRIPT 库。</p>
-<p>React主要用于构建UI，很多人认为 React 是 MVC 中的 V（视图）。</p>
-<p>React 起源于 Facebook 的内部项目，用来架设 Instagram 的网站，并于 2013 年 5 月开源。</p>
-<p>React 拥有较高的性能，代码逻辑非常简单，越来越多的人已开始关注和使用它。</p>
-<p>嗯。。。这就是作为一个菜鸟，队react的初步认识。</p>
-<h3 id="React版HellowWorld教程"><a href="#React版HellowWorld教程" class="headerlink" title="React版HellowWorld教程"></a>React版HellowWorld教程</h3><p>HellowWorld是我们程序猿入门一门编程语言的时候的第一个“项目”<br>现在无论是前端开发还是后端开发，都趋于工程化模块化的开发模式了，所以在这里本菜鸟就只记录最方便实用的脚手架使用方法。</p>
-<h4 id="1-安装环境"><a href="#1-安装环境" class="headerlink" title="1.安装环境"></a>1.安装环境</h4><p>首先肯定是需要node环境的，作为一个21世纪的前端程序猿，如果你没了解过node的话，那么恭喜你，你已经OUT了，不开玩笑地说，前端程序员一定要去了解node的<br>至于node环境的安装，那简直是简单的不能再简单了，windows系统下的node环境搭建就像安装一个游戏一样简单，linux环境有点小复杂，但不是问题，谢谢伟大的菜鸟教程给予本菜鸟的大力支持，谢谢！谢谢！<br><a href="https://www.runoob.com/nodejs/nodejs-tutorial.html" target="_blank" rel="noopener">全套教程点击这里👈</a></p>
-<h4 id="2-安装并使用react脚手架创建项目"><a href="#2-安装并使用react脚手架创建项目" class="headerlink" title="2.安装并使用react脚手架创建项目"></a>2.安装并使用react脚手架创建项目</h4><p>在这里我是使用node的包管理器npm来安装react脚手架<br>全局安装react脚手架</p>
-<pre><code>$ cnpm install -g create-react-app
-</code></pre><p>在某盘某文件夹下打开cmd，运行下边命令创建项目</p>
-<pre><code>$ create-react-app reacttest
-</code></pre><p>这时候，项目已经搭建好了,项目目录如下：</p>
-<pre><code>reacttest/
-  README.md
-  node_modules/
-  package.json
-  .gitignore
-  public/
-    favicon.ico
-    index.html
-    manifest.json
-  src/
-    App.css
-    App.js
-    App.test.js
-    index.css
-    index.js
-    logo.svg
-</code></pre><p>运行项目</p>
-<pre><code>$ cd reacttest/
-$ npm start
-</code></pre><p>这时候静静等待启动完成，它会自动打开一个react官方示例页面，到这里React版的HellowWorld就完成了</p>
-<script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-      <categories>
-        <category>React</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>react</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ES6新特性</title>
-    <url>/2021/07/12/es6day1/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>ES6是EMCAScript标准的第6次重大改版</em></strong><br><a id="more"></a></p>
-<h1 id="es6变量相较于es5的主要区别"><a href="#es6变量相较于es5的主要区别" class="headerlink" title="es6变量相较于es5的主要区别"></a>es6变量相较于es5的主要区别</h1><h2 id="1、不存在变量提升"><a href="#1、不存在变量提升" class="headerlink" title="1、不存在变量提升"></a>1、不存在变量提升</h2><pre><code>    console.log(a); //输出undefined
-    var a = 0;
-    console.log(b); //报错 变量b未定义
-    let b = 2;
-</code></pre><p>使用var定义的变量存在变量提升的现象，就是在变量被定义之前可以引用，值为undefined，而使用let定义的变量不存在变量提升的现象，所以在定义之前引用会报错</p>
-<h2 id="2、会产生暂时性死区（temporal-dead-zone，简称-TDZ）"><a href="#2、会产生暂时性死区（temporal-dead-zone，简称-TDZ）" class="headerlink" title="2、会产生暂时性死区（temporal dead zone，简称 TDZ）"></a>2、会产生暂时性死区（temporal dead zone，简称 TDZ）</h2><p>什么是TDZ呢？</p>
-<p>我个人的理解是：从块级作用域的开始起，直到let关键字声明一个变量结束的这段区域就是该变量的TDZ，下边举例说明：</p>
-<pre><code>var a = 1;
-{
-//TDZ开始
-    console.log(a); //报错  Uncaught ReferenceError
-    let a = 2; //TDZ结束
-    console.log(a);//2
-}
-
-</code></pre><p>在全局有一个a变量，在代码块里又用了let关键字声明了一个a变量，这时候a变量就绑定了该块级作用域，在这个块级作用域中let声明a之前都属于a变量的TDZ，在一个变量的TDZ中引用它都会报Uncaught ReferenceError错误，这就导致了typeof操作并不能保证100%安全，如下代码：</p>
-<pre><code>typeof a // undefined
-var a = 1;
-typeof b //Uncaught ReferenceError
-let b =1;
-typeof c //undefined 变量未声明的话反而是安全的
-</code></pre><h2 id="3、变量不可重复声明"><a href="#3、变量不可重复声明" class="headerlink" title="3、变量不可重复声明"></a>3、变量不可重复声明</h2><p>es5中存在变量覆盖的现象，也就是说var声明的变量可以重名，而es6中的let和const变量不允许在同一作用域出现同名变量，只要在一个块级作用域有let或者const变量，那么这个变量就不可以重名，跟上边说的变量绑定一样：</p>
-<pre><code>{
-    let a = 1;
-    var a = 1;//报错
-    let b = 1;
-    let b = 2;//报错
-    var c = 3;
-    let c = 5;//报错
-}
-</code></pre><p><strong><em>特别要注意的是，ES6 规定，块级作用域之中，函数声明语句的行为类似于let，在块级作用域之外不可引用。</em></strong></p>
-<h1 id="解构赋值"><a href="#解构赋值" class="headerlink" title="解构赋值"></a>解构赋值</h1><p>阮一峰大佬的《ECMAScript 6 入门》一书中对于结构复制的解释相当简单明了，他是这样说的：ES6 允许按照一定模式，从数组和对象中提取值，对变量进行赋值，这被称为解构（Destructuring）。</p>
-<p>什么是模式匹配呢？个人理解就是“=”左右两边的数据的“结构”是一样就可以，最简单的例子：</p>
-<pre><code>let [a, b, c] = [1, 2, 3];//a=1 b=2 c=3
-</code></pre><p>没错就是这么简单</p>
-<p>那么什么样的数据类型可以被解构呢？大佬说：“可遍历的结构就可以被解构”，我们暂时可以理解为具有length属性的数据类型都可以被解构，比如数组、字符串、对象，如下：</p>
-<pre><code>let [a,b,c] = &#39;qwe&#39;; // a = &#39;q&#39; b = &#39;w&#39; c = &#39;e&#39;
-let {name,age}  = {
-    name : &#39;qqq&#39;,
-    age : 2
-} // name = &#39;qqq&#39;  age = 2
-//支持复杂数据类型的解构
-let {code,json:{data}} = {
-    code : 2,
-    json : {
-        data : [1,2,3]
-    }
-}// code = 2 data = 123
-</code></pre><p>解构赋值允许不完全解构</p>
-<hr>
-<p>解构赋值允许设置默认值,当变量对应的被结构的数据中的undefined的时候，默认值才会生效，而且要是默认值为待计算的值（函数或者表达式）的时候，只有默认值生效的时候才会去计算它的值，这叫惰性求值，上代码：</p>
-<pre><code>let [,b=1] = [1,4]; //b = 4 因为被解构的数据中存在b对应的值，所以默认值不生效
-let [,b=2] = [1]; //b = 2 
-//惰性求值
-let a = funtion () {
-    console.log(&#39;求值&#39;)
-    return 4;
-}
-let [,b = a()] = [1,2]// b  = 2 控制台不打印&#39;求值&#39;
-let [,b = a()] = [2]// b  = 4 控制台打印&#39;求值&#39;
-</code></pre><h2 id="有一点要特别注意：在解构赋值之中能不用圆括号就不要用圆括号"><a href="#有一点要特别注意：在解构赋值之中能不用圆括号就不要用圆括号" class="headerlink" title="有一点要特别注意：在解构赋值之中能不用圆括号就不要用圆括号"></a>有一点要特别注意：在解构赋值之中能不用圆括号就不要用圆括号</h2><h1 id="es6函数的扩展常用点"><a href="#es6函数的扩展常用点" class="headerlink" title="es6函数的扩展常用点"></a>es6函数的扩展常用点</h1><h2 id="1、函数参数可以使用默认值"><a href="#1、函数参数可以使用默认值" class="headerlink" title="1、函数参数可以使用默认值"></a>1、函数参数可以使用默认值</h2><p>话不多说，直接上代码：</p>
-<pre><code>function fun (a , b = 8) {
-    return [a,b];
-}
-fun(1,2); //[1,2]
-fun(1); //[1,8]
-</code></pre><h2 id="需要注意的是："><a href="#需要注意的是：" class="headerlink" title="需要注意的是："></a>需要注意的是：</h2><p><strong><em>1、函数的参数是默认声明的，所以不能在函数内部使用let或者const关键字再次声明，如下错误操作</em></strong></p>
-<pre><code>function fun (x = 6) {
-    let x = 5;
-    const x = 3;
-}
-</code></pre><p><strong><em>2、当使用函数默认参数时函数的形参也不允许有同名：</em></strong></p>
-<pre><code>// 不报错
-function fun(x, x, y) {
-  // ...
-}
-
-// 报错
-function fun(x, x, y = 1) {
-  // ...
-}
-// SyntaxError: Duplicate parameter name not allowed in this context
-</code></pre><h2 id="2、rest参数"><a href="#2、rest参数" class="headerlink" title="2、rest参数"></a>2、rest参数</h2><p>在es6以前函数内部有一个叫arguments的类数组对象保存着函数的参数，在es6中引进了一种新的参数，叫rest参数，该参数表示形式为（…参数名）来代替arguments对象来表示函数多余的参数,这是一个数组，下边是使用rest参数完成求和功能的一个函数：</p>
-<pre><code>function add (...nums){
-    let sum = 0;
-    for(let v of nums){
-        sum+=v
-    }
-    return sum;
-}
-console.log(add(1,2,3)) // 6
-</code></pre><h3 id="需要特别注意的有两点："><a href="#需要特别注意的有两点：" class="headerlink" title="需要特别注意的有两点："></a>需要特别注意的有两点：</h3><p><strong><em>1、rest参数之后不能有其他参数</em></strong></p>
-<pre><code>function fun (x , ...values , y){
-
-}//Uncaught SyntaxError: Rest parameter must be last formal parameter
-</code></pre><p><strong><em>2、函数的length属性不计算rest参数</em></strong></p>
-<pre><code>function fun (x,y,...values){
-
-}
-console.log(fun.length) // 2
-</code></pre><h2 id="3、箭头函数"><a href="#3、箭头函数" class="headerlink" title="3、箭头函数"></a>3、箭头函数</h2><p>箭头函数是es6中加入标准的一种类似于Lambda拉姆达表达式的语法糖吧，纯属个人理解，话不多说直接上代码：</p>
-<pre><code>var f = v =&gt; v;
-
-// 等同于
-var f = function (v) {
-  return v;
-};
-var f = () =&gt; 5;
-// 等同于
-var f = function () { return 5 };
-
-var sum = (num1, num2) =&gt; num1 + num2;
-// 等同于
-var sum = function(num1, num2) {
-  return num1 + num2;
-};
-</code></pre><p>用起来是相当方便啊，不过在使用的时候要注意以下几点：</p>
-<p><strong><em>（1）函数体内的this对象，就是定义时所在的对象，而不是使用时所在的对象。也就是说this对象的指向是可变的，但在箭头函数中this对象的指向是固定的。</em></strong></p>
-<pre><code>function foo() {
-  setTimeout(() =&gt; {
-    console.log(&#39;id:&#39;, this.id);
-  }, 100);
-}
-
-var id = 21;
-
-foo.call({ id: 42 });
-</code></pre><p>上面代码中，setTimeout的参数是一个箭头函数，这个箭头函数的定义生效是在foo函数生成时，而它的真正执行要等到 100 毫秒后。如果是普通函数，执行时this应该指向全局对象window，这时应该输出21。但是，箭头函数导致this总是指向函数定义生效时所在的对象（本例是{id: 42}），所以输出的是42。</p>
-<p><strong><em>（2）不可以当作构造函数，也就是说，不可以使用new命令，否则会抛出一个错误。</em></strong></p>
-<p><strong><em>（3）不可以使用arguments对象，该对象在函数体内不存在。如果要用，可以用 rest 参数代替。</em></strong></p>
-<p><strong><em>（4）不可以使用yield命令，因此箭头函数不能用作 Generator 函数。</em></strong></p>
-<h3 id="有两种场合不适合使用箭头函数"><a href="#有两种场合不适合使用箭头函数" class="headerlink" title="有两种场合不适合使用箭头函数"></a>有两种场合不适合使用箭头函数</h3><h4 id="1、定义对象的方法，且该方法内部包括this。"><a href="#1、定义对象的方法，且该方法内部包括this。" class="headerlink" title="1、定义对象的方法，且该方法内部包括this。"></a>1、定义对象的方法，且该方法内部包括this。</h4><pre><code>const cat = {
-  lives: 9,
-  jumps: () =&gt; {
-    this.lives--;
-  }
-}
-</code></pre><p>上面代码中，cat.jumps()方法是一个箭头函数，这是错误的。调用cat.jumps()时，如果是普通函数，该方法内部的this指向cat；如果写成上面那样的箭头函数，使得this指向全局对象，因此不会得到预期结果。这是因为对象不构成单独的作用域，导致jumps箭头函数定义时的作用域就是全局作用域。</p>
-<h4 id="2、需要动态this的时候，也不应使用箭头函数。"><a href="#2、需要动态this的时候，也不应使用箭头函数。" class="headerlink" title="2、需要动态this的时候，也不应使用箭头函数。"></a>2、需要动态this的时候，也不应使用箭头函数。</h4><pre><code>var button = document.getElementById(&#39;press&#39;);
-button.addEventListener(&#39;click&#39;, () =&gt; {
-  this.classList.toggle(&#39;on&#39;);
-});
-</code></pre><p>上面代码运行时，点击按钮会报错，因为button的监听函数是一个箭头函数，导致里面的this就是全局对象。如果改成普通函数，this就会动态指向被点击的按钮对象。</p>
-<p>另外，如果函数体很复杂，有许多行，或者函数内部有大量的读写操作，不单纯是为了计算值，这时也不应该使用箭头函数，而是要使用普通函数，这样可以提高代码可读性。</p>
-<h1 id="数组扩展常用点"><a href="#数组扩展常用点" class="headerlink" title="数组扩展常用点"></a>数组扩展常用点</h1><h2 id="1、扩展运算符"><a href="#1、扩展运算符" class="headerlink" title="1、扩展运算符"></a>1、扩展运算符</h2><p>数组的扩展运算符表示形式类似于函数的rest参数也是（…），但是它作用正好是rest参数的逆运算，将一个数组转为用逗号分隔的参数序列。</p>
-<pre><code>console.log(...[1, 2, 3])
-// 1 2 3
-
-console.log(1, ...[2, 3, 4], 5)
-// 1 2 3 4 5
-
-[...document.querySelectorAll(&#39;div&#39;)]
-</code></pre><h3 id="扩展运算符的常见应用"><a href="#扩展运算符的常见应用" class="headerlink" title="扩展运算符的常见应用"></a>扩展运算符的常见应用</h3><p><strong><em>1、复制数组</em></strong><br>看下边这段代码</p>
-<pre><code>var arr1 = [1,2];
-var arr2 = arr1;
-
-arr2[0] = 2;
-console.log(arr1) // [2,2]
-</code></pre><p>我们都知道数组是一种引用类型，采用赋值的方式复制数组是不可取的，因为arr1和arr2都指向同一个对象，所以修改arr2会改变arr1的值，在es5中要复制数组只能通过下边的方式：</p>
-<pre><code>var a1 = [1, 2];
-var a2 = a1.concat();
-
-a2[0] = 2;
-a1 // [1, 2]
-</code></pre><p>在es6中可以通过数组的扩展运算符来对数组进行复制，而不改变原来的数组：</p>
-<pre><code>const a1 = [1, 2];
-// 写法一
-const a2 = [...a1];
-// 写法二
-const [...a2] = a1;
-</code></pre><p><strong><em>2、合并数组</em></strong></p>
-<pre><code>const arr1 = [&#39;a&#39;, &#39;b&#39;];
-const arr2 = [&#39;c&#39;];
-const arr3 = [&#39;d&#39;, &#39;e&#39;];
-
-// ES5 的合并数组
-arr1.concat(arr2, arr3);
-// [ &#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39;, &#39;e&#39; ]
-
-// ES6 的合并数组
-[...arr1, ...arr2, ...arr3]
-</code></pre><p>这是es5和es6合并数组写法上的区别</p>
-<pre><code>const a1 = [{ foo: 1 }];
-const a2 = [{ bar: 2 }];
-
-const a3 = a1.concat(a2);
-const a4 = [...a1, ...a2];
-
-a3[0] === a1[0] // true
-a4[0] === a1[0] // true
-</code></pre><p>上面代码中，a3和a4是用两种不同方法合并而成的新数组，但是它们的成员都是对原数组成员的引用，这就是浅拷贝。如果修改了原数组的成员，会同步反映到新数组。</p>
-<p><strong><em>3、与解构赋值结合</em></strong></p>
-<pre><code>const [first, ...rest] = [1, 2, 3, 4, 5];
-first // 1
-rest  // [2, 3, 4, 5]
-
-const [first, ...rest] = [];
-first // undefined
-rest  // []
-
-const [first, ...rest] = [&quot;foo&quot;];
-first  // &quot;foo&quot;
-rest   // []
-</code></pre><p>要注意的一点是：如果将扩展运算符用于数组赋值，只能放在参数的最后一位，否则会报错。</p>
-<pre><code>const [...butLast, last] = [1, 2, 3, 4, 5];
-// 报错
-
-const [first, ...middle, last] = [1, 2, 3, 4, 5];
-// 报错
-</code></pre><p><strong><em>4、将可遍历对象转换为数组</em></strong></p>
-<pre><code>let nodeList = document.querySelectorAll(&#39;div&#39;);
-let array = [...nodeList];
-[...&#39;hello&#39;] // [ &quot;h&quot;, &quot;e&quot;, &quot;l&quot;, &quot;l&quot;, &quot;o&quot; ]
-</code></pre><p>所谓可遍历对象在es6中的就是实现了Iterator 接口的对象，所以Map 和 Set 结构，Generator 函数返回的Generator的</p>
-<pre><code>let map = new Map([
-  [1, &#39;one&#39;],
-  [2, &#39;two&#39;],
-  [3, &#39;three&#39;],
-]);
-
-let arr = [...map.keys()]; // [1, 2, 3]
-
-const go = function*(){
-  yield 1;
-  yield 2;
-  yield 3;
-};
-
-[...go()] // [1, 2, 3]
-</code></pre><p>要注意如果对没有实现Iterator接口的对象也就是不可遍历的对象使用扩展运算符的话会报错</p>
-<pre><code>let a = 1;
-[...a] //Uncaught TypeError: number 1 is not iterable (cannot read property Symbol(Symbol.iterator))
-</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-      <categories>
-        <category>ES6</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>Javascript</tag>
-        <tag>ES6</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>es6函数和类</title>
-    <url>/2021/07/15/funcionandclass/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>从es6中做出的改变来看，JavaScript正在向一门面向对象的语言进行发展（小声bb）</em></strong><br><a id="more"></a></p>
-<h2 id="es6函数"><a href="#es6函数" class="headerlink" title="es6函数"></a>es6函数</h2><p>箭头函数是es6中函数的一种新的写法，也是平时我们用的比较多的写法</p>
-<h3 id="箭头函数在项目中最常用的几个点"><a href="#箭头函数在项目中最常用的几个点" class="headerlink" title="箭头函数在项目中最常用的几个点"></a>箭头函数在项目中最常用的几个点</h3><h4 id="函数配合解构赋值的用法"><a href="#函数配合解构赋值的用法" class="headerlink" title="函数配合解构赋值的用法"></a>函数配合解构赋值的用法</h4><p>其实配合解构赋值使用并不是箭头函数的专利，普通函数也可以配合解构赋值进行使用：</p>
-<pre><code>function fun({name,age}){
-    return `My name is ${name},I am ${age}years old`
-}
-console.log(fun({name:&#39;zyx&#39;,age:22})) //My name is zyx,I am 22years old
-</code></pre><p>但是解构赋值和箭头函数都是es6新增特性，所以要用新的就都用新的啊，不然多low：</p>
-<pre><code>let fun = ({name,age})=&gt; `My name is ${name},I am ${age}years old`;
-console.log(fun({name:&#39;zyx&#39;,age:22})) //My name is zyx,I am 22years old
-</code></pre><p>这两段代码对比之下，箭头函数显得更加简洁明了</p>
-<h4 id="配合扩展运算符的用法"><a href="#配合扩展运算符的用法" class="headerlink" title="配合扩展运算符的用法"></a>配合扩展运算符的用法</h4><p>个人觉得这个功能就是阮大佬在<a href="http://es6.ruanyifeng.com/" target="_blank" rel="noopener">《es6入门》</a>一书函数的扩展一章中提到的rest参数：</p>
-<pre><code>let fun = (a,...prams)=&gt;{
-    console.log(prams)
-}
-fun(1,2,3,4) // [2,3,4]
-</code></pre><p>我自己说实话还没发现两者有什么不同</p>
-<h4 id="函数的默认参数设置"><a href="#函数的默认参数设置" class="headerlink" title="函数的默认参数设置"></a>函数的默认参数设置</h4><p>这也不是箭头函数的专利，es6对函数的这一扩展在真实的项目中比较实用，在我们真实的项目中存在着各种各样的情况，所以这时候默认值的作用就举足轻重了，它可以避免很多莫名其妙的可能会让你始料不及的错误,在es5中我们是这样解决默认值问题的：</p>
-<pre><code>function fun (x,y){
-    var y = y ? y : 1;
-    return x + y;
-}
-console.log(fun(2)) // 输出3
-</code></pre><p>而上边这段代码经过es6改写之后变成了：</p>
-<pre><code>let fun = (x,y=1)=&gt;x+y;
-console.log(fun(2)) // 输出3
-</code></pre><p>箭头函数加默认值设置将代码缩减为2行，这就是es6的魅力</p>
-<h4 id="多重调用"><a href="#多重调用" class="headerlink" title="多重调用"></a>多重调用</h4><pre><code>    let sums = n =&gt; m =&gt; m+n;
-    console.log(sums(1)(2)); // 3
-    console.log(sums(1)); // m =&gt; m+n
-</code></pre><p>分析上边这段代码，sums函数接收一个参数之后返回了一个接受一个参数的函数，这个函数返回了两个参数的和，说起来可能有点绕口，那么将代码还原为es5是什么样的呢，如下：</p>
-<pre><code>function sums(n){
-    return function(m){
-        return m+n;
-    }
-}
-console.log(sums(1)(2)); // 3
-console.log(sums(1)); // ƒ (m){return m+n;}
-</code></pre><p>在我看来这个写法有点像闭包（虽然我也不太理解闭包），在我的理解当中一个函数的返回值是另外一个函数的时候就产生了闭包。</p>
-<p>话说在这种对比之下箭头函数和传统函数高下立见！</p>
-<h2 id="es6-class"><a href="#es6-class" class="headerlink" title="es6 class"></a>es6 class</h2><h3 id="以下内容纯属个人理解，大佬们请轻点pen"><a href="#以下内容纯属个人理解，大佬们请轻点pen" class="headerlink" title="以下内容纯属个人理解，大佬们请轻点pen"></a><center><strong><em>以下内容纯属个人理解，大佬们请轻点pen</em></strong></center></h3><p>class关键字是用来定义一个类，在es6之前js被定义为一门基于对象的弱类型脚本语言，之所以说它是基于对象而不是面向对象，就是因为在es6之前js根本没有类的概念，但很奇怪的是它有对象的概念，所以就被定义为基于对象的语言，更加奇怪的是它没有类的概念竟然也可以进行面向对象的编程：</p>
-<pre><code>function People(name,age){
-    this.name = name;
-    this.age = age;
-} //不管装的多像是构造方法，那也不是真正的构造方法
-People.prototype.say = function(){
-    console.log(&#39;My name is &#39;+this.name+&#39; ,I am &#39;+this.age+&#39; years old&#39;)
-}
-var zyx = new People(&#39;zyx&#39;,22); //假装是new一个对象
-zyx.say(); //My name is zyx ,I am 22 years old
-</code></pre><p>这样的写法和那些面向对象的语言比如java中面向对象编程的写法大相径庭，本来基于对象就已经很奇怪了，现在这样一门基于对象的语言竟然还有这样奇怪的面向对象编程方式，那岂不是让不了解的人更加觉得js是一门“不正经”的语言，所以es引入了class关键字，引入了类的概念，但这并不代表js就已经蜕变为像java那样的面向对象的语言了，js蜕变之路从es6才刚刚开始，据我所知class关键字只是一个语法糖，它的内部原理其实和上边这种写法一样，方法全在该对象的prototype属性上，但是起码写法上比较符合那些面向对象的语言中的面向对象的编程：</p>
-<pre><code>class People{
-    constructor(name,age){
-        this.name = name;
-        this.age = age;
-    }
-    say(){
-        console.log(`My name is ${this.name}, I am ${this.age} years old`)
-    }
-}
-let zyx = new People(&#39;zyx&#39;,23); //注意这里，class定义的类只能通过new关键字来创建实例
-zyx.say();//My name is zyx ,I am 23 years old
-</code></pre><p><strong><em>为了更加趋向于面向对象，es6限制了class定义的类只能用new关键字去创建实例</em></strong></p>
-<h3 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h3><pre><code>export default calss XXX extends Component{}
-</code></pre><p>据说react.js中到处是这样的写法，但是我本人目前还没有系统的学习过react，所以za也不知道，za也不敢说，za也不敢问啊。</p>
-<p><strong><em>既然有类的概念了，那么继承肯定是必不可少的，用我们公司大佬的话来说继承就是（咳咳，该拿出笔记本记笔记了）：将一些可以重复使用的代码抽象，放到顶层已供更多组件去使用，从而减少重复代码，提高代码质量的一种方法</em></strong></p>
-<p>那么es6中既然有class，那必然会有extends了，下边简单的以上边那个people类为父类举个栗子（个人比较喜欢吃这家的栗子）：</p>
-<pre><code>class ShangHaiPeople extends People {
-    constructor(name,age,money){
-        super(name,age);
-        this.money = money;
-    }
-
-    say(){
-        console.log(`My name is ${this.name}, I am ${this.age} years old，I am a ShangHaiPeople,I have ￥ ${this.money}`)
-    }
-}
-
-let zyx = new ShangHaiPeople(&#39;zyx&#39;,22,100000000)
-zyx.say();//My name is zyx, I am 22 years old，I am a ShangHaiPeople,I have ￥ 100000000
-</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-      <categories>
-        <category>ES6</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>Javascript</tag>
-        <tag>ES6</tag>
-        <tag>面向对象</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Dva入门</title>
-    <url>/2021/07/24/dva1/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>对于Dva我的理解是这样的：Dva重新组织了react项目，内置了react-router，redux，request，减少了配置这些模块的代码，将程序猿的精力都留给处理业务逻辑 </em></strong></p>
-<a id="more"></a>
-<h1 id="什么是Dva"><a href="#什么是Dva" class="headerlink" title="什么是Dva"></a>什么是Dva</h1><blockquote>
-<p>Dva基于现有应用架构 (redux + react-router + redux-saga 等)的一层轻量封装，没有引入任何新概念，全部代码不到 100 行。</p>
-</blockquote>
-<p>这是Dva官方文档中对它的介绍，我的理解是这样的：</p>
-<p>Dva重新组织了react项目，内置了react-router，redux，request，减少了配置这些模块的代码，将程序猿的精力都留给处理业务逻辑。</p>
-<p>使用Dva非常简单，首先通过 npm 安装 dva-cli 并确保版本是 0.9.1 或以上。</p>
-<pre><code>$ npm install dva-cli -g
-$ dva -v
-dva-cli version 0.9.1
-</code></pre><p>安装完 dva-cli 之后，就可以在命令行里访问到 dva 命令（不能访问？）。现在，你可以通过 dva new 创建新应用。</p>
-<pre><code>$ dva new dva-quickstart
-</code></pre><p>这会创建 dva-quickstart 目录，包含项目初始化目录和文件，并提供开发服务器、构建脚本、数据 mock 服务、代理服务器等功能。</p>
-<p>然后我们 cd 进入 dva-quickstart 目录，并启动开发服务器：</p>
-<pre><code>$ cd dva-quickstart
-$ npm start
-</code></pre><p>之后就会自打开系统默认浏览器，并访问<code>http://localhost:8000/</code>,只是后就能看到dva的欢迎页面了</p>
-<h1 id="dva中的数据流向，以及dva脚手架搭建的项目目录结构"><a href="#dva中的数据流向，以及dva脚手架搭建的项目目录结构" class="headerlink" title="dva中的数据流向，以及dva脚手架搭建的项目目录结构"></a>dva中的数据流向，以及dva脚手架搭建的项目目录结构</h1><h2 id="项目目录结构"><a href="#项目目录结构" class="headerlink" title="项目目录结构"></a>项目目录结构</h2><p><a href="https://blog.csdn.net/wangrong111222/article/details/79835490" target="_blank" rel="noopener">原文地址</a></p>
-<blockquote>
-<p>项目中一般src里的目录标配：</p>
+<h1 id="什么是负载均衡"><a href="#什么是负载均衡" class="headerlink" title="什么是负载均衡"></a>什么是负载均衡</h1><p>负载均衡（Load Balance），是一种通过程序的方式来管理分布式服务器的策略，有个形象的例子，就是我们程序猿日常开发一个需求的过程一样，客户就是我们的客户端，需求就相当于是请求，PM就负责负载均衡的程序，PM接到客户的需求，这时候就会根据我们每个人的情况给我们这些程序猿分配任务，我们接到任务之后就会各司其职，开始码代码，过程中要是有人请假了或者什么原因不能码代码了，PM就会让别人接手他的工作，而客户根本不知道他提的需求代码是谁写的，他只知道提需求是提给我们的PM，PM会了解我们每个人的工作饱和度，不会让有人的工作量太过饱和或者不饱和，我们管这种调度策略叫做负载均衡。</p>
+<h1 id="代理"><a href="#代理" class="headerlink" title="代理"></a>代理</h1><p>代理分为两种：正向代理和反向代理</p>
 <ul>
-<li>./assets   :放置静态资源 比如图片;</li>
-<li>./components   :放置木偶组件，只负责从./routes的智能组件来读取props填充展示，一般来讲是纯函数的react书写方式;</li>
-<li>./models   :是一个处理数据的地方，比如在model里面调用./service输出的方法来获取数据填充到store;其实我觉得就是store的整体的集合，以 namespace作为唯一标识进行区分；</li>
-<li>./routes   :放置若干智能组件的地方，智能组件里一般通过dva的connect（({yourModle})=&gt;({yourModle})）（yourComponent）方法来和你的组件来实现数据互通的，生成带数据的活组件；（一般来讲智能组件的样式也在这级目录，因为组件就近维护原则吧）;</li>
-<li>./services   :负责向后台请求数据，在services里调用后台提供的api获取数据;</li>
-<li>./utils   :放置工具类：比如常见的后台接口请求工具类；这里是默认封装了fetch数据交互的方法，直接入参调用即可;</li>
-<li>index.css   :index.html的样式，你懂的;</li>
-<li>index.js   :主页的入口位置，也是初始化dva的位置；什么 app.use( )/app.model( )/app.router( )/app.start( )都是在这里的完成的;</li>
-<li>index.html   :入口挂载dom的html模板;</li>
-<li>router.js   :配置路由的地方，会从./routes文件夹下引入写好的智能组件来组装页面，export default 出一个方法来生成router结构。</li>
+<li>正向代理：<br>正向代理（Forward Proxy）最大的特点就是，客户端知道自己要访问的是哪一台服务器，代理服务器代理客户端向服务器发送请求，而被访问的服务器只知道访问自己的是代理服务器，而并不清楚真正访问自己的是哪一个客户端。比如科学上网，俗称翻墙，还有咱们玩游戏的时候的各种加速器。<br>一次正向代理的过程大致是这样：客户端告诉代理服务器，我想访问xxxxx，然后代理服务器代替客户端向xxxxx发送请求，在接受到xxxxx的返回结果后告诉客户端返回结果。</li>
+<li>反向代理：<br>反向代理（Reverse Proxy）则是刚好相反，它是后端的代理服务器，这时候客户端也不知道具体处理自己请求的是哪一台服务器了，他只知道自己的请求要发送给这个代理服务器，然后这个服务器再根据一定的策略将请求分配给不同的服务器去处理，最后将返回的结果告诉客户端。</li>
 </ul>
-</blockquote>
-<h1 id="数据流向问题"><a href="#数据流向问题" class="headerlink" title="数据流向问题"></a>数据流向问题</h1><p>数据流向简单来说的话就是：</p>
-<p><code>server----&gt;services----&gt;models----&gt;routes----&gt;components</code></p>
-<p>这样说可能有点过于简单，下面就以获取一个表格数据为例，看看具体数据流向</p>
-<p>多话不说直接上代码：</p>
-<p>首先，我们的表格数据是从后端服务器通过请求接口获取到的，那么上面也说了，<code>services</code>文件夹下的<code>.js</code>文件的任务就是请求接口从后端拿到数据：</p>
-<pre><code>// services/test.js
-import request from &#39;../utils/request&#39; //这里导入dva封装的request模块
+<h1 id="Nginx是什么"><a href="#Nginx是什么" class="headerlink" title="Nginx是什么"></a>Nginx是什么</h1><p>Nginx是一种基于c实现的高性能Web服务器，可以通过一些负载均衡算法解决负载均衡的问题。因为它具有高并发、高可靠性、高扩展性、开源等特点，成为开发人员常用的反向代理工具。</p>
+<h1 id="负载均衡常用算法"><a href="#负载均衡常用算法" class="headerlink" title="负载均衡常用算法"></a>负载均衡常用算法</h1><h2 id="1-轮询-（round-robin）"><a href="#1-轮询-（round-robin）" class="headerlink" title="1.轮询 （round-robin）"></a>1.轮询 （round-robin）</h2><p>轮询是负载均衡算法中最基础最简单的算法，它不需要额外的配置参数。假设配置文件中共有N台服务器，该算法就会按照这N台服务器的次序依次选择一台服务器处理请求，当所有的服务器都被调用过一次之后，就会从第一台服务器重新开始新一轮的遍历。<br>特点： 这种算法不考虑服务器性能的差距，适用于集群的各台服务器性能相差不大的情况，对于服务器性能差距较大的情况，容易引发资源分配不合理的情况出现。</p>
+<p>express模拟轮询处理请求：<br>proxyServer.js:</p>
+<pre><code>const express = require(&quot;express&quot;);
+const app = new express();
+const http = require(&quot;http&quot;);
 
-export function fetchData(){ // 这是一个无参请求的示例                                                                               const url = &#39;xxxxxxxxxx&#39;                       
-    return request(url)
-}
-export function fetchData1(params){ // 这是一个带参请求的示例
-    const url = &#39;xxxxxxxxxx&#39;                       
-    return request(url,{...params})
-}
-</code></pre><p>在这里，使用dva封装的request向后端发送请求，接收到数据之后作为函数的返回值return出去。</p>
-<pre><code>// models/test.js
-import {fetchData,fetchData1} from &#39;../services/test&#39;
-export default {
-    namespace:&quot;test&quot;,
-    state:{
-        data : {},
-        data1:{}
-    },
-    reducers:{
-        getData:(state,action)=&gt;{ // 这里就和redux的reducer一样，去更新状态
-            const newState = Object.assign({},state)
-            // console.log(action)
-            newState.data = action.value
-            return newState; 
-        },
-        getData1:(state,action)=&gt;{
-            const newState = Object.assign({},state)
-            // console.log(action)
-            newState.data1 = action.value
-            return newState;
-        }
-    },
-    effects:{
-        *fetchData(action,opr){
-            const call = opr.call;
-            const put = opr.put;
-            const res = yield call(fetchData) //调用services里的函数获得返回值
+const servers = [
+  { weight: 10, host: &quot;http://localhost&quot;, port: 8088, id: 0 },
+  { weight: 9, host: &quot;http://localhost&quot;, port: 8089, id: 1 }
+];
 
-            // console.log(res,111)
-            const a = {
-                type:&#39;getData&#39;,
-                value:res.data
-            }
-            yield put(a) //向reducers提交一个action
-            return res; //这里返回的值会传到dispatch().then()的成功回调参数里
-        },
-        *fetchData1(action,opr){
-            const call = opr.call;
-            const put = opr.put;
-            const res = yield call(fetchData1,params) //有参无参区别就在于这里
+const port = 8087;
+let currentServer = null;
+let currentIndex = 0;
 
-            // console.log(res,111)
-            const a = {
-                type:&#39;getData&#39;,
-                value:res.data
-            }
-            yield put(a)
-            return res;
-        }
-    }
-
-}
-
-</code></pre><p>models层写好了，这里有一步至关重要，那就是去index.js注册这个model：</p>
-<pre><code>index.js
-
-// + app.model(require(&#39;./models/test&#39;).default);
-
-</code></pre><p>根据刚才所说的数据流向，现在轮到了routes层：</p>
-<pre><code>import React, { Component } from &#39;react&#39;;
-import {connect} from &#39;dva&#39; //这里导入dva的connect函数
-class Test extends Component {
-
- fetchData=()=&gt;{
-        const dispatch = this.props.dispatch;
-        const action = {
-            type : &#39;test/fetchData&#39;,
-            value:1
-        }
-        dispatch(action).then(res=&gt;{ //这里提交action就和redux一样
-            console.log(res)
-        })
-       }
-        fetchData1=()=&gt;{
-        const dispatch = this.props.dispatch;
-        const action = {
-            type : &#39;test/fetchData1&#39;,
-            value:1
-        }
-        dispatch(action).then(res=&gt;{
-            console.log(res)
-        })
-       }
-
-    render() {
-        // console.log(this.props)在这里有我们操作全局状态用的dispatch函数以及下边回调函数返回的那些属性名和对应的值
-
-        return (
-            &lt;div&gt;
-              &lt;Button onClick={()=&gt;{this.fetchData()}}&gt;fetchData&lt;/Button&gt;
-              &lt;Button onClick={()=&gt;{this.fetchData1()}}&gt;fetchData&lt;/Button&gt;
-
-            &lt;/div&gt;
-        );
-    }
-}
-
-export default connect(state=&gt;{ //这里的state是全局的state
-
-    const data = state.test.data; //每一个model下的namespace在组合的时候变成了一个全局state的一个key，这个key所对应的value就是该namespace下对应的state的值
-    const data = state.test.data;
-    const data1 = state.test.data1;
-
-
-    return{ //这个回调函数的返回值会被解构，然后合并到后边括号中组件的props当中
-        data,
-        data1
-    }
-})(Test); //经过connect包装后，会赋予Test这个组件一些我们要用到的东西
-// export default Test;
-</code></pre><p>其实connect函数是一个高阶组件，<a href="http://www.zhangyongxuan.com/2021/07/18/hoc/">点这里复习高阶组件</a></p>
-<p>这样，整个数据流程，从请求数据到数据渲染整个流程就跑完了，这样走一遍之后是不是觉得dva的数据流向其实也并不复杂</p>
-<script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-      <categories>
-        <category>React</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>react</tag>
-        <tag>Dva</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数组常用方法</title>
-    <url>/2021/07/16/arrayfun/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>数组常用方法</em></strong><br><a id="more"></a></p>
-<h1 id="数组常用方法"><a href="#数组常用方法" class="headerlink" title="数组常用方法"></a>数组常用方法</h1><h2 id="Array-from"><a href="#Array-from" class="headerlink" title="Array.from()"></a>Array.from()</h2><ul>
-<li>对伪数组或可迭代对象(包括arguments Array,Map,Set,String…)转换成数组对象</li>
-</ul>
-<pre><code>function * fun(){
-    yield 1;
-    yield 11;
-    yield 111;
-    yield 1111;
-    yield 11111;
-}
-let g = fun();
-let arr = Array.from(g);
-console.log(arr); //[1, 11, 111, 1111, 11111] 
-</code></pre><h2 id="Array-isArray"><a href="#Array-isArray" class="headerlink" title="Array.isArray()"></a>Array.isArray()</h2><ul>
-<li>用于检测传入的参数是否为数组对象：</li>
-</ul>
-<pre><code>Array.isArray([]) //true
-Array.isArray({}) //false
-</code></pre><h2 id="Array-of"><a href="#Array-of" class="headerlink" title="Array.of()"></a>Array.of()</h2><ul>
-<li>用于生成一个由参数构成的数组</li>
-</ul>
-<pre><code>Array.of(7);       // [7] 
-Array.of(1, 2, 3); // [1, 2, 3]
-
-Array(7);          // [ , , , , , , ]
-Array(1, 2, 3);    // [1, 2, 3]
-</code></pre><h2 id="concat"><a href="#concat" class="headerlink" title="concat()"></a>concat()</h2><p>用于合并两个或多个数组。此方法不会更改现有数组，而是返回一个新数组。</p>
-<pre><code>var arr1 = [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;];
-    var arr2 = [&#39;d&#39;, &#39;e&#39;, &#39;f&#39;];
-    var arr3 = [&#39;f&#39;];
-    var arr4 = arr1.concat(arr2,arr3);
-    // arr4 is a new array [ &quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;e&quot;, &quot;f&quot; ]
-</code></pre><h2 id="filter"><a href="#filter" class="headerlink" title="filter()"></a>filter()</h2><ul>
-<li>创建一个新数组, 其包含通过所提供函数实现的测试的所有元素</li>
-</ul>
-<pre><code>var arr= [1,10,20,30]
-var brr = arr.filter((item)=&gt;{
-    return item&gt;10;
-})  //[20,30]
-</code></pre><h2 id="find"><a href="#find" class="headerlink" title="find()"></a>find()</h2><ul>
-<li>返回数组中满足提供的测试函数的第一个元素的值</li>
-</ul>
-<pre><code>function isBigEnough(element) {
-    return element &gt;= 15;
-    }
-    [12, 5, 8, 130, 44].find(isBigEnough); // 130
-</code></pre><h2 id="findIndex"><a href="#findIndex" class="headerlink" title="findIndex()"></a>findIndex()</h2><ul>
-<li>返回数组中满足提供的测试函数的第一个元素的索引</li>
-</ul>
-<pre><code>function isBigEnough(element) {
-  return element &gt;= 15;
-}
-[12, 5, 8, 130, 44].findIndex(isBigEnough);  //&#39;3&#39;
-</code></pre><h2 id="forEach"><a href="#forEach" class="headerlink" title="forEach()"></a>forEach()</h2><ul>
-<li>方法对数组的每个元素执行一次提供的函数</li>
-</ul>
-<pre><code>var a = [&#39;A&#39;, &#39;B&#39;, &#39;C&#39;];
-a.forEach(function (element, index, array) {
-    // element: 指向当前元素的值
-    // index: 指向当前索引
-    // array: 指向Array对象本身
-    console.log(element);
-});
-</code></pre><h2 id="includes"><a href="#includes" class="headerlink" title="includes()"></a>includes()</h2><ul>
-<li>用来判断一个数组是否包含一个指定的值，如果是，酌情返回 true或 false</li>
-</ul>
-<pre><code>let a = [1, 2, 3];
-a.includes(2); 
-// true 
-a.includes(4); 
-// false
-</code></pre><h2 id="indexOf"><a href="#indexOf" class="headerlink" title="indexOf()"></a>indexOf()</h2><ul>
-<li>返回在数组中可以找到一个给定元素的第一个索引，如果不存在，则返回-1</li>
-</ul>
-<pre><code>let a = [2, 9, 7, 8, 9]; 
-a.indexOf(2); // 0 
-a.indexOf(6); // -1
-a.indexOf(7); // 2
-a.indexOf(8); // 3
-a.indexOf(9); // 1
-if (a.indexOf(3) === -1) {
-  // 数组中不包含3
-}
-</code></pre><h2 id="join"><a href="#join" class="headerlink" title="join()"></a>join()</h2><ul>
-<li>将数组（或一个类数组对象）的所有元素连接到一个字符串中<pre><code>let a = [&#39;Wind&#39;, &#39;Rain&#39;, &#39;Fire&#39;];
-a.join(); 
-// 默认为 &quot;,&quot;
-// &#39;Wind,Rain,Fire&#39;
-</code></pre><h2 id="map"><a href="#map" class="headerlink" title="map()"></a>map()</h2></li>
-<li>创建一个新数组，其结果是该数组中的每个元素都调用一个提供的函数后返回的结果</li>
-</ul>
-<pre><code>
-var array1 = [1,4,9,16];
-const map1 = array1.map(x =&gt; x *2);
-console.log(map1); // Array [2,8,18,32]
-</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-      <categories>
-        <category>ES6</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>Javascript</tag>
-        <tag>ES6</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>高阶组件入门</title>
-    <url>/2021/07/18/hoc/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>在React China中的一篇文章说：高阶组件本质上是一个函数，这个函数接受的参数是另一个组件，在函数内部对参数中的组件进行一系列操作之后返回出一个新的组件。以我个人理解就是个经纪公司，专门用来包装组件。</em></strong><br><a id="more"></a><br> 这是一个简单的高阶组件，它的功能是将父组件中的数据进行过滤之后传递给子组件，其中穿插了refs转发的技术点：</p>
-<pre><code>import React from &#39;react&#39;
-/*
-这是一个高阶组件，接受两个参数，第一个参数是要包装的组件，第二个参数为string类型，表示要过滤的数据类型
-*/
-function Hoc(WrapperComponent,type){ 
-    class Hoc extends React.Component{ //首先，要包装这个组件的话需要一个组件来做容器
-        constructor(props){
-            super(props)
-        }
-
-
-        render(){
-
-
-            /*
-                在这里根据函数的第二个参数去处理Hoc组件props中接受的父组件传过来的数据
-            */
-            const {forwardRef,...others} = this.props; //（5）
-            /*对Hoc的props进行解构，拿到ref和其他参数，此时的ref就是在return中的forwardRef函数传递的那个ref*/
-            const otherProps = {...others}
-
-            let newProps = {};
-            for(let key in otherProps){
-                // console.log(typeof otherProps[key])
-                if(typeof otherProps[key] === type){
-                    newProps[key] = otherProps[key]
-                }
-            }//处理之后创建一个新的对象newProps
-            return (
-                &lt;div &gt;
-                    &lt;WrapperComponent {...newProps} ref = {forwardRef} /&gt;//在这里将这个newProps转给函数接受的那个组件参数，将之前解构的ref一并传给它  （6） 最终挂载到参数组件
-                &lt;/div&gt;
-            )
-
-
-        }
-    }
-
-/*
-在这里使用react原型上的函数forwardRef对父组件传递的ref进行转发，否则父组件传递的ref只会挂载到Hoc组件而到不了参数组件，而我们的需求是要挂载到参数组件，forwardRef函数回调中第一个参数为父组件传递的值，第二个参数为父组件传递的那个ref
-*/
-    return React.forwardRef((props,ref)=&gt;{ //（3）
-        return &lt;Hoc {...props} forwardRef = {ref} /&gt; // （4）
+app.get(&quot;/&quot;, (req, res) =&gt; {
+  if (currentIndex === servers.length - 1) {
+    currentIndex = 0;
+  } else {
+    currentIndex++;
+  }
+  currentServer = servers[currentIndex];
+  http.get(`${currentServer.host}:${currentServer.port}`, res1 =&gt; {
+    console.log(&quot;proxy success&quot;);
+    let data = &quot;&quot;;
+    res1.on(&quot;data&quot;, chunk =&gt; {
+      data += chunk;
     });
-}
+    res1.on(&quot;end&quot;, () =&gt; {
+      res.send(data);
+    });
+  });
+});
+app.listen(port, () =&gt; {
+  console.log(`success:${port}`);
+});
 
-
-class Loc extends React.Component{
-
-
-    render(){
-        return (
-            &lt;div&gt;
-                Loc
-            &lt;/div&gt;
-        )
-    }
-}
-const HocComp = Hoc(Loc,&#39;string&#39;);
-
-
-
-
-class Foc extends React.Component{
-    constructor(props){
-        super(props);
-        this.ref = React.createRef(); //创建一个ref  （1）
-    }
-    componentDidMount(){
-        console.log(this.ref.current.props)
-        console.log(this.ref.current)
-    }
-
-
-    render(){
-
-        return (
-            &lt;div&gt;
-            //在这里将创建好的ref作为ref传递给子组件HocComp
-                &lt;HocComp v1 = &#39;231&#39; v2 = {123} v3 = {{a:1}} ref ={this.ref} /&gt; // （2）
-            &lt;/div&gt;
-        )
-    }
-}
-export default Foc
-
-
-</code></pre><p>以上代码中，父组件中React.createRef()方法创建的ref对象的流向用数字表示。</p>
-<script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-      <categories>
-        <category>React</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>react</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>git入门</title>
-    <url>/2021/07/11/git/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>上班第一天，终于强迫自己学会了git的基本应用</em></strong><br><a id="more"></a></p>
-<h1 id="git"><a href="#git" class="headerlink" title="git"></a>git</h1><p>什么是git？</p>
-<p>git就是全球最好用的一个版本控制工具，一种分布式的版本控制工具。</p>
-<h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><p><code>git clone [url]</code> //克隆远程仓库代码</p>
-<p> <code>git add</code> //将想要快照的内容写入缓存区</p>
-<p> <code>git status</code> //绿色文件表示添加到缓存区的文件有改动；红色表示添加到缓存区的文件没有改动</p>
-<p> <code>git commit -m</code> //‘第一次版本提交’ -m选项添加备注信息</p>
-<p> <code>git clone url</code> //使用 git clone 拷贝一个 Git 仓库到本地</p>
-<p><code>git diff</code>  //尚未缓存的改动</p>
-<p><code>git diff --cached</code>　//查看已缓存的改动</p>
-<p><code>git diff HEAD</code>  //查看已缓存的与未缓存的所有改动</p>
-<p> <code>diff git diff --stat</code>　　//显示摘要而非整个</p>
-<p><code>git commit -a</code>  //跳过git add 提交缓存的流程 </p>
-<p><code>git reset HEAD</code>  //用于取消已缓存的内容</p>
-<p><code>git rm file</code><br>　　//git rm 会将条目从缓存区中移除。这与 git reset HEAD 将条目取消缓存是有区别的。<br>　　“取消缓存”的意思就是将缓存区恢复为我们做出修改之前的样子。<br>　　默认情况下，git rm file 会将文件从缓存区和你的硬盘中（工作目录）删除。</p>
-<p><code>git mv</code>   //重命名磁盘上的文件 如 git mv README README.md</p>
-<p><code>git push -u origin master</code> //提交代码</p>
-<h2 id="git分支"><a href="#git分支" class="headerlink" title="git分支"></a>git分支</h2><p>git-flow主要有5中分支：master、hotfix、release、develop、feature<br><img src="https://upload-images.jianshu.io/upload_images/1416338-2b5d1a64e15419d7.png" alt="git-flow分支图" title="git-flow分支图"></p>
-<p>feature分支开始于develop分支，完成以后合并到develop分支。<br>当完成一定数量feature分支以后，从develop再开一个release分支出来，这些特性将被更行到下一个发布的版本中，之后的feature将不会被合并到release中。<br>之后在release分支中，只修改bug，然后完成release分支。完成release分支会完成以下三个操作：1、合并release分支到master；2、给master打上版本的标签；3、release回归到develop分支。<br>当发现master上有bug时，开一个hotfix，完成后合并到master分支。<br><a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank" rel="noopener">Gitflow Workflow文档</a></p>
-<h3 id="分支常用命令"><a href="#分支常用命令" class="headerlink" title="分支常用命令"></a>分支常用命令</h3><p> <code>git checkout [分支名]</code>//切换到指定分支</p>
-<p> <code>git branch [分支名]</code> //创建分支命令</p>
-<p> <code>git branch [分支名]</code> //列出分支</p>
-<p> <code>git checkout [分支名]</code> //切换分支命令</p>
-<p> <code>git merge [分支名]</code> //合并分支</p>
-<p> <code>git checkout -b [分支名]</code> //创建新分支并立即切换到该分支下</p>
-<p> <code>git branch -d [分支名]</code> //删除分支命令 </p>
-<p><strong><em>ps:状态 uu 表示冲突未解决 可以用 git add 要告诉 Git 文件冲突已经解决</em></strong></p>
-<h2 id="查看提交日志"><a href="#查看提交日志" class="headerlink" title="查看提交日志"></a>查看提交日志</h2><p><code>git log</code> //命令列出历史提交记录</p>
-<p><code>git log -n</code> //命令列出历史提交记录前三条</p>
-<p><code>git log --oneline</code> //查看历史记录的简洁的版本</p>
-<p><code>git log --oneline --graph</code> //查看历史中什么时候出现了分支、合并</p>
-<h2 id="提交本地修改"><a href="#提交本地修改" class="headerlink" title="提交本地修改"></a>提交本地修改</h2><p> <code>git commit -m [修改信息]</code></p>
-<h2 id="拉取远程仓库代码"><a href="#拉取远程仓库代码" class="headerlink" title="拉取远程仓库代码"></a>拉取远程仓库代码</h2><p> <code>git pull</code> //从远端仓库提取数据并尝试合并到当前分支</p>
-<p> <code>git fetch</code> //从远程仓库下载新分支与数据</p>
-<h2 id="版本回滚"><a href="#版本回滚" class="headerlink" title="版本回滚"></a>版本回滚</h2><p> <code>git log -n</code>  //查看最近n条提交日志</p>
-<p> <code>git reset -hard [版本标识]</code> //回滚到指定版本</p>
-<p> <code>git push -f origin matser</code>  //强制提交</p>
-<h2 id="忽略文件"><a href="#忽略文件" class="headerlink" title="忽略文件"></a>忽略文件</h2><ul>
-<li>.gitignore 文件是git的一套忽略规则，对该文件所在目录以及所在目录子目录都有效，该文件一般格式为：<pre><code># 以&#39;#&#39;开始的行，被视为注释.                            
-# 忽略掉所有文件名是 foo.txt的文件.
-foo.txt
-# 忽略所有生成的 html文件,
-*.html
-# foo.html是手工维护的，所以例外.
-!foo.html
-# 忽略所有.o和 .a文件.
-*.[oa]
-配置语法：
-# 以斜杠“/”开头表示目录；
-# 以星号“*”通配多个字符；
-# 以问号“?”通配单个字符
-以方括号“[]”包含单个字符的匹配列表；
-以叹号“!”表示不忽略(跟踪)匹配到的文件或目录；
-</code></pre></li>
-</ul>
-<p>这里需要注意的是，该文件必须在第一次推代码的时候就创建，如果你不慎在创建.gitignore文件之前就push了项目，那么即使你在.gitignore文件中写入新的过滤规则，这些规则也不会起作用，Git仍然会对所有文件进行版本管理。<br>简单来说，出现这种问题的原因就是Git已经开始管理这些文件了，所以你无法再通过过滤规则过滤它们。因此一定要养成在项目开始就创建.gitignore文件的习惯，否则一旦push，处理起来会非常麻烦。<br>那么，如果在.gitignore文件创建之后需要忽略某个文件该怎么办？这里还有一种命令忽略的方式。  </p>
-<ul>
-<li><p>.gitignore只能忽略那些原来没有被track的文件，如果某些文件已经被纳入了版本管理中，则修改.gitignore是无效的。正确的做法是在每个clone下来的仓库中手动设置不要检查特定文件的更改情况。命令为：</p>
-<pre><code>git update-index --assume-unchanged &lt;filename&gt; 
-</code></pre><p>如果要还原的话，使用命令：</p>
-<pre><code>git update-index --no-assume-unchanged &lt;filename&gt;
-</code></pre></li>
-<li><p>使用.git/info/exclude<br>git 还提供了另一种 exclude 的方式来做同样的事情，不同的是 .gitignore 这个文件本身会提交到版本库中去。用来保存的是公共的需要排除的文件。而 .git/info/exclude 这里设置的则是你自己本地需要排除的文件。 他不会影响到其他人。也不会提交到版本库中去。<br>举例：</p>
-<pre><code># git ls-files --others --exclude-from=.git/info/exclude
-# Lines that start with &#39;#&#39; are comments.
-# For a project mostly in C, the following would be a good set of
-# exclude patterns (uncomment them if you want to use them):
-# *.[oa]
-# *~
-.gradle/
-.idea/
-.settings/
-appcompat_v7/
-bin/
-build/
-gen/
-gradle/
-out/
-proguard/
-ship/
-target/
-.classpath
-.gitignore
-.idea
-.project
-.readme
-.update-config
-*.iml
-local.properties
-</code></pre><p>.gitignore 还有个有意思的小功能， 一个空的 .gitignore 文件 可以当作是一个 placeholder 。当你需要为项目创建一个空的 log 目录时， 这就变的很有用。 你可以创建一个 log 目录 在里面放置一个空的 .gitignore 文件。这样当你 clone 这个 repo 的时候 git 会自动的创建好一个空的 log 目录了。</p>
-</li>
-</ul>
-<h2 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h2><p>为软件发布创建标签是推荐的。这个概念早已存在，在 SVN 中也有。你可以执行如下命令创建一个叫做 1.0.0 的标签：<br><code>git tag 1.0.0 1b2e1d63ff</code><br>1b2e1d63ff 是你想要标记的提交 ID 的前 10 位字符。可以使用下列命令获取提交 ID：<br>git log<br>你也可以使用少一点的提交 ID 前几位，只要它的指向具有唯一性</p>
-<script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-      <categories>
-        <category>git</category>
-      </categories>
-      <tags>
-        <tag>git</tag>
-        <tag>版本控制</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Promise</title>
-    <url>/2021/07/15/promise/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>就像它的含义一样，它自己的状态和外界是没有关系的</em></strong><br><a id="more"></a></p>
-<h1 id="Promise"><a href="#Promise" class="headerlink" title="Promise"></a>Promise</h1><p>在阮大佬的《ES6入门》中提到，promise就和它的意思一样，承诺了要做什么事情，那就一定会完成，pomise也是一样它有三个状态：pending（进行中）、fulfilled（已成功）和rejected（已失败）。而踏着三种状态之间的转换之和该promise对象中的操作有关，和别的因素无关，promise对象的状态变化很简单，只有两种：1、pending =&gt; rejected   2、 pending =&gt; fulfilled 这中情况的状态转换对应了promise构造函数中传进来的来个默认参数 1、resolve() 2、reject(),下边是个例子：</p>
-<pre><code>let fun = (num) =&gt; new Promise((resolve,reject)=&gt;{
-    if(num%2===0){
-        resolve({type:&#39;偶数&#39;,value:num})
-    }else{
-        reject({type:&#39;奇数&#39;,value:num})
-    }
-})
-
-fun(2).then((data)=&gt;{
-console.log(data);
-},(data)=&gt;{
-console.log(data);
-}) //{type: &quot;偶数&quot;, value: 2} fulfilled 状态
-fun(3).then((data)=&gt;{
-console.log(data);
-},(data)=&gt;{
-console.log(data);
-})//{type: &quot;奇数&quot;, value: 3} rejected状态
-</code></pre><h1 id="异步和Promise"><a href="#异步和Promise" class="headerlink" title="异步和Promise"></a>异步和Promise</h1><p>假设有两个操作a，b  ，而b的操作需要等待a的结果，这时候这种情况就是异步，es5中通过回调来实现这样的功能，要用回调模拟ajax请求的话如下写法：</p>
-<pre><code>function ajax(time,callback){
-    setTimeout(()=&gt;{
-        callback();
-        console.log(&#39;执行结束&#39;);
-    },time)
-}
-console.log(&#39;程序开始&#39;);
-ajax(2000,()=&gt;{
-    console.log(&#39;异步执行&#39;);
-})
-console.log(&#39;程序结束&#39;);
-</code></pre><p>这只是一个简单的测试demo，在真实项目当中可能操作与操作之间会一环套一环，这时候就会陷入前端程序猿们最害怕的回调地狱，当程序出现bug的时候就非常难以调试，在es中promise的出现很大程度上减轻了js异步编程的难度，同样是上边这个例子，用es6 promise写法如下：</p>
-<pre><code>function ajax(time){
-return new Promise((resolve,reject)=&gt;{
-     setTimeout(()=&gt;{
-        resolve();
-        console.log(&#39;执行结束&#39;);
-        //这里只考虑成功的情况
-    },time)
-})
-}
-console.log(&#39;程序开始&#39;);
-ajax(2000).then(()=&gt;{
-    console.log(&#39;程序结束&#39;);
-})
-console.log(&#39;程序结束&#39;);
-</code></pre><p>这两种写法运行结果是一模一样的，但是写法却天差地别，es6 promise杜绝了es5中的那种回调嵌套回调的写法，从代码上来看，和同步编程没什么区别，所以可以理解为用同步的方式来解决异步的问题。</p>
-<h1 id="resolve-和-reject"><a href="#resolve-和-reject" class="headerlink" title="resolve 和 reject"></a>resolve 和 reject</h1><p>pormise的resolve函数和reject函数有可能是带有参数的，在这样的情况下这个参数会传递给then 函数中对应的回调，如下代码所示：</p>
-<pre><code>let pro = new Promise((resolve,reject)=&gt;{
-    setTimeout(()=&gt;{
-        resolve({
-            name : &#39;zyx&#39;,
-            age : 22
-        })
-    })
-})
-
-pro.then(data=&gt;{
-    console.log(data); //{name: &quot;zyx&quot;, age: 22}
-})
-</code></pre><p>有时候resolve和reject的函数可能也是个promise对象那么这两个promise对象的状态之间就会产生联系，看下面这段代码：</p>
-<pre><code>let pro1 = new Promise((resolve,reject)=&gt;{
-    setTimeout(()=&gt;{
-        reject();
-    },2000)
-})
-let pro2 = new Promise((resolve,reject)=&gt;{
-resolve(pro1)
-})
-
-pro2.then(()=&gt;{
-    console.log(&#39;resolve&#39;)
-},()=&gt;{
-    console.log(&#39;reject&#39;)
-})  // reject
-</code></pre><p>上边这段代码中pro2的resolve函数参数是另一个promise对象pro1，这时候pro2的状态就会取决于pro1的状态，可以看到虽然pro2使用resolve函数试图将状态改变为fulfilled，但是后边还是执行了reject的回调。这种情况得注意，否则在真正的项目开发中可能会陷入逻辑上的混乱。</p>
-<p>值得注意的是，调用resolve或者reject并不会终结promise的参数函数的执行：</p>
-<pre><code>let pro = new Promise((resolve,reject)=&gt;{
-    console.log(&#39;start&#39;)
-    setTimeout(()=&gt;resolve(),2000)
-    console.log(&#39;resolve end&#39;)
-})
-pro.then(()=&gt;{
-    console.log(&#39;callback&#39;)
-})
-// start
-// resolve end
-// callback
-</code></pre><p>从这个例子的输出结果中，突然发现了一个现象，就是promise参数函数中的代码会马上执行（同步执行），而异步回调之中的代码则会等待promise对象状态发生改变之后才会执行。</p>
-<script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-      <categories>
-        <category>ES6</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>Javascript</tag>
-        <tag>ES6</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>less</title>
-    <url>/2021/07/26/less/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>css预处理器用一种专门的编程语言，为css增加一些编程语言的特性，例如在css中使用变量、简单的逻辑程序、函数等等。而且还能让css可读性更佳，代码更易于维护。</em></strong></p>
-<a id="more"></a>
-<h2 id="css"><a href="#css" class="headerlink" title="css"></a>css</h2><p>css不是编程语言，它没有变量，函数，条件语句等语法，只是一群简单的属性描述，代码不利于维护和扩展。</p>
-<h2 id="css预处理器"><a href="#css预处理器" class="headerlink" title="css预处理器"></a>css预处理器</h2><p>css预处理器用一种专门的编程语言，为css增加一些编程语言的特性，例如在css中使用变量、简单的逻辑程序、函数等等。而且还能让css可读性更佳，代码更易于维护。</p>
-<h2 id="常用的css预处理器"><a href="#常用的css预处理器" class="headerlink" title="常用的css预处理器"></a>常用的css预处理器</h2><p> 最好用的两个，sass和less。</p>
-<h2 id="less的使用"><a href="#less的使用" class="headerlink" title="less的使用"></a>less的使用</h2><ul>
-<li><p>安装</p>
-<pre><code>npm i less-loader less --save-dev
-</code></pre></li>
-<li><p>在webpack中配置</p>
-</li>
-</ul>
-<pre><code>{
-    test : /\.less$/,
-    user : [{
-        loader : &#39;style-loader&#39;
-    },]
-    user : [{
-        loader : &#39;css-loader&#39;
-    },]
-    user : [{
-        loader : &#39;less-loader&#39;
-    },]
-}
-</code></pre><ul>
-<li>新建后缀为.less的文件，然后在页面中引用：<pre><code>import &#39;./style/index.less
-</code></pre><h2 id="less的语法"><a href="#less的语法" class="headerlink" title="less的语法"></a>less的语法</h2></li>
-<li>变量：<br>使用@+变量名的方式定义变量，使用变量时在变量名前加@<pre><code>@size : 20px;
-.box{
-  font-size : @siza
-}
-</code></pre></li>
-<li>混合:<br>将一些通用的属性集合用class封装起来，然后在另一个class中去引用这个class下的所有属性。当然，除了class，id属性集也可以以相同的方式引用。<pre><code>.cla1{
-  color:red;
-}
-.cla2{
-  .cla1;
-}
-</code></pre></li>
-<li>带参数混合:<br>在less中，你还可以像函数一样定义一个带参数的属性集合<pre><code>.clas(@color){
-  color:@color;
-}
-.box{
-  .cla(&#39;red&#39;)
-}
-</code></pre>@arguments变量，包含了所有传进来的参数，如果你不想单独处理每一个参数的话可以像这样写：<pre><code>.box(@x:0,@y:0,@color){
-   width:@arguments;
-   height :@arguments;
-   color : @arguments;
-}
-</code></pre></li>
-<li>嵌套:<br>为了让css代码简洁清晰，易维护，现在less允许我们以嵌套的方式编写层叠样式，子元素样式可以直接嵌套在父元素样式中：</li>
-</ul>
-<pre><code>.box{
-
-    .smallbox{
-
-    }
-}
-</code></pre><ul>
-<li>运算:<br>在less中，任何数字、颜色或者变量都可以参与运算。</li>
-</ul>
-<pre><code>@basewidth:20px;
-.cl{
-    width : @basewidth*2;
-}
-</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-      <categories>
-        <category>css</category>
-      </categories>
-      <tags>
-        <tag>css</tag>
-        <tag>less</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Generator函数和async函数</title>
-    <url>/2021/07/16/generatorandasync/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>本文所有引用都出自—–&gt;阮一峰《ES6入门》</em></strong><br><a id="more"></a></p>
-<h1 id="Generator函数"><a href="#Generator函数" class="headerlink" title="Generator函数"></a>Generator函数</h1><p>Generator函数是es6提供的一种异步编程解决方案，不同于promise的是，Generator的语法完全是以同步编程的方式来实现异步操作，而promise其实就是回调的封装，操作复杂了之后，代码看起来就是一串then函数，可读性也很低。下面是一个简单的Generator函数：</p>
-<pre><code>function* fun(x){
-    let result = yield x+2; // 状态01  这里注意，yield这个关键字的作用是Generator函数向函数外部转递状态
-    return result; //状态02 这个Generator函数最终的状态
-}
-let g = fun(3); //首先获取Generator函数产生的遍历器对象
-let status1 = g.next(); //执行遍历器对象的next方法，使指针指向第一个状态 -&gt;01
-console.log(status1); // {value:5,done:false} value是yield后边表达式的值，done是一个布尔值，表示遍历是否结束
-let result = g.next(status1); //执行遍历器对象的next方法，使指针指向下一个状态-&gt;02
-console.log(result); // {value:5,done:false}
-</code></pre><blockquote>
-<p>next方法的作用是分阶段执行Generator函数。每次调用next方法，会返回一个对象，表示当前阶段的信息（value属性和done属性）。value属性是yield语句后面表达式的值，表示当前阶段的值；done属性是一个布尔值，表示 Generator 函数是否执行完毕，即是否还有下一个阶段。</p>
-</blockquote>
-<p>Generator函数有一点和普通函数一样，就是return后边的代码是不会被执行到的，当使用解构赋值查看函数执行结果的时候，它只会遍历done为false的value：</p>
-<pre><code>function * fun(){
-    yield 1;
-    yield 2;
-    yield 3;
-    return 4;
-}
-console.log([...fun()]) //  [1, 2, 3]
-</code></pre><p>使用Gennerator实现异步编程的例子 ：</p>
-<pre><code>function * fun (){
-    let result = yield new Promise((resolve,reject)=&gt;{
-        resolve({
-            code : 1,
-            msg : &#39;数据加载成功&#39;
-        })
-    }) //这里使用一个Promise对象模拟异步请求
-    console.log(result);
-}
-let g = fun();
-let status1 = g.next(); //获取状态1
-status1.value.then((data)=&gt;{
-    g.next(data);
-}).catch((err)=&gt;{
-    console.error(err);
-}) //{code: 1, msg: &quot;数据加载成功&quot;}
-
-</code></pre><p>首先调用第一次yield的时候执行后边那个Promise异步操作，将这个Promise对象作为遍历器对象的value属性传到函数外部，在函数外部then函数中对next方法进行第二次调用，将promise传出的data作为next函数的参数传回函数内部完成异步操作。<br><strong><em>nodejs中约定的回调函数第一个参数是error就是因为原因是执行分成两段，第一段执行完以后，任务所在的上下文环境就已经结束了。在这以后抛出的错误，原来的上下文环境已经无法捕捉，只能当作参数，传入第二段。</em></strong></p>
-<h1 id="Thunk函数-简单了解"><a href="#Thunk函数-简单了解" class="headerlink" title="Thunk函数(简单了解)"></a>Thunk函数(简单了解)</h1><p>Thunk 函数是自动执行 Generator 函数的一种方法。</p>
-<pre><code>// 正常版本的readFile（多参数版本）
-fs.readFile(fileName, callback);
-
-// Thunk版本的readFile（单参数版本）
-var Thunk = function (fileName) {
-  return function (callback) {
-    return fs.readFile(fileName, callback);
-  };
-};
-
-var readFileThunk = Thunk(fileName);
-readFileThunk(callback);
-</code></pre><p>上面代码中，fs模块的readFile方法是一个多参数函数，两个参数分别为文件名和回调函数。经过转换器处理，它变成了一个单参数函数，只接受回调函数作为参数。这个单参数版本，就叫做 Thunk 函数。</p>
-<h1 id="async函数"><a href="#async函数" class="headerlink" title="async函数"></a>async函数</h1><p>async函数必须搭配关键字await使用，就是说只有async函数内部才可以使用await关键字。async函数其实就是Generator函数的语法糖，async函数返回的也是个promise对象。</p>
-<pre><code>const gen = function* () {
-  const f1 = yield readFile(&#39;/etc/fstab&#39;);
-  const f2 = yield readFile(&#39;/etc/shells&#39;);
-  console.log(f1.toString());
-  console.log(f2.toString());
-};
-</code></pre><p>这是一个Generator函数读取文件的例子，改写为async/await方式就是下边这样：</p>
-<pre><code>const asyncReadFile = async function () {
-  const f1 = await readFile(&#39;/etc/fstab&#39;);
-  const f2 = await readFile(&#39;/etc/shells&#39;);
-  console.log(f1.toString());
-  console.log(f2.toString());
-};
-</code></pre><p>我们观察后发现，从表面看来就是将*替换为async，将yield替换为await，但是它比Generator函数的有点有以下几点：</p>
-<h3 id="1-内置执行器"><a href="#1-内置执行器" class="headerlink" title="1.内置执行器"></a>1.内置执行器</h3><p>不同于Generator函数的执行，async函数不需要去一步步调用next函数，而是只需要一行代码调用即可。</p>
-<pre><code>async function  fun(){
-    let a = await new Promise((resolve,reject)=&gt;{
-        resolve(1111);
-    })
-    console.log(a);
-}
-fun(); //  111
-</code></pre><h3 id="2-更好的语义"><a href="#2-更好的语义" class="headerlink" title="2.更好的语义"></a>2.更好的语义</h3><p>相比于Generator函数的*和yield而言，async和await更加便于理解。async表示函数里有异步操作，await表示紧跟在后面的表达式需要等待结果。</p>
-<h3 id="3-更广的适用性"><a href="#3-更广的适用性" class="headerlink" title="3.更广的适用性"></a>3.更广的适用性</h3><blockquote>
-<p>co模块约定，yield命令后面只能是 Thunk 函数或 Promise 对象，而async函数的await命令后面，可以是 Promise 对象和原始类型的值（数值、字符串和布尔值，但这时会自动转成立即 resolved 的 Promise 对象）。</p>
-</blockquote>
-<h3 id="4-返回值是-Promise"><a href="#4-返回值是-Promise" class="headerlink" title="4.返回值是 Promise"></a>4.返回值是 Promise</h3><blockquote>
-<p>async函数的返回值是 Promise 对象，这比 Generator 函数的返回值是 Iterator 对象方便多了。你可以用then方法指定下一步的操作。<br>进一步说，async函数完全可以看作多个异步操作，包装成的一个 Promise 对象，而await命令就是内部then命令的语法糖。</p>
-</blockquote>
-<h2 id="async函数执行顺序"><a href="#async函数执行顺序" class="headerlink" title="async函数执行顺序"></a>async函数执行顺序</h2><p>当函数执行的时候，一旦遇到await就会先返回，等到异步操作完成，再接着执行函数体内后面的语句。</p>
-<script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-      <categories>
-        <category>ES6</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>Javascript</tag>
-        <tag>ES6</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>react中的ref和content</title>
-    <url>/2021/07/17/reactref/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>一般的 react 数据流中，父级与子级是通过 props 进行 “沟通”， 如果要子级发生改变，父级可以改变传入的 props。但是有时，需要强制修改子级，这种情况下需要用到 ref</em></strong><br><a id="more"></a></p>
-<h1 id="一般使用-ref-的场景"><a href="#一般使用-ref-的场景" class="headerlink" title="一般使用 ref 的场景:"></a>一般使用 ref 的场景:</h1><h2 id="1-处理焦点，文本选择，-媒体控制"><a href="#1-处理焦点，文本选择，-媒体控制" class="headerlink" title="1.处理焦点，文本选择， 媒体控制"></a>1.处理焦点，文本选择， 媒体控制</h2><h2 id="2-触发强制动画"><a href="#2-触发强制动画" class="headerlink" title="2.触发强制动画"></a>2.触发强制动画</h2><h2 id="3-集成第三方-dom-库"><a href="#3-集成第三方-dom-库" class="headerlink" title="3.集成第三方 dom 库"></a>3.集成第三方 dom 库</h2><pre><code>class AutoFocusTextInput extends React.Component {
-  componentDidMount() {
-    this.textInput.focusTextInput();
-  }
-  render() {
-    return (
-      &lt;CustomTextInput
-        ref={(input) =&gt; { this.textInput = input; }} /&gt;
-    );
-  }
-}
-</code></pre><pre><code>class CustomTextInput extends React.Component {
-  constructor(props) {
-    super(props);
-    this.focus = this.focus.bind(this);
-  }
-
-  focus() {
-    // 直接使用原生 API 使 text 输入框获得焦点
-    this.textInput.focus();
-  }
-
-  render() {
-    // 使用 `ref` 的回调将 text 输入框的 DOM 节点存储到 React
-    // 实例上（比如 this.textInput）
-    return (
-      &lt;div&gt;
-        &lt;input
-          type=&quot;text&quot;
-          ref={(input) =&gt; { this.textInput = input; }} /&gt;
-        &lt;input
-          type=&quot;button&quot;
-          value=&quot;Focus the text input&quot;
-          onClick={this.focus}
-        /&gt;
-      &lt;/div&gt;
-    );
-  }
-}
-</code></pre><h1 id="content"><a href="#content" class="headerlink" title="content"></a>content</h1><p>在 react 中，数据以自上到下的方向传递，如果一个数据在最顶层，而最底层的组件需要用到这个数据，那么数据需要传递很多层才能到达最底层。这种操作会异常麻烦。</p>
-<p>context 可以解决这个问题</p>
-<pre><code>//定义一个全局context
-import React from &#39;react&#39;
-const GlobalContext = React.createContext()
-export default GlobalContext
-//父组件中provider
-&lt;GlobalContext.Provider value={value}&gt;
-&lt;Content /&gt;
-&lt;/GlobalContext.Provider&gt;
-// 子组件
-&lt;GlobalContext.Consumer&gt;
-{value =&gt; &lt;button&gt;test-{value}&lt;/button&gt;}
-&lt;/GlobalContext.Consumer&gt;
-
-</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-      <categories>
-        <category>React</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>react</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>react基础</title>
-    <url>/2021/07/17/react01/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>现在项目中使用的基本都是JSX语法，所以在这篇笔记里都用这样的写法</em></strong></p>
-<a id="more"></a>
-<h1 id="react"><a href="#react" class="headerlink" title="react"></a>react</h1><p>现在项目中使用的基本都是JSX语法，所以在这篇笔记里都用这样的写法</p>
-<h2 id="JSX语法"><a href="#JSX语法" class="headerlink" title="JSX语法"></a>JSX语法</h2><p>Jsx 用来声明 react 中的元素</p>
-<pre><code>const element = &lt;h1&gt;hi~ react&lt;/h1&gt;
-
-</code></pre><p>可以在jsx 当中使用 js 表达式</p>
-<pre><code>function getDisplayName(givenName, familyName){
-    return givenName + familyName
-}
-
-const element = &lt;h1&gt;{ getDisplayName(’nena’, ’wan&#39;)}&lt;/h1&gt;
-</code></pre><p>可以定义以字符串为值的属性、以 js 表达式为值的属性</p>
-<pre><code>import imageUrl from ‘../asset/image.png&#39; 
-
-const element = &lt;img alt=“img” src={imageUrl} className=“imgEle&quot;/&gt; 
-</code></pre><h2 id="react-基础语法"><a href="#react-基础语法" class="headerlink" title="react 基础语法"></a>react 基础语法</h2><pre><code>HellowWorld.js
-import React from &#39;react&#39;;
-
-class HellowWorld extends React.component{
-    constructor(props){
-        super(props);
-    }
-
-    render(){
-
-        return (
-            &lt;div&gt;HellowWorld&lt;/div&gt;
-        )
-    }
-}
-
-export default HellowWorld;
-</code></pre><p>这是一个标准的react组件，在react中约定：组件必须为大写字母开头并且使用驼峰式命名，组件名和文件名必须保持一致。</p>
-<h2 id="react渲染"><a href="#react渲染" class="headerlink" title="react渲染"></a>react渲染</h2><p>一般渲染顶部的元素，我们使用 ReactDom.render()</p>
-<pre><code>function tick(){ 
-  const element = ( 
-   &lt;div&gt; 
-     &lt;h1&gt;time&lt;/h1&gt; 
-     &lt;p&gt;{new Date().toLocaleTimeString()}&lt;/p&gt; 
-   &lt;/div&gt; 
-  ) 
-  ReactDom.render( 
-  element, 
-  document.getELementById(‘root&#39;) 
-  ) 
-} 
-
-</code></pre><p>但是通常情况下，react 的项目，这种渲染方式只是用于最顶部的元素渲染，下面的子元素我们一般使用其他的方法，react 留给我们状态和属性变化时，相关组件即刻渲染的机制，以供我们保持数据和页面显示状态的同步。</p>
-<h2 id="React组件-amp-props"><a href="#React组件-amp-props" class="headerlink" title="React组件&amp;props"></a>React组件&amp;props</h2><p>React 组件：相当于一个函数，可从外界获取参数，由组件中 props 接收，并最终返回一个可在页面上进行渲染的 react 元素。<br>定义组件的方法有两种：  </p>
-<h3 id="函数式定义"><a href="#函数式定义" class="headerlink" title="函数式定义:"></a>函数式定义:</h3><pre><code>function Welcome(props){ 
-  return &lt;h1&gt;hello, { props.name }&lt;/h1&gt; 
-} 
-
-</code></pre><h3 id="Es6-类定义"><a href="#Es6-类定义" class="headerlink" title="Es6  类定义"></a>Es6  类定义</h3><pre><code>class Welcome extends React.Component { 
-  render(){ 
-     return &lt;h1&gt;{this.props.name}&lt;/h1&gt; 
-  } 
-} 
-</code></pre><h2 id="state"><a href="#state" class="headerlink" title="state"></a>state</h2><p>state为一个组件的内部状态，实际上它是一个对象，内部属性由我们决定。<br>除了调用 ReactDom.render() 方法来渲染 react 元素以外，可以更新一个组件的内部 state 值，以此来对组件进行一次重新渲染。</p>
-<pre><code>class Add extends React.Component{
-   constructor(props){
-      super(props);
-      this.state = {
-        number: 0,
-      }
-   } 
-   add = () =&gt; {
-      const currentNumber = this.state.number;
-      this.setState({
-        number: currentNumber + 1,
-      })
-   }
-   render() {
-      return(
-        &lt;div&gt;
-          &lt;h1&gt;the current number is: { this.state.number }&lt;/h1&gt;
-          &lt;button onClick={this.add}&gt; 加1 &lt;/button&gt;
-        &lt;/div&gt;
-      )
-   }
-}
-</code></pre><p>状态的合并为浅合并:</p>
-<pre><code>   This.state = { 
-      number: 0, 
-      visitable: false, 
-   } 
-   … 
-   this.setState({ 
-      number: 1 
-   }) 
-
-   // state: { number: 1, visitable: false}
-</code></pre><p>react 数据流为自上而下，父级并不关心也不知道子级是否有状态，状态为什么值等。</p>
-<p><strong><em>使用state的时候要注意的点：</em></strong><br>1.不要直接修改 state 中的值，那样不会重新进行渲染，必须要使用 setState</p>
-<pre><code>add = () =&gt; {     
-   const currentNumber = this.state.number;
-   this.state.number = currentNumber + 1;
-}   // 错误
-</code></pre><p>2.不要利用前一个 state 中变化的值马上去修改后一个 state 的值，因为 setState 是异步的，不能确定什么时候更新成功。</p>
-<pre><code>add = () =&gt; { 
-   this.setState(function(prev){ 
-       return { 
-           number: prev.number + 1 
-       } 
-   }) 
-} 
-</code></pre><p>3.由于异步的关系，如果一个操作必须要在一个 setState 之后进行的话。可以使用回调函数</p>
-<pre><code>add = () =&gt; { 
-   this.setState(function(prev){ 
-       return {
-           number: prev.number + 1
-       }
-   }, function(){   // to do something...  }) 
-} 
-</code></pre><h2 id="组件生命周期"><a href="#组件生命周期" class="headerlink" title="组件生命周期"></a>组件生命周期</h2><p>组件生命周期各周期钩子继承自 React.Component</p>
-<h3 id="当组件实例被创建及被插入dom时依次调用"><a href="#当组件实例被创建及被插入dom时依次调用" class="headerlink" title="当组件实例被创建及被插入dom时依次调用"></a>当组件实例被创建及被插入dom时依次调用</h3><pre><code>constructor() 
-componentWillMount()
-render()
-componentDidMount()
-</code></pre><h3 id="当传入属性变化或者状态变化，组件要被重新渲染时依次调用"><a href="#当传入属性变化或者状态变化，组件要被重新渲染时依次调用" class="headerlink" title="当传入属性变化或者状态变化，组件要被重新渲染时依次调用"></a>当传入属性变化或者状态变化，组件要被重新渲染时依次调用</h3><pre><code>componentWillReceiveProps() 
-shouldComponentUpdate() 
-componentWillUpdate() 
-render() 
-componentDidUpdate() 
-</code></pre><h3 id="当一个组件从-Dom-中即将被卸载时调用"><a href="#当一个组件从-Dom-中即将被卸载时调用" class="headerlink" title="当一个组件从 Dom 中即将被卸载时调用"></a>当一个组件从 Dom 中即将被卸载时调用</h3><pre><code>componentWillUnmount()
-</code></pre><h3 id="各周期特点及一般性使用"><a href="#各周期特点及一般性使用" class="headerlink" title="各周期特点及一般性使用:"></a>各周期特点及一般性使用:</h3><pre><code>constructor()
-</code></pre><p>构造函数，一般在其中 进行初始化 state，继承 props</p>
-<pre><code>componentWillMount()
-
-</code></pre><p>在 render 之前调用，因此在这里进行 setState 操作并不会触发渲染，没有意义。<br>这个钩子在一般的前端项目中不常使用，但在服务端渲染项目中会被调用。</p>
-<pre><code>render()
-
-</code></pre><p>根据最新的 props 和 state 进行渲染</p>
-<pre><code>componentDidMount()
-</code></pre><p>在 render之后调用，可以在这里进行查询数据操作，或者对渲染好的页面进行 dom操作。</p>
-<pre><code>componentWillReceiveProps(nextProps)
-</code></pre><p>在 props 即将发生变化前调用，nextProps 为新的 props, 可以通过与 this.props<br> 做比较，进而更新某些依赖 props 而发生改变的 state</p>
-<pre><code> shouldComponentUpdate( nextProps, nextState)
-</code></pre><p> 当属性或者状态改变时调用，默认返回 true, 即进行渲染，如果返回 false，则不进行渲染。  后续在属性改变<br>时期触发的生命周期都不再调用。注意在初始化组件及使用forceUpdate()时不会调用。</p>
-<pre><code>componentWillUpdate(nextProps, nextState)
-</code></pre><p>在上一步如果返回了 true, 则继续调用。</p>
-<pre><code>render()
-</code></pre><p>进行渲染</p>
-<pre><code>componentDidUpdate(prevProps, prevState)
-</code></pre><p>在这里对比之前和已经更改的 props 及 state,  进行 dom 操作或者发送请求。</p>
-<pre><code>componentWillUnmount()
-</code></pre><p>在组件被销毁和卸载前调用，在此清理组件的一些定时器，网络请求等。</p>
-<h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p> 与vue基本一样，一般形式如下</p>
-<pre><code> handleClick(){
-     .....
- }
- &lt;button onClick={(e)=&gt;{this.handleClick(e)}}&gt;add&lt;/button&gt;
-</code></pre><h2 id="条件渲染和列表渲染"><a href="#条件渲染和列表渲染" class="headerlink" title="条件渲染和列表渲染"></a>条件渲染和列表渲染</h2><h3 id="条件渲染"><a href="#条件渲染" class="headerlink" title="条件渲染"></a>条件渲染</h3><pre><code> this.state = {
-  showNameFlag: false,
-  name: ’nena wan&#39;
-}
-...
-
-render() { 
-  const showNameFlag = this.state.showNameFlag; 
-  const name = this.state.name; 
-  return ( 
-     &lt;div&gt; 
-        &lt;h1&gt;Hello ~&lt;/h1&gt; 
-        { 
-            showNameFlag ? (&lt;p&gt;{name}&lt;/p&gt;) : null 
-        } 
-     &lt;/div&gt; 
-  ) 
-} 
-</code></pre><h3 id="列表渲染"><a href="#列表渲染" class="headerlink" title="列表渲染"></a>列表渲染</h3><pre><code>this.state = { 
-   list = [ 
-       { id: 1, name: ‘apple’, meaning: ‘苹果&#39; } 
-       { id: 2, name: ‘pear’, meaning: ‘梨&#39; }, 
-       { id: 3, name: ‘peach’, meaning: ’桃子&#39; } 
-   ], 
-} 
-...
-render() {
-  const list = this.state.list;
-  return (
-     &lt;div&gt;
-        &lt;h1&gt;Hello ~&lt;/h1&gt;
-        {
-            list.map(function(item, index){
-                Return (
-                  &lt;div key={item.id.toString()}&gt;
-                     &lt;h1&gt;{item.name} / {item.meaning}&lt;/h1&gt;
-                  &lt;/div&gt;
-                )
-            })
-        }
-     &lt;/div&gt;
-  )
-}
-</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-      <categories>
-        <category>React</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>react</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>reactform</title>
-    <url>/2021/07/17/reactform/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>react表单</em></strong><br><a id="more"></a></p>
-<h1 id="react表单中的组件根据实现方式可以分为两种："><a href="#react表单中的组件根据实现方式可以分为两种：" class="headerlink" title="react表单中的组件根据实现方式可以分为两种："></a>react表单中的组件根据实现方式可以分为两种：</h1><h2 id="1-受控组件："><a href="#1-受控组件：" class="headerlink" title="1.受控组件："></a>1.受控组件：</h2><p>相当于将表单的值与 state 状态双向绑定，实际上state 到表单 是变化重新渲染表单，表单到 state，则通过对表单元素绑定 change 方法，在其中将表单的 value 赋给state 的过程。这个过程需要自己手动去完成，而不同于react的vue则是通过一个指令进行数据的双向绑定。</p>
-<pre><code>class NameForm extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {value: &#39;&#39;};
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
-  handleChange(event) {
-    this.setState({value: event.target.value});
-  }
-  handleSubmit(event) {
-    alert(&#39;A name was submitted: &#39; + this.state.value);
-    event.preventDefault();
-  }
-  render() {
-    return (
-      &lt;form onSubmit={this.handleSubmit}&gt;
-        &lt;label&gt;
-          Name:
-          &lt;input type=&quot;text&quot; value={this.state.value} onChange={this.handleChange} /&gt;
-        &lt;/label&gt;
-        &lt;input type=&quot;submit&quot; value=&quot;Submit&quot; /&gt;
-      &lt;/form&gt;
-    );
-  }
-}
-</code></pre><h2 id="2-非受控组件"><a href="#2-非受控组件" class="headerlink" title="2.非受控组件"></a>2.非受控组件</h2><p>由于受控组件每一个都要写一个对应的触发事件，如果项目中是到中后期才引入的 react，那么改动将会很大，所以可以使用非受控组件。<br>非受控组件还是和之前操作 dom 拿到表单元素的值的方式很像。</p>
-<pre><code>class NameForm extends React.Component {
-  constructor(props) {
-    super(props);
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
-  handleSubmit(event) {
-    alert(&#39;A name was submitted: &#39; + this.input.value);
-    event.preventDefault();
-  }
-
-  render() {
-    return (
-      &lt;form onSubmit={this.handleSubmit}&gt;
-        &lt;label&gt;
-          Name:
-          &lt;input type=&quot;text&quot; ref={(input) =&gt; this.input = input} /&gt;
-        &lt;/label&gt;
-        &lt;input type=&quot;submit&quot; value=&quot;Submit&quot; /&gt;
-      &lt;/form&gt;
-    );
-  }
-}
-</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-      <categories>
-        <category>React</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>react</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>webpack纯手工搭建react项目</title>
-    <url>/2021/07/25/webpack-react/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>使用webpack从0搭建一个react项目</em></strong></p>
-<a id="more"></a>
-<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>第一步就是安装，安装什么呢？安装webpack，如果是webpack4.x版本的话还需要安装一个webpack-cli,新建文件夹，在文件夹里创建package.json文件，很简单，在文件夹下打开cmd，运行下面这两条命令就完成了。</p>
-<pre><code>npm init
-yarn add webpack webpack-cli
-</code></pre><p>这里运行<code>npm init</code>的时候一路回车就ok了。</p>
-<h3 id="开始配置"><a href="#开始配置" class="headerlink" title="开始配置"></a>开始配置</h3><ul>
-<li>在根目录下新建配置文件：<code>webpack.config.js</code><br>这个文件名是webpack默认的配置文件，如果直接使用打包命令<code>npx webpack</code>或者<code>webpack</code>来执行打包的话，就会默认以这个文件中的配置执行打包，既然是默认的，当然可以自己改变这个文件了，如果配置文件为<code>config.js</code>的话可以使用下边这个命令：<pre><code>  npx webpack --config config.js 
-</code></pre></li>
-<li><p>配置入口文件，输出文件以及模式：</p>
-<pre><code>  const path = require(&#39;path&#39;);//这里导入nodejs的path模块
-  module.exports = {
-      mode : &#39;development&#39;, //指定打包模式  &#39;production&#39;/&#39;development&#39;
-      entry : &#39;./src/index.js&#39;, //指定打包的入口文件 写相对路径
-      devtool: &#39;inline-source-map&#39;, // 源码映射直接显示源码错误位置
-      // build=&gt; &#39;source-map&#39;打包速度-- 生成app.js.map映射文件 &#39;inline-source-map&#39; 以dataurl的方式直接写在app.js
-      output : {
-          path : path.resolve(__dirname,&#39;dist&#39;),//这里是指定打包之后的文件存放路径
-          //这里的__dirname是nodejs中的一个全局变量，它的值就是当前运行脚本所在路径
-          filename : &#39;index.js&#39; //这是指定打包的index.js在上边路径里的文件名
-      }
-   }    
-</code></pre><p>  到这里，一个最基础的webpack配置文件就完成了，运行<code>npx webpack</code>就能在根目录下看到一个dist文件夹，里面有index.js</p>
-<p>  配置打包命令：</p>
-<pre><code>  .....
-  &quot;script&quot; : {
-      &quot;build&quot; : &quot;webpack&quot;
-  }
-  .....
-</code></pre><p>  配置完之后就可以使用<code>npm run build</code>直接进行打包了</p>
-</li>
-<li><p>配置开发环境服务器：</p>
-<p>  首先安装<code>webpack-dev-server</code></p>
-<pre><code>  cnpm i webpack-dev-server --save-dev
-</code></pre><pre><code>      devServer:{ //配置前端服务器，方便开发
-          contentBase : &#39;./public&#39;, //文件暂存区
-          port : 9000, //服务器端口号
-          hot : true, //启用模块热更新
-          open : true, //服务器启动完成之后在默认浏览器打开index.html
-          proxy:{ //为请求的接口配置代理服务器
-
-          }
-      }   
-</code></pre><p>  然后在package.json中去配置：</p>
-<pre><code>  ....
-  &quot;scripts&quot;: {
-      &quot;build&quot; : &quot;webpack&quot;, //一键打包
-      &quot;start&quot;: &quot;webpack-dev-server&quot; //一键启动开发服务器
-  },
-  ....
-</code></pre><p>  这个时候使用命令<code>npm start</code>就可以启动这个开发服务器了</p>
-</li>
-<li><p>配置css模块和html模块：</p>
-<p>   无论是什么框架的项目，只要是个前端项目必然会使用层叠样式表和html，也就是我们要为这个项目的webpack赋予组织.css文件和.html的文件，首先我们在src下创建index.css和index.html</p>
-<p>  首先还是安装：</p>
-<pre><code>  cnpm install --save-dev html-webpack-plugin //这是一个插件，配置完之后会根据自己的配置，将html页面打包进去
-  cnpm install --save-dev css-loader style-loader //这是处理css文件的两个加载器
-</code></pre><p>  这里使用淘宝镜像可以提高下载速度</p>
-<p>  在module下的rules中配置css-loader，这将赋予这个项目组织.css文件的能力</p>
-<pre><code>  {
-      test: /\.css$/i, //检测.css结尾的文件
-      use: [&#39;style-loader&#39;, &#39;css-loader&#39;], //决定使用什么样的加载器
-  },
-</code></pre><p>  配置html插件</p>
+</code></pre><p>server1.js:</p>
 <pre><code>
-      const HtmlWebpackPlugin = require(&#39;html-webpack-plugin&#39;); //导入html的插件
-      ....
-      plugins: [new HtmlWebpackPlugin()]   
+const express = require (&#39;express&#39;);
+const app = new express();
 
-</code></pre><p>  配置完这两项之后，在打包就会发现，html文件也被打包到dist文件夹里</p>
-</li>
-<li><p>配置babel和react模块：</p>
-<p>  babel是一个用来编译es6代码的工具，浏览器识别不了一些es6语法，而react中到处是es6语法，所以就要使用babel模块赋予这个项目组织react和es6的能力。</p>
-<p>  首先配置babel：</p>
-<p>  安装：</p>
-<pre><code>  cnpm install -D babel-loader @babel/core @babel/preset-env webpack
-</code></pre><p>  添加匹配规则：</p>
-<pre><code>  {
-      test: /\.m?js$/, //匹配.js文件
-      exclude: /(node_modules|bower_components)/, //这里表示忽略node_modules|bower_components下的.js文件
-      use: {
-          loader: &#39;babel-loader&#39;,
-          options: {
-          presets: [&#39;@babel/preset-env&#39;]
-          }
-      }
-  },
-</code></pre><p>  配置react ：</p>
-<pre><code>  presets: [&quot;@babel/preset-env&quot;, &quot;@babel/preset-react&quot;]
-</code></pre><p>  这时候这个项目已经有了编译react的能力</p>
-</li>
-<li><p>配置路径别名：<br>  当我们的项目目录比较复杂的时候我们可以使用alias配置别名</p>
-<pre><code>  resolve:{
-    alias:{ //为复杂的路径配置别名
-      &#39;style&#39;: path.resolve(__dirname, &#39;./src/assets/style&#39;),
-      &#39;@&#39;: path.resolve(__dirname, &#39;./src&#39;),
-    }
-  },   
-</code></pre></li>
-</ul>
-<h3 id="到这里，一个完全手工搭建的react项目就完成了，webpack配置文件如下："><a href="#到这里，一个完全手工搭建的react项目就完成了，webpack配置文件如下：" class="headerlink" title="到这里，一个完全手工搭建的react项目就完成了，webpack配置文件如下："></a>到这里，一个完全手工搭建的react项目就完成了，webpack配置文件如下：</h3><pre><code>const path = require(&#39;path&#39;);//这里导入nodejs的path模块
-const HtmlWebpackPlugin = require(&#39;html-webpack-plugin&#39;); //导入html的插件
-const {CleanWebpackPlugin} = require(&#39;clean-webpack-plugin&#39;);
-module.exports = {
-    mode : &#39;development&#39;, //指定打包模式  &#39;production&#39;/&#39;development&#39;
-    entry : &#39;./src/index.js&#39;, //指定打包的入口文件 写相对路径
-    devtool: &#39;inline-source-map&#39;, // 源码映射直接显示源码错误位置
-    // build=&gt; &#39;source-map&#39;打包速度-- 生成app.js.map映射文件 &#39;inline-source-map&#39; 以dataurl的方式直接写在app.js
-    output : {
-        path : path.resolve(__dirname,&#39;dist&#39;),//这里是指定打包之后的文件存放路径，这里的__dirname是nodejs中的一个全局变量，它的值就是当前运行脚本所在路径
-        filename : &#39;index.js&#39; //这是指定打包的index.js在上边路径里的文件名
-    },
-    module : { 
-        rules: [
-            {
-              test: /\.css$/i, //匹配.css结尾的文件
-              use: [&#39;style-loader&#39;, &#39;css-loader&#39;], //决定使用什么样的加载器
-            },
-            {
-                test: /\.m?js$/, //匹配.js文件
-                exclude: /(node_modules|bower_components)/, //这里表示忽略node_modules|bower_components下的.js文件
-                use: {
-                  loader: &#39;babel-loader&#39;,
-                  options: {
-                    presets: [&#39;@babel/preset-env&#39;,&#39;@babel/preset-react&#39;]
-                  }
-                }
-            },
-          ],
-    },
-    plugins: [
-        new HtmlWebpackPlugin({
-          template : &#39;./src/index.html&#39;
-        }),//添加插件，多页面也有多页面的配置方法，现在搭建一个react spa就不需要过多的配置
-        new CleanWebpackPlugin()
-    ],
-    devServer:{ //配置前端服务器，方便开发
-        contentBase : &#39;./public&#39;, //文件暂存区
-        port : 9000, //服务器端口号
-        hot : true, //启用模块热更新
-        open : true, //服务器启动完成之后在默认浏览器打开index.html
-        proxy:{ //为请求的接口配置代理服务器
 
-        }
-    },
-    resolve:{
-      alias:{ //为复杂的路径配置别名
-        &#39;style&#39;: path.resolve(__dirname, &#39;./src/assets/style&#39;),
-        &#39;@&#39;: path.resolve(__dirname, &#39;./src&#39;),
-      }
-    },   
-}
-</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-      <categories>
-        <category>webpack</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>react</tag>
-        <tag>webpack</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>鹏哥的webpack笔记</title>
-    <url>/2021/07/25/webpacksimple/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>鹏哥是本人react和webpack入门的领路人</em></strong></p>
-<a id="more"></a>
-<h1 id="什么是webpack？"><a href="#什么是webpack？" class="headerlink" title="什么是webpack？"></a>什么是webpack？</h1><p>据个人理解，webpack就是一个组织工具，它可以根据一些配置，组织一个前端项目，让开发者可以使用一些浏览器不支持的技术，比如模板技术（vue，react），es6语法，less，sass方便开发。</p>
-<h1 id="webpack主要完成的工作"><a href="#webpack主要完成的工作" class="headerlink" title="webpack主要完成的工作"></a>webpack主要完成的工作</h1><p> webpack主要为前端开发者提供一些服务：</p>
-<ul>
-<li>本地开发环境热更新服务。这个服务提供一个本地服务器，可以实时的看到我们对项目代码的修改在页面上的体现，相当于vscode对markdown文件的预览一样。</li>
-<li>代理服务。目前的项目基本都是前后端分离开发，前端一个服务器，后端一个服务器，这时候就会产生跨域的问题，这个服务就是为了解决跨域的问题，提供了请求转发的服务。</li>
-<li>编译服务。目前浏览器对es6，sass，less的支持并不是很好，跟别说vue，react这样的框架了，这就像抗日战争的时候，小日本帝国来我们大中国需要找一个翻译官来负责翻译一样，这些文件也需要一个翻译官，来将他们翻译成浏览器能看得懂的代码，webpack就提供了这样的翻译服务。</li>
-<li>压缩打包服务。这个服务顾名思义，它的作用就是打包了，打包的同时它还可以有效的压缩文件。</li>
-</ul>
-<h1 id="这些服务具体是在构建中的哪个环节被处理？"><a href="#这些服务具体是在构建中的哪个环节被处理？" class="headerlink" title="这些服务具体是在构建中的哪个环节被处理？"></a>这些服务具体是在构建中的哪个环节被处理？</h1><ul>
-<li>如果与输入相关的需求，找entry（比如多页面就有多个入口）</li>
-<li>如果与输出相关的需求，找output（比如你需要定义输出文件的路径、名字等等）</li>
-<li>如果与模块寻址相关的需求，找resolve（比如定义别名alias）</li>
-<li>如果与转译相关的需求，找loader（比如处理sass处理es678N）</li>
-<li>如果与构建流程相关的需求，找plugin（比如我需要在打包完成后，将打包好的文件复制到某个目录，然后提交到git上）</li>
-</ul>
-<p>由此看来，我们的webpack配置可以按需配置，就是用到什么配置什么。</p>
-<h1 id="基本配置"><a href="#基本配置" class="headerlink" title="基本配置"></a>基本配置</h1><h2 id="webpack-安装"><a href="#webpack-安装" class="headerlink" title="webpack 安装"></a>webpack 安装</h2><ul>
-<li>yarn add webpcak webpack-cli //安装 webpack4.X 还需要一个需要 webpack-cli</li>
-<li>webpack.config.js</li>
-<li>npx webpack 局部执行 webpack，解决了多版本 webpack 共存</li>
-</ul>
-<h2 id="webpack-config-js"><a href="#webpack-config-js" class="headerlink" title="webpack.config.js"></a>webpack.config.js</h2><h4 id="文件输出配置"><a href="#文件输出配置" class="headerlink" title="文件输出配置"></a>文件输出配置</h4><pre><code>npx webpack --config webpack.config.js //可以更换默认配置文件
-</code></pre><pre><code>const path =require(&#39;path&#39;); //引入path模块
-path.resolve(__dirname,&#39;dist&#39;); //__dirname根目录，配置绝对路径 输出文件目录
-</code></pre><pre><code>mode: &#39;development&#39;,//设置环境&#39;production&#39;/&#39;development&#39;
-devtool: &#39;source-map&#39;, // 源码映射直接显示源码错误位置
-// build=&gt; &#39;source-map&#39;打包速度-- 生成app.js.map映射文件 &#39;inline-source-map&#39; 以dataurl的方式直接写在app.js
-</code></pre><pre><code>&quot;scripts&quot;: {
-    &quot;build&quot;: &quot;webpack&quot; //优先执行工程下webpack版本，类似npx
-  },
-</code></pre><h4 id="模块配置"><a href="#模块配置" class="headerlink" title="模块配置"></a>模块配置</h4><pre><code>module:{
-  rules:[
-    {},{},{} //处理不同类型文件
-  ]
-}
-</code></pre><h4 id="核心文件配置"><a href="#核心文件配置" class="headerlink" title="核心文件配置"></a>核心文件配置</h4><ol>
-<li>处理图片或字体</li>
-</ol>
-<ul>
-<li>安装 file-loader<pre><code>npm install --save-dev file-loader
-</code></pre></li>
-<li>配置<pre><code>module: {
-    rules: [
-      {
-        test: /\.(eot|ttf|svg)$/,
-        use: [
-          {
-            loader: &#39;file-loader&#39;,
-            options: {
-              name: &#39;static/[name].[ext]&#39;,// 自定义文件name
-            }
-          }
-        ]
-      }
-    ]
-  }
-</code></pre></li>
-<li>安装 url-loader<pre><code>npm install url-loader --save-dev
-</code></pre></li>
-<li>配置(默认转换成 base64 形式打包到 js 中)<pre><code>rules: [
-  {
-    test: /\.(png|jpg|gif)$/i,
-    use: [
-      {
-        loader: &#39;url-loader&#39;,
-        options: {
-          limit: 8192 //设置大小(b)，超出则打包成图片文件，没超过就转换成base64字符串加载到js中
-        }
-      }
-    ]
-  }
-]
-</code></pre></li>
-</ul>
-<ol start="2">
-<li>处理 vue 文件</li>
-</ol>
-<ul>
-<li>安装–将 vue-loader 和 vue-template-compiler 一起安装<pre><code>npm install -D vue-loader vue-template-compiler
-</code></pre></li>
-<li>配置<pre><code>module: {
-  rules: [
-    {
-      test: /\.vue$/,
-      use: [&#39;vue-loader&#39;]
-    }
-  ]
-},
-plugins: [
-  // 请确保引入这个插件！
-  new VueLoaderPlugin()
-]
-</code></pre></li>
-</ul>
-<ol start="3">
-<li>处理 css 文件</li>
-</ol>
-<ul>
-<li>安装<pre><code>yarn add style-loader css-loader -D
-</code></pre></li>
-<li>配置<pre><code>{
-  test: /\.css$/,
-  use: [
-    {
-    loader: &#39;css-loader&#39;,
-    options: {
-      modules: true, // 开启 css-module
-    }
-  ]
-</code></pre></li>
-</ul>
-<ol start="4">
-<li>处理 less 文件</li>
-</ol>
-<ul>
-<li>安装<pre><code>yarn add less-loader less -D
-</code></pre></li>
-<li>配置<pre><code>{
-  test: /\.less$/,
-  use: [&#39;style-loader&#39;, &#39;css-loader&#39;, &#39;less-loader&#39;] // loader执行顺序是从下到上，从左到右
-}
-</code></pre></li>
-</ul>
-<ol start="5">
-<li>处理 sass 文件</li>
-</ol>
-<ul>
-<li>安装<pre><code>yarn add sass-loader node-sass -D
-</code></pre></li>
-<li>配置<pre><code>{
-  test: /\.scss$/,
-  use: [&#39;style-loader&#39;, &#39;css-loader&#39;, &#39;sass-loader&#39;] // loader执行顺序是从下到上，从左到右
-},
-</code></pre></li>
-</ul>
-<ol start="6">
-<li>抽离 css</li>
-</ol>
-<pre><code>const ExtractTextPlugin = require(&quot;extract-text-webpack-plugin&quot;);
-{//配置css
-      test: /\.css$/,
-      use: ExtractTextPlugin.extract({
-              fallback: &quot;style-loader&quot;,
-              use: &quot;css-loader&quot;
-      })
-    },
-//处理css文件
-new ExtractTextPlugin(&quot;css/[name].css&quot;),
-</code></pre><ol start="7">
-<li>编译 es6<br>babel-loader @babel/core 还要@babel/preset-env</li>
-</ol>
-<pre><code>{
-      test: /\.m?js$/,
-      exclude: /(node_modules|bower_components)/,
-      use: {
-        loader: &quot;babel-loader&quot;,
-        options: {
-          presets: [&quot;@babel/preset-env&quot;]
-        }
-      }
-    },
 
-    import &quot;@babel/polyfill&quot;; // 打包变大，=》变量实现
 
-    presets: [[&quot;@babel/preset-env&quot;, {
-              &quot;useBuiltIns&quot;: &quot;usage&quot;
-            }]] // 只补充当前使用
-</code></pre><ol start="8">
-<li>打包react   @babel/preset-react</li>
-</ol>
-<pre><code>presets: [&quot;@babel/preset-env&quot;, &quot;@babel/preset-react&quot;]
-</code></pre><h4 id="plugins"><a href="#plugins" class="headerlink" title="plugins"></a>plugins</h4><ol>
-<li>HtmlWebpackPlugin</li>
-</ol>
-<ul>
-<li>yarn add html-webpack-plugin</li>
-<li>配置</li>
-</ul>
-<pre><code>const HtmlWebpackPlugin = require(&#39;html-webpack-plugin&#39;);
-const path = require(&#39;path&#39;);
 
-module.exports = {
-  entry: &#39;index.js&#39;,
-  output: {
-    path: path.resolve(__dirname, &#39;./dist&#39;),
-    filename: &#39;index_bundle.js&#39;
-  },
-  plugins: [new HtmlWebpackPlugin()]
-};
-</code></pre><ol start="2">
-<li>CleanWebpackPlugin</li>
-</ol>
-<ul>
-<li>yarn add clean-webpack-plugin</li>
-<li>配置</li>
-</ul>
-<pre><code>new CleanWebpackPlugin([&#39;dist&#39;], { //第一个是填写要删除的路径，格式是个数组 //第二个参数是对象类型的配置
-    root: path.resolve(__dirname, &#39;..&#39;), // root：绝对路径，就是要根据这个root去找要删除的文件夹
-    dry: false // 启用删除文件 //为false是删除文件夹的，为true是不删除的，默认值是false
-  }),
-</code></pre><ol start="3">
-<li>HtmlWebpackPlugin</li>
-</ol>
-<pre><code>const HtmlWebpackPlugin = require(&quot;html-webpack-plugin&quot;);
-new HtmlWebpackPlugin({
-      template: &quot;./src/app.html&quot;,
-      filename: &quot;index.html&quot;,
-      title: &quot;webpack&quot;,
-      inject: true, // true || &#39;head&#39; || &#39;body&#39; || false将所有资产注入给定template或templateContent。传递true或&#39;body&#39;所有javascript资源将被放置在body元素的底部。&#39;head&#39;将脚本放在head元素中
-      hash: true,
-      chunks: [&quot;commons&quot;, name], // 允许您仅添加一些块（例如，仅添加单元测试块）
-      // favicon: &quot;./favicon.ico&quot;
-    }),
-</code></pre><h3 id="webpack-dev-server"><a href="#webpack-dev-server" class="headerlink" title="webpack-dev-server"></a>webpack-dev-server</h3><ol>
-<li><p>webpack –watch</p>
-</li>
-<li><p>webpack-dev-server</p>
-</li>
-</ol>
-<pre><code>devServer: {
-  contentBase: &#39;./dist&#39;,
-  port: 8008,
-  open: true,
-  proxy: {
-      &quot;/weatherApi&quot;: {
-        target: &quot;https://www.apiopen.top&quot;,
-        changeOrigin: true
-      }
-    },
-  hot: true, // HMR热更新
-  hotOnly: true,
+const port = 8088;
 
-  if (module.hot) {
-    module.hot.accept(&#39;&#39;, function(){
 
-    })
-  }
-}
-</code></pre><h3 id="代码压缩"><a href="#代码压缩" class="headerlink" title="代码压缩"></a>代码压缩</h3><pre><code>  optimization: {
-    minimize: true, // 压缩
-    usedExport: true, // 只打包export Tree shaking
-  },
-</code></pre><h3 id="config合并"><a href="#config合并" class="headerlink" title="config合并"></a>config合并</h3><pre><code>const merge=require(&#39;webpack-merge&#39;);
-const commonConfig={}
-const devConfig={}
-module.exports= merge(commonConfig, devConfig);
-</code></pre><h3 id="配置引用路径"><a href="#配置引用路径" class="headerlink" title="配置引用路径"></a>配置引用路径</h3><pre><code>resolve:{
-      alias:{
-          style: path.resolve(__dirname, &#39;./src/static/style&#39;),
-      }
-  },
-</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-      <categories>
-        <category>webpack</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>webpack</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>爬虫利器Puppeteer</title>
-    <url>/2021/10/31/Puppeteer/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>Puppeteer 翻译是操纵木偶的人，利用这个工具，我们能做一个操纵页面的人。Puppeteer是一个Nodejs的库，支持调用Chrome的API来操纵Web，相比较Selenium或是PhantomJs,它最大的特点就是它的操作Dom可以完全在内存中进行模拟既在V8引擎中处理而不打开浏览器，而且关键是这个是Chrome团队在维护，会拥有更好的兼容性和前景。</em></strong><br><a id="more"></a></p>
-<h1 id="Puppeteer可以做什么"><a href="#Puppeteer可以做什么" class="headerlink" title="Puppeteer可以做什么"></a>Puppeteer可以做什么</h1><ul>
-<li>利用网页生成PDF、图片</li>
-<li>爬取SPA应用，生成预渲染内容</li>
-<li>可以从网站抓取内容</li>
-<li>自动化表单提交、UI测试、键盘输入等</li>
-<li>自动化测试</li>
-<li>捕获站点的时间线，帮助站长分析网站性能问题</li>
-</ul>
-<h1 id="Puppeteer使用"><a href="#Puppeteer使用" class="headerlink" title="Puppeteer使用"></a>Puppeteer使用</h1><h2 id="安装Puppeteer"><a href="#安装Puppeteer" class="headerlink" title="安装Puppeteer"></a>安装Puppeteer</h2><p> 可以直接使用npm去安装puppeteer</p>
-<pre><code> npm i puppeteer
-</code></pre><p> <a href="https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#pageclickselector-options" target="_blank" rel="noopener">puppeteer API</a></p>
-<h2 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h2><ul>
-<li>const browser = await puppeteer.launch() 启动浏览器实例,得到一个浏览器实例</li>
-<li>const page = await browser.newPage() 得到一个新的页面</li>
-<li><p>await page.goto([URL]) 跳转到某一页</p>
-<h1 id="小DEMO"><a href="#小DEMO" class="headerlink" title="小DEMO"></a>小DEMO</h1><pre><code>const puppeteer = require(&#39;puppeteer&#39;);
-(async ()=&gt;{
-const browser = await puppeteer.launch({headless: false}); //获得一个浏览器实例
-const page = await browser.newPage(); //得到一个浏览器页面实例
-await page.goto(&#39;http://localhost:8000&#39;); // 跳转到指定URL
-await page.waitFor(5000); //等待5s
-await page.focus(&#39;#username&#39;); // 使id为username的元素获得焦点
-await page.type(&#39;#username&#39;, &#39;13131313132&#39;, {delay: 100}); // 在id为username的输入框输入指定字符串，每字符间延时100ms
-await page.focus(&#39;#password&#39;);
-await page.type(&#39;#password&#39;, &#39;hand1234&#39;, {delay: 100});
-await page.click(&#39;#submitLogin&#39;); //点击id为submitLogin的按钮
-await page.waitFor(5000);
-const result = await page.evaluate(()=&gt;{ //在这个函数中可以向页面嵌入脚本，使用js为所欲为了
- alert(111);
 
- return {}
+app.get(&#39;/&#39;, (req,res)=&gt;{
+    res.send(`Hello World! I am port ${port}～`)
 })
-})()
-</code></pre></li>
-</ul>
+app.listen(port,()=&gt;{console.log(`success:${port}`)})
+
+</code></pre><p>server2.js:</p>
+<pre><code>const express = require (&#39;express&#39;);
+const app = new express();
+
+
+
+
+
+const port = 8089;
+
+
+
+app.get(&#39;/&#39;, (req,res)=&gt;{
+    res.send(`Hello World! I am port ${port}～`)
+})
+app.listen(port,()=&gt;{console.log(`success:${port}`)})
+</code></pre><h2 id="2-加权轮询"><a href="#2-加权轮询" class="headerlink" title="2. 加权轮询"></a>2. 加权轮询</h2><p>为了避免普通轮询带来的弊端，使用一个权值来表示服务器性能，权值越高表示服务器性能越强，这就有点类似于我们平时说的 “能力越强，责任越大”，其实说白了就是会的多就多干点活。在这种酸中，客户端的请求按照权值比例分配，当一个请求到达的时候，优先分配权值大的服务器去处理请求。</p>
+<p>特点：加权轮询可以适用于服务器性能层次不齐的集群中，使资源分配更加合理。</p>
+<p>加权轮询的核心思想就是 “能者多劳” ，性能越强的服务器被选中的几率越大。</p>
+<h2 id="3-IP哈希（IP-hash）"><a href="#3-IP哈希（IP-hash）" class="headerlink" title="3. IP哈希（IP hash）"></a>3. IP哈希（IP hash）</h2><p>ip hash 使依据发出请求的客户端IP来决定由哪一台服务器来处理请求，这种算法可以保证相同IP发送的请求分配给同一台服务器来处理，或者带有相同hash值的不通IP映射到同一台服务器。</p>
+<p>特点： 这种策略一定程度上解决了集群部署的情况下，Session不共享的问题。</p>
+<h2 id="4-最小连接数策略"><a href="#4-最小连接数策略" class="headerlink" title="4. 最小连接数策略"></a>4. 最小连接数策略</h2><p> 当反向代理服务器接收到客户端发来的请求时，去遍历服务器列表并且将请求分配给当前处理请求最少的那一台服务器，这个就类似于，PM觉得你工作不饱和就会给你分配新的任务一样。</p>
 <script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
       <categories>
-        <category>Nodejs</category>
+        <category>nginx</category>
       </categories>
       <tags>
-        <tag>node</tag>
-        <tag>爬虫</tag>
+        <tag>nginx</tag>
+        <tag>反向代理</tag>
+        <tag>负载均衡</tag>
       </tags>
   </entry>
   <entry>
@@ -2271,220 +258,8 @@ console.log(&#39;running localhost:8888&#39;)
         <category>Cookie</category>
       </categories>
       <tags>
-        <tag>node</tag>
         <tag>服务端</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>js面向对象基础</title>
-    <url>/2020/04/09/jsobject/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>js作为一种基于对象的弱类型脚本语言，在前后端分离的今天担任着不可或缺的一部分任务，随着前端的发展，越来复杂的逻辑，让前端程序猿们不再满足于这种基于对象的编程方式，这时候js基于原型链的一种面向对象的实现方法被越来越多的人所采纳</em></strong></p>
-<a id="more"></a>
-<h1 id="js基于对象而不是面向对象"><a href="#js基于对象而不是面向对象" class="headerlink" title="js基于对象而不是面向对象"></a>js基于对象而不是面向对象</h1><p>js是一种基于对象的语言，所谓基于对象，简单来说就是在js中有对象的概念，但是没有类的概念，学过java的人都知道，在java中，要创建一个对象实例，首先需要一个有一个这个对象的类，用类去创建这个类的对象实例，而基于对象则是用对象去创建对象。举个网上的例子：</p>
-<ul>
-<li><p>面向对象就是先设计一个房子的图纸，然后按照图纸的设计去建造一个房子</p>
-</li>
-<li><p>基于对象就是先建造一个房子，然后根据已有的房子的样子再去建造一个房子</p>
-<p>也就是说：</p>
-</li>
-<li><p>面向对象： 先有一个对象的抽象描述（类），然后根据这个类去构建一个新的对象</p>
-</li>
-<li><p>基于对象：现有一个具体对象，然后根据这个具体的对象，去创建一个新的对象</p>
-<p>由此看来js中的所有对象都是同一个对象的子对象。</p>
-<p>面向对象的三大基本特征：封装，多态，继承，然而基于对象和面向对象最大的区别也在这里，基于对象虽然也使用了对象，但是无法利用现有对象模板产生新的对象类型，产生新的对象，所以就没有继承这一说，没有继承也就没有多态了。</p>
-</li>
-</ul>
-<blockquote>
-<p>多态体现的就是继承，一般体现在抽象类上。js语言基于对象，它封装了一些对象，调用对象的方法，设置对象的属性，但是没办法产生新的类，只能使用现有的对象的方法和属性。  </p>
-</blockquote>
-<h1 id="原型链"><a href="#原型链" class="headerlink" title="原型链"></a>原型链</h1><p>我们在js中创建一个对象的时候，会使用new关键字，他具体做了什么事情呢，其实他就干了三件事</p>
-<ul>
-<li><ol>
-<li>创建一个空对象: <code>var obj = {}</code></li>
-</ol>
-</li>
-<li><ol start="2">
-<li>使这个空对象的<em>proto</em>指向基函数prototype : <code>obj._proto_ = Basr.prototype</code></li>
-</ol>
-</li>
-<li><ol start="3">
-<li>将基函数的this指向改为新的对象: <code>Base.call(obj)</code></li>
-</ol>
-</li>
-</ul>
-<p>其实，所有的函数都是 Function 的实例。在构造函数上都有一个原型属性 prototype，该属性也是一个对象；那么在原型对象上有一个 constructor 属性，该属性指向的就是构造函数；而实例对象上有一个 <em>proto</em>  属性，该属性也指向原型对象，并且该属性不是标准属性，不可以用在编程中，该属性用于浏览器内部使用。</p>
-<pre><code>// _proto_
-在函数里有一个属性prototype
-由该函数创建的对象默认会连接到该属性上
-    //prototype 与 _proto_ 的关系
-_proto_是站在对象角度来说的
-prototype 是站在构造函数角度来说的
-</code></pre><p>所谓原型链就是有限的实例对象和原型之间组成有限链，就是用来实现共享属性和继承的。一个对象有原型对象，原型对象也有一个原型对象，一个对象的末级原型对象也就是Object的原型对象是null。</p>
-<pre><code>// 原型链示例
- 7    var arr = [];
- 8    arr -&gt; Array.prototype -&gt;Object.prototype -&gt; null
- 9    var o = new Object();
-10    o -&gt; Object.prototype -&gt; null;
-</code></pre><h1 id="js面向对象"><a href="#js面向对象" class="headerlink" title="js面向对象"></a>js面向对象</h1><p>  es5面向对象继承实现：</p>
-<pre><code>    function Animal() { }
-    function Dog() { }
-    Object.defineProperties(Animal.prototype, {
-    name: {
-        value() {
-        return &#39;Animal&#39;;
-        }
-    },
-    say: {
-        value() {
-        return `I &#39; m ${this.name()}`
-        }
-    }
-    })
-    Dog.prototype = Object.create(Animal.prototype);
-    console.log(new Dog().say());  // 输出  I&#39;m Animal
-</code></pre><p>多态就是子类重写父类方法</p>
-<pre><code>    function Animal() { }
-    function Dog() { }
-    Object.defineProperties(Animal.prototype, {
-    name: {
-        value() {
-        return &#39;Animal&#39;;
-        }
-    },
-    say: {
-        value() {
-        return `I &#39; m ${this.name()}`
-        }
-    }
-    })
-    Dog.prototype = Object.create(Animal.prototype, {
-        name: {
-            value() {
-            return &#39;Lucy&#39;;
-            }
-        }
-    });
-    console.log(new Dog().say());  // 输出  I&#39;m Lucy
-</code></pre><p>  在es6中提供了语法糖 ，一定程度上简化了继承与多态的实现：</p>
-<pre><code>    class Person {
-        say() {
-            console.log(&#39;我姓&#39; + this.xs);
-        }
-    }
-
-    class PersonZ extends Person {
-         xs = &#39;张&#39;;
-    }
-
-
-    new PersonZ().say();  // 输出  我姓张
-</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-      <categories>
-        <category>js</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>面向对象</tag>
-        <tag>js</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>nginx负载均衡</title>
-    <url>/2020/03/30/nginxfzjh/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>Nginx (engine x) 是一个高性能的HTTP和反向代理web服务器，同时也提供了IMAP/POP3/SMTP服务。它是一款轻量级的Web 服务器/反向代理服务器及电子邮件（IMAP/POP3）代理服务器，在BSD-like 协议下发行。其特点是占有内存少，并发能力强，事实上nginx的并发能力在同类型的网页服务器中表现较好，中国大陆使用nginx网站用户有：百度、京东、新浪、网易、腾讯、淘宝等。</em></strong></p>
-<a id="more"></a>
-<h1 id="什么是负载均衡"><a href="#什么是负载均衡" class="headerlink" title="什么是负载均衡"></a>什么是负载均衡</h1><p>负载均衡（Load Balance），是一种通过程序的方式来管理分布式服务器的策略，有个形象的例子，就是我们程序猿日常开发一个需求的过程一样，客户就是我们的客户端，需求就相当于是请求，PM就负责负载均衡的程序，PM接到客户的需求，这时候就会根据我们每个人的情况给我们这些程序猿分配任务，我们接到任务之后就会各司其职，开始码代码，过程中要是有人请假了或者什么原因不能码代码了，PM就会让别人接手他的工作，而客户根本不知道他提的需求代码是谁写的，他只知道提需求是提给我们的PM，PM会了解我们每个人的工作饱和度，不会让有人的工作量太过饱和或者不饱和，我们管这种调度策略叫做负载均衡。</p>
-<h1 id="代理"><a href="#代理" class="headerlink" title="代理"></a>代理</h1><p>代理分为两种：正向代理和反向代理</p>
-<ul>
-<li>正向代理：<br>正向代理（Forward Proxy）最大的特点就是，客户端知道自己要访问的是哪一台服务器，代理服务器代理客户端向服务器发送请求，而被访问的服务器只知道访问自己的是代理服务器，而并不清楚真正访问自己的是哪一个客户端。比如科学上网，俗称翻墙，还有咱们玩游戏的时候的各种加速器。<br>一次正向代理的过程大致是这样：客户端告诉代理服务器，我想访问xxxxx，然后代理服务器代替客户端向xxxxx发送请求，在接受到xxxxx的返回结果后告诉客户端返回结果。</li>
-<li>反向代理：<br>反向代理（Reverse Proxy）则是刚好相反，它是后端的代理服务器，这时候客户端也不知道具体处理自己请求的是哪一台服务器了，他只知道自己的请求要发送给这个代理服务器，然后这个服务器再根据一定的策略将请求分配给不同的服务器去处理，最后将返回的结果告诉客户端。</li>
-</ul>
-<h1 id="Nginx是什么"><a href="#Nginx是什么" class="headerlink" title="Nginx是什么"></a>Nginx是什么</h1><p>Nginx是一种基于c实现的高性能Web服务器，可以通过一些负载均衡算法解决负载均衡的问题。因为它具有高并发、高可靠性、高扩展性、开源等特点，成为开发人员常用的反向代理工具。</p>
-<h1 id="负载均衡常用算法"><a href="#负载均衡常用算法" class="headerlink" title="负载均衡常用算法"></a>负载均衡常用算法</h1><h2 id="1-轮询-（round-robin）"><a href="#1-轮询-（round-robin）" class="headerlink" title="1.轮询 （round-robin）"></a>1.轮询 （round-robin）</h2><p>轮询是负载均衡算法中最基础最简单的算法，它不需要额外的配置参数。假设配置文件中共有N台服务器，该算法就会按照这N台服务器的次序依次选择一台服务器处理请求，当所有的服务器都被调用过一次之后，就会从第一台服务器重新开始新一轮的遍历。<br>特点： 这种算法不考虑服务器性能的差距，适用于集群的各台服务器性能相差不大的情况，对于服务器性能差距较大的情况，容易引发资源分配不合理的情况出现。</p>
-<p>express模拟轮询处理请求：<br>proxyServer.js:</p>
-<pre><code>const express = require(&quot;express&quot;);
-const app = new express();
-const http = require(&quot;http&quot;);
-
-const servers = [
-  { weight: 10, host: &quot;http://localhost&quot;, port: 8088, id: 0 },
-  { weight: 9, host: &quot;http://localhost&quot;, port: 8089, id: 1 }
-];
-
-const port = 8087;
-let currentServer = null;
-let currentIndex = 0;
-
-app.get(&quot;/&quot;, (req, res) =&gt; {
-  if (currentIndex === servers.length - 1) {
-    currentIndex = 0;
-  } else {
-    currentIndex++;
-  }
-  currentServer = servers[currentIndex];
-  http.get(`${currentServer.host}:${currentServer.port}`, res1 =&gt; {
-    console.log(&quot;proxy success&quot;);
-    let data = &quot;&quot;;
-    res1.on(&quot;data&quot;, chunk =&gt; {
-      data += chunk;
-    });
-    res1.on(&quot;end&quot;, () =&gt; {
-      res.send(data);
-    });
-  });
-});
-app.listen(port, () =&gt; {
-  console.log(`success:${port}`);
-});
-
-</code></pre><p>server1.js:</p>
-<pre><code>
-const express = require (&#39;express&#39;);
-const app = new express();
-
-
-
-
-
-const port = 8088;
-
-
-
-app.get(&#39;/&#39;, (req,res)=&gt;{
-    res.send(`Hello World! I am port ${port}～`)
-})
-app.listen(port,()=&gt;{console.log(`success:${port}`)})
-
-</code></pre><p>server2.js:</p>
-<pre><code>const express = require (&#39;express&#39;);
-const app = new express();
-
-
-
-
-
-const port = 8089;
-
-
-
-app.get(&#39;/&#39;, (req,res)=&gt;{
-    res.send(`Hello World! I am port ${port}～`)
-})
-app.listen(port,()=&gt;{console.log(`success:${port}`)})
-</code></pre><h2 id="2-加权轮询"><a href="#2-加权轮询" class="headerlink" title="2. 加权轮询"></a>2. 加权轮询</h2><p>为了避免普通轮询带来的弊端，使用一个权值来表示服务器性能，权值越高表示服务器性能越强，这就有点类似于我们平时说的 “能力越强，责任越大”，其实说白了就是会的多就多干点活。在这种酸中，客户端的请求按照权值比例分配，当一个请求到达的时候，优先分配权值大的服务器去处理请求。</p>
-<p>特点：加权轮询可以适用于服务器性能层次不齐的集群中，使资源分配更加合理。</p>
-<p>加权轮询的核心思想就是 “能者多劳” ，性能越强的服务器被选中的几率越大。</p>
-<h2 id="3-IP哈希（IP-hash）"><a href="#3-IP哈希（IP-hash）" class="headerlink" title="3. IP哈希（IP hash）"></a>3. IP哈希（IP hash）</h2><p>ip hash 使依据发出请求的客户端IP来决定由哪一台服务器来处理请求，这种算法可以保证相同IP发送的请求分配给同一台服务器来处理，或者带有相同hash值的不通IP映射到同一台服务器。</p>
-<p>特点： 这种策略一定程度上解决了集群部署的情况下，Session不共享的问题。</p>
-<h2 id="4-最小连接数策略"><a href="#4-最小连接数策略" class="headerlink" title="4. 最小连接数策略"></a>4. 最小连接数策略</h2><p> 当反向代理服务器接收到客户端发来的请求时，去遍历服务器列表并且将请求分配给当前处理请求最少的那一台服务器，这个就类似于，PM觉得你工作不饱和就会给你分配新的任务一样。</p>
-<script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
-      <categories>
-        <category>nginx</category>
-      </categories>
-      <tags>
-        <tag>nginx</tag>
-        <tag>反向代理</tag>
-        <tag>负载均衡</tag>
+        <tag>node</tag>
       </tags>
   </entry>
   <entry>
@@ -2506,6 +281,8 @@ currentPage // 当前页页码 number
 <pre><code>&lt;  1  2  3  4  5  &gt;
 </code></pre><h2 id="2、有省略号的情况分为三种情况，此时总页数必然是大于步长-1的"><a href="#2、有省略号的情况分为三种情况，此时总页数必然是大于步长-1的" class="headerlink" title="2、有省略号的情况分为三种情况，此时总页数必然是大于步长+1的"></a>2、有省略号的情况分为三种情况，此时总页数必然是大于步长+1的</h2><p>第一种情况： 无左省略号，有右省略号 ， 分页器形态为：</p>
 <pre><code>&lt;  1  2  3  4  5  &gt;&gt;  10  &gt;
+</code></pre><p>第二种情况： 有左省略号，无右省略号 ， 分页器形态为：</p>
+<pre><code>&lt;  1  &lt;&lt;  6  7  8  9  10  &gt;
 </code></pre><p>第二种情况： 有左省略号，无右省略号 ， 分页器形态为：</p>
 <pre><code>&lt;  1  &lt;&lt;  6  7  8  9  10  &gt;
 </code></pre><p>第三种情况： 有左省略号，无右省略号 ， 分页器形态为：</p>
@@ -2889,6 +666,599 @@ $(&#39;#page&#39;).on(&#39;click&#39;,&#39;li&#39;,function(e){
       </tags>
   </entry>
   <entry>
+    <title>常用API地址</title>
+    <url>/2021/07/11/api/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>一些常用技术栈的API链接</em></strong></p>
+<a id="more"></a>
+<p><a href="https://yarn.bootcss.com/docs/usage/" target="_blank" rel="noopener">yarn</a></p>
+<p><a href="https://git-scm.com/" target="_blank" rel="noopener">git</a></p>
+<p><a href="http://es6.ruanyifeng.com/" target="_blank" rel="noopener">ES6 文档 </a></p>
+<p><a href="http://lesscss.cn/" target="_blank" rel="noopener">less 文档</a></p>
+<p><a href="https://react.docschina.org/" target="_blank" rel="noopener">react官方文档</a></p>
+<p><a href="https://dvajs.com/" target="_blank" rel="noopener">dva 文档</a></p>
+<p><a href="https://cn.redux.js.org/" target="_blank" rel="noopener">redux文档</a></p>
+<p><a href="https://www.webpackjs.com/" target="_blank" rel="noopener">webpack文档</a></p>
+<p><a href="https://redux-saga-in-chinese.js.org/" target="_blank" rel="noopener">redux-saga文档</a></p>
+<p><a href="https://reacttraining.com/react-router/web/example/basic" target="_blank" rel="noopener">react-router文档</a></p>
+<script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+      <tags>
+        <tag>api</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>React版HellowWorld</title>
+    <url>/2021/06/15/startreact/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>紧张刺激的毕业设计悄然进入尾声，我终于迫于生计放弃了刚刚学了点皮毛的Vue，拿起了《React引领未来的用户界面开发框架》，都是心酸啊，但是还是要在前端的路上继续摸索呀</em></strong><br><a id="more"></a></p>
+<h3 id="React-是什么"><a href="#React-是什么" class="headerlink" title="React 是什么"></a>React 是什么</h3><p>React 是一个用于构建用户界面的 JAVASCRIPT 库。</p>
+<p>React主要用于构建UI，很多人认为 React 是 MVC 中的 V（视图）。</p>
+<p>React 起源于 Facebook 的内部项目，用来架设 Instagram 的网站，并于 2013 年 5 月开源。</p>
+<p>React 拥有较高的性能，代码逻辑非常简单，越来越多的人已开始关注和使用它。</p>
+<p>嗯。。。这就是作为一个菜鸟，队react的初步认识。</p>
+<h3 id="React版HellowWorld教程"><a href="#React版HellowWorld教程" class="headerlink" title="React版HellowWorld教程"></a>React版HellowWorld教程</h3><p>HellowWorld是我们程序猿入门一门编程语言的时候的第一个“项目”<br>现在无论是前端开发还是后端开发，都趋于工程化模块化的开发模式了，所以在这里本菜鸟就只记录最方便实用的脚手架使用方法。</p>
+<h4 id="1-安装环境"><a href="#1-安装环境" class="headerlink" title="1.安装环境"></a>1.安装环境</h4><p>首先肯定是需要node环境的，作为一个21世纪的前端程序猿，如果你没了解过node的话，那么恭喜你，你已经OUT了，不开玩笑地说，前端程序员一定要去了解node的<br>至于node环境的安装，那简直是简单的不能再简单了，windows系统下的node环境搭建就像安装一个游戏一样简单，linux环境有点小复杂，但不是问题，谢谢伟大的菜鸟教程给予本菜鸟的大力支持，谢谢！谢谢！<br><a href="https://www.runoob.com/nodejs/nodejs-tutorial.html" target="_blank" rel="noopener">全套教程点击这里👈</a></p>
+<h4 id="2-安装并使用react脚手架创建项目"><a href="#2-安装并使用react脚手架创建项目" class="headerlink" title="2.安装并使用react脚手架创建项目"></a>2.安装并使用react脚手架创建项目</h4><p>在这里我是使用node的包管理器npm来安装react脚手架<br>全局安装react脚手架</p>
+<pre><code>$ cnpm install -g create-react-app
+</code></pre><p>在某盘某文件夹下打开cmd，运行下边命令创建项目</p>
+<pre><code>$ create-react-app reacttest
+</code></pre><p>这时候，项目已经搭建好了,项目目录如下：</p>
+<pre><code>reacttest/
+  README.md
+  node_modules/
+  package.json
+  .gitignore
+  public/
+    favicon.ico
+    index.html
+    manifest.json
+  src/
+    App.css
+    App.js
+    App.test.js
+    index.css
+    index.js
+    logo.svg
+</code></pre><p>运行项目</p>
+<pre><code>$ cd reacttest/
+$ npm start
+</code></pre><p>这时候静静等待启动完成，它会自动打开一个react官方示例页面，到这里React版的HellowWorld就完成了</p>
+<script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+      <categories>
+        <category>React</category>
+      </categories>
+      <tags>
+        <tag>react</tag>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>js面向对象基础</title>
+    <url>/2020/04/09/jsobject/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>js作为一种基于对象的弱类型脚本语言，在前后端分离的今天担任着不可或缺的一部分任务，随着前端的发展，越来复杂的逻辑，让前端程序猿们不再满足于这种基于对象的编程方式，这时候js基于原型链的一种面向对象的实现方法被越来越多的人所采纳</em></strong></p>
+<a id="more"></a>
+<h1 id="js基于对象而不是面向对象"><a href="#js基于对象而不是面向对象" class="headerlink" title="js基于对象而不是面向对象"></a>js基于对象而不是面向对象</h1><p>js是一种基于对象的语言，所谓基于对象，简单来说就是在js中有对象的概念，但是没有类的概念，学过java的人都知道，在java中，要创建一个对象实例，首先需要一个有一个这个对象的类，用类去创建这个类的对象实例，而基于对象则是用对象去创建对象。举个网上的例子：</p>
+<ul>
+<li><p>面向对象就是先设计一个房子的图纸，然后按照图纸的设计去建造一个房子</p>
+</li>
+<li><p>基于对象就是先建造一个房子，然后根据已有的房子的样子再去建造一个房子</p>
+<p>也就是说：</p>
+</li>
+<li><p>面向对象： 先有一个对象的抽象描述（类），然后根据这个类去构建一个新的对象</p>
+</li>
+<li><p>基于对象：现有一个具体对象，然后根据这个具体的对象，去创建一个新的对象</p>
+<p>由此看来js中的所有对象都是同一个对象的子对象。</p>
+<p>面向对象的三大基本特征：封装，多态，继承，然而基于对象和面向对象最大的区别也在这里，基于对象虽然也使用了对象，但是无法利用现有对象模板产生新的对象类型，产生新的对象，所以就没有继承这一说，没有继承也就没有多态了。</p>
+</li>
+</ul>
+<blockquote>
+<p>多态体现的就是继承，一般体现在抽象类上。js语言基于对象，它封装了一些对象，调用对象的方法，设置对象的属性，但是没办法产生新的类，只能使用现有的对象的方法和属性。  </p>
+</blockquote>
+<h1 id="原型链"><a href="#原型链" class="headerlink" title="原型链"></a>原型链</h1><p>我们在js中创建一个对象的时候，会使用new关键字，他具体做了什么事情呢，其实他就干了三件事</p>
+<ul>
+<li><ol>
+<li>创建一个空对象: <code>var obj = {}</code></li>
+</ol>
+</li>
+<li><ol start="2">
+<li>使这个空对象的<em>proto</em>指向基函数prototype : <code>obj._proto_ = Basr.prototype</code></li>
+</ol>
+</li>
+<li><ol start="3">
+<li>将基函数的this指向改为新的对象: <code>Base.call(obj)</code></li>
+</ol>
+</li>
+</ul>
+<p>其实，所有的函数都是 Function 的实例。在构造函数上都有一个原型属性 prototype，该属性也是一个对象；那么在原型对象上有一个 constructor 属性，该属性指向的就是构造函数；而实例对象上有一个 <em>proto</em>  属性，该属性也指向原型对象，并且该属性不是标准属性，不可以用在编程中，该属性用于浏览器内部使用。</p>
+<pre><code>// _proto_
+在函数里有一个属性prototype
+由该函数创建的对象默认会连接到该属性上
+    //prototype 与 _proto_ 的关系
+_proto_是站在对象角度来说的
+prototype 是站在构造函数角度来说的
+</code></pre><p>所谓原型链就是有限的实例对象和原型之间组成有限链，就是用来实现共享属性和继承的。一个对象有原型对象，原型对象也有一个原型对象，一个对象的末级原型对象也就是Object的原型对象是null。</p>
+<pre><code>// 原型链示例
+ 7    var arr = [];
+ 8    arr -&gt; Array.prototype -&gt;Object.prototype -&gt; null
+ 9    var o = new Object();
+10    o -&gt; Object.prototype -&gt; null;
+</code></pre><h1 id="js面向对象"><a href="#js面向对象" class="headerlink" title="js面向对象"></a>js面向对象</h1><p>  es5面向对象继承实现：</p>
+<pre><code>    function Animal() { }
+    function Dog() { }
+    Object.defineProperties(Animal.prototype, {
+    name: {
+        value() {
+        return &#39;Animal&#39;;
+        }
+    },
+    say: {
+        value() {
+        return `I &#39; m ${this.name()}`
+        }
+    }
+    })
+    Dog.prototype = Object.create(Animal.prototype);
+    console.log(new Dog().say());  // 输出  I&#39;m Animal
+</code></pre><p>多态就是子类重写父类方法</p>
+<pre><code>    function Animal() { }
+    function Dog() { }
+    Object.defineProperties(Animal.prototype, {
+    name: {
+        value() {
+        return &#39;Animal&#39;;
+        }
+    },
+    say: {
+        value() {
+        return `I &#39; m ${this.name()}`
+        }
+    }
+    })
+    Dog.prototype = Object.create(Animal.prototype, {
+        name: {
+            value() {
+            return &#39;Lucy&#39;;
+            }
+        }
+    });
+    console.log(new Dog().say());  // 输出  I&#39;m Lucy
+</code></pre><p>  在es6中提供了语法糖 ，一定程度上简化了继承与多态的实现：</p>
+<pre><code>    class Person {
+        say() {
+            console.log(&#39;我姓&#39; + this.xs);
+        }
+    }
+
+    class PersonZ extends Person {
+         xs = &#39;张&#39;;
+    }
+
+
+    new PersonZ().say();  // 输出  我姓张
+</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+      <categories>
+        <category>js</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>js</tag>
+        <tag>面向对象</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>爬虫利器Puppeteer</title>
+    <url>/2021/10/31/Puppeteer/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>Puppeteer 翻译是操纵木偶的人，利用这个工具，我们能做一个操纵页面的人。Puppeteer是一个Nodejs的库，支持调用Chrome的API来操纵Web，相比较Selenium或是PhantomJs,它最大的特点就是它的操作Dom可以完全在内存中进行模拟既在V8引擎中处理而不打开浏览器，而且关键是这个是Chrome团队在维护，会拥有更好的兼容性和前景。</em></strong><br><a id="more"></a></p>
+<h1 id="Puppeteer可以做什么"><a href="#Puppeteer可以做什么" class="headerlink" title="Puppeteer可以做什么"></a>Puppeteer可以做什么</h1><ul>
+<li>利用网页生成PDF、图片</li>
+<li>爬取SPA应用，生成预渲染内容</li>
+<li>可以从网站抓取内容</li>
+<li>自动化表单提交、UI测试、键盘输入等</li>
+<li>自动化测试</li>
+<li>捕获站点的时间线，帮助站长分析网站性能问题</li>
+</ul>
+<h1 id="Puppeteer使用"><a href="#Puppeteer使用" class="headerlink" title="Puppeteer使用"></a>Puppeteer使用</h1><h2 id="安装Puppeteer"><a href="#安装Puppeteer" class="headerlink" title="安装Puppeteer"></a>安装Puppeteer</h2><p> 可以直接使用npm去安装puppeteer</p>
+<pre><code> npm i puppeteer
+</code></pre><p> <a href="https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#pageclickselector-options" target="_blank" rel="noopener">puppeteer API</a></p>
+<h2 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h2><ul>
+<li>const browser = await puppeteer.launch() 启动浏览器实例,得到一个浏览器实例</li>
+<li>const page = await browser.newPage() 得到一个新的页面</li>
+<li><p>await page.goto([URL]) 跳转到某一页</p>
+<h1 id="小DEMO"><a href="#小DEMO" class="headerlink" title="小DEMO"></a>小DEMO</h1><pre><code>const puppeteer = require(&#39;puppeteer&#39;);
+(async ()=&gt;{
+const browser = await puppeteer.launch({headless: false}); //获得一个浏览器实例
+const page = await browser.newPage(); //得到一个浏览器页面实例
+await page.goto(&#39;http://localhost:8000&#39;); // 跳转到指定URL
+await page.waitFor(5000); //等待5s
+await page.focus(&#39;#username&#39;); // 使id为username的元素获得焦点
+await page.type(&#39;#username&#39;, &#39;13131313132&#39;, {delay: 100}); // 在id为username的输入框输入指定字符串，每字符间延时100ms
+await page.focus(&#39;#password&#39;);
+await page.type(&#39;#password&#39;, &#39;hand1234&#39;, {delay: 100});
+await page.click(&#39;#submitLogin&#39;); //点击id为submitLogin的按钮
+await page.waitFor(5000);
+const result = await page.evaluate(()=&gt;{ //在这个函数中可以向页面嵌入脚本，使用js为所欲为了
+ alert(111);
+
+ return {}
+})
+})()
+</code></pre></li>
+</ul>
+<script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+      <categories>
+        <category>Nodejs</category>
+      </categories>
+      <tags>
+        <tag>node</tag>
+        <tag>爬虫</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ES6新特性</title>
+    <url>/2021/07/12/es6day1/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>ES6是EMCAScript标准的第6次重大改版</em></strong><br><a id="more"></a></p>
+<h1 id="es6变量相较于es5的主要区别"><a href="#es6变量相较于es5的主要区别" class="headerlink" title="es6变量相较于es5的主要区别"></a>es6变量相较于es5的主要区别</h1><h2 id="1、不存在变量提升"><a href="#1、不存在变量提升" class="headerlink" title="1、不存在变量提升"></a>1、不存在变量提升</h2><pre><code>    console.log(a); //输出undefined
+    var a = 0;
+    console.log(b); //报错 变量b未定义
+    let b = 2;
+</code></pre><p>使用var定义的变量存在变量提升的现象，就是在变量被定义之前可以引用，值为undefined，而使用let定义的变量不存在变量提升的现象，所以在定义之前引用会报错</p>
+<h2 id="2、会产生暂时性死区（temporal-dead-zone，简称-TDZ）"><a href="#2、会产生暂时性死区（temporal-dead-zone，简称-TDZ）" class="headerlink" title="2、会产生暂时性死区（temporal dead zone，简称 TDZ）"></a>2、会产生暂时性死区（temporal dead zone，简称 TDZ）</h2><p>什么是TDZ呢？</p>
+<p>我个人的理解是：从块级作用域的开始起，直到let关键字声明一个变量结束的这段区域就是该变量的TDZ，下边举例说明：</p>
+<pre><code>var a = 1;
+{
+//TDZ开始
+    console.log(a); //报错  Uncaught ReferenceError
+    let a = 2; //TDZ结束
+    console.log(a);//2
+}
+
+</code></pre><p>在全局有一个a变量，在代码块里又用了let关键字声明了一个a变量，这时候a变量就绑定了该块级作用域，在这个块级作用域中let声明a之前都属于a变量的TDZ，在一个变量的TDZ中引用它都会报Uncaught ReferenceError错误，这就导致了typeof操作并不能保证100%安全，如下代码：</p>
+<pre><code>typeof a // undefined
+var a = 1;
+typeof b //Uncaught ReferenceError
+let b =1;
+typeof c //undefined 变量未声明的话反而是安全的
+</code></pre><h2 id="3、变量不可重复声明"><a href="#3、变量不可重复声明" class="headerlink" title="3、变量不可重复声明"></a>3、变量不可重复声明</h2><p>es5中存在变量覆盖的现象，也就是说var声明的变量可以重名，而es6中的let和const变量不允许在同一作用域出现同名变量，只要在一个块级作用域有let或者const变量，那么这个变量就不可以重名，跟上边说的变量绑定一样：</p>
+<pre><code>{
+    let a = 1;
+    var a = 1;//报错
+    let b = 1;
+    let b = 2;//报错
+    var c = 3;
+    let c = 5;//报错
+}
+</code></pre><p><strong><em>特别要注意的是，ES6 规定，块级作用域之中，函数声明语句的行为类似于let，在块级作用域之外不可引用。</em></strong></p>
+<h1 id="解构赋值"><a href="#解构赋值" class="headerlink" title="解构赋值"></a>解构赋值</h1><p>阮一峰大佬的《ECMAScript 6 入门》一书中对于结构复制的解释相当简单明了，他是这样说的：ES6 允许按照一定模式，从数组和对象中提取值，对变量进行赋值，这被称为解构（Destructuring）。</p>
+<p>什么是模式匹配呢？个人理解就是“=”左右两边的数据的“结构”是一样就可以，最简单的例子：</p>
+<pre><code>let [a, b, c] = [1, 2, 3];//a=1 b=2 c=3
+</code></pre><p>没错就是这么简单</p>
+<p>那么什么样的数据类型可以被解构呢？大佬说：“可遍历的结构就可以被解构”，我们暂时可以理解为具有length属性的数据类型都可以被解构，比如数组、字符串、对象，如下：</p>
+<pre><code>let [a,b,c] = &#39;qwe&#39;; // a = &#39;q&#39; b = &#39;w&#39; c = &#39;e&#39;
+let {name,age}  = {
+    name : &#39;qqq&#39;,
+    age : 2
+} // name = &#39;qqq&#39;  age = 2
+//支持复杂数据类型的解构
+let {code,json:{data}} = {
+    code : 2,
+    json : {
+        data : [1,2,3]
+    }
+}// code = 2 data = 123
+</code></pre><p>解构赋值允许不完全解构</p>
+<hr>
+<p>解构赋值允许设置默认值,当变量对应的被结构的数据中的undefined的时候，默认值才会生效，而且要是默认值为待计算的值（函数或者表达式）的时候，只有默认值生效的时候才会去计算它的值，这叫惰性求值，上代码：</p>
+<pre><code>let [,b=1] = [1,4]; //b = 4 因为被解构的数据中存在b对应的值，所以默认值不生效
+let [,b=2] = [1]; //b = 2 
+//惰性求值
+let a = funtion () {
+    console.log(&#39;求值&#39;)
+    return 4;
+}
+let [,b = a()] = [1,2]// b  = 2 控制台不打印&#39;求值&#39;
+let [,b = a()] = [2]// b  = 4 控制台打印&#39;求值&#39;
+</code></pre><h2 id="有一点要特别注意：在解构赋值之中能不用圆括号就不要用圆括号"><a href="#有一点要特别注意：在解构赋值之中能不用圆括号就不要用圆括号" class="headerlink" title="有一点要特别注意：在解构赋值之中能不用圆括号就不要用圆括号"></a>有一点要特别注意：在解构赋值之中能不用圆括号就不要用圆括号</h2><h1 id="es6函数的扩展常用点"><a href="#es6函数的扩展常用点" class="headerlink" title="es6函数的扩展常用点"></a>es6函数的扩展常用点</h1><h2 id="1、函数参数可以使用默认值"><a href="#1、函数参数可以使用默认值" class="headerlink" title="1、函数参数可以使用默认值"></a>1、函数参数可以使用默认值</h2><p>话不多说，直接上代码：</p>
+<pre><code>function fun (a , b = 8) {
+    return [a,b];
+}
+fun(1,2); //[1,2]
+fun(1); //[1,8]
+</code></pre><h2 id="需要注意的是："><a href="#需要注意的是：" class="headerlink" title="需要注意的是："></a>需要注意的是：</h2><p><strong><em>1、函数的参数是默认声明的，所以不能在函数内部使用let或者const关键字再次声明，如下错误操作</em></strong></p>
+<pre><code>function fun (x = 6) {
+    let x = 5;
+    const x = 3;
+}
+</code></pre><p><strong><em>2、当使用函数默认参数时函数的形参也不允许有同名：</em></strong></p>
+<pre><code>// 不报错
+function fun(x, x, y) {
+  // ...
+}
+
+// 报错
+function fun(x, x, y = 1) {
+  // ...
+}
+// SyntaxError: Duplicate parameter name not allowed in this context
+</code></pre><h2 id="2、rest参数"><a href="#2、rest参数" class="headerlink" title="2、rest参数"></a>2、rest参数</h2><p>在es6以前函数内部有一个叫arguments的类数组对象保存着函数的参数，在es6中引进了一种新的参数，叫rest参数，该参数表示形式为（…参数名）来代替arguments对象来表示函数多余的参数,这是一个数组，下边是使用rest参数完成求和功能的一个函数：</p>
+<pre><code>function add (...nums){
+    let sum = 0;
+    for(let v of nums){
+        sum+=v
+    }
+    return sum;
+}
+console.log(add(1,2,3)) // 6
+</code></pre><h3 id="需要特别注意的有两点："><a href="#需要特别注意的有两点：" class="headerlink" title="需要特别注意的有两点："></a>需要特别注意的有两点：</h3><p><strong><em>1、rest参数之后不能有其他参数</em></strong></p>
+<pre><code>function fun (x , ...values , y){
+
+}//Uncaught SyntaxError: Rest parameter must be last formal parameter
+</code></pre><p><strong><em>2、函数的length属性不计算rest参数</em></strong></p>
+<pre><code>function fun (x,y,...values){
+
+}
+console.log(fun.length) // 2
+</code></pre><h2 id="3、箭头函数"><a href="#3、箭头函数" class="headerlink" title="3、箭头函数"></a>3、箭头函数</h2><p>箭头函数是es6中加入标准的一种类似于Lambda拉姆达表达式的语法糖吧，纯属个人理解，话不多说直接上代码：</p>
+<pre><code>var f = v =&gt; v;
+
+// 等同于
+var f = function (v) {
+  return v;
+};
+var f = () =&gt; 5;
+// 等同于
+var f = function () { return 5 };
+
+var sum = (num1, num2) =&gt; num1 + num2;
+// 等同于
+var sum = function(num1, num2) {
+  return num1 + num2;
+};
+</code></pre><p>用起来是相当方便啊，不过在使用的时候要注意以下几点：</p>
+<p><strong><em>（1）函数体内的this对象，就是定义时所在的对象，而不是使用时所在的对象。也就是说this对象的指向是可变的，但在箭头函数中this对象的指向是固定的。</em></strong></p>
+<pre><code>function foo() {
+  setTimeout(() =&gt; {
+    console.log(&#39;id:&#39;, this.id);
+  }, 100);
+}
+
+var id = 21;
+
+foo.call({ id: 42 });
+</code></pre><p>上面代码中，setTimeout的参数是一个箭头函数，这个箭头函数的定义生效是在foo函数生成时，而它的真正执行要等到 100 毫秒后。如果是普通函数，执行时this应该指向全局对象window，这时应该输出21。但是，箭头函数导致this总是指向函数定义生效时所在的对象（本例是{id: 42}），所以输出的是42。</p>
+<p><strong><em>（2）不可以当作构造函数，也就是说，不可以使用new命令，否则会抛出一个错误。</em></strong></p>
+<p><strong><em>（3）不可以使用arguments对象，该对象在函数体内不存在。如果要用，可以用 rest 参数代替。</em></strong></p>
+<p><strong><em>（4）不可以使用yield命令，因此箭头函数不能用作 Generator 函数。</em></strong></p>
+<h3 id="有两种场合不适合使用箭头函数"><a href="#有两种场合不适合使用箭头函数" class="headerlink" title="有两种场合不适合使用箭头函数"></a>有两种场合不适合使用箭头函数</h3><h4 id="1、定义对象的方法，且该方法内部包括this。"><a href="#1、定义对象的方法，且该方法内部包括this。" class="headerlink" title="1、定义对象的方法，且该方法内部包括this。"></a>1、定义对象的方法，且该方法内部包括this。</h4><pre><code>const cat = {
+  lives: 9,
+  jumps: () =&gt; {
+    this.lives--;
+  }
+}
+</code></pre><p>上面代码中，cat.jumps()方法是一个箭头函数，这是错误的。调用cat.jumps()时，如果是普通函数，该方法内部的this指向cat；如果写成上面那样的箭头函数，使得this指向全局对象，因此不会得到预期结果。这是因为对象不构成单独的作用域，导致jumps箭头函数定义时的作用域就是全局作用域。</p>
+<h4 id="2、需要动态this的时候，也不应使用箭头函数。"><a href="#2、需要动态this的时候，也不应使用箭头函数。" class="headerlink" title="2、需要动态this的时候，也不应使用箭头函数。"></a>2、需要动态this的时候，也不应使用箭头函数。</h4><pre><code>var button = document.getElementById(&#39;press&#39;);
+button.addEventListener(&#39;click&#39;, () =&gt; {
+  this.classList.toggle(&#39;on&#39;);
+});
+</code></pre><p>上面代码运行时，点击按钮会报错，因为button的监听函数是一个箭头函数，导致里面的this就是全局对象。如果改成普通函数，this就会动态指向被点击的按钮对象。</p>
+<p>另外，如果函数体很复杂，有许多行，或者函数内部有大量的读写操作，不单纯是为了计算值，这时也不应该使用箭头函数，而是要使用普通函数，这样可以提高代码可读性。</p>
+<h1 id="数组扩展常用点"><a href="#数组扩展常用点" class="headerlink" title="数组扩展常用点"></a>数组扩展常用点</h1><h2 id="1、扩展运算符"><a href="#1、扩展运算符" class="headerlink" title="1、扩展运算符"></a>1、扩展运算符</h2><p>数组的扩展运算符表示形式类似于函数的rest参数也是（…），但是它作用正好是rest参数的逆运算，将一个数组转为用逗号分隔的参数序列。</p>
+<pre><code>console.log(...[1, 2, 3])
+// 1 2 3
+
+console.log(1, ...[2, 3, 4], 5)
+// 1 2 3 4 5
+
+[...document.querySelectorAll(&#39;div&#39;)]
+</code></pre><h3 id="扩展运算符的常见应用"><a href="#扩展运算符的常见应用" class="headerlink" title="扩展运算符的常见应用"></a>扩展运算符的常见应用</h3><p><strong><em>1、复制数组</em></strong><br>看下边这段代码</p>
+<pre><code>var arr1 = [1,2];
+var arr2 = arr1;
+
+arr2[0] = 2;
+console.log(arr1) // [2,2]
+</code></pre><p>我们都知道数组是一种引用类型，采用赋值的方式复制数组是不可取的，因为arr1和arr2都指向同一个对象，所以修改arr2会改变arr1的值，在es5中要复制数组只能通过下边的方式：</p>
+<pre><code>var a1 = [1, 2];
+var a2 = a1.concat();
+
+a2[0] = 2;
+a1 // [1, 2]
+</code></pre><p>在es6中可以通过数组的扩展运算符来对数组进行复制，而不改变原来的数组：</p>
+<pre><code>const a1 = [1, 2];
+// 写法一
+const a2 = [...a1];
+// 写法二
+const [...a2] = a1;
+</code></pre><p><strong><em>2、合并数组</em></strong></p>
+<pre><code>const arr1 = [&#39;a&#39;, &#39;b&#39;];
+const arr2 = [&#39;c&#39;];
+const arr3 = [&#39;d&#39;, &#39;e&#39;];
+
+// ES5 的合并数组
+arr1.concat(arr2, arr3);
+// [ &#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39;, &#39;e&#39; ]
+
+// ES6 的合并数组
+[...arr1, ...arr2, ...arr3]
+</code></pre><p>这是es5和es6合并数组写法上的区别</p>
+<pre><code>const a1 = [{ foo: 1 }];
+const a2 = [{ bar: 2 }];
+
+const a3 = a1.concat(a2);
+const a4 = [...a1, ...a2];
+
+a3[0] === a1[0] // true
+a4[0] === a1[0] // true
+</code></pre><p>上面代码中，a3和a4是用两种不同方法合并而成的新数组，但是它们的成员都是对原数组成员的引用，这就是浅拷贝。如果修改了原数组的成员，会同步反映到新数组。</p>
+<p><strong><em>3、与解构赋值结合</em></strong></p>
+<pre><code>const [first, ...rest] = [1, 2, 3, 4, 5];
+first // 1
+rest  // [2, 3, 4, 5]
+
+const [first, ...rest] = [];
+first // undefined
+rest  // []
+
+const [first, ...rest] = [&quot;foo&quot;];
+first  // &quot;foo&quot;
+rest   // []
+</code></pre><p>要注意的一点是：如果将扩展运算符用于数组赋值，只能放在参数的最后一位，否则会报错。</p>
+<pre><code>const [...butLast, last] = [1, 2, 3, 4, 5];
+// 报错
+
+const [first, ...middle, last] = [1, 2, 3, 4, 5];
+// 报错
+</code></pre><p><strong><em>4、将可遍历对象转换为数组</em></strong></p>
+<pre><code>let nodeList = document.querySelectorAll(&#39;div&#39;);
+let array = [...nodeList];
+[...&#39;hello&#39;] // [ &quot;h&quot;, &quot;e&quot;, &quot;l&quot;, &quot;l&quot;, &quot;o&quot; ]
+</code></pre><p>所谓可遍历对象在es6中的就是实现了Iterator 接口的对象，所以Map 和 Set 结构，Generator 函数返回的Generator的</p>
+<pre><code>let map = new Map([
+  [1, &#39;one&#39;],
+  [2, &#39;two&#39;],
+  [3, &#39;three&#39;],
+]);
+
+let arr = [...map.keys()]; // [1, 2, 3]
+
+const go = function*(){
+  yield 1;
+  yield 2;
+  yield 3;
+};
+
+[...go()] // [1, 2, 3]
+</code></pre><p>要注意如果对没有实现Iterator接口的对象也就是不可遍历的对象使用扩展运算符的话会报错</p>
+<pre><code>let a = 1;
+[...a] //Uncaught TypeError: number 1 is not iterable (cannot read property Symbol(Symbol.iterator))
+</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+      <categories>
+        <category>ES6</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>Javascript</tag>
+        <tag>ES6</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>起点</title>
+    <url>/2019/03/27/start/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>那年夏天，懵懂的我怀揣梦想，去了那个陌生的城市</em></strong><br><strong><em>开始了我的追梦之路</em></strong><br><!-- ***也遇见了她*** --><br><a id="more"></a></p>
+<h3 id="梦想"><a href="#梦想" class="headerlink" title="梦想"></a>梦想</h3><p> <strong><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;梦想这个字眼对于我们来说，并不陌生。我们每个人都有或有过梦想，每个阶段都会有不同的梦想。小时候有小时候的梦想，长大以后会有长大以后的梦想。</em></strong></p>
+<div id="aplayer-peFmmJkS" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+				<pre class="aplayer-lrc-content">[00:36.530]小时候的我 做着美的梦
+[00:44.170]梦想中 那片天空 好像挂满笑容
+[00:50.930]长大后的我 坚定着美梦
+[00:58.910]因为我 已慢慢懂 努力就能成功
+[01:04.890]
+[01:07.100]我一个人的力量
+[01:10.850]能去闯 就算要飞越海洋
+[01:16.470]也不能 阻挡我对梦的渴望  [01:21.960]我一个人的信仰 [01:25.600]像太阳 散发着炽热的光 [01:31.180]能照亮 所有内心 灰暗的地方 [01:38.240] [01:59.370]天边的彩虹 倒映我的梦 [02:06.890]路边的 彩色霓虹 流淌着感动 [02:14.300]风吹的温柔 带走了沉重 [02:22.400]我要和别人不同 做自己的英雄 [02:28.500] [02:29.579]我一个人的力量 [02:33.950]能去闯 就算要飞越海洋 [02:39.340]也不能 阻挡我对梦的渴望 [02:44.990]我一个人的信仰 [02:48.750]像太阳 散发着炽热的光 [02:54.410]能照亮 所有内心 灰暗的地方 [03:01.290] [03:03.340]我一个人的力量 [03:07.280]能去闯 就算要飞越海洋 [03:12.760]也不能 阻挡我对梦的渴望 [03:18.250]我一个人的信仰 [03:21.829]像太阳 散发着炽热的光 [03:27.590]能照亮 所有内心 灰暗的地方 [03:34.550] [03:37.829]小时候的我 做着美的梦 [03:45.180]梦想中 那片天空 好像挂满笑容 [03:51.890]长大后的我 坚定着美梦 [03:59.890]因为我 已慢慢懂 努力就能成功 [04:06.180] [04:09.900]就能成功 [04:12.280]</pre>
+			</div>
+			<script>
+				var ap = new APlayer({
+					element: document.getElementById("aplayer-peFmmJkS"),
+					narrow: false,
+					autoplay: false,
+					showlrc: 2,
+					music: {
+						title: "慢慢懂",
+						author: "汪苏泷",
+						url: "http://music.163.com/song/media/outer/url?id=165383.mp3",
+						pic: "http://p1.music.126.net/k_WHGJoTvS6H7exsSnK1iA==/3304032446773006.jpg?param=130y130",
+					}
+				});
+				window.aplayers || (window.aplayers = []);
+				window.aplayers.push(ap);
+			</script>
+<p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在我上小学的时候，看到天上的星星一闪一闪的，我就会想，为什么天上的星星不会掉下来，为什么他们会发光。那个时候，我的梦想就是长大之后做一名天文学家。再长大些之后，看到爸妈每天给学生上课，每周休息两天，每年还有寒暑假，就觉得做一名人民教师也挺好的，于是那个时候我的梦想就变成了长大后，像爸妈一样，做一名人民教师。后来上了高中，有了一些与众不同的经历之后，我感觉到了那种在病痛面前什么也做不了的无力、无助、绝望。所以，那个时候，我的梦想就变成了做一名医生。再后来，上大学了，我的专业并不是理想中的医学专业，而是以前从来没有想过的“软件工程”。<br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;慢慢的，我懂了，每个人并不是生来就能不顾一切的去做自己想做的事情，如果我们没有能力去改变社会，那么就只能乖乖的听从社会的安排，来改变自己。所以，我的梦想又变成了毕业之后做一名软件工程师。</p>
+<p>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;到了选择编程语言的时候，周围的人都选择了目前世界上最火的语言之一 — Java…….但是这一次我不想妥协，我毅然决然的选择了我喜欢的编程语言 —-Javascript ，但是在我们学校开设的所有课程都是关于Java的，我只能去自己摸索，自己看书查资料去学习这门从来没有接触过的语言，以至于我自学了两三个月还没有入门。直到2017年圣诞节的时候，我遇到了我的第一个前端的老师，我管他叫君哥（真实姓名不便透露），感谢我君哥，是他带我进入了web前端的大门，让我认识了一个不一样的Javascript。<br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;再到后来，我遇到了我第二个前端老师—云姐，从她这里我才真正认识了前端，了解了前端开发工程师在一个项目中所承担的角色，学会了如何合理的利用网络资源去学习自己所需要的知识，并且在真正的前端领域初窥门径。</p>
+<!-- ### 她
+***&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我所选的这个方向注定了我未来的路不是那么好走，或许真像电视里演得一样，冥冥之中，一切都是定数。孤身一人，不知道何去何存的我，几经周折带着我的前端梦来到了这座机会与绝望并存的城市，认识了她。***
+<div id="aplayer-eqJaBpVS" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+				<pre class="aplayer-lrc-content">[00:26.30]我在沙滩划个圆圈  
+[00:28.69]属于我俩安逸世界  
+[00:31.14]不用和别人连线  
+[00:36.33]我不管你来自深渊  
+[00:38.68]也不在乎身上鳞片  
+[00:41.38]爱情能超越一切  
+[00:45.93]只要你在我身边  
+[00:47.79]所有蜚语流言 完全视而不见  
+[00:50.73]请不要匆匆一面  
+[00:52.72]一转身就沉入海平线  
+[00:58.25]传说中你为爱甘心被搁浅  
+[01:03.33]我也可以为你 潜入海里面  
+[01:08.02]怎么忍心断绝  
+[01:10.65]忘记我不变的誓言  
+[01:14.31]我眼泪断了线  
+[01:18.36]现实里有了我对你的眷恋  
+[01:23.40]我愿意化作雕像 等你出现  
+[01:28.19]再见再也不见  
+[01:30.68]心碎了飘荡在海边  
+[01:34.57]你抬头就看见  
+[01:59.54]我在沙滩划个圆圈  
+[02:02.19]属于我俩安逸世界  
+[02:04.63]不用和别人连线  
+[02:09.42]我不管你来自深渊  
+[02:12.33]也不在乎身上鳞片  
+[02:14.73]爱情能超越一切  
+[02:19.06]只要你在我身边  
+[02:21.11]所有蜚语流言 完全视而不见  
+[02:24.14]请不要匆匆一面  
+[02:26.18]一转身就沉入海平线  
+[02:31.88]传说中你为爱甘心被搁浅  
+[02:36.87]我也可以为你 潜入海里面  
+[02:41.64]怎么忍心断绝  
+[02:44.29]忘记我不变的誓言 
+[02:47.75]我眼泪断了线  
+[02:52.04]现实里有了我对你的眷恋  
+[02:57.03]我愿意化作雕像 等你出现  
+[03:01.87]再见再也不见  
+[03:04.66]心碎了飘荡在海边  
+[03:07.95]你抬头就看见  
+[03:12.54]传说中你为爱甘心被搁浅  
+[03:17.23]我也可以为你 潜入海里面  
+[03:22.02]怎么忍心断绝  
+[03:24.71]忘记我不变的誓言  
+[03:28.04]我眼泪断了线  
+[03:32.43]现实里有了我对你的眷恋  
+[03:37.48]我愿意化作雕像 等你出现  
+[03:42.21]再见再也不见  
+[03:44.85]心碎了飘荡在海边  
+[03:48.16]你抬头就看见  
+[03:52.12]你 你抬头就看见  
+[03:57.30]你 你抬头就看见</pre>
+			</div>
+			<script>
+				var ap = new APlayer({
+					element: document.getElementById("aplayer-eqJaBpVS"),
+					narrow: false,
+					autoplay: false,
+					showlrc: 2,
+					music: {
+						title: "美人鱼",
+						author: "林俊杰",
+						url: "http://music.163.com/song/media/outer/url?id=108931.mp3",
+						pic: "http://p2.music.126.net/3jBJ00NEgPuhRFAYwErgag==/109951163533012556.jpg?param=130y130",
+					}
+				});
+				window.aplayers || (window.aplayers = []);
+				window.aplayers.push(ap);
+			</script>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人真的是一种奇怪的生物，有时候在听到某一首歌的时候就会想起一个人。那是一个周末，去网吧玩游戏，一个人玩的无聊，看到旁边坐的一个小姐姐生涩的手指按着机械键盘咔咔响，在玩qq飞车，于是。。。。<br>“嗨！你也玩qq飞车吗？一起啊”<br>“我还不会玩”<br> “没事，我也不会”<br> “那好呀，一起玩”<br> 其实我是会玩的，当时就是想找个一起玩的人，就这样我认识了她。 –&gt;<br> <!-- 后来又一起玩了几次游戏，慢慢熟悉了起来，看电影，吃饭 ， 玩游戏， 逛街 ，一切在顺其自然的发生。
+ 第一次去ktv的时候，她唱了这首林俊杰的 《美人鱼》 ，从那次之后仿佛这就变成了一首属于她的歌，无论在哪里听到这首歌我的脑海里浮现出的都是那次在ktv她唱这首歌的场景。这时候我突然发觉，我可能是有点喜欢她。
+ 就这样，过了一段时间，我鼓起勇气在ktv告白了，很幸运，她答应我了。我们就这样在一起了。
+蓝风铃的香味、清澈的眼睛、空气刘海、阳光、可爱，正所谓“情人眼里出西施”，在一起之后就觉得她哪哪都好。
+最喜欢的就是她的眼睛，就像一汪清泉，清澈见底，笑起来眼睛下面就会出现一对卧蚕，觉得很美。 --><p></p>
+<p><center>这就是我的起点</center></p>
+<script type="text/javascript" src="/js/src/bai.js"></script>   
+]]></content>
+      <categories>
+        <category>记录生活</category>
+      </categories>
+      <tags>
+        <tag>梦想</tag>
+        <tag>起点</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>webpack搭建dva项目</title>
     <url>/2020/04/02/webpackDvaDemo/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>webpack作为新一代前端打包工具，为前端工程化提供了一些很方便的解决方式，在经过好几天的踩坑之后，一路蹒跚、跌跌撞撞的终于使用webpack-dev-middleware 插件+express搭建出了一个dva的项目</em></strong></p>
@@ -3153,6 +1523,1638 @@ export default function ({ history }) {
         <tag>react</tag>
         <tag>webpack</tag>
         <tag>dva</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>es6函数和类</title>
+    <url>/2021/07/15/funcionandclass/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>从es6中做出的改变来看，JavaScript正在向一门面向对象的语言进行发展（小声bb）</em></strong><br><a id="more"></a></p>
+<h2 id="es6函数"><a href="#es6函数" class="headerlink" title="es6函数"></a>es6函数</h2><p>箭头函数是es6中函数的一种新的写法，也是平时我们用的比较多的写法</p>
+<h3 id="箭头函数在项目中最常用的几个点"><a href="#箭头函数在项目中最常用的几个点" class="headerlink" title="箭头函数在项目中最常用的几个点"></a>箭头函数在项目中最常用的几个点</h3><h4 id="函数配合解构赋值的用法"><a href="#函数配合解构赋值的用法" class="headerlink" title="函数配合解构赋值的用法"></a>函数配合解构赋值的用法</h4><p>其实配合解构赋值使用并不是箭头函数的专利，普通函数也可以配合解构赋值进行使用：</p>
+<pre><code>function fun({name,age}){
+    return `My name is ${name},I am ${age}years old`
+}
+console.log(fun({name:&#39;zyx&#39;,age:22})) //My name is zyx,I am 22years old
+</code></pre><p>但是解构赋值和箭头函数都是es6新增特性，所以要用新的就都用新的啊，不然多low：</p>
+<pre><code>let fun = ({name,age})=&gt; `My name is ${name},I am ${age}years old`;
+console.log(fun({name:&#39;zyx&#39;,age:22})) //My name is zyx,I am 22years old
+</code></pre><p>这两段代码对比之下，箭头函数显得更加简洁明了</p>
+<h4 id="配合扩展运算符的用法"><a href="#配合扩展运算符的用法" class="headerlink" title="配合扩展运算符的用法"></a>配合扩展运算符的用法</h4><p>个人觉得这个功能就是阮大佬在<a href="http://es6.ruanyifeng.com/" target="_blank" rel="noopener">《es6入门》</a>一书函数的扩展一章中提到的rest参数：</p>
+<pre><code>let fun = (a,...prams)=&gt;{
+    console.log(prams)
+}
+fun(1,2,3,4) // [2,3,4]
+</code></pre><p>我自己说实话还没发现两者有什么不同</p>
+<h4 id="函数的默认参数设置"><a href="#函数的默认参数设置" class="headerlink" title="函数的默认参数设置"></a>函数的默认参数设置</h4><p>这也不是箭头函数的专利，es6对函数的这一扩展在真实的项目中比较实用，在我们真实的项目中存在着各种各样的情况，所以这时候默认值的作用就举足轻重了，它可以避免很多莫名其妙的可能会让你始料不及的错误,在es5中我们是这样解决默认值问题的：</p>
+<pre><code>function fun (x,y){
+    var y = y ? y : 1;
+    return x + y;
+}
+console.log(fun(2)) // 输出3
+</code></pre><p>而上边这段代码经过es6改写之后变成了：</p>
+<pre><code>let fun = (x,y=1)=&gt;x+y;
+console.log(fun(2)) // 输出3
+</code></pre><p>箭头函数加默认值设置将代码缩减为2行，这就是es6的魅力</p>
+<h4 id="多重调用"><a href="#多重调用" class="headerlink" title="多重调用"></a>多重调用</h4><pre><code>    let sums = n =&gt; m =&gt; m+n;
+    console.log(sums(1)(2)); // 3
+    console.log(sums(1)); // m =&gt; m+n
+</code></pre><p>分析上边这段代码，sums函数接收一个参数之后返回了一个接受一个参数的函数，这个函数返回了两个参数的和，说起来可能有点绕口，那么将代码还原为es5是什么样的呢，如下：</p>
+<pre><code>function sums(n){
+    return function(m){
+        return m+n;
+    }
+}
+console.log(sums(1)(2)); // 3
+console.log(sums(1)); // ƒ (m){return m+n;}
+</code></pre><p>在我看来这个写法有点像闭包（虽然我也不太理解闭包），在我的理解当中一个函数的返回值是另外一个函数的时候就产生了闭包。</p>
+<p>话说在这种对比之下箭头函数和传统函数高下立见！</p>
+<h2 id="es6-class"><a href="#es6-class" class="headerlink" title="es6 class"></a>es6 class</h2><h3 id="以下内容纯属个人理解，大佬们请轻点pen"><a href="#以下内容纯属个人理解，大佬们请轻点pen" class="headerlink" title="以下内容纯属个人理解，大佬们请轻点pen"></a><center><strong><em>以下内容纯属个人理解，大佬们请轻点pen</em></strong></center></h3><p>class关键字是用来定义一个类，在es6之前js被定义为一门基于对象的弱类型脚本语言，之所以说它是基于对象而不是面向对象，就是因为在es6之前js根本没有类的概念，但很奇怪的是它有对象的概念，所以就被定义为基于对象的语言，更加奇怪的是它没有类的概念竟然也可以进行面向对象的编程：</p>
+<pre><code>function People(name,age){
+    this.name = name;
+    this.age = age;
+} //不管装的多像是构造方法，那也不是真正的构造方法
+People.prototype.say = function(){
+    console.log(&#39;My name is &#39;+this.name+&#39; ,I am &#39;+this.age+&#39; years old&#39;)
+}
+var zyx = new People(&#39;zyx&#39;,22); //假装是new一个对象
+zyx.say(); //My name is zyx ,I am 22 years old
+</code></pre><p>这样的写法和那些面向对象的语言比如java中面向对象编程的写法大相径庭，本来基于对象就已经很奇怪了，现在这样一门基于对象的语言竟然还有这样奇怪的面向对象编程方式，那岂不是让不了解的人更加觉得js是一门“不正经”的语言，所以es引入了class关键字，引入了类的概念，但这并不代表js就已经蜕变为像java那样的面向对象的语言了，js蜕变之路从es6才刚刚开始，据我所知class关键字只是一个语法糖，它的内部原理其实和上边这种写法一样，方法全在该对象的prototype属性上，但是起码写法上比较符合那些面向对象的语言中的面向对象的编程：</p>
+<pre><code>class People{
+    constructor(name,age){
+        this.name = name;
+        this.age = age;
+    }
+    say(){
+        console.log(`My name is ${this.name}, I am ${this.age} years old`)
+    }
+}
+let zyx = new People(&#39;zyx&#39;,23); //注意这里，class定义的类只能通过new关键字来创建实例
+zyx.say();//My name is zyx ,I am 23 years old
+</code></pre><p><strong><em>为了更加趋向于面向对象，es6限制了class定义的类只能用new关键字去创建实例</em></strong></p>
+<h3 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h3><pre><code>export default calss XXX extends Component{}
+</code></pre><p>据说react.js中到处是这样的写法，但是我本人目前还没有系统的学习过react，所以za也不知道，za也不敢说，za也不敢问啊。</p>
+<p><strong><em>既然有类的概念了，那么继承肯定是必不可少的，用我们公司大佬的话来说继承就是（咳咳，该拿出笔记本记笔记了）：将一些可以重复使用的代码抽象，放到顶层已供更多组件去使用，从而减少重复代码，提高代码质量的一种方法</em></strong></p>
+<p>那么es6中既然有class，那必然会有extends了，下边简单的以上边那个people类为父类举个栗子（个人比较喜欢吃这家的栗子）：</p>
+<pre><code>class ShangHaiPeople extends People {
+    constructor(name,age,money){
+        super(name,age);
+        this.money = money;
+    }
+
+    say(){
+        console.log(`My name is ${this.name}, I am ${this.age} years old，I am a ShangHaiPeople,I have ￥ ${this.money}`)
+    }
+}
+
+let zyx = new ShangHaiPeople(&#39;zyx&#39;,22,100000000)
+zyx.say();//My name is zyx, I am 22 years old，I am a ShangHaiPeople,I have ￥ 100000000
+</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+      <categories>
+        <category>ES6</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>面向对象</tag>
+        <tag>Javascript</tag>
+        <tag>ES6</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Dva入门</title>
+    <url>/2021/07/24/dva1/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>对于Dva我的理解是这样的：Dva重新组织了react项目，内置了react-router，redux，request，减少了配置这些模块的代码，将程序猿的精力都留给处理业务逻辑 </em></strong></p>
+<a id="more"></a>
+<h1 id="什么是Dva"><a href="#什么是Dva" class="headerlink" title="什么是Dva"></a>什么是Dva</h1><blockquote>
+<p>Dva基于现有应用架构 (redux + react-router + redux-saga 等)的一层轻量封装，没有引入任何新概念，全部代码不到 100 行。</p>
+</blockquote>
+<p>这是Dva官方文档中对它的介绍，我的理解是这样的：</p>
+<p>Dva重新组织了react项目，内置了react-router，redux，request，减少了配置这些模块的代码，将程序猿的精力都留给处理业务逻辑。</p>
+<p>使用Dva非常简单，首先通过 npm 安装 dva-cli 并确保版本是 0.9.1 或以上。</p>
+<pre><code>$ npm install dva-cli -g
+$ dva -v
+dva-cli version 0.9.1
+</code></pre><p>安装完 dva-cli 之后，就可以在命令行里访问到 dva 命令（不能访问？）。现在，你可以通过 dva new 创建新应用。</p>
+<pre><code>$ dva new dva-quickstart
+</code></pre><p>这会创建 dva-quickstart 目录，包含项目初始化目录和文件，并提供开发服务器、构建脚本、数据 mock 服务、代理服务器等功能。</p>
+<p>然后我们 cd 进入 dva-quickstart 目录，并启动开发服务器：</p>
+<pre><code>$ cd dva-quickstart
+$ npm start
+</code></pre><p>之后就会自打开系统默认浏览器，并访问<code>http://localhost:8000/</code>,只是后就能看到dva的欢迎页面了</p>
+<h1 id="dva中的数据流向，以及dva脚手架搭建的项目目录结构"><a href="#dva中的数据流向，以及dva脚手架搭建的项目目录结构" class="headerlink" title="dva中的数据流向，以及dva脚手架搭建的项目目录结构"></a>dva中的数据流向，以及dva脚手架搭建的项目目录结构</h1><h2 id="项目目录结构"><a href="#项目目录结构" class="headerlink" title="项目目录结构"></a>项目目录结构</h2><p><a href="https://blog.csdn.net/wangrong111222/article/details/79835490" target="_blank" rel="noopener">原文地址</a></p>
+<blockquote>
+<p>项目中一般src里的目录标配：</p>
+<ul>
+<li>./assets   :放置静态资源 比如图片;</li>
+<li>./components   :放置木偶组件，只负责从./routes的智能组件来读取props填充展示，一般来讲是纯函数的react书写方式;</li>
+<li>./models   :是一个处理数据的地方，比如在model里面调用./service输出的方法来获取数据填充到store;其实我觉得就是store的整体的集合，以 namespace作为唯一标识进行区分；</li>
+<li>./routes   :放置若干智能组件的地方，智能组件里一般通过dva的connect（({yourModle})=&gt;({yourModle})）（yourComponent）方法来和你的组件来实现数据互通的，生成带数据的活组件；（一般来讲智能组件的样式也在这级目录，因为组件就近维护原则吧）;</li>
+<li>./services   :负责向后台请求数据，在services里调用后台提供的api获取数据;</li>
+<li>./utils   :放置工具类：比如常见的后台接口请求工具类；这里是默认封装了fetch数据交互的方法，直接入参调用即可;</li>
+<li>index.css   :index.html的样式，你懂的;</li>
+<li>index.js   :主页的入口位置，也是初始化dva的位置；什么 app.use( )/app.model( )/app.router( )/app.start( )都是在这里的完成的;</li>
+<li>index.html   :入口挂载dom的html模板;</li>
+<li>router.js   :配置路由的地方，会从./routes文件夹下引入写好的智能组件来组装页面，export default 出一个方法来生成router结构。</li>
+</ul>
+</blockquote>
+<h1 id="数据流向问题"><a href="#数据流向问题" class="headerlink" title="数据流向问题"></a>数据流向问题</h1><p>数据流向简单来说的话就是：</p>
+<p><code>server----&gt;services----&gt;models----&gt;routes----&gt;components</code></p>
+<p>这样说可能有点过于简单，下面就以获取一个表格数据为例，看看具体数据流向</p>
+<p>多话不说直接上代码：</p>
+<p>首先，我们的表格数据是从后端服务器通过请求接口获取到的，那么上面也说了，<code>services</code>文件夹下的<code>.js</code>文件的任务就是请求接口从后端拿到数据：</p>
+<pre><code>// services/test.js
+import request from &#39;../utils/request&#39; //这里导入dva封装的request模块
+
+export function fetchData(){ // 这是一个无参请求的示例                                                                               const url = &#39;xxxxxxxxxx&#39;                       
+    return request(url)
+}
+export function fetchData1(params){ // 这是一个带参请求的示例
+    const url = &#39;xxxxxxxxxx&#39;                       
+    return request(url,{...params})
+}
+</code></pre><p>在这里，使用dva封装的request向后端发送请求，接收到数据之后作为函数的返回值return出去。</p>
+<pre><code>// models/test.js
+import {fetchData,fetchData1} from &#39;../services/test&#39;
+export default {
+    namespace:&quot;test&quot;,
+    state:{
+        data : {},
+        data1:{}
+    },
+    reducers:{
+        getData:(state,action)=&gt;{ // 这里就和redux的reducer一样，去更新状态
+            const newState = Object.assign({},state)
+            // console.log(action)
+            newState.data = action.value
+            return newState; 
+        },
+        getData1:(state,action)=&gt;{
+            const newState = Object.assign({},state)
+            // console.log(action)
+            newState.data1 = action.value
+            return newState;
+        }
+    },
+    effects:{
+        *fetchData(action,opr){
+            const call = opr.call;
+            const put = opr.put;
+            const res = yield call(fetchData) //调用services里的函数获得返回值
+
+            // console.log(res,111)
+            const a = {
+                type:&#39;getData&#39;,
+                value:res.data
+            }
+            yield put(a) //向reducers提交一个action
+            return res; //这里返回的值会传到dispatch().then()的成功回调参数里
+        },
+        *fetchData1(action,opr){
+            const call = opr.call;
+            const put = opr.put;
+            const res = yield call(fetchData1,params) //有参无参区别就在于这里
+
+            // console.log(res,111)
+            const a = {
+                type:&#39;getData&#39;,
+                value:res.data
+            }
+            yield put(a)
+            return res;
+        }
+    }
+
+}
+
+</code></pre><p>models层写好了，这里有一步至关重要，那就是去index.js注册这个model：</p>
+<pre><code>index.js
+
+// + app.model(require(&#39;./models/test&#39;).default);
+
+</code></pre><p>根据刚才所说的数据流向，现在轮到了routes层：</p>
+<pre><code>import React, { Component } from &#39;react&#39;;
+import {connect} from &#39;dva&#39; //这里导入dva的connect函数
+class Test extends Component {
+
+ fetchData=()=&gt;{
+        const dispatch = this.props.dispatch;
+        const action = {
+            type : &#39;test/fetchData&#39;,
+            value:1
+        }
+        dispatch(action).then(res=&gt;{ //这里提交action就和redux一样
+            console.log(res)
+        })
+       }
+        fetchData1=()=&gt;{
+        const dispatch = this.props.dispatch;
+        const action = {
+            type : &#39;test/fetchData1&#39;,
+            value:1
+        }
+        dispatch(action).then(res=&gt;{
+            console.log(res)
+        })
+       }
+
+    render() {
+        // console.log(this.props)在这里有我们操作全局状态用的dispatch函数以及下边回调函数返回的那些属性名和对应的值
+
+        return (
+            &lt;div&gt;
+              &lt;Button onClick={()=&gt;{this.fetchData()}}&gt;fetchData&lt;/Button&gt;
+              &lt;Button onClick={()=&gt;{this.fetchData1()}}&gt;fetchData&lt;/Button&gt;
+
+            &lt;/div&gt;
+        );
+    }
+}
+
+export default connect(state=&gt;{ //这里的state是全局的state
+
+    const data = state.test.data; //每一个model下的namespace在组合的时候变成了一个全局state的一个key，这个key所对应的value就是该namespace下对应的state的值
+    const data = state.test.data;
+    const data1 = state.test.data1;
+
+
+    return{ //这个回调函数的返回值会被解构，然后合并到后边括号中组件的props当中
+        data,
+        data1
+    }
+})(Test); //经过connect包装后，会赋予Test这个组件一些我们要用到的东西
+// export default Test;
+</code></pre><p>其实connect函数是一个高阶组件，<a href="http://www.zhangyongxuan.com/2021/07/18/hoc/">点这里复习高阶组件</a></p>
+<p>这样，整个数据流程，从请求数据到数据渲染整个流程就跑完了，这样走一遍之后是不是觉得dva的数据流向其实也并不复杂</p>
+<script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+      <categories>
+        <category>React</category>
+      </categories>
+      <tags>
+        <tag>react</tag>
+        <tag>前端</tag>
+        <tag>Dva</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Generator函数和async函数</title>
+    <url>/2021/07/16/generatorandasync/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>本文所有引用都出自—–&gt;阮一峰《ES6入门》</em></strong><br><a id="more"></a></p>
+<h1 id="Generator函数"><a href="#Generator函数" class="headerlink" title="Generator函数"></a>Generator函数</h1><p>Generator函数是es6提供的一种异步编程解决方案，不同于promise的是，Generator的语法完全是以同步编程的方式来实现异步操作，而promise其实就是回调的封装，操作复杂了之后，代码看起来就是一串then函数，可读性也很低。下面是一个简单的Generator函数：</p>
+<pre><code>function* fun(x){
+    let result = yield x+2; // 状态01  这里注意，yield这个关键字的作用是Generator函数向函数外部转递状态
+    return result; //状态02 这个Generator函数最终的状态
+}
+let g = fun(3); //首先获取Generator函数产生的遍历器对象
+let status1 = g.next(); //执行遍历器对象的next方法，使指针指向第一个状态 -&gt;01
+console.log(status1); // {value:5,done:false} value是yield后边表达式的值，done是一个布尔值，表示遍历是否结束
+let result = g.next(status1); //执行遍历器对象的next方法，使指针指向下一个状态-&gt;02
+console.log(result); // {value:5,done:false}
+</code></pre><blockquote>
+<p>next方法的作用是分阶段执行Generator函数。每次调用next方法，会返回一个对象，表示当前阶段的信息（value属性和done属性）。value属性是yield语句后面表达式的值，表示当前阶段的值；done属性是一个布尔值，表示 Generator 函数是否执行完毕，即是否还有下一个阶段。</p>
+</blockquote>
+<p>Generator函数有一点和普通函数一样，就是return后边的代码是不会被执行到的，当使用解构赋值查看函数执行结果的时候，它只会遍历done为false的value：</p>
+<pre><code>function * fun(){
+    yield 1;
+    yield 2;
+    yield 3;
+    return 4;
+}
+console.log([...fun()]) //  [1, 2, 3]
+</code></pre><p>使用Gennerator实现异步编程的例子 ：</p>
+<pre><code>function * fun (){
+    let result = yield new Promise((resolve,reject)=&gt;{
+        resolve({
+            code : 1,
+            msg : &#39;数据加载成功&#39;
+        })
+    }) //这里使用一个Promise对象模拟异步请求
+    console.log(result);
+}
+let g = fun();
+let status1 = g.next(); //获取状态1
+status1.value.then((data)=&gt;{
+    g.next(data);
+}).catch((err)=&gt;{
+    console.error(err);
+}) //{code: 1, msg: &quot;数据加载成功&quot;}
+
+</code></pre><p>首先调用第一次yield的时候执行后边那个Promise异步操作，将这个Promise对象作为遍历器对象的value属性传到函数外部，在函数外部then函数中对next方法进行第二次调用，将promise传出的data作为next函数的参数传回函数内部完成异步操作。<br><strong><em>nodejs中约定的回调函数第一个参数是error就是因为原因是执行分成两段，第一段执行完以后，任务所在的上下文环境就已经结束了。在这以后抛出的错误，原来的上下文环境已经无法捕捉，只能当作参数，传入第二段。</em></strong></p>
+<h1 id="Thunk函数-简单了解"><a href="#Thunk函数-简单了解" class="headerlink" title="Thunk函数(简单了解)"></a>Thunk函数(简单了解)</h1><p>Thunk 函数是自动执行 Generator 函数的一种方法。</p>
+<pre><code>// 正常版本的readFile（多参数版本）
+fs.readFile(fileName, callback);
+
+// Thunk版本的readFile（单参数版本）
+var Thunk = function (fileName) {
+  return function (callback) {
+    return fs.readFile(fileName, callback);
+  };
+};
+
+var readFileThunk = Thunk(fileName);
+readFileThunk(callback);
+</code></pre><p>上面代码中，fs模块的readFile方法是一个多参数函数，两个参数分别为文件名和回调函数。经过转换器处理，它变成了一个单参数函数，只接受回调函数作为参数。这个单参数版本，就叫做 Thunk 函数。</p>
+<h1 id="async函数"><a href="#async函数" class="headerlink" title="async函数"></a>async函数</h1><p>async函数必须搭配关键字await使用，就是说只有async函数内部才可以使用await关键字。async函数其实就是Generator函数的语法糖，async函数返回的也是个promise对象。</p>
+<pre><code>const gen = function* () {
+  const f1 = yield readFile(&#39;/etc/fstab&#39;);
+  const f2 = yield readFile(&#39;/etc/shells&#39;);
+  console.log(f1.toString());
+  console.log(f2.toString());
+};
+</code></pre><p>这是一个Generator函数读取文件的例子，改写为async/await方式就是下边这样：</p>
+<pre><code>const asyncReadFile = async function () {
+  const f1 = await readFile(&#39;/etc/fstab&#39;);
+  const f2 = await readFile(&#39;/etc/shells&#39;);
+  console.log(f1.toString());
+  console.log(f2.toString());
+};
+</code></pre><p>我们观察后发现，从表面看来就是将*替换为async，将yield替换为await，但是它比Generator函数的有点有以下几点：</p>
+<h3 id="1-内置执行器"><a href="#1-内置执行器" class="headerlink" title="1.内置执行器"></a>1.内置执行器</h3><p>不同于Generator函数的执行，async函数不需要去一步步调用next函数，而是只需要一行代码调用即可。</p>
+<pre><code>async function  fun(){
+    let a = await new Promise((resolve,reject)=&gt;{
+        resolve(1111);
+    })
+    console.log(a);
+}
+fun(); //  111
+</code></pre><h3 id="2-更好的语义"><a href="#2-更好的语义" class="headerlink" title="2.更好的语义"></a>2.更好的语义</h3><p>相比于Generator函数的*和yield而言，async和await更加便于理解。async表示函数里有异步操作，await表示紧跟在后面的表达式需要等待结果。</p>
+<h3 id="3-更广的适用性"><a href="#3-更广的适用性" class="headerlink" title="3.更广的适用性"></a>3.更广的适用性</h3><blockquote>
+<p>co模块约定，yield命令后面只能是 Thunk 函数或 Promise 对象，而async函数的await命令后面，可以是 Promise 对象和原始类型的值（数值、字符串和布尔值，但这时会自动转成立即 resolved 的 Promise 对象）。</p>
+</blockquote>
+<h3 id="4-返回值是-Promise"><a href="#4-返回值是-Promise" class="headerlink" title="4.返回值是 Promise"></a>4.返回值是 Promise</h3><blockquote>
+<p>async函数的返回值是 Promise 对象，这比 Generator 函数的返回值是 Iterator 对象方便多了。你可以用then方法指定下一步的操作。<br>进一步说，async函数完全可以看作多个异步操作，包装成的一个 Promise 对象，而await命令就是内部then命令的语法糖。</p>
+</blockquote>
+<h2 id="async函数执行顺序"><a href="#async函数执行顺序" class="headerlink" title="async函数执行顺序"></a>async函数执行顺序</h2><p>当函数执行的时候，一旦遇到await就会先返回，等到异步操作完成，再接着执行函数体内后面的语句。</p>
+<script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+      <categories>
+        <category>ES6</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>Javascript</tag>
+        <tag>ES6</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数组常用方法</title>
+    <url>/2021/07/16/arrayfun/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>数组常用方法</em></strong><br><a id="more"></a></p>
+<h1 id="数组常用方法"><a href="#数组常用方法" class="headerlink" title="数组常用方法"></a>数组常用方法</h1><h2 id="Array-from"><a href="#Array-from" class="headerlink" title="Array.from()"></a>Array.from()</h2><ul>
+<li>对伪数组或可迭代对象(包括arguments Array,Map,Set,String…)转换成数组对象</li>
+</ul>
+<pre><code>function * fun(){
+    yield 1;
+    yield 11;
+    yield 111;
+    yield 1111;
+    yield 11111;
+}
+let g = fun();
+let arr = Array.from(g);
+console.log(arr); //[1, 11, 111, 1111, 11111] 
+</code></pre><h2 id="Array-isArray"><a href="#Array-isArray" class="headerlink" title="Array.isArray()"></a>Array.isArray()</h2><ul>
+<li>用于检测传入的参数是否为数组对象：</li>
+</ul>
+<pre><code>Array.isArray([]) //true
+Array.isArray({}) //false
+</code></pre><h2 id="Array-of"><a href="#Array-of" class="headerlink" title="Array.of()"></a>Array.of()</h2><ul>
+<li>用于生成一个由参数构成的数组</li>
+</ul>
+<pre><code>Array.of(7);       // [7] 
+Array.of(1, 2, 3); // [1, 2, 3]
+
+Array(7);          // [ , , , , , , ]
+Array(1, 2, 3);    // [1, 2, 3]
+</code></pre><h2 id="concat"><a href="#concat" class="headerlink" title="concat()"></a>concat()</h2><p>用于合并两个或多个数组。此方法不会更改现有数组，而是返回一个新数组。</p>
+<pre><code>var arr1 = [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;];
+    var arr2 = [&#39;d&#39;, &#39;e&#39;, &#39;f&#39;];
+    var arr3 = [&#39;f&#39;];
+    var arr4 = arr1.concat(arr2,arr3);
+    // arr4 is a new array [ &quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;e&quot;, &quot;f&quot; ]
+</code></pre><h2 id="filter"><a href="#filter" class="headerlink" title="filter()"></a>filter()</h2><ul>
+<li>创建一个新数组, 其包含通过所提供函数实现的测试的所有元素</li>
+</ul>
+<pre><code>var arr= [1,10,20,30]
+var brr = arr.filter((item)=&gt;{
+    return item&gt;10;
+})  //[20,30]
+</code></pre><h2 id="find"><a href="#find" class="headerlink" title="find()"></a>find()</h2><ul>
+<li>返回数组中满足提供的测试函数的第一个元素的值</li>
+</ul>
+<pre><code>function isBigEnough(element) {
+    return element &gt;= 15;
+    }
+    [12, 5, 8, 130, 44].find(isBigEnough); // 130
+</code></pre><h2 id="findIndex"><a href="#findIndex" class="headerlink" title="findIndex()"></a>findIndex()</h2><ul>
+<li>返回数组中满足提供的测试函数的第一个元素的索引</li>
+</ul>
+<pre><code>function isBigEnough(element) {
+  return element &gt;= 15;
+}
+[12, 5, 8, 130, 44].findIndex(isBigEnough);  //&#39;3&#39;
+</code></pre><h2 id="forEach"><a href="#forEach" class="headerlink" title="forEach()"></a>forEach()</h2><ul>
+<li>方法对数组的每个元素执行一次提供的函数</li>
+</ul>
+<pre><code>var a = [&#39;A&#39;, &#39;B&#39;, &#39;C&#39;];
+a.forEach(function (element, index, array) {
+    // element: 指向当前元素的值
+    // index: 指向当前索引
+    // array: 指向Array对象本身
+    console.log(element);
+});
+</code></pre><h2 id="includes"><a href="#includes" class="headerlink" title="includes()"></a>includes()</h2><ul>
+<li>用来判断一个数组是否包含一个指定的值，如果是，酌情返回 true或 false</li>
+</ul>
+<pre><code>let a = [1, 2, 3];
+a.includes(2); 
+// true 
+a.includes(4); 
+// false
+</code></pre><h2 id="indexOf"><a href="#indexOf" class="headerlink" title="indexOf()"></a>indexOf()</h2><ul>
+<li>返回在数组中可以找到一个给定元素的第一个索引，如果不存在，则返回-1</li>
+</ul>
+<pre><code>let a = [2, 9, 7, 8, 9]; 
+a.indexOf(2); // 0 
+a.indexOf(6); // -1
+a.indexOf(7); // 2
+a.indexOf(8); // 3
+a.indexOf(9); // 1
+if (a.indexOf(3) === -1) {
+  // 数组中不包含3
+}
+</code></pre><h2 id="join"><a href="#join" class="headerlink" title="join()"></a>join()</h2><ul>
+<li>将数组（或一个类数组对象）的所有元素连接到一个字符串中<pre><code>let a = [&#39;Wind&#39;, &#39;Rain&#39;, &#39;Fire&#39;];
+a.join(); 
+// 默认为 &quot;,&quot;
+// &#39;Wind,Rain,Fire&#39;
+</code></pre><h2 id="map"><a href="#map" class="headerlink" title="map()"></a>map()</h2></li>
+<li>创建一个新数组，其结果是该数组中的每个元素都调用一个提供的函数后返回的结果</li>
+</ul>
+<pre><code>
+var array1 = [1,4,9,16];
+const map1 = array1.map(x =&gt; x *2);
+console.log(map1); // Array [2,8,18,32]
+</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+      <categories>
+        <category>ES6</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>Javascript</tag>
+        <tag>ES6</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>webpack纯手工搭建react项目</title>
+    <url>/2021/07/25/webpack-react/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>使用webpack从0搭建一个react项目</em></strong></p>
+<a id="more"></a>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>第一步就是安装，安装什么呢？安装webpack，如果是webpack4.x版本的话还需要安装一个webpack-cli,新建文件夹，在文件夹里创建package.json文件，很简单，在文件夹下打开cmd，运行下面这两条命令就完成了。</p>
+<pre><code>npm init
+yarn add webpack webpack-cli
+</code></pre><p>这里运行<code>npm init</code>的时候一路回车就ok了。</p>
+<h3 id="开始配置"><a href="#开始配置" class="headerlink" title="开始配置"></a>开始配置</h3><ul>
+<li>在根目录下新建配置文件：<code>webpack.config.js</code><br>这个文件名是webpack默认的配置文件，如果直接使用打包命令<code>npx webpack</code>或者<code>webpack</code>来执行打包的话，就会默认以这个文件中的配置执行打包，既然是默认的，当然可以自己改变这个文件了，如果配置文件为<code>config.js</code>的话可以使用下边这个命令：<pre><code>  npx webpack --config config.js 
+</code></pre></li>
+<li><p>配置入口文件，输出文件以及模式：</p>
+<pre><code>  const path = require(&#39;path&#39;);//这里导入nodejs的path模块
+  module.exports = {
+      mode : &#39;development&#39;, //指定打包模式  &#39;production&#39;/&#39;development&#39;
+      entry : &#39;./src/index.js&#39;, //指定打包的入口文件 写相对路径
+      devtool: &#39;inline-source-map&#39;, // 源码映射直接显示源码错误位置
+      // build=&gt; &#39;source-map&#39;打包速度-- 生成app.js.map映射文件 &#39;inline-source-map&#39; 以dataurl的方式直接写在app.js
+      output : {
+          path : path.resolve(__dirname,&#39;dist&#39;),//这里是指定打包之后的文件存放路径
+          //这里的__dirname是nodejs中的一个全局变量，它的值就是当前运行脚本所在路径
+          filename : &#39;index.js&#39; //这是指定打包的index.js在上边路径里的文件名
+      }
+   }    
+</code></pre><p>  到这里，一个最基础的webpack配置文件就完成了，运行<code>npx webpack</code>就能在根目录下看到一个dist文件夹，里面有index.js</p>
+<p>  配置打包命令：</p>
+<pre><code>  .....
+  &quot;script&quot; : {
+      &quot;build&quot; : &quot;webpack&quot;
+  }
+  .....
+</code></pre><p>  配置完之后就可以使用<code>npm run build</code>直接进行打包了</p>
+</li>
+<li><p>配置开发环境服务器：</p>
+<p>  首先安装<code>webpack-dev-server</code></p>
+<pre><code>  cnpm i webpack-dev-server --save-dev
+</code></pre><pre><code>      devServer:{ //配置前端服务器，方便开发
+          contentBase : &#39;./public&#39;, //文件暂存区
+          port : 9000, //服务器端口号
+          hot : true, //启用模块热更新
+          open : true, //服务器启动完成之后在默认浏览器打开index.html
+          proxy:{ //为请求的接口配置代理服务器
+
+          }
+      }   
+</code></pre><p>  然后在package.json中去配置：</p>
+<pre><code>  ....
+  &quot;scripts&quot;: {
+      &quot;build&quot; : &quot;webpack&quot;, //一键打包
+      &quot;start&quot;: &quot;webpack-dev-server&quot; //一键启动开发服务器
+  },
+  ....
+</code></pre><p>  这个时候使用命令<code>npm start</code>就可以启动这个开发服务器了</p>
+</li>
+<li><p>配置css模块和html模块：</p>
+<p>   无论是什么框架的项目，只要是个前端项目必然会使用层叠样式表和html，也就是我们要为这个项目的webpack赋予组织.css文件和.html的文件，首先我们在src下创建index.css和index.html</p>
+<p>  首先还是安装：</p>
+<pre><code>  cnpm install --save-dev html-webpack-plugin //这是一个插件，配置完之后会根据自己的配置，将html页面打包进去
+  cnpm install --save-dev css-loader style-loader //这是处理css文件的两个加载器
+</code></pre><p>  这里使用淘宝镜像可以提高下载速度</p>
+<p>  在module下的rules中配置css-loader，这将赋予这个项目组织.css文件的能力</p>
+<pre><code>  {
+      test: /\.css$/i, //检测.css结尾的文件
+      use: [&#39;style-loader&#39;, &#39;css-loader&#39;], //决定使用什么样的加载器
+  },
+</code></pre><p>  配置html插件</p>
+<pre><code>
+      const HtmlWebpackPlugin = require(&#39;html-webpack-plugin&#39;); //导入html的插件
+      ....
+      plugins: [new HtmlWebpackPlugin()]   
+
+</code></pre><p>  配置完这两项之后，在打包就会发现，html文件也被打包到dist文件夹里</p>
+</li>
+<li><p>配置babel和react模块：</p>
+<p>  babel是一个用来编译es6代码的工具，浏览器识别不了一些es6语法，而react中到处是es6语法，所以就要使用babel模块赋予这个项目组织react和es6的能力。</p>
+<p>  首先配置babel：</p>
+<p>  安装：</p>
+<pre><code>  cnpm install -D babel-loader @babel/core @babel/preset-env webpack
+</code></pre><p>  添加匹配规则：</p>
+<pre><code>  {
+      test: /\.m?js$/, //匹配.js文件
+      exclude: /(node_modules|bower_components)/, //这里表示忽略node_modules|bower_components下的.js文件
+      use: {
+          loader: &#39;babel-loader&#39;,
+          options: {
+          presets: [&#39;@babel/preset-env&#39;]
+          }
+      }
+  },
+</code></pre><p>  配置react ：</p>
+<pre><code>  presets: [&quot;@babel/preset-env&quot;, &quot;@babel/preset-react&quot;]
+</code></pre><p>  这时候这个项目已经有了编译react的能力</p>
+</li>
+<li><p>配置路径别名：<br>  当我们的项目目录比较复杂的时候我们可以使用alias配置别名</p>
+<pre><code>  resolve:{
+    alias:{ //为复杂的路径配置别名
+      &#39;style&#39;: path.resolve(__dirname, &#39;./src/assets/style&#39;),
+      &#39;@&#39;: path.resolve(__dirname, &#39;./src&#39;),
+    }
+  },   
+</code></pre></li>
+</ul>
+<h3 id="到这里，一个完全手工搭建的react项目就完成了，webpack配置文件如下："><a href="#到这里，一个完全手工搭建的react项目就完成了，webpack配置文件如下：" class="headerlink" title="到这里，一个完全手工搭建的react项目就完成了，webpack配置文件如下："></a>到这里，一个完全手工搭建的react项目就完成了，webpack配置文件如下：</h3><pre><code>const path = require(&#39;path&#39;);//这里导入nodejs的path模块
+const HtmlWebpackPlugin = require(&#39;html-webpack-plugin&#39;); //导入html的插件
+const {CleanWebpackPlugin} = require(&#39;clean-webpack-plugin&#39;);
+module.exports = {
+    mode : &#39;development&#39;, //指定打包模式  &#39;production&#39;/&#39;development&#39;
+    entry : &#39;./src/index.js&#39;, //指定打包的入口文件 写相对路径
+    devtool: &#39;inline-source-map&#39;, // 源码映射直接显示源码错误位置
+    // build=&gt; &#39;source-map&#39;打包速度-- 生成app.js.map映射文件 &#39;inline-source-map&#39; 以dataurl的方式直接写在app.js
+    output : {
+        path : path.resolve(__dirname,&#39;dist&#39;),//这里是指定打包之后的文件存放路径，这里的__dirname是nodejs中的一个全局变量，它的值就是当前运行脚本所在路径
+        filename : &#39;index.js&#39; //这是指定打包的index.js在上边路径里的文件名
+    },
+    module : { 
+        rules: [
+            {
+              test: /\.css$/i, //匹配.css结尾的文件
+              use: [&#39;style-loader&#39;, &#39;css-loader&#39;], //决定使用什么样的加载器
+            },
+            {
+                test: /\.m?js$/, //匹配.js文件
+                exclude: /(node_modules|bower_components)/, //这里表示忽略node_modules|bower_components下的.js文件
+                use: {
+                  loader: &#39;babel-loader&#39;,
+                  options: {
+                    presets: [&#39;@babel/preset-env&#39;,&#39;@babel/preset-react&#39;]
+                  }
+                }
+            },
+          ],
+    },
+    plugins: [
+        new HtmlWebpackPlugin({
+          template : &#39;./src/index.html&#39;
+        }),//添加插件，多页面也有多页面的配置方法，现在搭建一个react spa就不需要过多的配置
+        new CleanWebpackPlugin()
+    ],
+    devServer:{ //配置前端服务器，方便开发
+        contentBase : &#39;./public&#39;, //文件暂存区
+        port : 9000, //服务器端口号
+        hot : true, //启用模块热更新
+        open : true, //服务器启动完成之后在默认浏览器打开index.html
+        proxy:{ //为请求的接口配置代理服务器
+
+        }
+    },
+    resolve:{
+      alias:{ //为复杂的路径配置别名
+        &#39;style&#39;: path.resolve(__dirname, &#39;./src/assets/style&#39;),
+        &#39;@&#39;: path.resolve(__dirname, &#39;./src&#39;),
+      }
+    },   
+}
+</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+      <categories>
+        <category>webpack</category>
+      </categories>
+      <tags>
+        <tag>react</tag>
+        <tag>前端</tag>
+        <tag>webpack</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Promise</title>
+    <url>/2021/07/15/promise/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>就像它的含义一样，它自己的状态和外界是没有关系的</em></strong><br><a id="more"></a></p>
+<h1 id="Promise"><a href="#Promise" class="headerlink" title="Promise"></a>Promise</h1><p>在阮大佬的《ES6入门》中提到，promise就和它的意思一样，承诺了要做什么事情，那就一定会完成，pomise也是一样它有三个状态：pending（进行中）、fulfilled（已成功）和rejected（已失败）。而踏着三种状态之间的转换之和该promise对象中的操作有关，和别的因素无关，promise对象的状态变化很简单，只有两种：1、pending =&gt; rejected   2、 pending =&gt; fulfilled 这中情况的状态转换对应了promise构造函数中传进来的来个默认参数 1、resolve() 2、reject(),下边是个例子：</p>
+<pre><code>let fun = (num) =&gt; new Promise((resolve,reject)=&gt;{
+    if(num%2===0){
+        resolve({type:&#39;偶数&#39;,value:num})
+    }else{
+        reject({type:&#39;奇数&#39;,value:num})
+    }
+})
+
+fun(2).then((data)=&gt;{
+console.log(data);
+},(data)=&gt;{
+console.log(data);
+}) //{type: &quot;偶数&quot;, value: 2} fulfilled 状态
+fun(3).then((data)=&gt;{
+console.log(data);
+},(data)=&gt;{
+console.log(data);
+})//{type: &quot;奇数&quot;, value: 3} rejected状态
+</code></pre><h1 id="异步和Promise"><a href="#异步和Promise" class="headerlink" title="异步和Promise"></a>异步和Promise</h1><p>假设有两个操作a，b  ，而b的操作需要等待a的结果，这时候这种情况就是异步，es5中通过回调来实现这样的功能，要用回调模拟ajax请求的话如下写法：</p>
+<pre><code>function ajax(time,callback){
+    setTimeout(()=&gt;{
+        callback();
+        console.log(&#39;执行结束&#39;);
+    },time)
+}
+console.log(&#39;程序开始&#39;);
+ajax(2000,()=&gt;{
+    console.log(&#39;异步执行&#39;);
+})
+console.log(&#39;程序结束&#39;);
+</code></pre><p>这只是一个简单的测试demo，在真实项目当中可能操作与操作之间会一环套一环，这时候就会陷入前端程序猿们最害怕的回调地狱，当程序出现bug的时候就非常难以调试，在es中promise的出现很大程度上减轻了js异步编程的难度，同样是上边这个例子，用es6 promise写法如下：</p>
+<pre><code>function ajax(time){
+return new Promise((resolve,reject)=&gt;{
+     setTimeout(()=&gt;{
+        resolve();
+        console.log(&#39;执行结束&#39;);
+        //这里只考虑成功的情况
+    },time)
+})
+}
+console.log(&#39;程序开始&#39;);
+ajax(2000).then(()=&gt;{
+    console.log(&#39;程序结束&#39;);
+})
+console.log(&#39;程序结束&#39;);
+</code></pre><p>这两种写法运行结果是一模一样的，但是写法却天差地别，es6 promise杜绝了es5中的那种回调嵌套回调的写法，从代码上来看，和同步编程没什么区别，所以可以理解为用同步的方式来解决异步的问题。</p>
+<h1 id="resolve-和-reject"><a href="#resolve-和-reject" class="headerlink" title="resolve 和 reject"></a>resolve 和 reject</h1><p>pormise的resolve函数和reject函数有可能是带有参数的，在这样的情况下这个参数会传递给then 函数中对应的回调，如下代码所示：</p>
+<pre><code>let pro = new Promise((resolve,reject)=&gt;{
+    setTimeout(()=&gt;{
+        resolve({
+            name : &#39;zyx&#39;,
+            age : 22
+        })
+    })
+})
+
+pro.then(data=&gt;{
+    console.log(data); //{name: &quot;zyx&quot;, age: 22}
+})
+</code></pre><p>有时候resolve和reject的函数可能也是个promise对象那么这两个promise对象的状态之间就会产生联系，看下面这段代码：</p>
+<pre><code>let pro1 = new Promise((resolve,reject)=&gt;{
+    setTimeout(()=&gt;{
+        reject();
+    },2000)
+})
+let pro2 = new Promise((resolve,reject)=&gt;{
+resolve(pro1)
+})
+
+pro2.then(()=&gt;{
+    console.log(&#39;resolve&#39;)
+},()=&gt;{
+    console.log(&#39;reject&#39;)
+})  // reject
+</code></pre><p>上边这段代码中pro2的resolve函数参数是另一个promise对象pro1，这时候pro2的状态就会取决于pro1的状态，可以看到虽然pro2使用resolve函数试图将状态改变为fulfilled，但是后边还是执行了reject的回调。这种情况得注意，否则在真正的项目开发中可能会陷入逻辑上的混乱。</p>
+<p>值得注意的是，调用resolve或者reject并不会终结promise的参数函数的执行：</p>
+<pre><code>let pro = new Promise((resolve,reject)=&gt;{
+    console.log(&#39;start&#39;)
+    setTimeout(()=&gt;resolve(),2000)
+    console.log(&#39;resolve end&#39;)
+})
+pro.then(()=&gt;{
+    console.log(&#39;callback&#39;)
+})
+// start
+// resolve end
+// callback
+</code></pre><p>从这个例子的输出结果中，突然发现了一个现象，就是promise参数函数中的代码会马上执行（同步执行），而异步回调之中的代码则会等待promise对象状态发生改变之后才会执行。</p>
+<script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+      <categories>
+        <category>ES6</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>Javascript</tag>
+        <tag>ES6</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>高阶组件入门</title>
+    <url>/2021/07/18/hoc/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>在React China中的一篇文章说：高阶组件本质上是一个函数，这个函数接受的参数是另一个组件，在函数内部对参数中的组件进行一系列操作之后返回出一个新的组件。以我个人理解就是个经纪公司，专门用来包装组件。</em></strong><br><a id="more"></a><br> 这是一个简单的高阶组件，它的功能是将父组件中的数据进行过滤之后传递给子组件，其中穿插了refs转发的技术点：</p>
+<pre><code>import React from &#39;react&#39;
+/*
+这是一个高阶组件，接受两个参数，第一个参数是要包装的组件，第二个参数为string类型，表示要过滤的数据类型
+*/
+function Hoc(WrapperComponent,type){ 
+    class Hoc extends React.Component{ //首先，要包装这个组件的话需要一个组件来做容器
+        constructor(props){
+            super(props)
+        }
+
+
+        render(){
+
+
+            /*
+                在这里根据函数的第二个参数去处理Hoc组件props中接受的父组件传过来的数据
+            */
+            const {forwardRef,...others} = this.props; //（5）
+            /*对Hoc的props进行解构，拿到ref和其他参数，此时的ref就是在return中的forwardRef函数传递的那个ref*/
+            const otherProps = {...others}
+
+            let newProps = {};
+            for(let key in otherProps){
+                // console.log(typeof otherProps[key])
+                if(typeof otherProps[key] === type){
+                    newProps[key] = otherProps[key]
+                }
+            }//处理之后创建一个新的对象newProps
+            return (
+                &lt;div &gt;
+                    &lt;WrapperComponent {...newProps} ref = {forwardRef} /&gt;//在这里将这个newProps转给函数接受的那个组件参数，将之前解构的ref一并传给它  （6） 最终挂载到参数组件
+                &lt;/div&gt;
+            )
+
+
+        }
+    }
+
+/*
+在这里使用react原型上的函数forwardRef对父组件传递的ref进行转发，否则父组件传递的ref只会挂载到Hoc组件而到不了参数组件，而我们的需求是要挂载到参数组件，forwardRef函数回调中第一个参数为父组件传递的值，第二个参数为父组件传递的那个ref
+*/
+    return React.forwardRef((props,ref)=&gt;{ //（3）
+        return &lt;Hoc {...props} forwardRef = {ref} /&gt; // （4）
+    });
+}
+
+
+class Loc extends React.Component{
+
+
+    render(){
+        return (
+            &lt;div&gt;
+                Loc
+            &lt;/div&gt;
+        )
+    }
+}
+const HocComp = Hoc(Loc,&#39;string&#39;);
+
+
+
+
+class Foc extends React.Component{
+    constructor(props){
+        super(props);
+        this.ref = React.createRef(); //创建一个ref  （1）
+    }
+    componentDidMount(){
+        console.log(this.ref.current.props)
+        console.log(this.ref.current)
+    }
+
+
+    render(){
+
+        return (
+            &lt;div&gt;
+            //在这里将创建好的ref作为ref传递给子组件HocComp
+                &lt;HocComp v1 = &#39;231&#39; v2 = {123} v3 = {{a:1}} ref ={this.ref} /&gt; // （2）
+            &lt;/div&gt;
+        )
+    }
+}
+export default Foc
+
+
+</code></pre><p>以上代码中，父组件中React.createRef()方法创建的ref对象的流向用数字表示。</p>
+<script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+      <categories>
+        <category>React</category>
+      </categories>
+      <tags>
+        <tag>react</tag>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>git入门</title>
+    <url>/2021/07/11/git/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>上班第一天，终于强迫自己学会了git的基本应用</em></strong><br><a id="more"></a></p>
+<h1 id="git"><a href="#git" class="headerlink" title="git"></a>git</h1><p>什么是git？</p>
+<p>git就是全球最好用的一个版本控制工具，一种分布式的版本控制工具。</p>
+<h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><p><code>git clone [url]</code> //克隆远程仓库代码</p>
+<p> <code>git add</code> //将想要快照的内容写入缓存区</p>
+<p> <code>git status</code> //绿色文件表示添加到缓存区的文件有改动；红色表示添加到缓存区的文件没有改动</p>
+<p> <code>git commit -m</code> //‘第一次版本提交’ -m选项添加备注信息</p>
+<p> <code>git clone url</code> //使用 git clone 拷贝一个 Git 仓库到本地</p>
+<p><code>git diff</code>  //尚未缓存的改动</p>
+<p><code>git diff --cached</code>　//查看已缓存的改动</p>
+<p><code>git diff HEAD</code>  //查看已缓存的与未缓存的所有改动</p>
+<p> <code>diff git diff --stat</code>　　//显示摘要而非整个</p>
+<p><code>git commit -a</code>  //跳过git add 提交缓存的流程 </p>
+<p><code>git reset HEAD</code>  //用于取消已缓存的内容</p>
+<p><code>git rm file</code><br>　　//git rm 会将条目从缓存区中移除。这与 git reset HEAD 将条目取消缓存是有区别的。<br>　　“取消缓存”的意思就是将缓存区恢复为我们做出修改之前的样子。<br>　　默认情况下，git rm file 会将文件从缓存区和你的硬盘中（工作目录）删除。</p>
+<p><code>git mv</code>   //重命名磁盘上的文件 如 git mv README README.md</p>
+<p><code>git push -u origin master</code> //提交代码</p>
+<h2 id="git分支"><a href="#git分支" class="headerlink" title="git分支"></a>git分支</h2><p>git-flow主要有5中分支：master、hotfix、release、develop、feature<br><img src="https://upload-images.jianshu.io/upload_images/1416338-2b5d1a64e15419d7.png" alt="git-flow分支图" title="git-flow分支图"></p>
+<p>feature分支开始于develop分支，完成以后合并到develop分支。<br>当完成一定数量feature分支以后，从develop再开一个release分支出来，这些特性将被更行到下一个发布的版本中，之后的feature将不会被合并到release中。<br>之后在release分支中，只修改bug，然后完成release分支。完成release分支会完成以下三个操作：1、合并release分支到master；2、给master打上版本的标签；3、release回归到develop分支。<br>当发现master上有bug时，开一个hotfix，完成后合并到master分支。<br><a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank" rel="noopener">Gitflow Workflow文档</a></p>
+<h3 id="分支常用命令"><a href="#分支常用命令" class="headerlink" title="分支常用命令"></a>分支常用命令</h3><p> <code>git checkout [分支名]</code>//切换到指定分支</p>
+<p> <code>git branch [分支名]</code> //创建分支命令</p>
+<p> <code>git branch [分支名]</code> //列出分支</p>
+<p> <code>git checkout [分支名]</code> //切换分支命令</p>
+<p> <code>git merge [分支名]</code> //合并分支</p>
+<p> <code>git checkout -b [分支名]</code> //创建新分支并立即切换到该分支下</p>
+<p> <code>git branch -d [分支名]</code> //删除分支命令 </p>
+<p><strong><em>ps:状态 uu 表示冲突未解决 可以用 git add 要告诉 Git 文件冲突已经解决</em></strong></p>
+<h2 id="查看提交日志"><a href="#查看提交日志" class="headerlink" title="查看提交日志"></a>查看提交日志</h2><p><code>git log</code> //命令列出历史提交记录</p>
+<p><code>git log -n</code> //命令列出历史提交记录前三条</p>
+<p><code>git log --oneline</code> //查看历史记录的简洁的版本</p>
+<p><code>git log --oneline --graph</code> //查看历史中什么时候出现了分支、合并</p>
+<h2 id="提交本地修改"><a href="#提交本地修改" class="headerlink" title="提交本地修改"></a>提交本地修改</h2><p> <code>git commit -m [修改信息]</code></p>
+<h2 id="拉取远程仓库代码"><a href="#拉取远程仓库代码" class="headerlink" title="拉取远程仓库代码"></a>拉取远程仓库代码</h2><p> <code>git pull</code> //从远端仓库提取数据并尝试合并到当前分支</p>
+<p> <code>git fetch</code> //从远程仓库下载新分支与数据</p>
+<h2 id="版本回滚"><a href="#版本回滚" class="headerlink" title="版本回滚"></a>版本回滚</h2><p> <code>git log -n</code>  //查看最近n条提交日志</p>
+<p> <code>git reset -hard [版本标识]</code> //回滚到指定版本</p>
+<p> <code>git push -f origin matser</code>  //强制提交</p>
+<h2 id="忽略文件"><a href="#忽略文件" class="headerlink" title="忽略文件"></a>忽略文件</h2><ul>
+<li>.gitignore 文件是git的一套忽略规则，对该文件所在目录以及所在目录子目录都有效，该文件一般格式为：<pre><code># 以&#39;#&#39;开始的行，被视为注释.                            
+# 忽略掉所有文件名是 foo.txt的文件.
+foo.txt
+# 忽略所有生成的 html文件,
+*.html
+# foo.html是手工维护的，所以例外.
+!foo.html
+# 忽略所有.o和 .a文件.
+*.[oa]
+配置语法：
+# 以斜杠“/”开头表示目录；
+# 以星号“*”通配多个字符；
+# 以问号“?”通配单个字符
+以方括号“[]”包含单个字符的匹配列表；
+以叹号“!”表示不忽略(跟踪)匹配到的文件或目录；
+</code></pre></li>
+</ul>
+<p>这里需要注意的是，该文件必须在第一次推代码的时候就创建，如果你不慎在创建.gitignore文件之前就push了项目，那么即使你在.gitignore文件中写入新的过滤规则，这些规则也不会起作用，Git仍然会对所有文件进行版本管理。<br>简单来说，出现这种问题的原因就是Git已经开始管理这些文件了，所以你无法再通过过滤规则过滤它们。因此一定要养成在项目开始就创建.gitignore文件的习惯，否则一旦push，处理起来会非常麻烦。<br>那么，如果在.gitignore文件创建之后需要忽略某个文件该怎么办？这里还有一种命令忽略的方式。  </p>
+<ul>
+<li><p>.gitignore只能忽略那些原来没有被track的文件，如果某些文件已经被纳入了版本管理中，则修改.gitignore是无效的。正确的做法是在每个clone下来的仓库中手动设置不要检查特定文件的更改情况。命令为：</p>
+<pre><code>git update-index --assume-unchanged &lt;filename&gt; 
+</code></pre><p>如果要还原的话，使用命令：</p>
+<pre><code>git update-index --no-assume-unchanged &lt;filename&gt;
+</code></pre></li>
+<li><p>使用.git/info/exclude<br>git 还提供了另一种 exclude 的方式来做同样的事情，不同的是 .gitignore 这个文件本身会提交到版本库中去。用来保存的是公共的需要排除的文件。而 .git/info/exclude 这里设置的则是你自己本地需要排除的文件。 他不会影响到其他人。也不会提交到版本库中去。<br>举例：</p>
+<pre><code># git ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with &#39;#&#39; are comments.
+# For a project mostly in C, the following would be a good set of
+# exclude patterns (uncomment them if you want to use them):
+# *.[oa]
+# *~
+.gradle/
+.idea/
+.settings/
+appcompat_v7/
+bin/
+build/
+gen/
+gradle/
+out/
+proguard/
+ship/
+target/
+.classpath
+.gitignore
+.idea
+.project
+.readme
+.update-config
+*.iml
+local.properties
+</code></pre><p>.gitignore 还有个有意思的小功能， 一个空的 .gitignore 文件 可以当作是一个 placeholder 。当你需要为项目创建一个空的 log 目录时， 这就变的很有用。 你可以创建一个 log 目录 在里面放置一个空的 .gitignore 文件。这样当你 clone 这个 repo 的时候 git 会自动的创建好一个空的 log 目录了。</p>
+</li>
+</ul>
+<h2 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h2><p>为软件发布创建标签是推荐的。这个概念早已存在，在 SVN 中也有。你可以执行如下命令创建一个叫做 1.0.0 的标签：<br><code>git tag 1.0.0 1b2e1d63ff</code><br>1b2e1d63ff 是你想要标记的提交 ID 的前 10 位字符。可以使用下列命令获取提交 ID：<br>git log<br>你也可以使用少一点的提交 ID 前几位，只要它的指向具有唯一性</p>
+<script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+      <categories>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+        <tag>版本控制</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>react基础</title>
+    <url>/2021/07/17/react01/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>现在项目中使用的基本都是JSX语法，所以在这篇笔记里都用这样的写法</em></strong></p>
+<a id="more"></a>
+<h1 id="react"><a href="#react" class="headerlink" title="react"></a>react</h1><p>现在项目中使用的基本都是JSX语法，所以在这篇笔记里都用这样的写法</p>
+<h2 id="JSX语法"><a href="#JSX语法" class="headerlink" title="JSX语法"></a>JSX语法</h2><p>Jsx 用来声明 react 中的元素</p>
+<pre><code>const element = &lt;h1&gt;hi~ react&lt;/h1&gt;
+
+</code></pre><p>可以在jsx 当中使用 js 表达式</p>
+<pre><code>function getDisplayName(givenName, familyName){
+    return givenName + familyName
+}
+
+const element = &lt;h1&gt;{ getDisplayName(’nena’, ’wan&#39;)}&lt;/h1&gt;
+</code></pre><p>可以定义以字符串为值的属性、以 js 表达式为值的属性</p>
+<pre><code>import imageUrl from ‘../asset/image.png&#39; 
+
+const element = &lt;img alt=“img” src={imageUrl} className=“imgEle&quot;/&gt; 
+</code></pre><h2 id="react-基础语法"><a href="#react-基础语法" class="headerlink" title="react 基础语法"></a>react 基础语法</h2><pre><code>HellowWorld.js
+import React from &#39;react&#39;;
+
+class HellowWorld extends React.component{
+    constructor(props){
+        super(props);
+    }
+
+    render(){
+
+        return (
+            &lt;div&gt;HellowWorld&lt;/div&gt;
+        )
+    }
+}
+
+export default HellowWorld;
+</code></pre><p>这是一个标准的react组件，在react中约定：组件必须为大写字母开头并且使用驼峰式命名，组件名和文件名必须保持一致。</p>
+<h2 id="react渲染"><a href="#react渲染" class="headerlink" title="react渲染"></a>react渲染</h2><p>一般渲染顶部的元素，我们使用 ReactDom.render()</p>
+<pre><code>function tick(){ 
+  const element = ( 
+   &lt;div&gt; 
+     &lt;h1&gt;time&lt;/h1&gt; 
+     &lt;p&gt;{new Date().toLocaleTimeString()}&lt;/p&gt; 
+   &lt;/div&gt; 
+  ) 
+  ReactDom.render( 
+  element, 
+  document.getELementById(‘root&#39;) 
+  ) 
+} 
+
+</code></pre><p>但是通常情况下，react 的项目，这种渲染方式只是用于最顶部的元素渲染，下面的子元素我们一般使用其他的方法，react 留给我们状态和属性变化时，相关组件即刻渲染的机制，以供我们保持数据和页面显示状态的同步。</p>
+<h2 id="React组件-amp-props"><a href="#React组件-amp-props" class="headerlink" title="React组件&amp;props"></a>React组件&amp;props</h2><p>React 组件：相当于一个函数，可从外界获取参数，由组件中 props 接收，并最终返回一个可在页面上进行渲染的 react 元素。<br>定义组件的方法有两种：  </p>
+<h3 id="函数式定义"><a href="#函数式定义" class="headerlink" title="函数式定义:"></a>函数式定义:</h3><pre><code>function Welcome(props){ 
+  return &lt;h1&gt;hello, { props.name }&lt;/h1&gt; 
+} 
+
+</code></pre><h3 id="Es6-类定义"><a href="#Es6-类定义" class="headerlink" title="Es6  类定义"></a>Es6  类定义</h3><pre><code>class Welcome extends React.Component { 
+  render(){ 
+     return &lt;h1&gt;{this.props.name}&lt;/h1&gt; 
+  } 
+} 
+</code></pre><h2 id="state"><a href="#state" class="headerlink" title="state"></a>state</h2><p>state为一个组件的内部状态，实际上它是一个对象，内部属性由我们决定。<br>除了调用 ReactDom.render() 方法来渲染 react 元素以外，可以更新一个组件的内部 state 值，以此来对组件进行一次重新渲染。</p>
+<pre><code>class Add extends React.Component{
+   constructor(props){
+      super(props);
+      this.state = {
+        number: 0,
+      }
+   } 
+   add = () =&gt; {
+      const currentNumber = this.state.number;
+      this.setState({
+        number: currentNumber + 1,
+      })
+   }
+   render() {
+      return(
+        &lt;div&gt;
+          &lt;h1&gt;the current number is: { this.state.number }&lt;/h1&gt;
+          &lt;button onClick={this.add}&gt; 加1 &lt;/button&gt;
+        &lt;/div&gt;
+      )
+   }
+}
+</code></pre><p>状态的合并为浅合并:</p>
+<pre><code>   This.state = { 
+      number: 0, 
+      visitable: false, 
+   } 
+   … 
+   this.setState({ 
+      number: 1 
+   }) 
+
+   // state: { number: 1, visitable: false}
+</code></pre><p>react 数据流为自上而下，父级并不关心也不知道子级是否有状态，状态为什么值等。</p>
+<p><strong><em>使用state的时候要注意的点：</em></strong><br>1.不要直接修改 state 中的值，那样不会重新进行渲染，必须要使用 setState</p>
+<pre><code>add = () =&gt; {     
+   const currentNumber = this.state.number;
+   this.state.number = currentNumber + 1;
+}   // 错误
+</code></pre><p>2.不要利用前一个 state 中变化的值马上去修改后一个 state 的值，因为 setState 是异步的，不能确定什么时候更新成功。</p>
+<pre><code>add = () =&gt; { 
+   this.setState(function(prev){ 
+       return { 
+           number: prev.number + 1 
+       } 
+   }) 
+} 
+</code></pre><p>3.由于异步的关系，如果一个操作必须要在一个 setState 之后进行的话。可以使用回调函数</p>
+<pre><code>add = () =&gt; { 
+   this.setState(function(prev){ 
+       return {
+           number: prev.number + 1
+       }
+   }, function(){   // to do something...  }) 
+} 
+</code></pre><h2 id="组件生命周期"><a href="#组件生命周期" class="headerlink" title="组件生命周期"></a>组件生命周期</h2><p>组件生命周期各周期钩子继承自 React.Component</p>
+<h3 id="当组件实例被创建及被插入dom时依次调用"><a href="#当组件实例被创建及被插入dom时依次调用" class="headerlink" title="当组件实例被创建及被插入dom时依次调用"></a>当组件实例被创建及被插入dom时依次调用</h3><pre><code>constructor() 
+componentWillMount()
+render()
+componentDidMount()
+</code></pre><h3 id="当传入属性变化或者状态变化，组件要被重新渲染时依次调用"><a href="#当传入属性变化或者状态变化，组件要被重新渲染时依次调用" class="headerlink" title="当传入属性变化或者状态变化，组件要被重新渲染时依次调用"></a>当传入属性变化或者状态变化，组件要被重新渲染时依次调用</h3><pre><code>componentWillReceiveProps() 
+shouldComponentUpdate() 
+componentWillUpdate() 
+render() 
+componentDidUpdate() 
+</code></pre><h3 id="当一个组件从-Dom-中即将被卸载时调用"><a href="#当一个组件从-Dom-中即将被卸载时调用" class="headerlink" title="当一个组件从 Dom 中即将被卸载时调用"></a>当一个组件从 Dom 中即将被卸载时调用</h3><pre><code>componentWillUnmount()
+</code></pre><h3 id="各周期特点及一般性使用"><a href="#各周期特点及一般性使用" class="headerlink" title="各周期特点及一般性使用:"></a>各周期特点及一般性使用:</h3><pre><code>constructor()
+</code></pre><p>构造函数，一般在其中 进行初始化 state，继承 props</p>
+<pre><code>componentWillMount()
+
+</code></pre><p>在 render 之前调用，因此在这里进行 setState 操作并不会触发渲染，没有意义。<br>这个钩子在一般的前端项目中不常使用，但在服务端渲染项目中会被调用。</p>
+<pre><code>render()
+
+</code></pre><p>根据最新的 props 和 state 进行渲染</p>
+<pre><code>componentDidMount()
+</code></pre><p>在 render之后调用，可以在这里进行查询数据操作，或者对渲染好的页面进行 dom操作。</p>
+<pre><code>componentWillReceiveProps(nextProps)
+</code></pre><p>在 props 即将发生变化前调用，nextProps 为新的 props, 可以通过与 this.props<br> 做比较，进而更新某些依赖 props 而发生改变的 state</p>
+<pre><code> shouldComponentUpdate( nextProps, nextState)
+</code></pre><p> 当属性或者状态改变时调用，默认返回 true, 即进行渲染，如果返回 false，则不进行渲染。  后续在属性改变<br>时期触发的生命周期都不再调用。注意在初始化组件及使用forceUpdate()时不会调用。</p>
+<pre><code>componentWillUpdate(nextProps, nextState)
+</code></pre><p>在上一步如果返回了 true, 则继续调用。</p>
+<pre><code>render()
+</code></pre><p>进行渲染</p>
+<pre><code>componentDidUpdate(prevProps, prevState)
+</code></pre><p>在这里对比之前和已经更改的 props 及 state,  进行 dom 操作或者发送请求。</p>
+<pre><code>componentWillUnmount()
+</code></pre><p>在组件被销毁和卸载前调用，在此清理组件的一些定时器，网络请求等。</p>
+<h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p> 与vue基本一样，一般形式如下</p>
+<pre><code> handleClick(){
+     .....
+ }
+ &lt;button onClick={(e)=&gt;{this.handleClick(e)}}&gt;add&lt;/button&gt;
+</code></pre><h2 id="条件渲染和列表渲染"><a href="#条件渲染和列表渲染" class="headerlink" title="条件渲染和列表渲染"></a>条件渲染和列表渲染</h2><h3 id="条件渲染"><a href="#条件渲染" class="headerlink" title="条件渲染"></a>条件渲染</h3><pre><code> this.state = {
+  showNameFlag: false,
+  name: ’nena wan&#39;
+}
+...
+
+render() { 
+  const showNameFlag = this.state.showNameFlag; 
+  const name = this.state.name; 
+  return ( 
+     &lt;div&gt; 
+        &lt;h1&gt;Hello ~&lt;/h1&gt; 
+        { 
+            showNameFlag ? (&lt;p&gt;{name}&lt;/p&gt;) : null 
+        } 
+     &lt;/div&gt; 
+  ) 
+} 
+</code></pre><h3 id="列表渲染"><a href="#列表渲染" class="headerlink" title="列表渲染"></a>列表渲染</h3><pre><code>this.state = { 
+   list = [ 
+       { id: 1, name: ‘apple’, meaning: ‘苹果&#39; } 
+       { id: 2, name: ‘pear’, meaning: ‘梨&#39; }, 
+       { id: 3, name: ‘peach’, meaning: ’桃子&#39; } 
+   ], 
+} 
+...
+render() {
+  const list = this.state.list;
+  return (
+     &lt;div&gt;
+        &lt;h1&gt;Hello ~&lt;/h1&gt;
+        {
+            list.map(function(item, index){
+                Return (
+                  &lt;div key={item.id.toString()}&gt;
+                     &lt;h1&gt;{item.name} / {item.meaning}&lt;/h1&gt;
+                  &lt;/div&gt;
+                )
+            })
+        }
+     &lt;/div&gt;
+  )
+}
+</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+      <categories>
+        <category>React</category>
+      </categories>
+      <tags>
+        <tag>react</tag>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>react中的ref和content</title>
+    <url>/2021/07/17/reactref/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>一般的 react 数据流中，父级与子级是通过 props 进行 “沟通”， 如果要子级发生改变，父级可以改变传入的 props。但是有时，需要强制修改子级，这种情况下需要用到 ref</em></strong><br><a id="more"></a></p>
+<h1 id="一般使用-ref-的场景"><a href="#一般使用-ref-的场景" class="headerlink" title="一般使用 ref 的场景:"></a>一般使用 ref 的场景:</h1><h2 id="1-处理焦点，文本选择，-媒体控制"><a href="#1-处理焦点，文本选择，-媒体控制" class="headerlink" title="1.处理焦点，文本选择， 媒体控制"></a>1.处理焦点，文本选择， 媒体控制</h2><h2 id="2-触发强制动画"><a href="#2-触发强制动画" class="headerlink" title="2.触发强制动画"></a>2.触发强制动画</h2><h2 id="3-集成第三方-dom-库"><a href="#3-集成第三方-dom-库" class="headerlink" title="3.集成第三方 dom 库"></a>3.集成第三方 dom 库</h2><pre><code>class AutoFocusTextInput extends React.Component {
+  componentDidMount() {
+    this.textInput.focusTextInput();
+  }
+  render() {
+    return (
+      &lt;CustomTextInput
+        ref={(input) =&gt; { this.textInput = input; }} /&gt;
+    );
+  }
+}
+</code></pre><pre><code>class CustomTextInput extends React.Component {
+  constructor(props) {
+    super(props);
+    this.focus = this.focus.bind(this);
+  }
+
+  focus() {
+    // 直接使用原生 API 使 text 输入框获得焦点
+    this.textInput.focus();
+  }
+
+  render() {
+    // 使用 `ref` 的回调将 text 输入框的 DOM 节点存储到 React
+    // 实例上（比如 this.textInput）
+    return (
+      &lt;div&gt;
+        &lt;input
+          type=&quot;text&quot;
+          ref={(input) =&gt; { this.textInput = input; }} /&gt;
+        &lt;input
+          type=&quot;button&quot;
+          value=&quot;Focus the text input&quot;
+          onClick={this.focus}
+        /&gt;
+      &lt;/div&gt;
+    );
+  }
+}
+</code></pre><h1 id="content"><a href="#content" class="headerlink" title="content"></a>content</h1><p>在 react 中，数据以自上到下的方向传递，如果一个数据在最顶层，而最底层的组件需要用到这个数据，那么数据需要传递很多层才能到达最底层。这种操作会异常麻烦。</p>
+<p>context 可以解决这个问题</p>
+<pre><code>//定义一个全局context
+import React from &#39;react&#39;
+const GlobalContext = React.createContext()
+export default GlobalContext
+//父组件中provider
+&lt;GlobalContext.Provider value={value}&gt;
+&lt;Content /&gt;
+&lt;/GlobalContext.Provider&gt;
+// 子组件
+&lt;GlobalContext.Consumer&gt;
+{value =&gt; &lt;button&gt;test-{value}&lt;/button&gt;}
+&lt;/GlobalContext.Consumer&gt;
+
+</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+      <categories>
+        <category>React</category>
+      </categories>
+      <tags>
+        <tag>react</tag>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>less</title>
+    <url>/2021/07/26/less/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>css预处理器用一种专门的编程语言，为css增加一些编程语言的特性，例如在css中使用变量、简单的逻辑程序、函数等等。而且还能让css可读性更佳，代码更易于维护。</em></strong></p>
+<a id="more"></a>
+<h2 id="css"><a href="#css" class="headerlink" title="css"></a>css</h2><p>css不是编程语言，它没有变量，函数，条件语句等语法，只是一群简单的属性描述，代码不利于维护和扩展。</p>
+<h2 id="css预处理器"><a href="#css预处理器" class="headerlink" title="css预处理器"></a>css预处理器</h2><p>css预处理器用一种专门的编程语言，为css增加一些编程语言的特性，例如在css中使用变量、简单的逻辑程序、函数等等。而且还能让css可读性更佳，代码更易于维护。</p>
+<h2 id="常用的css预处理器"><a href="#常用的css预处理器" class="headerlink" title="常用的css预处理器"></a>常用的css预处理器</h2><p> 最好用的两个，sass和less。</p>
+<h2 id="less的使用"><a href="#less的使用" class="headerlink" title="less的使用"></a>less的使用</h2><ul>
+<li><p>安装</p>
+<pre><code>npm i less-loader less --save-dev
+</code></pre></li>
+<li><p>在webpack中配置</p>
+</li>
+</ul>
+<pre><code>{
+    test : /\.less$/,
+    user : [{
+        loader : &#39;style-loader&#39;
+    },]
+    user : [{
+        loader : &#39;css-loader&#39;
+    },]
+    user : [{
+        loader : &#39;less-loader&#39;
+    },]
+}
+</code></pre><ul>
+<li>新建后缀为.less的文件，然后在页面中引用：<pre><code>import &#39;./style/index.less
+</code></pre><h2 id="less的语法"><a href="#less的语法" class="headerlink" title="less的语法"></a>less的语法</h2></li>
+<li>变量：<br>使用@+变量名的方式定义变量，使用变量时在变量名前加@<pre><code>@size : 20px;
+.box{
+  font-size : @siza
+}
+</code></pre></li>
+<li>混合:<br>将一些通用的属性集合用class封装起来，然后在另一个class中去引用这个class下的所有属性。当然，除了class，id属性集也可以以相同的方式引用。<pre><code>.cla1{
+  color:red;
+}
+.cla2{
+  .cla1;
+}
+</code></pre></li>
+<li>带参数混合:<br>在less中，你还可以像函数一样定义一个带参数的属性集合<pre><code>.clas(@color){
+  color:@color;
+}
+.box{
+  .cla(&#39;red&#39;)
+}
+</code></pre>@arguments变量，包含了所有传进来的参数，如果你不想单独处理每一个参数的话可以像这样写：<pre><code>.box(@x:0,@y:0,@color){
+   width:@arguments;
+   height :@arguments;
+   color : @arguments;
+}
+</code></pre></li>
+<li>嵌套:<br>为了让css代码简洁清晰，易维护，现在less允许我们以嵌套的方式编写层叠样式，子元素样式可以直接嵌套在父元素样式中：</li>
+</ul>
+<pre><code>.box{
+
+    .smallbox{
+
+    }
+}
+</code></pre><ul>
+<li>运算:<br>在less中，任何数字、颜色或者变量都可以参与运算。</li>
+</ul>
+<pre><code>@basewidth:20px;
+.cl{
+    width : @basewidth*2;
+}
+</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+      <categories>
+        <category>css</category>
+      </categories>
+      <tags>
+        <tag>css</tag>
+        <tag>less</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>reactform</title>
+    <url>/2021/07/17/reactform/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>react表单</em></strong><br><a id="more"></a></p>
+<h1 id="react表单中的组件根据实现方式可以分为两种："><a href="#react表单中的组件根据实现方式可以分为两种：" class="headerlink" title="react表单中的组件根据实现方式可以分为两种："></a>react表单中的组件根据实现方式可以分为两种：</h1><h2 id="1-受控组件："><a href="#1-受控组件：" class="headerlink" title="1.受控组件："></a>1.受控组件：</h2><p>相当于将表单的值与 state 状态双向绑定，实际上state 到表单 是变化重新渲染表单，表单到 state，则通过对表单元素绑定 change 方法，在其中将表单的 value 赋给state 的过程。这个过程需要自己手动去完成，而不同于react的vue则是通过一个指令进行数据的双向绑定。</p>
+<pre><code>class NameForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {value: &#39;&#39;};
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+  handleChange(event) {
+    this.setState({value: event.target.value});
+  }
+  handleSubmit(event) {
+    alert(&#39;A name was submitted: &#39; + this.state.value);
+    event.preventDefault();
+  }
+  render() {
+    return (
+      &lt;form onSubmit={this.handleSubmit}&gt;
+        &lt;label&gt;
+          Name:
+          &lt;input type=&quot;text&quot; value={this.state.value} onChange={this.handleChange} /&gt;
+        &lt;/label&gt;
+        &lt;input type=&quot;submit&quot; value=&quot;Submit&quot; /&gt;
+      &lt;/form&gt;
+    );
+  }
+}
+</code></pre><h2 id="2-非受控组件"><a href="#2-非受控组件" class="headerlink" title="2.非受控组件"></a>2.非受控组件</h2><p>由于受控组件每一个都要写一个对应的触发事件，如果项目中是到中后期才引入的 react，那么改动将会很大，所以可以使用非受控组件。<br>非受控组件还是和之前操作 dom 拿到表单元素的值的方式很像。</p>
+<pre><code>class NameForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+  handleSubmit(event) {
+    alert(&#39;A name was submitted: &#39; + this.input.value);
+    event.preventDefault();
+  }
+
+  render() {
+    return (
+      &lt;form onSubmit={this.handleSubmit}&gt;
+        &lt;label&gt;
+          Name:
+          &lt;input type=&quot;text&quot; ref={(input) =&gt; this.input = input} /&gt;
+        &lt;/label&gt;
+        &lt;input type=&quot;submit&quot; value=&quot;Submit&quot; /&gt;
+      &lt;/form&gt;
+    );
+  }
+}
+</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+      <categories>
+        <category>React</category>
+      </categories>
+      <tags>
+        <tag>react</tag>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>鹏哥的webpack笔记</title>
+    <url>/2021/07/25/webpacksimple/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong><em>鹏哥是本人react和webpack入门的领路人</em></strong></p>
+<a id="more"></a>
+<h1 id="什么是webpack？"><a href="#什么是webpack？" class="headerlink" title="什么是webpack？"></a>什么是webpack？</h1><p>据个人理解，webpack就是一个组织工具，它可以根据一些配置，组织一个前端项目，让开发者可以使用一些浏览器不支持的技术，比如模板技术（vue，react），es6语法，less，sass方便开发。</p>
+<h1 id="webpack主要完成的工作"><a href="#webpack主要完成的工作" class="headerlink" title="webpack主要完成的工作"></a>webpack主要完成的工作</h1><p> webpack主要为前端开发者提供一些服务：</p>
+<ul>
+<li>本地开发环境热更新服务。这个服务提供一个本地服务器，可以实时的看到我们对项目代码的修改在页面上的体现，相当于vscode对markdown文件的预览一样。</li>
+<li>代理服务。目前的项目基本都是前后端分离开发，前端一个服务器，后端一个服务器，这时候就会产生跨域的问题，这个服务就是为了解决跨域的问题，提供了请求转发的服务。</li>
+<li>编译服务。目前浏览器对es6，sass，less的支持并不是很好，跟别说vue，react这样的框架了，这就像抗日战争的时候，小日本帝国来我们大中国需要找一个翻译官来负责翻译一样，这些文件也需要一个翻译官，来将他们翻译成浏览器能看得懂的代码，webpack就提供了这样的翻译服务。</li>
+<li>压缩打包服务。这个服务顾名思义，它的作用就是打包了，打包的同时它还可以有效的压缩文件。</li>
+</ul>
+<h1 id="这些服务具体是在构建中的哪个环节被处理？"><a href="#这些服务具体是在构建中的哪个环节被处理？" class="headerlink" title="这些服务具体是在构建中的哪个环节被处理？"></a>这些服务具体是在构建中的哪个环节被处理？</h1><ul>
+<li>如果与输入相关的需求，找entry（比如多页面就有多个入口）</li>
+<li>如果与输出相关的需求，找output（比如你需要定义输出文件的路径、名字等等）</li>
+<li>如果与模块寻址相关的需求，找resolve（比如定义别名alias）</li>
+<li>如果与转译相关的需求，找loader（比如处理sass处理es678N）</li>
+<li>如果与构建流程相关的需求，找plugin（比如我需要在打包完成后，将打包好的文件复制到某个目录，然后提交到git上）</li>
+</ul>
+<p>由此看来，我们的webpack配置可以按需配置，就是用到什么配置什么。</p>
+<h1 id="基本配置"><a href="#基本配置" class="headerlink" title="基本配置"></a>基本配置</h1><h2 id="webpack-安装"><a href="#webpack-安装" class="headerlink" title="webpack 安装"></a>webpack 安装</h2><ul>
+<li>yarn add webpcak webpack-cli //安装 webpack4.X 还需要一个需要 webpack-cli</li>
+<li>webpack.config.js</li>
+<li>npx webpack 局部执行 webpack，解决了多版本 webpack 共存</li>
+</ul>
+<h2 id="webpack-config-js"><a href="#webpack-config-js" class="headerlink" title="webpack.config.js"></a>webpack.config.js</h2><h4 id="文件输出配置"><a href="#文件输出配置" class="headerlink" title="文件输出配置"></a>文件输出配置</h4><pre><code>npx webpack --config webpack.config.js //可以更换默认配置文件
+</code></pre><pre><code>const path =require(&#39;path&#39;); //引入path模块
+path.resolve(__dirname,&#39;dist&#39;); //__dirname根目录，配置绝对路径 输出文件目录
+</code></pre><pre><code>mode: &#39;development&#39;,//设置环境&#39;production&#39;/&#39;development&#39;
+devtool: &#39;source-map&#39;, // 源码映射直接显示源码错误位置
+// build=&gt; &#39;source-map&#39;打包速度-- 生成app.js.map映射文件 &#39;inline-source-map&#39; 以dataurl的方式直接写在app.js
+</code></pre><pre><code>&quot;scripts&quot;: {
+    &quot;build&quot;: &quot;webpack&quot; //优先执行工程下webpack版本，类似npx
+  },
+</code></pre><h4 id="模块配置"><a href="#模块配置" class="headerlink" title="模块配置"></a>模块配置</h4><pre><code>module:{
+  rules:[
+    {},{},{} //处理不同类型文件
+  ]
+}
+</code></pre><h4 id="核心文件配置"><a href="#核心文件配置" class="headerlink" title="核心文件配置"></a>核心文件配置</h4><ol>
+<li>处理图片或字体</li>
+</ol>
+<ul>
+<li>安装 file-loader<pre><code>npm install --save-dev file-loader
+</code></pre></li>
+<li>配置<pre><code>module: {
+    rules: [
+      {
+        test: /\.(eot|ttf|svg)$/,
+        use: [
+          {
+            loader: &#39;file-loader&#39;,
+            options: {
+              name: &#39;static/[name].[ext]&#39;,// 自定义文件name
+            }
+          }
+        ]
+      }
+    ]
+  }
+</code></pre></li>
+<li>安装 url-loader<pre><code>npm install url-loader --save-dev
+</code></pre></li>
+<li>配置(默认转换成 base64 形式打包到 js 中)<pre><code>rules: [
+  {
+    test: /\.(png|jpg|gif)$/i,
+    use: [
+      {
+        loader: &#39;url-loader&#39;,
+        options: {
+          limit: 8192 //设置大小(b)，超出则打包成图片文件，没超过就转换成base64字符串加载到js中
+        }
+      }
+    ]
+  }
+]
+</code></pre></li>
+</ul>
+<ol start="2">
+<li>处理 vue 文件</li>
+</ol>
+<ul>
+<li>安装–将 vue-loader 和 vue-template-compiler 一起安装<pre><code>npm install -D vue-loader vue-template-compiler
+</code></pre></li>
+<li>配置<pre><code>module: {
+  rules: [
+    {
+      test: /\.vue$/,
+      use: [&#39;vue-loader&#39;]
+    }
+  ]
+},
+plugins: [
+  // 请确保引入这个插件！
+  new VueLoaderPlugin()
+]
+</code></pre></li>
+</ul>
+<ol start="3">
+<li>处理 css 文件</li>
+</ol>
+<ul>
+<li>安装<pre><code>yarn add style-loader css-loader -D
+</code></pre></li>
+<li>配置<pre><code>{
+  test: /\.css$/,
+  use: [
+    {
+    loader: &#39;css-loader&#39;,
+    options: {
+      modules: true, // 开启 css-module
+    }
+  ]
+</code></pre></li>
+</ul>
+<ol start="4">
+<li>处理 less 文件</li>
+</ol>
+<ul>
+<li>安装<pre><code>yarn add less-loader less -D
+</code></pre></li>
+<li>配置<pre><code>{
+  test: /\.less$/,
+  use: [&#39;style-loader&#39;, &#39;css-loader&#39;, &#39;less-loader&#39;] // loader执行顺序是从下到上，从左到右
+}
+</code></pre></li>
+</ul>
+<ol start="5">
+<li>处理 sass 文件</li>
+</ol>
+<ul>
+<li>安装<pre><code>yarn add sass-loader node-sass -D
+</code></pre></li>
+<li>配置<pre><code>{
+  test: /\.scss$/,
+  use: [&#39;style-loader&#39;, &#39;css-loader&#39;, &#39;sass-loader&#39;] // loader执行顺序是从下到上，从左到右
+},
+</code></pre></li>
+</ul>
+<ol start="6">
+<li>抽离 css</li>
+</ol>
+<pre><code>const ExtractTextPlugin = require(&quot;extract-text-webpack-plugin&quot;);
+{//配置css
+      test: /\.css$/,
+      use: ExtractTextPlugin.extract({
+              fallback: &quot;style-loader&quot;,
+              use: &quot;css-loader&quot;
+      })
+    },
+//处理css文件
+new ExtractTextPlugin(&quot;css/[name].css&quot;),
+</code></pre><ol start="7">
+<li>编译 es6<br>babel-loader @babel/core 还要@babel/preset-env</li>
+</ol>
+<pre><code>{
+      test: /\.m?js$/,
+      exclude: /(node_modules|bower_components)/,
+      use: {
+        loader: &quot;babel-loader&quot;,
+        options: {
+          presets: [&quot;@babel/preset-env&quot;]
+        }
+      }
+    },
+
+    import &quot;@babel/polyfill&quot;; // 打包变大，=》变量实现
+
+    presets: [[&quot;@babel/preset-env&quot;, {
+              &quot;useBuiltIns&quot;: &quot;usage&quot;
+            }]] // 只补充当前使用
+</code></pre><ol start="8">
+<li>打包react   @babel/preset-react</li>
+</ol>
+<pre><code>presets: [&quot;@babel/preset-env&quot;, &quot;@babel/preset-react&quot;]
+</code></pre><h4 id="plugins"><a href="#plugins" class="headerlink" title="plugins"></a>plugins</h4><ol>
+<li>HtmlWebpackPlugin</li>
+</ol>
+<ul>
+<li>yarn add html-webpack-plugin</li>
+<li>配置</li>
+</ul>
+<pre><code>const HtmlWebpackPlugin = require(&#39;html-webpack-plugin&#39;);
+const path = require(&#39;path&#39;);
+
+module.exports = {
+  entry: &#39;index.js&#39;,
+  output: {
+    path: path.resolve(__dirname, &#39;./dist&#39;),
+    filename: &#39;index_bundle.js&#39;
+  },
+  plugins: [new HtmlWebpackPlugin()]
+};
+</code></pre><ol start="2">
+<li>CleanWebpackPlugin</li>
+</ol>
+<ul>
+<li>yarn add clean-webpack-plugin</li>
+<li>配置</li>
+</ul>
+<pre><code>new CleanWebpackPlugin([&#39;dist&#39;], { //第一个是填写要删除的路径，格式是个数组 //第二个参数是对象类型的配置
+    root: path.resolve(__dirname, &#39;..&#39;), // root：绝对路径，就是要根据这个root去找要删除的文件夹
+    dry: false // 启用删除文件 //为false是删除文件夹的，为true是不删除的，默认值是false
+  }),
+</code></pre><ol start="3">
+<li>HtmlWebpackPlugin</li>
+</ol>
+<pre><code>const HtmlWebpackPlugin = require(&quot;html-webpack-plugin&quot;);
+new HtmlWebpackPlugin({
+      template: &quot;./src/app.html&quot;,
+      filename: &quot;index.html&quot;,
+      title: &quot;webpack&quot;,
+      inject: true, // true || &#39;head&#39; || &#39;body&#39; || false将所有资产注入给定template或templateContent。传递true或&#39;body&#39;所有javascript资源将被放置在body元素的底部。&#39;head&#39;将脚本放在head元素中
+      hash: true,
+      chunks: [&quot;commons&quot;, name], // 允许您仅添加一些块（例如，仅添加单元测试块）
+      // favicon: &quot;./favicon.ico&quot;
+    }),
+</code></pre><h3 id="webpack-dev-server"><a href="#webpack-dev-server" class="headerlink" title="webpack-dev-server"></a>webpack-dev-server</h3><ol>
+<li><p>webpack –watch</p>
+</li>
+<li><p>webpack-dev-server</p>
+</li>
+</ol>
+<pre><code>devServer: {
+  contentBase: &#39;./dist&#39;,
+  port: 8008,
+  open: true,
+  proxy: {
+      &quot;/weatherApi&quot;: {
+        target: &quot;https://www.apiopen.top&quot;,
+        changeOrigin: true
+      }
+    },
+  hot: true, // HMR热更新
+  hotOnly: true,
+
+  if (module.hot) {
+    module.hot.accept(&#39;&#39;, function(){
+
+    })
+  }
+}
+</code></pre><h3 id="代码压缩"><a href="#代码压缩" class="headerlink" title="代码压缩"></a>代码压缩</h3><pre><code>  optimization: {
+    minimize: true, // 压缩
+    usedExport: true, // 只打包export Tree shaking
+  },
+</code></pre><h3 id="config合并"><a href="#config合并" class="headerlink" title="config合并"></a>config合并</h3><pre><code>const merge=require(&#39;webpack-merge&#39;);
+const commonConfig={}
+const devConfig={}
+module.exports= merge(commonConfig, devConfig);
+</code></pre><h3 id="配置引用路径"><a href="#配置引用路径" class="headerlink" title="配置引用路径"></a>配置引用路径</h3><pre><code>resolve:{
+      alias:{
+          style: path.resolve(__dirname, &#39;./src/static/style&#39;),
+      }
+  },
+</code></pre><script type="text/javascript" src="/js/src/bai.js"></script>]]></content>
+      <categories>
+        <category>webpack</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>webpack</tag>
       </tags>
   </entry>
 </search>
